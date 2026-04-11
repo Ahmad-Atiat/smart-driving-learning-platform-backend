@@ -13,6 +13,10 @@ Install dependencies:
 
 npm install
 
+Create your environment file from the example:
+
+copy .env.example .env
+
 ---
 
 ## Run
@@ -34,6 +38,10 @@ Create a .env file in the root directory and add the following:
 PORT=3000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
+
+For local MongoDB development you can use:
+
+MONGO_URI=mongodb://127.0.0.1:27017/smart-driving-learning-platform
 
 ---
 
