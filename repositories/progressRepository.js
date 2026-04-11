@@ -9,4 +9,8 @@ const update = (id, data) => Progress.findByIdAndUpdate(id, data, { returnDocume
 const resetProgress = (id) =>
     Progress.findByIdAndUpdate(id, { completedLessons: [], quizResults: [], overallProgress: 0 }, { returnDocument: 'after' });
 
-module.exports = { findByUserId, createForUser, update, resetProgress };
+const findAll = () => Progress.find().populate('userId', 'name email');
+
+const deleteByUserId = (userId) => Progress.deleteMany({ userId });
+
+module.exports = { findByUserId, createForUser, update, resetProgress, findAll, deleteByUserId };
