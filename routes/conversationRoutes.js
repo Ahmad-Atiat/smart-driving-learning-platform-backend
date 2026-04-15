@@ -1,11 +1,16 @@
 const express = require('express');
 const multer = require('multer');
 const router = express.Router();
-const { chat } = require('../controllers/assistantController');
 const { protect } = require('../middleware/authMiddleware');
 const ApiError = require('../utils/apiError');
+const {
+    createConversation,
+    getConversations,
+    getConversationById,
+    sendMessage
+} = require('../controllers/conversationController');
 
-const assistantUpload = multer({
+const conversationUpload = multer({
     storage: multer.memoryStorage(),
     limits: {
         fileSize: 10 * 1024 * 1024,
@@ -32,8 +37,8 @@ const assistantUpload = multer({
     }
 });
 
-const handleAssistantUpload = (req, res, next) => {
-    const uploadFields = assistantUpload.fields([
+const handleConversationUpload = (req, res, next) => {
+    const uploadFields = conversationUpload.fields([
         { name: 'image', maxCount: 1 },
         { name: 'file', maxCount: 1 }
     ]);
@@ -62,80 +67,107 @@ const handleAssistantUpload = (req, res, next) => {
 /**
  * @swagger
  * tags:
- *   - name: Assistant
- *     description: AI-powered driving education assistant
+ *   - name: Conversations
+ *     description: Persistent AI conversation endpoints
  */
 
 /**
  * @swagger
- * /api/assistant/chat:
+ * /api/conversations:
  *   post:
- *     summary: Send a message to the AI driving assistant
- *     description: Powered by Google Gemini AI. Only answers driving-related questions and supports optional image and PDF uploads.
- *     tags: [Assistant]
+ *     summary: Create a new conversation
+ *     tags: [Conversations]
  *     security:
  *       - bearerAuth: []
  *     requestBody:
- *       required: true
+ *       required: false
  *       content:
  *         application/json:
  *           schema:
  *             type: object
  *             properties:
- *               message:
+ *               title:
  *                 type: string
- *                 example: "What does a stop sign mean?"
- *               conversationHistory:
- *                 type: array
- *                 description: Previous messages for context (optional)
- *                 items:
- *                   type: object
- *                   properties:
- *                     role:
- *                       type: string
- *                       enum: [user, assistant]
- *                     content:
- *                       type: string
+ *                 example: "Road signs practice"
+ *     responses:
+ *       201:
+ *         description: Conversation created
+ */
+router.post('/', protect, createConversation);
+
+/**
+ * @swagger
+ * /api/conversations:
+ *   get:
+ *     summary: Get all conversations for authenticated user
+ *     tags: [Conversations]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: List of conversations
+ */
+router.get('/', protect, getConversations);
+
+/**
+ * @swagger
+ * /api/conversations/{id}:
+ *   get:
+ *     summary: Get one conversation by id
+ *     tags: [Conversations]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Conversation details
+ */
+router.get('/:id', protect, getConversationById);
+
+/**
+ * @swagger
+ * /api/conversations/{id}/messages:
+ *   post:
+ *     summary: Send a message to the assistant in a specific conversation
+ *     tags: [Conversations]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *     requestBody:
+ *       required: false
+ *       content:
  *         multipart/form-data:
  *           schema:
  *             type: object
  *             properties:
  *               message:
  *                 type: string
- *                 description: Current user question (optional if image or file is provided)
- *                 example: "Can you explain this road sign?"
- *               conversationHistory:
- *                 type: string
- *                 description: JSON stringified array of previous messages
- *                 example: '[{"role":"user","content":"What does this sign mean?"}]'
  *               image:
  *                 type: string
  *                 format: binary
- *                 description: Optional driving-related image
  *               file:
  *                 type: string
  *                 format: binary
- *                 description: Optional PDF document for extra context
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               message:
+ *                 type: string
  *     responses:
  *       200:
- *         description: AI assistant response
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 reply:
- *                   type: string
- *                   example: "A stop sign means you must bring your vehicle to a complete stop..."
- *       400:
- *         description: Invalid input payload (message/history/upload)
- *       415:
- *         description: Unsupported uploaded file type
- *       429:
- *         description: AI usage limit reached
- *       503:
- *         description: AI assistant not configured
+ *         description: Assistant response and updated conversation
  */
-router.post('/chat', protect, handleAssistantUpload, chat);
+router.post('/:id/messages', protect, handleConversationUpload, sendMessage);
 
 module.exports = router;

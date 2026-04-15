@@ -1,66 +1,47 @@
-const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { GoogleGenAI } = require('@google/genai');
+const pdfParse = require('pdf-parse');
 const ApiError = require('../utils/apiError');
 const progressRepository = require('../repositories/progressRepository');
 const documentService = require('./documentService');
 
-const SYSTEM_PROMPT = `You are a driving education assistant for the DriveReady learning platform.
-You help students learn traffic rules, understand road signs, prepare for driving exams, and explain quiz mistakes.
-You ONLY answer driving-related questions. If a student asks something unrelated to driving, politely redirect them to ask about driving topics.
-Keep answers concise and educational. When explaining quiz mistakes, reference the correct traffic rule or law.
+const SYSTEM_PROMPT = `You are a driving education assistant for the Drive Wise learning platform.
+You help students with traffic rules, road signs, safe driving, driving lessons, quiz explanations, and exam preparation.
+You ONLY answer driving-related questions. If a student asks something unrelated to driving, politely refuse and redirect them to driving topics.
+If an image is uploaded, analyze it only in the driving education context.
+If a PDF is uploaded, use its text as additional context for your answer.
+Keep answers concise, educational, and practical. When explaining quiz mistakes, reference the correct traffic rule or law.
 Always be encouraging and supportive of the student's learning journey.
 When you have access to the student's learning context, use it to personalize your responses.
 When you have access to knowledge base documents, prioritize information from those documents over your general knowledge.`;
+
+const MODEL_NAME = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const MAX_RETRIES = 3;
+const MAX_HISTORY_ITEMS = 20;
+const MAX_UPLOADED_PDF_CHARS = 15000;
 
 let genAI = null;
 
 const getGenAI = () => {
     if (!genAI) {
         const apiKey = process.env.GEMINI_API_KEY;
+
         if (!apiKey) {
-            throw new ApiError(503, 'AI assistant is not configured. Please set GEMINI_API_KEY in the environment.');
+            throw new ApiError(503, 'AI assistant is not configured.');
         }
-        genAI = new GoogleGenerativeAI(apiKey);
+
+        genAI = new GoogleGenAI({ apiKey });
     }
+
     return genAI;
 };
 
 const buildUserContext = async (userId) => {
     try {
         const progress = await progressRepository.findByUserId(userId);
-        if (!progress) {
-            return '\n--- USER LEARNING CONTEXT ---\nThis student has not started any lessons yet and has no quiz history.';
-        }
+        if (!progress) return '';
 
-        const lines = ['\n--- USER LEARNING CONTEXT ---'];
-        lines.push(`Overall progress: ${progress.overallProgress}%`);
-
-        if (progress.completedLessons.length > 0) {
-            lines.push(`Completed lessons: ${progress.completedLessons.join(', ')}`);
-        } else {
-            lines.push('Completed lessons: None yet');
-        }
-
-        if (progress.quizResults.length > 0) {
-            lines.push('Quiz results:');
-            for (const qr of progress.quizResults) {
-                const pct = qr.totalQuestions > 0 ? Math.round((qr.score / qr.totalQuestions) * 100) : 0;
-                lines.push(`  - ${qr.chapterTitle}: ${qr.score}/${qr.totalQuestions} (${pct}%)`);
-            }
-
-            const lowScores = progress.quizResults.filter(
-                (qr) => qr.totalQuestions > 0 && (qr.score / qr.totalQuestions) < 0.7
-            );
-            if (lowScores.length > 0) {
-                const weakChapters = [...new Set(lowScores.map((qr) => qr.chapterTitle))];
-                lines.push(`Focus areas (low scores): ${weakChapters.join(', ')}`);
-            }
-        } else {
-            lines.push('Quiz results: No quizzes taken yet');
-        }
-
-        return lines.join('\n');
-    } catch (error) {
-        console.error('Failed to build user context:', error.message);
+        return `User progress: ${progress.overallProgress}%`;
+    } catch {
         return '';
     }
 };
@@ -68,79 +49,266 @@ const buildUserContext = async (userId) => {
 const buildKnowledgeBase = async () => {
     try {
         const documentsText = await documentService.getAllDocumentsText();
-        if (!documentsText.length) return '';
-
-        const lines = ['\n--- KNOWLEDGE BASE (Reference Materials) ---'];
-        lines.push('When answering questions, prioritize information from these official documents over your general knowledge.\n');
-
-        for (const doc of documentsText) {
-            lines.push(`[Document: "${doc.name}"]`);
-            lines.push(doc.text);
-            lines.push('');
-        }
-
-        return lines.join('\n');
-    } catch (error) {
-        console.error('Failed to build knowledge base:', error.message);
+        return documentsText.map(doc => doc.text).join('\n');
+    } catch {
         return '';
     }
 };
 
-const chat = async (message, conversationHistory = [], userId) => {
-    if (!message || !message.trim()) {
-        throw new ApiError(400, 'Message is required');
+const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+const normalizeConversationHistory = (conversationHistory = []) => {
+    if (!Array.isArray(conversationHistory)) {
+        throw new ApiError(400, 'conversationHistory must be an array.');
+    }
+
+    return conversationHistory
+        .slice(-MAX_HISTORY_ITEMS)
+        .map((entry, index) => {
+            if (!entry || typeof entry !== 'object') {
+                throw new ApiError(400, `conversationHistory entry ${index + 1} must be an object.`);
+            }
+
+            const normalizedRole =
+                entry.role === 'assistant' || entry.role === 'model'
+                    ? 'model'
+                    : entry.role === 'user'
+                        ? 'user'
+                        : null;
+
+            const normalizedContent = typeof entry.content === 'string' ? entry.content.trim() : '';
+
+            if (!normalizedRole || !normalizedContent) {
+                throw new ApiError(
+                    400,
+                    `conversationHistory entry ${index + 1} must include a valid role and content.`
+                );
+            }
+
+            return {
+                role: normalizedRole,
+                parts: [{ text: normalizedContent }]
+            };
+        });
+};
+
+const validateImageFile = (imageFile) => {
+    if (!imageFile) {
+        return;
+    }
+
+    if (!imageFile.mimetype || !imageFile.mimetype.startsWith('image/')) {
+        throw new ApiError(415, 'Unsupported image type. Please upload a valid image file.');
+    }
+
+    if (!imageFile.buffer || !imageFile.buffer.length) {
+        throw new ApiError(400, 'Uploaded image is empty.');
+    }
+};
+
+const extractUploadedPdfText = async (pdfFile) => {
+    if (!pdfFile) {
+        return '';
+    }
+
+    if (pdfFile.mimetype !== 'application/pdf') {
+        throw new ApiError(415, 'Unsupported file type. Only PDF files are supported.');
+    }
+
+    if (!pdfFile.buffer || !pdfFile.buffer.length) {
+        throw new ApiError(400, 'Uploaded PDF is empty.');
     }
 
     try {
-        const ai = getGenAI();
-        const model = ai.getGenerativeModel({ model: 'gemini-2.0-flash' });
+        const parsedPdf = await pdfParse(pdfFile.buffer);
+        const pdfText = (parsedPdf.text || '').trim();
 
-        // Build enhanced system prompt with user context and knowledge base
-        const [userContext, knowledgeBase] = await Promise.all([
-            userId ? buildUserContext(userId) : Promise.resolve(''),
-            buildKnowledgeBase()
-        ]);
-
-        const fullSystemPrompt = [SYSTEM_PROMPT, userContext, knowledgeBase].filter(Boolean).join('\n');
-
-        // Build conversation contents for Gemini
-        const contents = [];
-
-        // Add conversation history
-        for (const entry of conversationHistory) {
-            contents.push({
-                role: entry.role === 'assistant' ? 'model' : 'user',
-                parts: [{ text: entry.content }]
-            });
+        if (!pdfText) {
+            throw new ApiError(400, 'Uploaded PDF does not contain readable text.');
         }
 
-        // Add current message
-        contents.push({
-            role: 'user',
-            parts: [{ text: message }]
-        });
-
-        const result = await model.generateContent({
-            contents,
-            systemInstruction: { parts: [{ text: fullSystemPrompt }] }
-        });
-
-        const response = result.response;
-        const reply = response.text();
-
-        return { reply };
+        return pdfText.substring(0, MAX_UPLOADED_PDF_CHARS);
     } catch (error) {
-        if (error instanceof ApiError) throw error;
-
-        console.error('AI Assistant error:', error.message);
-
-        // Handle rate limiting
-        if (error.status === 429) {
-            return { reply: 'The assistant is receiving too many requests right now. Please try again in a moment.' };
+        if (error instanceof ApiError) {
+            throw error;
         }
 
-        return { reply: "I'm sorry, the assistant is temporarily unavailable. Please try again later." };
+        throw new ApiError(400, 'Failed to parse uploaded PDF. Please upload a valid PDF file.');
     }
+};
+
+const inferStatusCode = (error) => {
+    const statusCode =
+        Number(error?.status) ||
+        Number(error?.statusCode) ||
+        Number(error?.code) ||
+        Number(error?.response?.status);
+
+    if (statusCode) {
+        return statusCode;
+    }
+
+    const message = (error?.message || '').toLowerCase();
+
+    if (message.includes('429') || message.includes('quota') || message.includes('rate limit')) {
+        return 429;
+    }
+
+    if (message.includes('503') || message.includes('unavailable') || message.includes('overloaded')) {
+        return 503;
+    }
+
+    if (message.includes('400') || message.includes('invalid argument')) {
+        return 400;
+    }
+
+    return 500;
+};
+
+const mapGeminiErrorToApiError = (error) => {
+    const statusCode = inferStatusCode(error);
+
+    if (statusCode === 400) {
+        return new ApiError(400, 'Invalid request sent to the AI assistant. Please review the message and uploads.');
+    }
+
+    if (statusCode === 429) {
+        return new ApiError(429, 'AI assistant is temporarily unavailable due to usage limits. Please try again shortly.');
+    }
+
+    if (statusCode === 503) {
+        return new ApiError(503, 'AI assistant is currently unavailable. Please try again in a few moments.');
+    }
+
+    return new ApiError(503, 'Failed to get a response from the AI assistant.');
+};
+
+const buildFallbackMessage = ({ hasImage, hasPdf }) => {
+    if (hasImage && hasPdf) {
+        return 'Please analyze the uploaded driving image using the uploaded PDF as additional context.';
+    }
+
+    if (hasImage) {
+        return 'Please analyze the uploaded image in a driving education context.';
+    }
+
+    if (hasPdf) {
+        return 'Please summarize and explain the uploaded PDF in a driving education context.';
+    }
+
+    return '';
+};
+
+const buildSystemPrompt = ({ userContext, knowledgeBase, uploadedPdfText }) => {
+    const promptSections = [SYSTEM_PROMPT];
+
+    if (userContext) {
+        promptSections.push(`Student learning context:\n${userContext}`);
+    }
+
+    if (knowledgeBase) {
+        promptSections.push(`Knowledge base documents:\n${knowledgeBase}`);
+    }
+
+    if (uploadedPdfText) {
+        promptSections.push(`Uploaded PDF context:\n${uploadedPdfText}`);
+    }
+
+    return promptSections.join('\n\n');
+};
+
+const buildContents = ({ message, conversationHistory, imageFile }) => {
+    const history = normalizeConversationHistory(conversationHistory);
+    const userParts = [{ text: message }];
+
+    if (imageFile) {
+        userParts.push({
+            inlineData: {
+                mimeType: imageFile.mimetype,
+                data: imageFile.buffer.toString('base64')
+            }
+        });
+    }
+
+    return [
+        ...history,
+        {
+            role: 'user',
+            parts: userParts
+        }
+    ];
+};
+
+const chat = async ({ message, conversationHistory = [], userId, imageFile = null, pdfFile = null } = {}) => {
+    validateImageFile(imageFile);
+
+    const [userContext, knowledgeBase, uploadedPdfText] = await Promise.all([
+        userId ? buildUserContext(userId) : '',
+        buildKnowledgeBase(),
+        extractUploadedPdfText(pdfFile)
+    ]);
+
+    const trimmedMessage = typeof message === 'string' ? message.trim() : '';
+    const fallbackMessage = buildFallbackMessage({
+        hasImage: Boolean(imageFile),
+        hasPdf: Boolean(uploadedPdfText)
+    });
+    const effectiveMessage = trimmedMessage || fallbackMessage;
+
+    if (!effectiveMessage) {
+        throw new ApiError(400, 'Provide a message, image, or PDF file.');
+    }
+
+    const ai = getGenAI();
+    const fullSystemPrompt = buildSystemPrompt({ userContext, knowledgeBase, uploadedPdfText });
+    const contents = buildContents({
+        message: effectiveMessage,
+        conversationHistory,
+        imageFile
+    });
+
+    for (let attempt = 1; attempt <= MAX_RETRIES; attempt += 1) {
+        try {
+            const result = await ai.models.generateContent({
+                model: MODEL_NAME,
+                contents,
+                config: {
+                    systemInstruction: fullSystemPrompt
+                }
+            });
+
+            const reply = typeof result?.text === 'string' ? result.text.trim() : '';
+
+            if (!reply) {
+                throw new ApiError(503, 'AI assistant returned an empty response.');
+            }
+
+            return { reply };
+
+        } catch (error) {
+            if (error instanceof ApiError) {
+                throw error;
+            }
+
+            const statusCode = inferStatusCode(error);
+            const isRetryable = (statusCode === 429 || statusCode === 503) && attempt < MAX_RETRIES;
+
+            console.error('Assistant generation attempt failed:', {
+                attempt,
+                statusCode,
+                message: error.message
+            });
+
+            if (isRetryable) {
+                await delay(1000 * attempt);
+                continue;
+            }
+
+            throw mapGeminiErrorToApiError(error);
+        }
+    }
+
+    throw new ApiError(503, 'AI assistant is currently unavailable. Please try again in a few moments.');
 };
 
 module.exports = { chat };
