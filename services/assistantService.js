@@ -1,4 +1,4 @@
-const { GoogleGenAI } = require('@google/genai');
+const OpenAI = require('openai');
 const pdfParse = require('pdf-parse');
 const ApiError = require('../utils/apiError');
 const progressRepository = require('../repositories/progressRepository');
@@ -14,25 +14,25 @@ Always be encouraging and supportive of the student's learning journey.
 When you have access to the student's learning context, use it to personalize your responses.
 When you have access to knowledge base documents, prioritize information from those documents over your general knowledge.`;
 
-const MODEL_NAME = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
+const MODEL_NAME = process.env.OPENAI_MODEL || 'gpt-4o-mini';
 const MAX_RETRIES = 3;
 const MAX_HISTORY_ITEMS = 20;
 const MAX_UPLOADED_PDF_CHARS = 15000;
 
-let genAI = null;
+let openai = null;
 
-const getGenAI = () => {
-    if (!genAI) {
-        const apiKey = process.env.GEMINI_API_KEY;
+const getOpenAI = () => {
+    if (!openai) {
+        const apiKey = process.env.OPENAI_API_KEY;
 
         if (!apiKey) {
             throw new ApiError(503, 'AI assistant is not configured.');
         }
 
-        genAI = new GoogleGenAI({ apiKey });
+        openai = new OpenAI({ apiKey });
     }
 
-    return genAI;
+    return openai;
 };
 
 const buildUserContext = async (userId) => {
@@ -71,7 +71,7 @@ const normalizeConversationHistory = (conversationHistory = []) => {
 
             const normalizedRole =
                 entry.role === 'assistant' || entry.role === 'model'
-                    ? 'model'
+                    ? 'assistant'
                     : entry.role === 'user'
                         ? 'user'
                         : null;
@@ -87,7 +87,7 @@ const normalizeConversationHistory = (conversationHistory = []) => {
 
             return {
                 role: normalizedRole,
-                parts: [{ text: normalizedContent }]
+                content: normalizedContent
             };
         });
 };
@@ -158,18 +158,26 @@ const inferStatusCode = (error) => {
         return 503;
     }
 
-    if (message.includes('400') || message.includes('invalid argument')) {
+    if (message.includes('400') || message.includes('invalid') || message.includes('bad request')) {
         return 400;
+    }
+
+    if (message.includes('401') || message.includes('unauthorized')) {
+        return 401;
     }
 
     return 500;
 };
 
-const mapGeminiErrorToApiError = (error) => {
+const mapOpenAIErrorToApiError = (error) => {
     const statusCode = inferStatusCode(error);
 
     if (statusCode === 400) {
         return new ApiError(400, 'Invalid request sent to the AI assistant. Please review the message and uploads.');
+    }
+
+    if (statusCode === 401) {
+        return new ApiError(503, 'AI assistant authentication failed. Please check the API key.');
     }
 
     if (statusCode === 429) {
@@ -217,26 +225,41 @@ const buildSystemPrompt = ({ userContext, knowledgeBase, uploadedPdfText }) => {
     return promptSections.join('\n\n');
 };
 
-const buildContents = ({ message, conversationHistory, imageFile }) => {
+const buildMessages = ({ message, conversationHistory, imageFile, fullSystemPrompt }) => {
     const history = normalizeConversationHistory(conversationHistory);
-    const userParts = [{ text: message }];
+
+    const messages = [
+        {
+            role: 'system',
+            content: fullSystemPrompt
+        },
+        ...history
+    ];
 
     if (imageFile) {
-        userParts.push({
-            inlineData: {
-                mimeType: imageFile.mimetype,
-                data: imageFile.buffer.toString('base64')
-            }
+        messages.push({
+            role: 'user',
+            content: [
+                {
+                    type: 'text',
+                    text: message
+                },
+                {
+                    type: 'image_url',
+                    image_url: {
+                        url: `data:${imageFile.mimetype};base64,${imageFile.buffer.toString('base64')}`
+                    }
+                }
+            ]
+        });
+    } else {
+        messages.push({
+            role: 'user',
+            content: message
         });
     }
 
-    return [
-        ...history,
-        {
-            role: 'user',
-            parts: userParts
-        }
-    ];
+    return messages;
 };
 
 const chat = async ({ message, conversationHistory = [], userId, imageFile = null, pdfFile = null } = {}) => {
@@ -259,25 +282,24 @@ const chat = async ({ message, conversationHistory = [], userId, imageFile = nul
         throw new ApiError(400, 'Provide a message, image, or PDF file.');
     }
 
-    const ai = getGenAI();
+    const ai = getOpenAI();
     const fullSystemPrompt = buildSystemPrompt({ userContext, knowledgeBase, uploadedPdfText });
-    const contents = buildContents({
+    const messages = buildMessages({
         message: effectiveMessage,
         conversationHistory,
-        imageFile
+        imageFile,
+        fullSystemPrompt
     });
 
     for (let attempt = 1; attempt <= MAX_RETRIES; attempt += 1) {
         try {
-            const result = await ai.models.generateContent({
+            const result = await ai.chat.completions.create({
                 model: MODEL_NAME,
-                contents,
-                config: {
-                    systemInstruction: fullSystemPrompt
-                }
+                messages,
+                temperature: 0.7
             });
 
-            const reply = typeof result?.text === 'string' ? result.text.trim() : '';
+            const reply = result?.choices?.[0]?.message?.content?.trim();
 
             if (!reply) {
                 throw new ApiError(503, 'AI assistant returned an empty response.');
@@ -304,7 +326,7 @@ const chat = async ({ message, conversationHistory = [], userId, imageFile = nul
                 continue;
             }
 
-            throw mapGeminiErrorToApiError(error);
+            throw mapOpenAIErrorToApiError(error);
         }
     }
 
