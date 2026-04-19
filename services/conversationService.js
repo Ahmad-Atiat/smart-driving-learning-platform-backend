@@ -276,9 +276,15 @@ const sendMessage = async ({ conversationId, userId, message, imageFile = null, 
     };
 };
 
+const deleteConversation = async (conversationId, userId) => {
+    await getOwnedConversation(conversationId, userId);
+    await conversationRepository.deleteById(conversationId);
+};
+
 module.exports = {
     createConversation,
     getUserConversations,
     getConversationById,
-    sendMessage
+    sendMessage,
+    deleteConversation
 };

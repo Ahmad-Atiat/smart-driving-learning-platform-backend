@@ -16,4 +16,6 @@ const addMessage = (conversationId, message) =>
 const updateById = (conversationId, data) =>
     Conversation.findByIdAndUpdate(conversationId, data, { returnDocument: 'after', runValidators: true });
 
-module.exports = { create, findById, findByUserId, addMessage, updateById };
+const deleteById = (id) => Conversation.findByIdAndDelete(id);
+
+module.exports = { create, findById, findByUserId, addMessage, updateById, deleteById };

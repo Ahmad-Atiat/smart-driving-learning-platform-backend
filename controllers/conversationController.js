@@ -47,9 +47,19 @@ const sendMessage = async (req, res, next) => {
     }
 };
 
+const deleteConversation = async (req, res, next) => {
+    try {
+        await conversationService.deleteConversation(req.params.id, req.user._id);
+        return res.status(200).json({ message: 'Conversation deleted' });
+    } catch (error) {
+        next(error);
+    }
+};
+
 module.exports = {
     createConversation,
     getConversations,
     getConversationById,
-    sendMessage
+    sendMessage,
+    deleteConversation
 };

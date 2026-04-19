@@ -7,7 +7,8 @@ const {
     createConversation,
     getConversations,
     getConversationById,
-    sendMessage
+    sendMessage,
+    deleteConversation
 } = require('../controllers/conversationController');
 
 const conversationUpload = multer({
@@ -169,5 +170,25 @@ router.get('/:id', protect, getConversationById);
  *         description: Assistant response and updated conversation
  */
 router.post('/:id/messages', protect, handleConversationUpload, sendMessage);
+
+/**
+ * @swagger
+ * /api/conversations/{id}:
+ *   delete:
+ *     summary: Delete a conversation
+ *     tags: [Conversations]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: path
+ *         name: id
+ *         required: true
+ *         schema:
+ *           type: string
+ *     responses:
+ *       200:
+ *         description: Conversation deleted
+ */
+router.delete('/:id', protect, deleteConversation);
 
 module.exports = router;
