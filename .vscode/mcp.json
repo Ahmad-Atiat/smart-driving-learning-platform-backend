@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "vscode-orchestrator": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "server"],
+      "cwd": "C:/Tools/vscode-orchestrator/mcp_server",
+      "env": {
+        "AIDOCS_ROOT": "C:/aidocs",
+        "PYTHONPATH": "C:/Tools/vscode-orchestrator/mcp_server"
+      }
+    }
+  }
+}
