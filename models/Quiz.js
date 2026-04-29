@@ -12,9 +12,9 @@ const quizSchema = new mongoose.Schema(
             required: true,
             validate: {
                 validator: function (value) {
-                    return value.length === 4;
+                    return value.length >= 2 && value.length <= 4;
                 },
-                message: "Quiz must have exactly 4 options"
+                message: "Quiz must have between 2 and 4 options"
             }
         },
         correctAnswer: {
@@ -24,6 +24,29 @@ const quizSchema = new mongoose.Schema(
         chapterTitle: {
             type: String,
             required: true
+        },
+        number: {
+            type: Number
+        },
+        image: {
+            type: String
+        },
+        questionAR: {
+            type: String,
+            trim: true
+        },
+        optionsAR: {
+            type: [String]
+        },
+        correctAnswerAR: {
+            type: String
+        },
+        explanationAR: {
+            type: String,
+            default: ""
+        },
+        chapterTitleAR: {
+            type: String
         },
         explanation: {
             type: String,

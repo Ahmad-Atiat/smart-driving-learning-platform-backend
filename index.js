@@ -7,6 +7,8 @@ const fs = require('fs');
 const authRoutes = require('./routes/authRoutes');
 const lessonRoutes = require('./routes/lessonRoutes');
 const quizRoutes = require('./routes/quizRoutes');
+const examAttemptRoutes = require('./routes/examAttemptRoutes');
+const chapterQuizProgressRoutes = require('./routes/chapterQuizProgressRoutes');
 const progressRoutes = require('./routes/progressRoutes');
 const assistantRoutes = require('./routes/assistantRoutes');
 const conversationRoutes = require('./routes/conversationRoutes');
@@ -33,6 +35,8 @@ app.get('/', (req, res) => {
 app.use('/api/auth', authRoutes);
 app.use('/api/lessons', lessonRoutes);
 app.use('/api/quizzes', quizRoutes);
+app.use('/api/exam-attempts', examAttemptRoutes);
+app.use('/api/chapter-quiz-progress', chapterQuizProgressRoutes);
 app.use('/api/progress', progressRoutes);
 app.use('/api/assistant', assistantRoutes);
 app.use('/api/conversations', conversationRoutes);
