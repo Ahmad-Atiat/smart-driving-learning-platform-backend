@@ -1236,7 +1236,9 @@ server.js executes:
 | File | Purpose |
 |------|---------|
 | `utils/apiError.js` | Custom error class with HTTP status |
-| `seeds/seedData.js` | Full database seeder (destructive, for dev) |
+| `seeds/seedUsers.js` | Demo user seeder |
+| `seeds/seedLessons.js` | Lesson/chapter seeder |
+| `seeds/seedQuestions.js` | Quiz question seeder |
 | `seeds/seedAdmin.js` | Idempotent admin seeder (runs on startup) |
 | `swagger.js` | Swagger/OpenAPI spec generation |
 | `server.js` | Entry point: dotenv, DB connect, admin seed, listen |

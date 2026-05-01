@@ -1,6 +1,16 @@
 const lessonRepository = require('../repositories/lessonRepository');
-const progressRepository = require('../repositories/progressRepository');
+const progressService = require('./progressService');
 const ApiError = require('../utils/apiError');
+const { getChapterByTitle } = require('../utils/chapterMetadata');
+
+const withChapterKey = (data) => {
+    if (data.chapterKey) {
+        return data;
+    }
+
+    const chapter = getChapterByTitle(data.title);
+    return chapter ? { ...data, chapterKey: chapter.chapterKey } : data;
+};
 
 const getAllLessons = async (user) => {
     if (user.role === 'admin') {
@@ -23,52 +33,20 @@ const completeSubLesson = async (userId, lessonId, subLessonTitle) => {
         throw new ApiError(404, 'Lesson not found');
     }
 
-    const subLesson = lesson.lessons.find(s => s.title === subLessonTitle);
-    if (!subLesson) {
+    const subLessonIndex = lesson.lessons.findIndex(s => s.title === subLessonTitle);
+    if (subLessonIndex === -1) {
         throw new ApiError(404, 'Sub-lesson not found');
     }
 
-    const identifier = `${lesson.title}:${subLessonTitle}`;
-
-    let progress = await progressRepository.findByUserId(userId);
-    if (!progress) {
-        progress = await progressRepository.createForUser(userId);
-    }
-
-    if (!progress.completedLessons.includes(identifier)) {
-        progress.completedLessons.push(identifier);
-    }
-
-    // Recalculate overall progress
-    const allLessons = await lessonRepository.findAllPublished();
-    let completedChapters = 0;
-
-    for (const chapter of allLessons) {
-        const allSubs = chapter.lessons.map(s => `${chapter.title}:${s.title}`);
-        const allCompleted = allSubs.every(sub => progress.completedLessons.includes(sub));
-        if (allCompleted && allSubs.length > 0) {
-            completedChapters++;
-        }
-    }
-
-    progress.overallProgress = allLessons.length > 0
-        ? Math.round((completedChapters / allLessons.length) * 100)
-        : 0;
-
-    await progressRepository.update(progress._id, {
-        completedLessons: progress.completedLessons,
-        overallProgress: progress.overallProgress
-    });
-
-    return { message: 'Sub-lesson completed', identifier, overallProgress: progress.overallProgress };
+    return progressService.completeLessonProgress(userId, { chapterId: lessonId, subLessonIndex });
 };
 
 const createLesson = async (data) => {
-    return lessonRepository.create(data);
+    return lessonRepository.create(withChapterKey(data));
 };
 
 const updateLesson = async (id, data) => {
-    const lesson = await lessonRepository.updateById(id, data);
+    const lesson = await lessonRepository.updateById(id, withChapterKey(data));
     if (!lesson) {
         throw new ApiError(404, 'Lesson not found');
     }

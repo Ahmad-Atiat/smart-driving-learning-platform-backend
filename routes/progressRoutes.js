@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getProgress, getProgressSummary, resetProgress } = require('../controllers/progressController');
+const { getProgress, getLessonProgress, completeLessonProgress, getProgressSummary, resetProgress } = require('../controllers/progressController');
 const { protect } = require('../middleware/authMiddleware');
 
 /**
@@ -23,6 +23,52 @@ const { protect } = require('../middleware/authMiddleware');
  *         description: User progress document
  */
 router.get('/', protect, getProgress);
+
+/**
+ * @swagger
+ * /api/progress/lessons:
+ *   get:
+ *     summary: Get completed lesson progress for the authenticated user
+ *     tags: [Progress]
+ *     security:
+ *       - bearerAuth: []
+ *     responses:
+ *       200:
+ *         description: Completed lesson entries
+ */
+router.get('/lessons', protect, getLessonProgress);
+
+/**
+ * @swagger
+ * /api/progress/lessons/complete:
+ *   post:
+ *     summary: Mark a chapter sub-lesson as completed
+ *     tags: [Progress]
+ *     security:
+ *       - bearerAuth: []
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             required:
+ *               - chapterId
+ *               - subLessonIndex
+ *             properties:
+ *               chapterId:
+ *                 type: string
+ *               subLessonIndex:
+ *                 type: number
+ *     responses:
+ *       200:
+ *         description: Sub-lesson marked as completed
+ *       400:
+ *         description: Invalid request
+ *       404:
+ *         description: Lesson or sub-lesson not found
+ */
+router.post('/lessons/complete', protect, completeLessonProgress);
 
 /**
  * @swagger

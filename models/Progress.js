@@ -18,6 +18,26 @@ const quizResultSchema = new mongoose.Schema(
     { _id: false }
 );
 
+const completedLessonSchema = new mongoose.Schema(
+    {
+        chapterId: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Lesson',
+            required: true
+        },
+        subLessonIndex: {
+            type: Number,
+            required: true,
+            min: 0
+        },
+        completedAt: {
+            type: Date,
+            default: Date.now
+        }
+    },
+    { _id: false }
+);
+
 const progressSchema = new mongoose.Schema(
     {
         userId: {
@@ -25,11 +45,7 @@ const progressSchema = new mongoose.Schema(
             ref: 'User',
             required: true
         },
-        completedLessons: [
-            {
-                type: String
-            }
-        ],
+        completedLessons: [completedLessonSchema],
         quizResults: [quizResultSchema],
         overallProgress: {
             type: Number,

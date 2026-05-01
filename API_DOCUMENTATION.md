@@ -139,7 +139,9 @@ smart-driving-learning-platform-backend/
 │   ├── assistantRoutes.js           # /api/assistant/*
 │   └── adminRoutes.js               # /api/admin/* (users, documents, dashboard)
 ├── seeds/
-│   ├── seedData.js                  # Full database seeder (dev)
+│   ├── seedUsers.js                 # Demo user seeder
+│   ├── seedLessons.js               # Lesson/chapter seeder
+│   ├── seedQuestions.js             # Quiz question seeder
 │   └── seedAdmin.js                 # Auto-seed admin on startup
 ├── services/
 │   ├── authService.js               # Auth business logic
@@ -210,7 +212,10 @@ One document per user. Created automatically on first activity.
 | Field | Type | Required | Default | Notes |
 |---|---|---|---|---|
 | `userId` | ObjectId | Yes | — | References `User` collection |
-| `completedLessons` | [String] | No | `[]` | Format: `"ChapterTitle:SubLessonTitle"` |
+| `completedLessons` | [Object] | No | `[]` | Completed sub-lessons by `chapterId`, `subLessonIndex`, and `completedAt` |
+| `completedLessons[].chapterId` | ObjectId | Yes | - | References the Lesson/chapter |
+| `completedLessons[].subLessonIndex` | Number | Yes | - | Zero-based index in the chapter `lessons` array |
+| `completedLessons[].completedAt` | Date | No | `Date.now` | Completion timestamp |
 | `quizResults` | [Object] | No | `[]` | Array of quiz attempt records |
 | `quizResults[].chapterTitle` | String | Yes | — | Which chapter the quiz covered |
 | `quizResults[].score` | Number | Yes | — | Number of correct answers |
@@ -501,7 +506,11 @@ Mark a sub-lesson as completed.
 ```json
 {
   "message": "Sub-lesson completed",
-  "identifier": "Basic Driving Skills:Getting into the Car",
+  "completedLesson": {
+    "chapterId": "664b1c2d3e4f5a6b7c8d9e0f",
+    "subLessonIndex": 0,
+    "completedAt": "2026-04-30T14:00:00.000Z"
+  },
   "overallProgress": 0
 }
 ```
@@ -714,8 +723,11 @@ Get full raw progress for the authenticated user.
   "_id": "664f5a6b7c8d9e0f11223344",
   "userId": "664a1b2c3d4e5f6a7b8c9d0e",
   "completedLessons": [
-    "Basic Driving Skills:Getting into the Car",
-    "Basic Driving Skills:Starting the Car"
+    {
+      "chapterId": "664b1c2d3e4f5a6b7c8d9e0f",
+      "subLessonIndex": 0,
+      "completedAt": "2026-04-30T14:00:00.000Z"
+    }
   ],
   "quizResults": [
     { "chapterTitle": "Basic Driving Skills", "score": 3, "totalQuestions": 4 }
@@ -723,6 +735,47 @@ Get full raw progress for the authenticated user.
   "overallProgress": 0
 }
 ```
+
+---
+
+#### `GET /api/progress/lessons`
+
+Get completed lesson entries for the authenticated user.
+
+**Auth:** Bearer Token
+
+**Response `200`:**
+```json
+{
+  "completedLessons": [
+    {
+      "chapterId": "664b1c2d3e4f5a6b7c8d9e0f",
+      "subLessonIndex": 0,
+      "completedAt": "2026-04-30T14:00:00.000Z"
+    }
+  ]
+}
+```
+
+---
+
+#### `POST /api/progress/lessons/complete`
+
+Mark a chapter sub-lesson as completed. Duplicate completions are ignored.
+
+**Auth:** Bearer Token
+
+**Request:**
+```json
+{
+  "chapterId": "664b1c2d3e4f5a6b7c8d9e0f",
+  "subLessonIndex": 0
+}
+```
+
+**Response `200`:** Same completion response as `POST /api/lessons/:id/complete`.
+
+**Errors:** `400` - Invalid request, `404` - Lesson/sub-lesson not found
 
 ---
 
@@ -1276,9 +1329,15 @@ The server automatically creates the admin account on startup if it doesn't exis
 
 This is **idempotent** — if the admin already exists, nothing happens.
 
-### Full Seed (`npm run seed`)
+### Manual Seed (`npm run seed`)
 
-Run `npm run seed` to populate the database with demo data. **This clears all existing data.**
+Run `npm run seed` to upsert demo users, lessons, and quiz questions. This uses the dedicated seeders:
+
+- `npm run seed:users`
+- `npm run seed:lessons`
+- `npm run seed:questions`
+
+The seeders update or insert matching records; they do not clear the whole database.
 
 **2 Users:**
 | Name | Email | Password | Role |
@@ -1286,7 +1345,7 @@ Run `npm run seed` to populate the database with demo data. **This clears all ex
 | Student User | `student@driving.com` | `student123` | student |
 | Admin User | `admin@driving.com` | `admin123` | admin |
 
-**5 Chapters (15 sub-lessons):**
+**Lesson chapters:**
 
 | # | Chapter | Sub-lessons |
 |---|---|---|
@@ -1296,7 +1355,7 @@ Run `npm run seed` to populate the database with demo data. **This clears all ex
 | 4 | Speed Limits & Safe Following | Speed Limit Rules, Safe Following Distance, Driving in Bad Weather |
 | 5 | Seat Belt Safety & Passenger Rules | Seat Belt Laws, Child Safety Seats |
 
-**22 Quiz Questions** across all chapters with easy/medium/hard difficulty levels.
+**Quiz Questions:** seeded from `seeds/questions_final.json` across all chapters with easy/medium/hard difficulty levels.
 
 ---
 

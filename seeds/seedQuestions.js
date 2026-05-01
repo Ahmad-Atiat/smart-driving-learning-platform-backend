@@ -6,6 +6,20 @@ const questions = require('./questions_final.json');
 
 dotenv.config();
 
+const buildFilter = (question) => {
+    if (Number.isFinite(question.number)) {
+        return {
+            number: question.number,
+            chapterTitle: question.chapterTitle
+        };
+    }
+
+    return {
+        question: question.question,
+        chapterTitle: question.chapterTitle
+    };
+};
+
 const seedQuestions = async () => {
     try {
         const mongoUri = process.env.MONGO_URI;
@@ -16,10 +30,20 @@ const seedQuestions = async () => {
 
         await mongoose.connect(mongoUri);
 
-        await Quiz.deleteMany({});
-        const insertedQuestions = await Quiz.insertMany(questions);
+        const operations = questions.map((question) => ({
+            updateOne: {
+                filter: buildFilter(question),
+                update: { $set: question },
+                upsert: true
+            }
+        }));
 
-        console.log(`${insertedQuestions.length} questions seeded successfully`);
+        const result = await Quiz.bulkWrite(operations, { ordered: false });
+        const totalQuestions = await Quiz.countDocuments();
+
+        console.log(`${questions.length} questions processed successfully`);
+        console.log(`Quiz upsert result: matched=${result.matchedCount}, modified=${result.modifiedCount}, inserted=${result.upsertedCount}`);
+        console.log(`Quiz collection count: ${totalQuestions}`);
 
         await mongoose.connection.close();
         process.exit(0);

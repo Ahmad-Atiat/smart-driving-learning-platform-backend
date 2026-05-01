@@ -16,4 +16,13 @@ const updateById = (id, data) => Quiz.findByIdAndUpdate(id, data, { returnDocume
 
 const deleteById = (id) => Quiz.findByIdAndDelete(id);
 
-module.exports = { findAll, findByChapter, findById, findByIds, findRandom, create, updateById, deleteById };
+module.exports = {
+    findAll,
+    findByChapter,
+    findById,
+    findByIds,
+    findRandom,
+    create,
+    updateById,
+    deleteById
+};

@@ -113,10 +113,7 @@ const getProgress = async (userId, chapterTitle) => {
 // Returns the existing in-progress record when one is found (resume path).
 // Creates a fresh record when no in-progress session exists (new or after completion).
 const startOrResume = async (userId, chapterTitle) => {
-    const inProgress = await chapterQuizProgressRepository.findInProgressByUserAndChapter(
-        userId,
-        chapterTitle
-    );
+    const inProgress = await chapterQuizProgressRepository.findInProgressByUserAndChapter(userId, chapterTitle);
     if (inProgress) {
         return { resumed: true, ...buildProgressResponse(inProgress) };
     }
@@ -135,10 +132,7 @@ const startOrResume = async (userId, chapterTitle) => {
 // immediately, and returns the feedback fields so the frontend can display the
 // explanation without a second request.
 const saveAnswer = async (userId, chapterTitle, payload) => {
-    const progress = await chapterQuizProgressRepository.findInProgressByUserAndChapter(
-        userId,
-        chapterTitle
-    );
+    const progress = await chapterQuizProgressRepository.findInProgressByUserAndChapter(userId, chapterTitle);
     if (!progress) {
         throw new ApiError(404, 'No in-progress quiz found for this chapter. Call /start first.');
     }
@@ -186,6 +180,7 @@ const saveAnswer = async (userId, chapterTitle, payload) => {
     }
 
     await chapterQuizProgressRepository.updateById(progress._id, {
+        chapterTitle: progress.chapterTitle || chapterTitle,
         answers: progress.answers,
         currentQuestionIndex
     });
@@ -204,10 +199,7 @@ const saveAnswer = async (userId, chapterTitle, payload) => {
 // PATCH /:chapterTitle/position
 // Persists only the question index (e.g. when the user navigates without answering).
 const savePosition = async (userId, chapterTitle, payload) => {
-    const progress = await chapterQuizProgressRepository.findInProgressByUserAndChapter(
-        userId,
-        chapterTitle
-    );
+    const progress = await chapterQuizProgressRepository.findInProgressByUserAndChapter(userId, chapterTitle);
     if (!progress) {
         throw new ApiError(404, 'No in-progress quiz found for this chapter');
     }
@@ -217,7 +209,10 @@ const savePosition = async (userId, chapterTitle, payload) => {
         throw new ApiError(400, 'currentQuestionIndex must be a non-negative integer');
     }
 
-    await chapterQuizProgressRepository.updateById(progress._id, { currentQuestionIndex });
+    await chapterQuizProgressRepository.updateById(progress._id, {
+        chapterTitle: progress.chapterTitle || chapterTitle,
+        currentQuestionIndex
+    });
 
     return { message: 'Position saved' };
 };
@@ -225,15 +220,13 @@ const savePosition = async (userId, chapterTitle, payload) => {
 // POST /:chapterTitle/complete
 // Transitions the in-progress record to completed and records the timestamp.
 const completeProgress = async (userId, chapterTitle) => {
-    const progress = await chapterQuizProgressRepository.findInProgressByUserAndChapter(
-        userId,
-        chapterTitle
-    );
+    const progress = await chapterQuizProgressRepository.findInProgressByUserAndChapter(userId, chapterTitle);
     if (!progress) {
         throw new ApiError(404, 'No in-progress quiz found for this chapter');
     }
 
     const updated = await chapterQuizProgressRepository.updateById(progress._id, {
+        chapterTitle: progress.chapterTitle || chapterTitle,
         status: 'completed',
         completedAt: new Date()
     });

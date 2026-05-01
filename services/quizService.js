@@ -5,14 +5,13 @@ const ApiError = require('../utils/apiError');
 const getAllQuizzes = async () => {
     const quizzes = await quizRepository.findAll();
 
-    // Group by chapter
     const grouped = {};
-    for (const quiz of quizzes) {
+    quizzes.forEach((quiz) => {
         if (!grouped[quiz.chapterTitle]) {
             grouped[quiz.chapterTitle] = [];
         }
         grouped[quiz.chapterTitle].push(quiz);
-    }
+    });
 
     return grouped;
 };
@@ -46,7 +45,7 @@ const getExamQuestions = async () => {
         }));
     }
 
-    // Group questions by chapterTitle
+    // Group questions by the chapterTitle stored with each question.
     const chaptersMap = {};
     for (const q of allQuizzes) {
         if (!chaptersMap[q.chapterTitle]) chaptersMap[q.chapterTitle] = [];

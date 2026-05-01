@@ -9,7 +9,7 @@ const answerSchema = new mongoose.Schema(
             ref: 'Quiz',
             required: true
         },
-        // Text of the selected option in English (may be null if only index sent)
+        // Text of the selected option in English (null when only index was sent or question was skipped)
         selectedAnswer: {
             type: String,
             default: null
@@ -19,9 +19,23 @@ const answerSchema = new mongoose.Schema(
             type: String,
             default: null
         },
-        // Zero-based index of the selected option in the options array
+        // Zero-based index of the selected option in the options array; null when skipped
         selectedIndex: {
             type: Number,
+            default: null
+        },
+        // True when the user explicitly chose to skip this question.
+        // Skipped questions count as empty for scoring (not wrong).
+        skipped: {
+            type: Boolean,
+            default: false
+        },
+        // Evaluated at save time using the same matching logic as finalizeAttempt.
+        // Stored so wrongCount can be computed cheaply per-save without re-fetching
+        // all 60 questions. Not exposed in API responses during an active attempt.
+        // null = skipped or not yet evaluated; true = correct; false = wrong.
+        isCorrect: {
+            type: Boolean,
             default: null
         },
         answeredAt: {
@@ -48,7 +62,7 @@ const examAttemptSchema = new mongoose.Schema(
                 required: true
             }
         ],
-        // Sparse array – only questions the user has answered are present
+        // Sparse array – only questions the user has interacted with are present
         answers: {
             type: [answerSchema],
             default: []
@@ -74,7 +88,7 @@ const examAttemptSchema = new mongoose.Schema(
         submittedAt: {
             type: Date
         },
-        // Percentage score 0-100 (set on finalisation)
+        // Percentage score 0-100, kept for backward compatibility
         score: {
             type: Number,
             default: 0
@@ -87,6 +101,41 @@ const examAttemptSchema = new mongoose.Schema(
         results: {
             type: [mongoose.Schema.Types.Mixed],
             default: []
+        },
+
+        // ---------------------------------------------------------------
+        // Real-exam scoring fields (populated on finalisation)
+        // ---------------------------------------------------------------
+
+        // True when correctCount >= 51 AND wrongCount < 9
+        passed: {
+            type: Boolean,
+            default: null
+        },
+        // Number of questions answered correctly
+        correctCount: {
+            type: Number,
+            default: null
+        },
+        // Number of questions answered incorrectly (excludes skipped and empty)
+        wrongCount: {
+            type: Number,
+            default: null
+        },
+        // Number of questions never answered and not explicitly skipped
+        emptyCount: {
+            type: Number,
+            default: null
+        },
+        // Number of questions the user explicitly skipped
+        skippedCount: {
+            type: Number,
+            default: null
+        },
+        // Human-readable reason when passed === false; null when passed === true
+        failureReason: {
+            type: String,
+            default: null
         }
     },
     { timestamps: true }

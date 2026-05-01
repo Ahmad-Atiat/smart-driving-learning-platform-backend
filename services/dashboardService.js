@@ -4,6 +4,12 @@ const Quiz = require('../models/Quiz');
 const Progress = require('../models/Progress');
 const Document = require('../models/Document');
 
+const isCompletedEntry = (entry, chapterId, subLessonIndex) =>
+    entry &&
+    typeof entry === 'object' &&
+    entry.chapterId?.toString() === chapterId.toString() &&
+    entry.subLessonIndex === subLessonIndex;
+
 const getDashboardStats = async () => {
     const [
         totalUsers,
@@ -130,9 +136,11 @@ const getChapterReport = async () => {
     }
 
     return lessons.map((lesson) => {
-        const subLessonTitles = lesson.lessons.map((sl) => `${lesson.title}:${sl.title}`);
         const completedCount = allProgress.filter((p) =>
-            subLessonTitles.every((key) => p.completedLessons.includes(key))
+            lesson.lessons.length > 0 &&
+            lesson.lessons.every((_, index) =>
+                p.completedLessons.some((entry) => isCompletedEntry(entry, lesson._id, index))
+            )
         ).length;
 
         return {
