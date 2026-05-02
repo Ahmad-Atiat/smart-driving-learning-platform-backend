@@ -19,8 +19,6 @@ const withChapterKeys = lessons.map((lesson) => {
     };
 });
 
-const shouldPrune = process.argv.includes('--prune');
-
 const seedLessons = async () => {
     try {
         const mongoUri = process.env.MONGO_URI;
@@ -31,34 +29,14 @@ const seedLessons = async () => {
 
         await mongoose.connect(mongoUri);
 
-        const operations = withChapterKeys.map((lesson) => ({
-            updateOne: {
-                filter: {
-                    $or: [
-                        { chapterKey: lesson.chapterKey },
-                        { title: lesson.title }
-                    ]
-                },
-                update: { $set: lesson },
-                upsert: true
-            }
-        }));
+        const { deletedCount } = await Lesson.deleteMany({});
+        console.log(`Deleted ${deletedCount} existing lessons`);
 
-        const result = await Lesson.bulkWrite(operations, { ordered: false });
+        await Lesson.insertMany(withChapterKeys, { ordered: false });
+        const totalLessons = await Lesson.countDocuments();
 
-        if (shouldPrune) {
-            const chapterKeys = withChapterKeys.map((lesson) => lesson.chapterKey);
-            const titles = withChapterKeys.map((lesson) => lesson.title);
-            const pruneResult = await Lesson.deleteMany({
-                $or: [
-                    { chapterKey: { $exists: true, $nin: chapterKeys } },
-                    { chapterKey: { $exists: false }, title: { $nin: titles } }
-                ]
-            });
-            console.log(`Removed ${pruneResult.deletedCount} lessons not in current seed.`);
-        }
-
-        console.log(`Lessons upserted successfully: matched=${result.matchedCount}, modified=${result.modifiedCount}, inserted=${result.upsertedCount}`);
+        console.log(`${withChapterKeys.length} lessons inserted successfully`);
+        console.log(`Lesson collection count: ${totalLessons}`);
 
         await mongoose.connection.close();
         process.exit(0);

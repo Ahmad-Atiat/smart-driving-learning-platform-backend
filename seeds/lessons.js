@@ -2,8 +2,8 @@ module.exports = [
   {
     title: "Basic Driving Skills",
     titleAR: "مهارات القيادة الأساسية",
-    description: "The foundation of safe driving on Jordanian roads. This chapter covers stopping the vehicle correctly, parking on slopes, overtaking, lane discipline, signaling, intersections, roundabouts, U-turns, and the everyday actions that every driver must perform safely and predictably.",
-    descriptionAR: "أساس القيادة الآمنة على الطرق الأردنية. يغطي هذا الفصل إيقاف المركبة بشكل صحيح، والوقوف على المنحدرات، والتجاوز، والالتزام بالمسرب، وإعطاء الإشارات، والتقاطعات، والدوارات، والدوران للخلف، والأعمال اليومية التي يجب على كل سائق تنفيذها بأمان وبشكل متوقع.",
+    description: "Foundational driving techniques every driver needs on the road: stopping the vehicle correctly, parking on slopes, overtaking, lane discipline, signaling, intersections, roundabouts, U-turns, fatigue, distraction, and the everyday actions that every driver must perform safely and predictably.",
+    descriptionAR: "أساسيات القيادة التي يحتاجها كل سائق على الطريق: إيقاف المركبة بشكل صحيح، والوقوف على المنحدرات، والتجاوز، والالتزام بالمسرب، وإعطاء الإشارات، والتقاطعات، والدوارات، والدوران للخلف، والإرهاق، والتشتت، والأعمال اليومية التي يجب على كل سائق تنفيذها بأمان وبشكل متوقع.",
     image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/09/26-1.png",
     order: 1,
     isPublished: true,
@@ -28,13 +28,6 @@ module.exports = [
         content: "When there is no curb on a hill or slope, the wheel-positioning method shown - turning the wheels toward the road edge - is correct. This makes sure that any unwanted movement carries the vehicle off the road, not into traffic.",
         contentAR: "عند عدم وجود رصيف على المرتفع أو المنحدر، فإن طريقة توجيه العجلات المعروضة - إدارة العجلات نحو حافة الطريق - صحيحة. فهذا يضمن أن أي حركة غير مقصودة تأخذ المركبة خارج الطريق، لا نحو حركة المرور.",
         image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/09/26-1.png"
-      },
-      {
-        title: "Situations That Require Immediate Speed Reduction",
-        titleAR: "المواقف التي تستدعي تخفيف السرعة فوراً",
-        content: "When there is a sign or situation requiring caution, the driver must reduce speed to ensure safety and avoid causing accidents.",
-        contentAR: "عند وجود إشارة أو موقف يتطلب الحذر، يجب على السائق تخفيف سرعته لضمان السلامة وعدم التسبب في حوادث.",
-        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/09/20-4.png"
       },
       {
         title: "Conditions for a Safe and Legal Overtake",
@@ -142,13 +135,6 @@ module.exports = [
         image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/3.png"
       },
       {
-        title: "Permitted Stopping Under a Sign-Authorized Bridge",
-        titleAR: "التوقف المسموح تحت جسر بترخيص شاخصة",
-        content: "The presence of a sign indicating that stopping is allowed means the bus can stop in this place legally, even if it is under a pedestrian bridge or on a main road.",
-        contentAR: "وجود شاخصة تدل على السماح بالتوقف يعني أن الباص يمكنه التوقف في هذا المكان قانونياً، حتى لو كان تحت جسر مشاة أو على طريق رئيسي.",
-        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/9.png"
-      },
-      {
         title: "Truck Lane Discipline",
         titleAR: "التزام الشاحنات بالمسرب الصحيح",
         content: "Truck drivers must use the right lane to avoid traffic disruption and ensure safety, so they are prohibited from driving in left and middle lanes.",
@@ -175,13 +161,6 @@ module.exports = [
         content: "The traffic sign indicates an upcoming work area requiring cautious passage; no specific distance or speed is determined in the sign.",
         contentAR: "علامة المرور تشير إلى وجود منطقة عمل قادمة ويجب المرور بحذر، ولا يوجد تحديد لمسافة أو سرعة محددة في العلامة.",
         image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/23.png"
-      },
-      {
-        title: "Driver Actions Are Allowed Unless a Sign Forbids Them",
-        titleAR: "تصرفات السائق مسموحة ما لم تمنعها شاخصة",
-        content: "The driver is allowed to perform the action unless there is a marking or sign prohibiting it, so the first option is correct as it depends on the presence or absence of official prohibition.",
-        contentAR: "السائق مسموح له بالقيام بالفعل ما لم توجد علامة أو شاخصة تمنع ذلك، لذا الخيار الأول هو الصحيح لأنه يعتمد على وجود أو عدم وجود منع رسمي.",
-        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/25.png"
       },
       {
         title: "Daily Pre-Drive Vehicle Checks",
@@ -324,13 +303,6 @@ module.exports = [
         image: ""
       },
       {
-        title: "Right of Way When Two Vehicles Meet on a Slope",
-        titleAR: "حق المرور عند التقاء مركبتين على منحدر",
-        content: "When two vehicles meet on a narrow sloped road and cannot pass at the same time, the descending vehicle must yield to the ascending one. The driver going downhill should keep to the far right or stop completely to let the uphill vehicle pass, because uphill vehicles have more difficulty restarting once stopped.",
-        contentAR: "عندما تلتقي مركبتان على طريق منحدر ضيق ولا يمكنهما المرور في الوقت نفسه، يجب على المركبة النازلة إفساح الطريق للصاعدة. وعلى السائق النازل الالتزام بأقصى اليمين أو التوقف التام للسماح للمركبة الصاعدة بالمرور، لأن المركبات الصاعدة تواجه صعوبة أكبر في إعادة الانطلاق بعد التوقف.",
-        image: ""
-      },
-      {
         title: "When Left-Side Parking Is Allowed",
         titleAR: "متى يُسمح بالوقوف على الجانب الأيسر",
         content: "Parking on the left side only is allowed on one-way roads if parking on the right side is prohibited by traffic signs, to avoid obstructing traffic.",
@@ -408,18 +380,172 @@ module.exports = [
         image: ""
       },
       {
-        title: "Yielding to Emergency Vehicles",
-        titleAR: "إفساح الطريق لمركبات الطوارئ",
-        content: "According to traffic rules, drivers must keep to the right to clear the way for emergency vehicles such as fire trucks.",
-        contentAR: "وفق قواعد المرور، يجب على السائقين الالتزام باليمين لإفساح الطريق أمام المركبات الطارئة مثل مركبات الإطفاء.",
-        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/34-1.png"
-      },
-      {
         title: "What Hazard Lights (Four-Way Flashers) Mean",
         titleAR: "ماذا تعني الأضواء الرباعية (الفلاشر)",
         content: "Hazard lights are used to alert other drivers to a danger or malfunction in the car, requiring reduced speed and caution.",
         contentAR: "الضوء الرباعي أو الفلشر يستخدم لتنبيه السائقين الآخرين بوجود خطر أو عطل في السيارة، مما يستدعي تخفيف السرعة والحذر.",
         image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/49-5.png"
+      },
+      {
+        title: "Reducing Speed and Staying in Lane",
+        titleAR: "تخفيف السرعة والالتزام بالمسرب",
+        content: "The sign indicates the need to reduce speed and stay in the current lane without overtaking to ensure safety and reduce accidents in the specified area.",
+        contentAR: "الشاخصة تشير إلى ضرورة تخفيض السرعة والالتزام بالمسرب الحالي دون التجاوز لضمان السلامة وتقليل الحوادث في المنطقة المحددة.",
+        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/29.png"
+      },
+      {
+        title: "Drinking Liquids While Driving",
+        titleAR: "شرب السوائل أثناء القيادة",
+        content: "Drinking liquids while driving distracts the driver's attention and thus increases the likelihood of being involved in accidents. Drinking liquids while driving occupies the driver's hand and mind, distracting attention and increasing accident risk.",
+        contentAR: "تناول السوائل أثناء القيادة يؤدي إلى تشتت انتباه السائق وبالتالي زيادة نسبة احتمالية الإشتراك في الحوادث. تناول السوائل أثناء القيادة يشغل يد وعقل السائق، مما يشتت انتباهه ويزيد من خطر وقوع الحوادث.",
+        image: ""
+      },
+      {
+        title: "Stopping and Resting When Fatigued",
+        titleAR: "التوقف وأخذ الراحة عند الإرهاق",
+        content: "To reduce the risk of accidents resulting from fatigue, you must stop and take a rest instead of continuing to drive when feeling tired.",
+        contentAR: "للتقليل من خطر الحوادث الناتجة عن التعب، يجب التوقف وأخذ راحة بدلاً من الاستمرار بالقيادة عند الشعور بالإرهاق.",
+        image: ""
+      },
+      {
+        title: "Distraction Is a Main Cause of Traffic Accidents",
+        titleAR: "التشتت من الأسباب الرئيسية لحوادث المرور",
+        content: "Distraction while driving is one of the most common causes of traffic accidents. Distraction while driving reduces driver concentration and increases accident likelihood due to lack of attention to the road and surrounding hazards.",
+        contentAR: "يعتبر شرود الذهن اثناء القيادة من اكثر الاسباب المؤدية لارتكاب الحوادث المروري. شرود الذهن أثناء القيادة يقلل من تركيز السائق ويزيد من احتمالية وقوع الحوادث بسبب عدم الانتباه للطريق والمخاطر المحيطة.",
+        image: ""
+      },
+      {
+        title: "Avoiding Mobile Phone Use While Driving",
+        titleAR: "تجنب استخدام الهاتف المتنقل أثناء القيادة",
+        content: "Not using mobile phone while driving reduces distraction sources and increases driver concentration, reducing accident likelihood.",
+        contentAR: "عدم استخدام الهاتف المتنقل أثناء القيادة يقلل من مصادر شرود الذهن ويزيد من تركيز السائق، مما يقلل من احتمال وقوع الحوادث.",
+        image: ""
+      },
+      {
+        title: "Fatigue as a Cause of Traffic Accidents",
+        titleAR: "الإرهاق سبب من أسباب حوادث المرور",
+        content: "Feeling fatigued may cause a traffic accident.",
+        contentAR: "قد يتسبب الشعور بالإرهاق الى حادث سير.",
+        image: ""
+      },
+      {
+        title: "Early Signs of Driver Fatigue",
+        titleAR: "المؤشرات المبكرة على إرهاق السائق",
+        content: "All these signs such as slow reaction, boredom, and quick irritation and anger are early indicators of fatigue while driving, affecting concentration and control.",
+        contentAR: "جميع هذه العلامات مثل بطء ردة الفعل، الضجر، وسرعة الإثارة والغضب تعتبر مؤشرات مبكرة على الشعور أثناء القيادة، حيث تؤثر على التركيز والتحكم.",
+        image: ""
+      },
+      {
+        title: "Fatigue Increases With Driving Hours",
+        titleAR: "الإرهاق يزداد بازدياد ساعات القيادة",
+        content: "The likelihood of feeling fatigue increases as driving hours increase.",
+        contentAR: "تزداد احتمالات الشعور بالإرهاق كلما زادت ساعات القيادة.",
+        image: ""
+      },
+      {
+        title: "Missing Traffic Signs as a Sign of Fatigue",
+        titleAR: "عدم الانتباه للشواخص مؤشر على إرهاق السائق",
+        content: "Not paying attention to traffic signs indicates distraction and fatigue, an early sign of lost concentration while driving.",
+        contentAR: "عدم الانتباه لشواخص المرور يدل على تشتت الذهن والإرهاق، وهو من العلامات المبكرة التي تشير إلى فقدان التركيز أثناء القيادة.",
+        image: ""
+      },
+      {
+        title: "Main Causes of Traffic Accidents",
+        titleAR: "الأسباب الرئيسية لحوادث المرور",
+        content: "Traffic accidents often result from a combination of causes such as inattention, technical malfunctions, and wrong driving methods, so all these factors contribute to accidents.",
+        contentAR: "الحوادث المرورية غالباً ما تكون نتيجة مجموعة من الأسباب مثل عدم الانتباه، الأعطال الفنية، والأساليب الخاطئة أثناء القيادة، لذا جميع هذه العوامل تساهم في وقوع الحوادث.",
+        image: ""
+      },
+      {
+        title: "Reading Medication Leaflets Before Driving",
+        titleAR: "قراءة نشرة الدواء قبل القيادة",
+        content: "Drivers must read the leaflet attached to any medication they take to confirm it does not affect their ability to drive. Several common medications - including tranquilizers, certain cold and flu remedies, and some diet pills - can cause drowsiness, slowed reactions, or blurred vision. When the leaflet warns of these effects, the driver should not drive until the effect has worn off.",
+        contentAR: "يجب على السائق قراءة النشرة المرفقة بأي دواء يتناوله للتأكد من أنه لا يؤثر على قدرته على القيادة. فعدة أدوية شائعة - منها المهدئات، وبعض أدوية البرد والإنفلونزا، وبعض أقراص الحمية - قد تسبب النعاس، أو بطء ردود الفعل، أو ضبابية الرؤية. وعندما تحذّر النشرة من هذه الآثار، ينبغي للسائق ألا يقود حتى يزول مفعول الدواء.",
+        image: ""
+      },
+      {
+        title: "Medications That Affect Driving",
+        titleAR: "الأدوية التي تؤثر على القيادة",
+        content: "All these medications affect concentration and the ability to drive safely, including tranquilizers, pressure medications, nausea, allergies, and sleeping pills.",
+        contentAR: "جميع الأدوية المذكورة تؤثر على التركيز والقدرة على القيادة بأمان، بما في ذلك المهدئات، أدوية الضغط، والغثيان، والحساسية، والأقراص المنومة.",
+        image: ""
+      },
+      {
+        title: "Cold and Flu Medications and Driving",
+        titleAR: "أدوية البرد والإنفلونزا والقيادة",
+        content: "Among the medications that affect driving are some cold and flu medications.",
+        contentAR: "من الادوية التي تؤثر على القيادة بعض أدوية البرد والإنفلونزا.",
+        image: ""
+      },
+      {
+        title: "Diet Pills and Driving",
+        titleAR: "أقراص الحمية والقيادة",
+        content: "Among the medications that affect driving are some diet pills. Some diet pills contain substances that affect concentration and reactions, which may negatively impact the ability to drive safely.",
+        contentAR: "من الادوية التي تؤثر على القيادة بعض أقراص الحمية الغذائية.",
+        image: ""
+      },
+      {
+        title: "What 'Deviation' Means in Driving",
+        titleAR: "ما يعنيه 'الانحراف' في القيادة",
+        content: "Deviation means changing direction gradually rather than suddenly, and can be slow or moderate, which corresponds to the definition of deviation in traffic laws.",
+        contentAR: "الانحراف يعني تغيير الاتجاه بشكل تدريجي وليس مفاجئ، ويمكن أن يكون بطيئاً أو متوسطاً، وهذا يتوافق مع تعريف الانحراف في قوانين المرور.",
+        image: ""
+      },
+      {
+        title: "Roadside Stalls and Vendors as Traffic Hazards",
+        titleAR: "البسطات وعربات الباعة بوصفها مخاطر مرورية",
+        content: "Placing stalls in this manner is an encroachment on the road, which obstructs traffic and poses a danger to public safety.",
+        contentAR: "وضع البسطات بهذا الشكل يعد تعدياً على حرم الطريق، مما يعيق حركة المرور ويشكل خطراً على السلامة العامة.",
+        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/31-1.png"
+      },
+      {
+        title: "Agricultural and Construction Vehicles Cannot Park on Urban Main Streets",
+        titleAR: "المركبات الزراعية والإنشائية لا تقف على الشوارع الرئيسية الحضرية",
+        content: "Parking agricultural and construction vehicles on main streets within municipal boundaries is prohibited for any reason.",
+        contentAR: "يمنع وقوف المركبات الزراعية الإنشائية على الشوارع الرئيسية داخل حدود المجالس البلدية حفاظاً على انسيابية المرور وسلامة الطريق.",
+        image: ""
+      },
+      {
+        title: "When the Use of Audible Warning Devices Is Forbidden",
+        titleAR: "متى يُمنع استخدام أجهزة التنبيه الصوتية",
+        content: "Drivers are forbidden from using audible warning devices in ways that disturb the public, from installing devices that produce sound on the exhaust pipe, and from using sound-producing horns inappropriately. The horn should be used briefly and only when needed to warn of imminent danger.",
+        contentAR: "يُحظر على السائقين استخدام أجهزة التنبيه الصوتية بشكل يُسبب إزعاجاً للجمهور، أو تركيب أجهزة تُصدر صوتاً على ماسورة العادم، أو استخدام الزامور بشكل مزعج. وينبغي استعمال الزامور بإيجاز وعند الحاجة إلى التحذير من خطر وشيك فقط.",
+        image: ""
+      },
+      {
+        title: "Penalty for Reckless or Showy Driving",
+        titleAR: "عقوبة القيادة المتهورة أو الاستعراضية",
+        content: "Reckless or showy driving on the road is treated as one of the most dangerous violations under Jordanian traffic law. The fine for it usually ranges between 200 and 500 dinars, depending on the severity of the behavior and the danger it created for other road users.",
+        contentAR: "تُعامَل القيادة المتهورة أو الاستعراضية على الطريق كواحدة من أخطر المخالفات بموجب قانون السير الأردني. وتتراوح غرامتها عادة بين 200 و500 دينار، وفقاً لخطورة السلوك ومدى الخطر الذي سبّبه لمستخدمي الطريق الآخرين.",
+        image: ""
+      },
+      {
+        title: "Producing Sound From the Exhaust Pipe Is Prohibited",
+        titleAR: "إصدار صوت من ماسورة العادم ممنوع",
+        content: "It is prohibited to install or use any device that produces sound on the exhaust pipe of the vehicle. The exhaust must remain quiet enough not to disturb the public, and modifying it for noise is a traffic violation under Jordanian law.",
+        contentAR: "يُحظر تركيب أو استعمال أي جهاز يُصدر صوتاً على ماسورة العادم في المركبة. ويجب أن يبقى العادم هادئاً بما لا يسبب إزعاجاً للجمهور، وتعديله لإصدار ضجيج مخالفة مرورية بموجب القانون الأردني.",
+        image: ""
+      },
+      {
+        title: "Legal Consequences of Causing Death or Permanent Disability",
+        titleAR: "العقوبات القانونية عند التسبب بوفاة أو عاهة دائمة",
+        content: "If a driver causes the death of another person or causes a permanent disability while driving, several legal consequences apply: the driving license is confiscated, imprisonment may be imposed, and the license may be suspended for a specified period. The court determines the exact penalty based on the circumstances.",
+        contentAR: "إذا تسبب السائق بوفاة شخص أو بإحداث عاهة دائمة أثناء قيادته، تترتب على ذلك عدة عقوبات قانونية: ضبط الرخصة، وإمكانية السجن، ووقف العمل بالرخصة لمدة محددة. وتُحدّد المحكمة العقوبة الدقيقة بناءً على الظروف.",
+        image: ""
+      },
+      {
+        title: "Police Actions for Vehicles Parked in Prohibited Places",
+        titleAR: "إجراءات الشرطة عند وقوف مركبة في مكان ممنوع",
+        content: "When a vehicle is parked in a prohibited place, police take all the legal steps necessary to remove it from the road: issuing a fine, ordering the owner to move the vehicle, and if needed, having it towed to an impound lot at the owner's expense. These measures protect traffic flow and emergency access.",
+        contentAR: "عندما تتوقف مركبة في مكان ممنوع، تتخذ الشرطة جميع الخطوات القانونية اللازمة لإزالتها من الطريق: إصدار مخالفة، وإلزام المالك بنقل المركبة، وإن لزم الأمر سحبها إلى ساحة الحجز على نفقة المالك. وتحمي هذه الإجراءات انسيابية المرور ومرور الطوارئ.",
+        image: ""
+      },
+      {
+        title: "Owners Must Remove Unfit or Broken-Down Vehicles",
+        titleAR: "على أصحاب المركبات غير الصالحة نقلها من الطريق",
+        content: "Leaving unfit or broken-down vehicles on roads is prohibited to preserve traffic safety, and their owners must move them to avoid accidents or obstructing traffic.",
+        contentAR: "يمنع ترك المركبات غير الصالحة أو المتعطلة على الطرق حفاظاً على السلامة المرورية، ويجب على أصحابها نقلها لتجنب الحوادث أو عرقلة السير.",
+        image: ""
       }
     ]
   },
@@ -427,11 +553,25 @@ module.exports = [
     title: "Traffic Signs",
     titleAR: "الشواخص المرورية",
     description: "A complete reference to traffic signs and road markings used on Jordanian roads. This chapter covers warning signs, prohibition signs, mandatory signs, guidance signs, road markings, and traffic light meanings, so the driver instantly recognizes each one and reacts correctly.",
-    descriptionAR: "مرجع كامل للشواخص المرورية والعلامات الأرضية المستخدمة على الطرق الأردنية. يغطي هذا الفصل الشواخص التحذيرية وشواخص المنع والشواخص الإلزامية والشواخص الإرشادية والعلامات الأرضية ومعاني الإشارات الضوئية، ليتعرّف السائق على كل منها فوراً ويتعامل معها بشكل صحيح.",
-    image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/09/18-5.png",
+    descriptionAR: "مرجع كامل لإشارات المرور والعلامات الأرضية المستخدمة على الطرق الأردنية. يغطي هذا الفصل الشواخص التحذيرية وشواخص المنع والشواخص الإلزامية والشواخص الإرشادية والعلامات الأرضية ومعاني الإشارات الضوئية، ليتعرّف السائق على كل منها فوراً ويتعامل معها بشكل صحيح.",
+    image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/9.png",
     order: 2,
     isPublished: true,
     lessons: [
+      {
+        title: "Permitted Stopping Under a Sign-Authorized Bridge",
+        titleAR: "التوقف المسموح تحت جسر بترخيص شاخصة",
+        content: "The presence of a sign indicating that stopping is allowed means the bus can stop in this place legally, even if it is under a pedestrian bridge or on a main road.",
+        contentAR: "وجود شاخصة تدل على السماح بالتوقف يعني أن الباص يمكنه التوقف في هذا المكان قانونياً، حتى لو كان تحت جسر مشاة أو على طريق رئيسي.",
+        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/9.png"
+      },
+      {
+        title: "Driver Actions Are Allowed Unless a Sign Forbids Them",
+        titleAR: "تصرفات السائق مسموحة ما لم تمنعها شاخصة",
+        content: "The driver is allowed to perform the action unless there is a marking or sign prohibiting it, so the first option is correct as it depends on the presence or absence of official prohibition.",
+        contentAR: "السائق مسموح له بالقيام بالفعل ما لم توجد علامة أو شاخصة تمنع ذلك، لذا الخيار الأول هو الصحيح لأنه يعتمد على وجود أو عدم وجود منع رسمي.",
+        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/25.png"
+      },
       {
         title: "Warning Sign: Uphill Incline",
         titleAR: "شاخصة تحذيرية: مرتفع",
@@ -846,20 +986,6 @@ module.exports = [
         image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/27.png"
       },
       {
-        title: "Reducing Speed and Staying in Lane",
-        titleAR: "تخفيف السرعة والالتزام بالمسرب",
-        content: "The sign indicates the need to reduce speed and stay in the current lane without overtaking to ensure safety and reduce accidents in the specified area.",
-        contentAR: "الشاخصة تشير إلى ضرورة تخفيض السرعة والالتزام بالمسرب الحالي دون التجاوز لضمان السلامة وتقليل الحوادث في المنطقة المحددة.",
-        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/29.png"
-      },
-      {
-        title: "Reducing Speed and Keeping a Safe Distance",
-        titleAR: "تخفيف السرعة وترك مسافة أمان مع المركبة الأمامية",
-        content: "The sign indicates a slippery or dangerous road, so speed must be reduced, safe distance maintained, and no overtaking to ensure safety.",
-        contentAR: "الشاخصة تشير إلى وجود طريق زلق أو خطر على الطريق، لذلك يجب تخفيض السرعة وترك مسافة أمان وعدم التجاوز لضمان السلامة.",
-        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/30.png"
-      },
-      {
         title: "Continuous Transverse Line at Intersections",
         titleAR: "الخط العرضي المتصل عند التقاطعات",
         content: "The continuous transverse line indicates the necessity to stop before the intersection to give right of way to other vehicles, ensuring safety and traffic organization.",
@@ -1173,18 +1299,53 @@ module.exports = [
         content: "The warning sign indicates the presence of school students in the area, requiring caution and slow driving to avoid accidents.",
         contentAR: "الشاخصة التحذيرية تشير إلى وجود طلاب مدارس في المنطقة، مما يتطلب الحذر والقيادة ببطء لتجنب الحوادث.",
         image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/55.png"
+      },
+      {
+        title: "Approaching a 'Give Priority' Sign",
+        titleAR: "الاقتراب من شاخصة 'أعطِ الأولوية'",
+        content: "The sign indicates giving priority to other vehicles passing before continuing, without need for complete stop unless necessary.",
+        contentAR: "الشاخصة تشير إلى وجوب إعطاء الأولوية للمركبات الأخرى التي تمر قبل الاستمرار، دون الحاجة للتوقف الكامل إلا إذا كان ذلك ضرورياً.",
+        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/15.png"
+      },
+      {
+        title: "Sign Indicates Pedestrians Have Priority",
+        titleAR: "الشاخصة تدل على أن للمشاة الأولوية",
+        content: "The sign indicates pedestrians' right of way to cross the road, so drivers must stop and give pedestrians priority to cross safely.",
+        contentAR: "الشاخصة تشير إلى حق أولوية المشاة في عبور الطريق، لذا يجب على السائقين التوقف وإعطاء الأولوية للمشاة للعبور بأمان.",
+        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/24.png"
+      },
+      {
+        title: "Stopping Before the Stop Line at the Red Light",
+        titleAR: "التوقف قبل خط التوقف عند الضوء الأحمر",
+        content: "When the driver arrives at an intersection regulated by a traffic light, he must stop his vehicle before the designated stop line when the red light appears.",
+        contentAR: "عند وصول السائق إلى تقاطع طرق منظم بإشارة مرور ضوئية عليه التوقف بمركبته قبل خط التوقف المخصص لذلك عند ظهور الضوء الأحمر. يجب على السائق التوقف قبل خط التوقف عند إشارة المرور الحمراء لضمان سلامة المرور وعدم تجاوز الإشارة.",
+        image: ""
       }
     ]
   },
   {
-    title: "Road Priorities and Right of Way",
-    titleAR: "أولويات الطريق وحق المرور",
+    title: "Right of Way and Road Priorities",
+    titleAR: "أولويات الطريق وحق الأولوية",
     description: "Who goes first on the road. This chapter covers right-of-way rules at all kinds of intersections, pedestrian priority, the rules for emergency vehicles, traffic-light meanings, traffic-officer hand signals, and how priority is decided between different types of road users.",
     descriptionAR: "من يمر أولاً على الطريق. يغطي هذا الفصل قواعد حق المرور في جميع أنواع التقاطعات، وأولوية المشاة، وقواعد مركبات الطوارئ، ومعاني الإشارات الضوئية، وإشارات شرطي المرور اليدوية، وكيفية تحديد الأولوية بين الفئات المختلفة لمستخدمي الطريق.",
-    image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/09/2-9.png",
+    image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/34-1.png",
     order: 3,
     isPublished: true,
     lessons: [
+      {
+        title: "Right of Way When Two Vehicles Meet on a Slope",
+        titleAR: "حق المرور عند التقاء مركبتين على منحدر",
+        content: "When two vehicles meet on a narrow sloped road and cannot pass at the same time, the descending vehicle must yield to the ascending one. The driver going downhill should keep to the far right or stop completely to let the uphill vehicle pass, because uphill vehicles have more difficulty restarting once stopped.",
+        contentAR: "عندما تلتقي مركبتان على طريق منحدر ضيق ولا يمكنهما المرور في الوقت نفسه، يجب على المركبة النازلة إفساح الطريق للصاعدة. وعلى السائق النازل الالتزام بأقصى اليمين أو التوقف التام للسماح للمركبة الصاعدة بالمرور، لأن المركبات الصاعدة تواجه صعوبة أكبر في إعادة الانطلاق بعد التوقف.",
+        image: ""
+      },
+      {
+        title: "Yielding to Emergency Vehicles",
+        titleAR: "إفساح الطريق لمركبات الطوارئ",
+        content: "According to traffic rules, drivers must keep to the right to clear the way for emergency vehicles such as fire trucks.",
+        contentAR: "وفق قواعد المرور، يجب على السائقين الالتزام باليمين لإفساح الطريق أمام المركبات الطارئة مثل مركبات الإطفاء.",
+        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/34-1.png"
+      },
       {
         title: "Identifying the Priority Vehicle in an Intersection Diagram",
         titleAR: "تحديد المركبة صاحبة الأولوية في رسم التقاطع",
@@ -1268,20 +1429,6 @@ module.exports = [
         content: "Pedestrian safety is a priority over traffic rules, and they must be allowed to cross even with a sign prohibiting pedestrian crossing, especially near a tunnel.",
         contentAR: "سلامة المشاة أولوية على قواعد المرور، ويجب السماح لهم بالعبور حتى في حال وجود شاخصة تمنع مرور المشاة، خاصة عند الاقتراب من نفق.",
         image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/8.png"
-      },
-      {
-        title: "Approaching a 'Give Priority' Sign",
-        titleAR: "الاقتراب من شاخصة 'أعطِ الأولوية'",
-        content: "The sign indicates giving priority to other vehicles passing before continuing, without need for complete stop unless necessary.",
-        contentAR: "الشاخصة تشير إلى وجوب إعطاء الأولوية للمركبات الأخرى التي تمر قبل الاستمرار، دون الحاجة للتوقف الكامل إلا إذا كان ذلك ضرورياً.",
-        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/15.png"
-      },
-      {
-        title: "Sign Indicates Pedestrians Have Priority",
-        titleAR: "الشاخصة تدل على أن للمشاة الأولوية",
-        content: "The sign indicates pedestrians' right of way to cross the road, so drivers must stop and give pedestrians priority to cross safely.",
-        contentAR: "الشاخصة تشير إلى حق أولوية المشاة في عبور الطريق، لذا يجب على السائقين التوقف وإعطاء الأولوية للمشاة للعبور بأمان.",
-        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/24.png"
       },
       {
         title: "Pedestrians Crossing at Marked Crossings",
@@ -1424,13 +1571,6 @@ module.exports = [
         image: ""
       },
       {
-        title: "Stopping Before the Stop Line at the Red Light",
-        titleAR: "التوقف قبل خط التوقف عند الضوء الأحمر",
-        content: "When the driver arrives at an intersection regulated by a traffic light, he must stop his vehicle before the designated stop line when the red light appears.",
-        contentAR: "عند وصول السائق إلى تقاطع طرق منظم بإشارة مرور ضوئية عليه التوقف بمركبته قبل خط التوقف المخصص لذلك عند ظهور الضوء الأحمر. يجب على السائق التوقف قبل خط التوقف عند إشارة المرور الحمراء لضمان سلامة المرور وعدم تجاوز الإشارة.",
-        image: ""
-      },
-      {
         title: "Main-Road Vehicle Priority Over Side Roads",
         titleAR: "أولوية المركبة على الطريق الرئيسي أمام الطرق الفرعية",
         content: "Priority goes to the vehicle coming from the main road because the secondary road must wait for vehicles on the main road to pass according to traffic rules.",
@@ -1499,18 +1639,46 @@ module.exports = [
         content: "Even when you have the right of way, you should not insist on passing if other vehicles are blocking your path inside the intersection. Forcing the issue creates collisions and gridlock. The correct behaviour is to wait until the intersection clears, then proceed safely.",
         contentAR: "حتى عندما يكون لديك حق الأولوية، يجب ألا تُصر على المرور إذا كانت هناك مركبات تعيق طريقك داخل التقاطع. ففرض الأمر يسبب التصادم والاحتباس المروري. والسلوك الصحيح هو الانتظار حتى يخلو التقاطع، ثم المتابعة بأمان.",
         image: ""
+      },
+      {
+        title: "Emergency Vehicle Lights and Sirens: Restricted to Duty",
+        titleAR: "أضواء وصفارات الطوارئ: تقتصر على أداء الواجب",
+        content: "It is not permissible for an emergency vehicle driver to flash intermittent lights or sound horns unless necessary for performing duty. An emergency vehicle driver is allowed to use flashing lights and sound warning devices only when necessary to perform his duty, to avoid disturbance and ensure safety.",
+        contentAR: "لا يجوز لسائق مركبة الطوارئ أن يبث نورا متقطعا ( اللواح ) أو أن يطلق صوتا بواسطة أجهزة التنبيه الصوتية إلا إذا كان ذلك ضروريا لتأدية واجب. يُسمح لسائق مركبة الطوارئ باستخدام الأضواء المتقطعة وأجهزة التنبيه الصوتية فقط عند الضرورة لتأدية واجبه، وذلك لتجنب الإزعاج وضمان السلامة.",
+        image: ""
+      },
+      {
+        title: "Emergency Signals Forbidden Outside of Duty",
+        titleAR: "إشارات الطوارئ ممنوعة خارج وقت الواجب",
+        content: "Emergency vehicle drivers may not use their flashing lights or sirens during normal times - only when they are actively responding to an emergency or performing official duty. Improper use creates noise, confusion, and disrespect for the warning signals when they are genuinely needed.",
+        contentAR: "لا يجوز لسائقي مركبات الطوارئ استخدام الأضواء المتقطعة أو صفارات الإنذار في الأوقات العادية - بل فقط عند الاستجابة الفعلية لحالة طوارئ أو أثناء أداء واجب رسمي. فالاستخدام غير المناسب يُحدث ضجيجاً وإرباكاً ويُضعف هيبة هذه الإشارات حين الحاجة الحقيقية إليها.",
+        image: ""
       }
     ]
   },
   {
-    title: "Speed Limits and Safe Driving",
-    titleAR: "حدود السرعة والقيادة الآمنة",
-    description: "Maximum speeds for each vehicle type and road, the two-second rule, safe following distances in good and bad weather, factors that affect stopping distance, and how to share the road safely with heavy vehicles and bicycles.",
-    descriptionAR: "السرعات القصوى لكل نوع من المركبات والطرق، وقاعدة الثانيتين، ومسافات الأمان في الطقس الجيد والسيئ، والعوامل المؤثرة في مسافة الوقوف، وكيفية مشاركة الطريق بأمان مع المركبات الثقيلة والدراجات الهوائية.",
-    image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/34.png",
+    title: "Speed Limits and Safe Driving Distance",
+    titleAR: "حدود السرعة ومسافة الأمان",
+    description: "Maximum speeds for each vehicle type and road, the two-second rule, safe following distances in good and bad weather, factors that affect stopping distance, speeding fines, and how to share the road safely with heavy vehicles and bicycles.",
+    descriptionAR: "السرعات القصوى لكل نوع من المركبات والطرق، وقاعدة الثانيتين، ومسافات الأمان في الطقس الجيد والسيئ، والعوامل المؤثرة في مسافة الوقوف، وغرامات السرعة، وكيفية مشاركة الطريق بأمان مع المركبات الثقيلة والدراجات الهوائية.",
+    image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/09/20-4.png",
     order: 4,
     isPublished: true,
     lessons: [
+      {
+        title: "Situations That Require Immediate Speed Reduction",
+        titleAR: "المواقف التي تستدعي تخفيف السرعة فوراً",
+        content: "When there is a sign or situation requiring caution, the driver must reduce speed to ensure safety and avoid causing accidents.",
+        contentAR: "عند وجود إشارة أو موقف يتطلب الحذر، يجب على السائق تخفيف سرعته لضمان السلامة وعدم التسبب في حوادث.",
+        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/09/20-4.png"
+      },
+      {
+        title: "Reducing Speed and Keeping a Safe Distance",
+        titleAR: "تخفيف السرعة وترك مسافة أمان مع المركبة الأمامية",
+        content: "The sign indicates a slippery or dangerous road, so speed must be reduced, safe distance maintained, and no overtaking to ensure safety.",
+        contentAR: "الشاخصة تشير إلى وجود طريق زلق أو خطر على الطريق، لذلك يجب تخفيض السرعة وترك مسافة أمان وعدم التجاوز لضمان السلامة.",
+        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/30.png"
+      },
       {
         title: "Driving in Fog and Rain",
         titleAR: "القيادة في الضباب والمطر",
@@ -1671,116 +1839,32 @@ module.exports = [
         content: "The best way to avoid traffic accidents is to use defensive driving by leaving sufficient safety distance between vehicles.",
         contentAR: "ان افضل طريق لتجنب الحوادث المرورية استخدام اسلوب القيادة الوقائية المتمثل بترك مسافة امان كافية بين المركبات. ترك مسافة أمان كافية بين المركبات هو جزء أساسي من القيادة الوقائية التي تساعد على تجنب الحوادث المرورية من خلال إعطاء وقت ومساحة كافية للتفاعل مع المواقف المفاجئة.",
         image: ""
+      },
+      {
+        title: "Fine for Driving 30-50 km/h Above the Limit",
+        titleAR: "غرامة القيادة بسرعة تزيد 30-50 كم/ساعة",
+        content: "Driving 30 to 50 km/h above the posted speed limit is a serious violation under Jordanian traffic law. The standard fine for this level of excess is 60 dinars, and exceeding the limit further raises the penalty in subsequent tiers.",
+        contentAR: "القيادة بسرعة تزيد 30 إلى 50 كم/ساعة عن الحد المُعلَن مخالفة جسيمة بموجب قانون السير الأردني. وتبلغ الغرامة المعتمدة لهذا المستوى من التجاوز 60 ديناراً، وتجاوز الحد بأكثر من ذلك يرفع العقوبة في درجات لاحقة.",
+        image: ""
+      },
+      {
+        title: "Fine for Driving 10-30 km/h Above the Limit",
+        titleAR: "غرامة القيادة بسرعة تزيد 10-30 كم/ساعة",
+        content: "The penalty value for speeding by 10 to 30 km/h is usually 30 dinars according to Jordanian traffic laws to encourage adherence to the specified speed.",
+        contentAR: "قيمة مخالفة السرعة التي تزيد عن 10 إلى 30 كم/ساعة عادةً تكون 30 دينار وفقاً لقوانين المرور الأردنية لتشجيع الالتزام بالسرعة المحددة.",
+        image: ""
       }
     ]
   },
   {
-    title: "Safety Systems and Vehicle Safety",
-    titleAR: "أنظمة السلامة وحماية الركاب",
-    description: "The systems and behaviors that keep drivers and passengers safe inside the vehicle: seat belts, airbags, headrests, child safety seats, motorcycle helmets, and the human factors that affect safe driving — fatigue, distraction, mobile phone use, and the effect of medications.",
-    descriptionAR: "الأنظمة والسلوكيات التي تحافظ على سلامة السائق والركاب داخل المركبة: أحزمة الأمان، والوسائد الهوائية، ومساند الرأس، ومقاعد سلامة الأطفال، وخوذ الدراجات النارية، والعوامل البشرية المؤثرة على القيادة الآمنة - الإرهاق، والتشتت، واستخدام الهاتف المتنقل، وأثر الأدوية.",
+    title: "Seat Belt and Passenger Safety Rules",
+    titleAR: "حزام الأمان وقواعد سلامة الركاب",
+    description: "Protecting drivers and passengers inside the vehicle: seat belts, airbags, headrests, child safety seats, motorcycle helmets, and the rules that make these systems work as designed to prevent and reduce injury.",
+    descriptionAR: "حماية السائق والركاب داخل المركبة: أحزمة الأمان، والوسائد الهوائية، ومساند الرأس، ومقاعد سلامة الأطفال، وخوذ الدراجات النارية، والقواعد التي تجعل هذه الأنظمة تعمل كما صُمِّمت لمنع الإصابات وتخفيفها.",
     image: "",
     order: 5,
     isPublished: true,
     lessons: [
-      {
-        title: "Drinking Liquids While Driving",
-        titleAR: "شرب السوائل أثناء القيادة",
-        content: "Drinking liquids while driving distracts the driver's attention and thus increases the likelihood of being involved in accidents. Drinking liquids while driving occupies the driver's hand and mind, distracting attention and increasing accident risk.",
-        contentAR: "تناول السوائل أثناء القيادة يؤدي إلى تشتت انتباه السائق وبالتالي زيادة نسبة احتمالية الإشتراك في الحوادث. تناول السوائل أثناء القيادة يشغل يد وعقل السائق، مما يشتت انتباهه ويزيد من خطر وقوع الحوادث.",
-        image: ""
-      },
-      {
-        title: "Stopping and Resting When Fatigued",
-        titleAR: "التوقف وأخذ الراحة عند الإرهاق",
-        content: "To reduce the risk of accidents resulting from fatigue, you must stop and take a rest instead of continuing to drive when feeling tired.",
-        contentAR: "للتقليل من خطر الحوادث الناتجة عن التعب، يجب التوقف وأخذ راحة بدلاً من الاستمرار بالقيادة عند الشعور بالإرهاق.",
-        image: ""
-      },
-      {
-        title: "Distraction Is a Main Cause of Traffic Accidents",
-        titleAR: "التشتت من الأسباب الرئيسية لحوادث المرور",
-        content: "Distraction while driving is one of the most common causes of traffic accidents. Distraction while driving reduces driver concentration and increases accident likelihood due to lack of attention to the road and surrounding hazards.",
-        contentAR: "يعتبر شرود الذهن اثناء القيادة من اكثر الاسباب المؤدية لارتكاب الحوادث المروري. شرود الذهن أثناء القيادة يقلل من تركيز السائق ويزيد من احتمالية وقوع الحوادث بسبب عدم الانتباه للطريق والمخاطر المحيطة.",
-        image: ""
-      },
-      {
-        title: "Avoiding Mobile Phone Use While Driving",
-        titleAR: "تجنب استخدام الهاتف المتنقل أثناء القيادة",
-        content: "Not using mobile phone while driving reduces distraction sources and increases driver concentration, reducing accident likelihood.",
-        contentAR: "عدم استخدام الهاتف المتنقل أثناء القيادة يقلل من مصادر شرود الذهن ويزيد من تركيز السائق، مما يقلل من احتمال وقوع الحوادث.",
-        image: ""
-      },
-      {
-        title: "Fatigue as a Cause of Traffic Accidents",
-        titleAR: "الإرهاق سبب من أسباب حوادث المرور",
-        content: "Feeling fatigued may cause a traffic accident.",
-        contentAR: "قد يتسبب الشعور بالإرهاق الى حادث سير.",
-        image: ""
-      },
-      {
-        title: "Early Signs of Driver Fatigue",
-        titleAR: "المؤشرات المبكرة على إرهاق السائق",
-        content: "All these signs such as slow reaction, boredom, and quick irritation and anger are early indicators of fatigue while driving, affecting concentration and control.",
-        contentAR: "جميع هذه العلامات مثل بطء ردة الفعل، الضجر، وسرعة الإثارة والغضب تعتبر مؤشرات مبكرة على الشعور أثناء القيادة، حيث تؤثر على التركيز والتحكم.",
-        image: ""
-      },
-      {
-        title: "Fatigue Increases With Driving Hours",
-        titleAR: "الإرهاق يزداد بازدياد ساعات القيادة",
-        content: "The likelihood of feeling fatigue increases as driving hours increase.",
-        contentAR: "تزداد احتمالات الشعور بالإرهاق كلما زادت ساعات القيادة.",
-        image: ""
-      },
-      {
-        title: "Missing Traffic Signs as a Sign of Fatigue",
-        titleAR: "عدم الانتباه للشواخص مؤشر على إرهاق السائق",
-        content: "Not paying attention to traffic signs indicates distraction and fatigue, an early sign of lost concentration while driving.",
-        contentAR: "عدم الانتباه لشواخص المرور يدل على تشتت الذهن والإرهاق، وهو من العلامات المبكرة التي تشير إلى فقدان التركيز أثناء القيادة.",
-        image: ""
-      },
-      {
-        title: "Main Causes of Traffic Accidents",
-        titleAR: "الأسباب الرئيسية لحوادث المرور",
-        content: "Traffic accidents often result from a combination of causes such as inattention, technical malfunctions, and wrong driving methods, so all these factors contribute to accidents.",
-        contentAR: "الحوادث المرورية غالباً ما تكون نتيجة مجموعة من الأسباب مثل عدم الانتباه، الأعطال الفنية، والأساليب الخاطئة أثناء القيادة، لذا جميع هذه العوامل تساهم في وقوع الحوادث.",
-        image: ""
-      },
-      {
-        title: "Reading Medication Leaflets Before Driving",
-        titleAR: "قراءة نشرة الدواء قبل القيادة",
-        content: "Drivers must read the leaflet attached to any medication they take to confirm it does not affect their ability to drive. Several common medications - including tranquilizers, certain cold and flu remedies, and some diet pills - can cause drowsiness, slowed reactions, or blurred vision. When the leaflet warns of these effects, the driver should not drive until the effect has worn off.",
-        contentAR: "يجب على السائق قراءة النشرة المرفقة بأي دواء يتناوله للتأكد من أنه لا يؤثر على قدرته على القيادة. فعدة أدوية شائعة - منها المهدئات، وبعض أدوية البرد والإنفلونزا، وبعض أقراص الحمية - قد تسبب النعاس، أو بطء ردود الفعل، أو ضبابية الرؤية. وعندما تحذّر النشرة من هذه الآثار، ينبغي للسائق ألا يقود حتى يزول مفعول الدواء.",
-        image: ""
-      },
-      {
-        title: "Medications That Affect Driving",
-        titleAR: "الأدوية التي تؤثر على القيادة",
-        content: "All these medications affect concentration and the ability to drive safely, including tranquilizers, pressure medications, nausea, allergies, and sleeping pills.",
-        contentAR: "جميع الأدوية المذكورة تؤثر على التركيز والقدرة على القيادة بأمان، بما في ذلك المهدئات، أدوية الضغط، والغثيان، والحساسية، والأقراص المنومة.",
-        image: ""
-      },
-      {
-        title: "Cold and Flu Medications and Driving",
-        titleAR: "أدوية البرد والإنفلونزا والقيادة",
-        content: "Among the medications that affect driving are some cold and flu medications.",
-        contentAR: "من الادوية التي تؤثر على القيادة بعض أدوية البرد والإنفلونزا.",
-        image: ""
-      },
-      {
-        title: "Diet Pills and Driving",
-        titleAR: "أقراص الحمية والقيادة",
-        content: "Among the medications that affect driving are some diet pills. Some diet pills contain substances that affect concentration and reactions, which may negatively impact the ability to drive safely.",
-        contentAR: "من الادوية التي تؤثر على القيادة بعض أقراص الحمية الغذائية.",
-        image: ""
-      },
-      {
-        title: "What 'Deviation' Means in Driving",
-        titleAR: "ما يعنيه 'الانحراف' في القيادة",
-        content: "Deviation means changing direction gradually rather than suddenly, and can be slow or moderate, which corresponds to the definition of deviation in traffic laws.",
-        contentAR: "الانحراف يعني تغيير الاتجاه بشكل تدريجي وليس مفاجئ، ويمكن أن يكون بطيئاً أو متوسطاً، وهذا يتوافق مع تعريف الانحراف في قوانين المرور.",
-        image: ""
-      },
       {
         title: "Keep the Dashboard Area Clear for the Airbag",
         titleAR: "إبقاء منطقة لوحة العدادات خالية للوسادة الهوائية",
@@ -1889,28 +1973,14 @@ module.exports = [
     ]
   },
   {
-    title: "Traffic Laws and Violations",
-    titleAR: "قوانين السير والمخالفات",
-    description: "Jordanian traffic law in practice: speeding fines, alcohol limits, reckless driving penalties, the powers of public security, license categories and vehicle classifications, and the legal consequences of violations on the road.",
-    descriptionAR: "قانون السير الأردني تطبيقياً: غرامات السرعة، وحدود الكحول، وعقوبات القيادة المتهورة، وصلاحيات الأمن العام، وفئات الرخص وتصنيفات المركبات، والعواقب القانونية للمخالفات على الطريق.",
-    image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/31-1.png",
+    title: "Driving License Categories and Vehicle Types",
+    titleAR: "فئات رخص القيادة وأنواع المركبات",
+    description: "Categories of driving licenses in Jordan and the types of vehicles each category authorizes the holder to drive, plus vehicle classifications by use, weight, and passenger capacity (passenger cars, buses, joint transport, cargo, special-use, and construction vehicles).",
+    descriptionAR: "فئات رخص القيادة في الأردن وأنواع المركبات التي تؤهل كل فئة حاملها لقيادتها، إضافةً إلى تصنيفات المركبات حسب الاستخدام والوزن وعدد الركاب (سيارات الركوب، والحافلات، والنقل المشترك، والشحن، والاستعمال الخاص، ومركبات الأشغال).",
+    image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/09/2-8.png",
     order: 6,
     isPublished: true,
     lessons: [
-      {
-        title: "Roadside Stalls and Vendors as Traffic Hazards",
-        titleAR: "البسطات وعربات الباعة بوصفها مخاطر مرورية",
-        content: "Placing stalls in this manner is an encroachment on the road, which obstructs traffic and poses a danger to public safety.",
-        contentAR: "وضع البسطات بهذا الشكل يعد تعدياً على حرم الطريق، مما يعيق حركة المرور ويشكل خطراً على السلامة العامة.",
-        image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/31-1.png"
-      },
-      {
-        title: "Alcohol Breath Testing Applies to All Drivers",
-        titleAR: "فحص نسبة الكحول في النفس يشمل جميع السائقين",
-        content: "Police carry out alcohol breath testing on every driver, regardless of vehicle type or which direction the driver is coming from. The reason for the testing is the driver's safety on the road, not anything specific to the vehicle. If the alcohol level exceeds the legal limit, both the driving license and the registration license are seized and the driver is stopped from continuing.",
-        contentAR: "تُجري الشرطة فحص نسبة الكحول في النفس على كل سائق، مهما كان نوع مركبته أو الاتجاه القادم منه. سبب الفحص هو سلامة السائق على الطريق، وليس أمراً متعلقاً بالمركبة نفسها. وإذا تجاوزت نسبة الكحول الحد القانوني، تُسحب رخصتا السوق والسير ويُمنع السائق من متابعة القيادة.",
-        image: ""
-      },
       {
         title: "License Category 2(2): Small and Medium Vehicles",
         titleAR: "رخصة الفئة الثانية (2): المركبات الصغيرة والمتوسطة",
@@ -1926,20 +1996,6 @@ module.exports = [
         image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/09/8-7.png"
       },
       {
-        title: "Fine for Driving 30-50 km/h Above the Limit",
-        titleAR: "غرامة القيادة بسرعة تزيد 30-50 كم/ساعة",
-        content: "Driving 30 to 50 km/h above the posted speed limit is a serious violation under Jordanian traffic law. The standard fine for this level of excess is 60 dinars, and exceeding the limit further raises the penalty in subsequent tiers.",
-        contentAR: "القيادة بسرعة تزيد 30 إلى 50 كم/ساعة عن الحد المُعلَن مخالفة جسيمة بموجب قانون السير الأردني. وتبلغ الغرامة المعتمدة لهذا المستوى من التجاوز 60 ديناراً، وتجاوز الحد بأكثر من ذلك يرفع العقوبة في درجات لاحقة.",
-        image: ""
-      },
-      {
-        title: "Legal Blood-Alcohol Limit While Driving",
-        titleAR: "الحد القانوني لتركيز الكحول في الدم أثناء القيادة",
-        content: "Under Jordanian traffic law, blood alcohol concentration while driving must remain below 40 mg per 100 ml of blood. This limit ensures drivers retain enough cognitive and motor function to control the vehicle safely. Even small amounts of alcohol impair judgment, vision, and reaction time.",
-        contentAR: "بموجب قانون السير الأردني، يجب أن تبقى نسبة الكحول في الدم أثناء القيادة أقل من 40 ملغم لكل 100 ملليلتر دم. ويضمن هذا الحد أن يحتفظ السائق بما يكفي من القدرات الذهنية والحركية للتحكم بالمركبة بأمان. وحتى الكميات القليلة من الكحول تُضعف الحكم والرؤية وزمن ردة الفعل.",
-        image: ""
-      },
-      {
         title: "License Category 3: Regular Private Vehicles",
         titleAR: "رخصة الفئة الثالثة: المركبات الخاصة العادية",
         content: "License Category 3 in Jordan covers ordinary private vehicles - the regular cars most people drive. This is the standard category for everyday personal vehicles.",
@@ -1951,27 +2007,6 @@ module.exports = [
         titleAR: "ما هي مركبة النقل المشترك",
         content: "A joint transport vehicle is designed to transport goods and people together.",
         contentAR: "مركبة النقل المشترك مصممة لنقل البضائع والأشخاص معا.",
-        image: ""
-      },
-      {
-        title: "Clarifying Misconceptions About Alcohol Limits",
-        titleAR: "توضيح المفاهيم الخاطئة حول حدود الكحول",
-        content: "There is no '80%' alcohol limit anywhere near reality. The actual legal limit in Jordan is far lower - blood alcohol concentration must remain below 30 mg per 100 ml of blood while driving. Even small amounts of alcohol impair judgment, vision, and reaction time, so drivers should not drink any alcohol before driving.",
-        contentAR: "لا يوجد حد '80%' للكحول قريب من الواقع. فالحد القانوني الفعلي في الأردن أقل بكثير - يجب أن تبقى نسبة الكحول في الدم أقل من 30 ملغم لكل 100 ملليلتر دم أثناء القيادة. وحتى الكميات القليلة من الكحول تُضعف الحكم والرؤية وزمن ردة الفعل، لذلك يجب على السائق ألا يتناول أي قدر من الكحول قبل القيادة.",
-        image: ""
-      },
-      {
-        title: "Breath-Alcohol Limit and License Confiscation",
-        titleAR: "حد الكحول في النفس وضبط الرخصة",
-        content: "If a breath test shows alcohol concentration above 0.3 mg per liter of breath, the driver's licenses are seized on the spot and the driver is barred from continuing to drive. This threshold is set by Jordanian law to protect everyone on the road, and the test is performed by police using calibrated devices.",
-        contentAR: "إذا أظهر فحص النفس نسبة كحول تتجاوز 0.3 ملغم لكل لتر من النفس، فإن رخصتي السائق تُضبطان فوراً ويُمنع من متابعة القيادة. وهذا الحد يحدده القانون الأردني لحماية كل من يستخدم الطريق، ويُجرى الفحص من قبل الشرطة باستخدام أجهزة معايرة.",
-        image: ""
-      },
-      {
-        title: "Fine for Driving 10-30 km/h Above the Limit",
-        titleAR: "غرامة القيادة بسرعة تزيد 10-30 كم/ساعة",
-        content: "The penalty value for speeding by 10 to 30 km/h is usually 30 dinars according to Jordanian traffic laws to encourage adherence to the specified speed.",
-        contentAR: "قيمة مخالفة السرعة التي تزيد عن 10 إلى 30 كم/ساعة عادةً تكون 30 دينار وفقاً لقوانين المرور الأردنية لتشجيع الالتزام بالسرعة المحددة.",
         image: ""
       },
       {
@@ -2003,27 +2038,6 @@ module.exports = [
         image: ""
       },
       {
-        title: "Agricultural and Construction Vehicles Cannot Park on Urban Main Streets",
-        titleAR: "المركبات الزراعية والإنشائية لا تقف على الشوارع الرئيسية الحضرية",
-        content: "Parking agricultural and construction vehicles on main streets within municipal boundaries is prohibited for any reason.",
-        contentAR: "يمنع وقوف المركبات الزراعية الإنشائية على الشوارع الرئيسية داخل حدود المجالس البلدية حفاظاً على انسيابية المرور وسلامة الطريق.",
-        image: ""
-      },
-      {
-        title: "When the Use of Audible Warning Devices Is Forbidden",
-        titleAR: "متى يُمنع استخدام أجهزة التنبيه الصوتية",
-        content: "Drivers are forbidden from using audible warning devices in ways that disturb the public, from installing devices that produce sound on the exhaust pipe, and from using sound-producing horns inappropriately. The horn should be used briefly and only when needed to warn of imminent danger.",
-        contentAR: "يُحظر على السائقين استخدام أجهزة التنبيه الصوتية بشكل يُسبب إزعاجاً للجمهور، أو تركيب أجهزة تُصدر صوتاً على ماسورة العادم، أو استخدام الزامور بشكل مزعج. وينبغي استعمال الزامور بإيجاز وعند الحاجة إلى التحذير من خطر وشيك فقط.",
-        image: ""
-      },
-      {
-        title: "Penalty for Reckless or Showy Driving",
-        titleAR: "عقوبة القيادة المتهورة أو الاستعراضية",
-        content: "Reckless or showy driving on the road is treated as one of the most dangerous violations under Jordanian traffic law. The fine for it usually ranges between 200 and 500 dinars, depending on the severity of the behavior and the danger it created for other road users.",
-        contentAR: "تُعامَل القيادة المتهورة أو الاستعراضية على الطريق كواحدة من أخطر المخالفات بموجب قانون السير الأردني. وتتراوح غرامتها عادة بين 200 و500 دينار، وفقاً لخطورة السلوك ومدى الخطر الذي سبّبه لمستخدمي الطريق الآخرين.",
-        image: ""
-      },
-      {
         title: "Vehicles Used for the Category 4 Practical Test",
         titleAR: "المركبات المعتمدة للفحص العملي لرخصة الفئة الرابعة",
         content: "Category 4 includes small four-door vehicles with axle distance of no less than 2.5 meters, distinguishing it from other categories with different lengths.",
@@ -2043,55 +2057,6 @@ module.exports = [
         content: "Category 2 (1) license qualifies its holder to drive private and public medium-weight vehicles, appropriate for regular vehicles not requiring Category 1 or special licenses.",
         contentAR: "رخصة الفئة الثانية (1) تؤهل حاملها لقيادة المركبات الخاصة والعامة ذات الوزن المتوسط، وهي الفئة المناسبة للمركبات العادية التي لا تتطلب رخصة فئة أولى أو خاصة.",
         image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/5.png"
-      },
-      {
-        title: "Producing Sound From the Exhaust Pipe Is Prohibited",
-        titleAR: "إصدار صوت من ماسورة العادم ممنوع",
-        content: "It is prohibited to install or use any device that produces sound on the exhaust pipe of the vehicle. The exhaust must remain quiet enough not to disturb the public, and modifying it for noise is a traffic violation under Jordanian law.",
-        contentAR: "يُحظر تركيب أو استعمال أي جهاز يُصدر صوتاً على ماسورة العادم في المركبة. ويجب أن يبقى العادم هادئاً بما لا يسبب إزعاجاً للجمهور، وتعديله لإصدار ضجيج مخالفة مرورية بموجب القانون الأردني.",
-        image: ""
-      },
-      {
-        title: "Legal Consequences of Causing Death or Permanent Disability",
-        titleAR: "العقوبات القانونية عند التسبب بوفاة أو عاهة دائمة",
-        content: "If a driver causes the death of another person or causes a permanent disability while driving, several legal consequences apply: the driving license is confiscated, imprisonment may be imposed, and the license may be suspended for a specified period. The court determines the exact penalty based on the circumstances.",
-        contentAR: "إذا تسبب السائق بوفاة شخص أو بإحداث عاهة دائمة أثناء قيادته، تترتب على ذلك عدة عقوبات قانونية: ضبط الرخصة، وإمكانية السجن، ووقف العمل بالرخصة لمدة محددة. وتُحدّد المحكمة العقوبة الدقيقة بناءً على الظروف.",
-        image: ""
-      },
-      {
-        title: "Arrest Without Warrant for Driving Under the Influence",
-        titleAR: "القبض بدون مذكرة على السائق تحت التأثير",
-        content: "Public security personnel have the right to arrest a driver under the influence of alcohol or mental influences immediately without the need for a warrant due to the danger of the situation to public safety.",
-        contentAR: "يحق لأفراد الأمن العام القبض على السائق تحت تأثير الكحول أو المؤثرات العقلية فوراً دون الحاجة لمذكرة بسبب خطورة الحالة على السلامة العامة.",
-        image: ""
-      },
-      {
-        title: "Immediate Arrest for Fleeing an Accident Scene",
-        titleAR: "القبض الفوري على السائق الفار من الحادث",
-        content: "A driver who flees the scene of a traffic accident gives public security personnel the right to arrest them immediately, without a warrant. Fleeing the scene is treated as a serious offense in itself, on top of any liability for the original accident.",
-        contentAR: "السائق الذي يفر من مكان الحادث المروري يمنح أفراد الأمن العام الحق في القبض عليه فوراً، دون مذكرة. ويُعامَل الفرار من مكان الحادث كجريمة جسيمة بحد ذاته، إضافة إلى أي مسؤولية عن الحادث الأصلي.",
-        image: ""
-      },
-      {
-        title: "Effect of Alcohol on Driving Performance",
-        titleAR: "تأثير الكحول على القيادة",
-        content: "Consuming alcohol reduces concentration and response speed when driving.",
-        contentAR: "ان تناول الكحول يقلل من التركيز وسرعة الاستجابة عند القيادة.",
-        image: ""
-      },
-      {
-        title: "Police Actions for Vehicles Parked in Prohibited Places",
-        titleAR: "إجراءات الشرطة عند وقوف مركبة في مكان ممنوع",
-        content: "When a vehicle is parked in a prohibited place, police take all the legal steps necessary to remove it from the road: issuing a fine, ordering the owner to move the vehicle, and if needed, having it towed to an impound lot at the owner's expense. These measures protect traffic flow and emergency access.",
-        contentAR: "عندما تتوقف مركبة في مكان ممنوع، تتخذ الشرطة جميع الخطوات القانونية اللازمة لإزالتها من الطريق: إصدار مخالفة، وإلزام المالك بنقل المركبة، وإن لزم الأمر سحبها إلى ساحة الحجز على نفقة المالك. وتحمي هذه الإجراءات انسيابية المرور ومرور الطوارئ.",
-        image: ""
-      },
-      {
-        title: "Owners Must Remove Unfit or Broken-Down Vehicles",
-        titleAR: "على أصحاب المركبات غير الصالحة نقلها من الطريق",
-        content: "Leaving unfit or broken-down vehicles on roads is prohibited to preserve traffic safety, and their owners must move them to avoid accidents or obstructing traffic.",
-        contentAR: "يمنع ترك المركبات غير الصالحة أو المتعطلة على الطرق حفاظاً على السلامة المرورية، ويجب على أصحابها نقلها لتجنب الحوادث أو عرقلة السير.",
-        image: ""
       },
       {
         title: "What Is a Passenger Car",
@@ -2204,19 +2169,65 @@ module.exports = [
         content: "Category 3 license qualifies its holder to drive vehicles weighing more than 12 tons and up to 24 tons; the mentioned vehicle weighs 19 tons, so Category 3 is appropriate.",
         contentAR: "رخصة الفئة الثالثة تؤهل حاملها لقيادة المركبات التي يزيد وزنها الإجمالي عن 12 طن وحتى 24 طن، والمركبة المذكورة وزنها 19 طن، لذا الفئة الثالثة هي المناسبة.",
         image: "https://assets-watad-me.fra1.digitaloceanspaces.com/wp-content/uploads/2022/10/45.png"
-      },
+      }
+    ]
+  },
+  {
+    title: "Driving and Alcohol Laws",
+    titleAR: "قوانين الكحول والقيادة",
+    description: "Alcohol-related driving laws in Jordan: legal blood and breath limits, breath testing, license confiscation, the powers of public security to arrest impaired drivers, and how alcohol affects driving performance.",
+    descriptionAR: "القوانين المتعلقة بالكحول والقيادة في الأردن: الحدود القانونية في الدم والنفس، وفحص النفس، وضبط الرخصة، وصلاحيات الأمن العام في القبض على السائقين تحت التأثير، وكيف يؤثر الكحول على أداء القيادة.",
+    image: "",
+    order: 7,
+    isPublished: true,
+    lessons: [
       {
-        title: "Emergency Vehicle Lights and Sirens: Restricted to Duty",
-        titleAR: "أضواء وصفارات الطوارئ: تقتصر على أداء الواجب",
-        content: "It is not permissible for an emergency vehicle driver to flash intermittent lights or sound horns unless necessary for performing duty. An emergency vehicle driver is allowed to use flashing lights and sound warning devices only when necessary to perform his duty, to avoid disturbance and ensure safety.",
-        contentAR: "لا يجوز لسائق مركبة الطوارئ أن يبث نورا متقطعا ( اللواح ) أو أن يطلق صوتا بواسطة أجهزة التنبيه الصوتية إلا إذا كان ذلك ضروريا لتأدية واجب. يُسمح لسائق مركبة الطوارئ باستخدام الأضواء المتقطعة وأجهزة التنبيه الصوتية فقط عند الضرورة لتأدية واجبه، وذلك لتجنب الإزعاج وضمان السلامة.",
+        title: "Alcohol Breath Testing Applies to All Drivers",
+        titleAR: "فحص نسبة الكحول في النفس يشمل جميع السائقين",
+        content: "Police carry out alcohol breath testing on every driver, regardless of vehicle type or which direction the driver is coming from. The reason for the testing is the driver's safety on the road, not anything specific to the vehicle. If the alcohol level exceeds the legal limit, both the driving license and the registration license are seized and the driver is stopped from continuing.",
+        contentAR: "تُجري الشرطة فحص نسبة الكحول في النفس على كل سائق، مهما كان نوع مركبته أو الاتجاه القادم منه. سبب الفحص هو سلامة السائق على الطريق، وليس أمراً متعلقاً بالمركبة نفسها. وإذا تجاوزت نسبة الكحول الحد القانوني، تُسحب رخصتا السوق والسير ويُمنع السائق من متابعة القيادة.",
         image: ""
       },
       {
-        title: "Emergency Signals Forbidden Outside of Duty",
-        titleAR: "إشارات الطوارئ ممنوعة خارج وقت الواجب",
-        content: "Emergency vehicle drivers may not use their flashing lights or sirens during normal times - only when they are actively responding to an emergency or performing official duty. Improper use creates noise, confusion, and disrespect for the warning signals when they are genuinely needed.",
-        contentAR: "لا يجوز لسائقي مركبات الطوارئ استخدام الأضواء المتقطعة أو صفارات الإنذار في الأوقات العادية - بل فقط عند الاستجابة الفعلية لحالة طوارئ أو أثناء أداء واجب رسمي. فالاستخدام غير المناسب يُحدث ضجيجاً وإرباكاً ويُضعف هيبة هذه الإشارات حين الحاجة الحقيقية إليها.",
+        title: "Legal Blood-Alcohol Limit While Driving",
+        titleAR: "الحد القانوني لتركيز الكحول في الدم أثناء القيادة",
+        content: "Under Jordanian traffic law, blood alcohol concentration while driving must remain below 40 mg per 100 ml of blood. This limit ensures drivers retain enough cognitive and motor function to control the vehicle safely. Even small amounts of alcohol impair judgment, vision, and reaction time.",
+        contentAR: "بموجب قانون السير الأردني، يجب أن تبقى نسبة الكحول في الدم أثناء القيادة أقل من 40 ملغم لكل 100 ملليلتر دم. ويضمن هذا الحد أن يحتفظ السائق بما يكفي من القدرات الذهنية والحركية للتحكم بالمركبة بأمان. وحتى الكميات القليلة من الكحول تُضعف الحكم والرؤية وزمن ردة الفعل.",
+        image: ""
+      },
+      {
+        title: "Clarifying Misconceptions About Alcohol Limits",
+        titleAR: "توضيح المفاهيم الخاطئة حول حدود الكحول",
+        content: "There is no '80%' alcohol limit anywhere near reality. The actual legal limit in Jordan is far lower - blood alcohol concentration must remain below 30 mg per 100 ml of blood while driving. Even small amounts of alcohol impair judgment, vision, and reaction time, so drivers should not drink any alcohol before driving.",
+        contentAR: "لا يوجد حد '80%' للكحول قريب من الواقع. فالحد القانوني الفعلي في الأردن أقل بكثير - يجب أن تبقى نسبة الكحول في الدم أقل من 30 ملغم لكل 100 ملليلتر دم أثناء القيادة. وحتى الكميات القليلة من الكحول تُضعف الحكم والرؤية وزمن ردة الفعل، لذلك يجب على السائق ألا يتناول أي قدر من الكحول قبل القيادة.",
+        image: ""
+      },
+      {
+        title: "Breath-Alcohol Limit and License Confiscation",
+        titleAR: "حد الكحول في النفس وضبط الرخصة",
+        content: "If a breath test shows alcohol concentration above 0.3 mg per liter of breath, the driver's licenses are seized on the spot and the driver is barred from continuing to drive. This threshold is set by Jordanian law to protect everyone on the road, and the test is performed by police using calibrated devices.",
+        contentAR: "إذا أظهر فحص النفس نسبة كحول تتجاوز 0.3 ملغم لكل لتر من النفس، فإن رخصتي السائق تُضبطان فوراً ويُمنع من متابعة القيادة. وهذا الحد يحدده القانون الأردني لحماية كل من يستخدم الطريق، ويُجرى الفحص من قبل الشرطة باستخدام أجهزة معايرة.",
+        image: ""
+      },
+      {
+        title: "Arrest Without Warrant for Driving Under the Influence",
+        titleAR: "القبض بدون مذكرة على السائق تحت التأثير",
+        content: "Public security personnel have the right to arrest a driver under the influence of alcohol or mental influences immediately without the need for a warrant due to the danger of the situation to public safety.",
+        contentAR: "يحق لأفراد الأمن العام القبض على السائق تحت تأثير الكحول أو المؤثرات العقلية فوراً دون الحاجة لمذكرة بسبب خطورة الحالة على السلامة العامة.",
+        image: ""
+      },
+      {
+        title: "Immediate Arrest for Fleeing an Accident Scene",
+        titleAR: "القبض الفوري على السائق الفار من الحادث",
+        content: "A driver who flees the scene of a traffic accident gives public security personnel the right to arrest them immediately, without a warrant. Fleeing the scene is treated as a serious offense in itself, on top of any liability for the original accident.",
+        contentAR: "السائق الذي يفر من مكان الحادث المروري يمنح أفراد الأمن العام الحق في القبض عليه فوراً، دون مذكرة. ويُعامَل الفرار من مكان الحادث كجريمة جسيمة بحد ذاته، إضافة إلى أي مسؤولية عن الحادث الأصلي.",
+        image: ""
+      },
+      {
+        title: "Effect of Alcohol on Driving Performance",
+        titleAR: "تأثير الكحول على القيادة",
+        content: "Consuming alcohol reduces concentration and response speed when driving.",
+        contentAR: "ان تناول الكحول يقلل من التركيز وسرعة الاستجابة عند القيادة.",
         image: ""
       },
       {
@@ -2236,12 +2247,86 @@ module.exports = [
     ]
   },
   {
-    title: "Vehicle Mechanics and Maintenance",
-    titleAR: "ميكانيكا المركبة وصيانتها",
-    description: "How the main systems of the vehicle work: engine, cooling, lubrication, fuel, electrical, steering, suspension, transmission, and tires — so the driver understands the machine and can keep it in good condition.",
-    descriptionAR: "كيف تعمل الأنظمة الرئيسية في المركبة: المحرك، والتبريد، والتزييت، والوقود، والكهرباء، والتوجيه، والتعليق، وناقل الحركة، والإطارات - حتى يفهم السائق آلية عمل المركبة ويحافظ على حالتها الجيدة.",
+    title: "First Aid and Emergency Situations",
+    titleAR: "الإسعافات الأولية وحالات الطوارئ",
+    description: "What to do when something goes wrong on the road: bleeding, burns, an unconscious casualty, accidents, and the responsibilities of the first person to provide aid at the scene.",
+    descriptionAR: "ماذا تفعل عندما يحدث طارئ على الطريق: النزيف، والحروق، والمصاب فاقد الوعي، والحوادث، ومسؤوليات أول شخص يقدّم الإسعاف في موقع الحادث.",
     image: "",
-    order: 7,
+    order: 8,
+    isPublished: true,
+    lessons: [
+      {
+        title: "Responsibilities of the First Aid Provider",
+        titleAR: "مسؤوليات المسعف الأولي",
+        content: "The first person to provide aid at an accident has three core responsibilities: assessing the situation around the casualty (looking for ongoing dangers like fire or fuel leaks), reassuring and calming the injured person to prevent panic, and working to stop bleeding when present. Calling an ambulance is part of the assessment step. The provider should not move the casualty unless absolutely necessary.",
+        contentAR: "أول شخص يقدّم الإسعاف في الحادث لديه ثلاث مسؤوليات أساسية: تقييم الموقف حول المصاب (البحث عن مخاطر مستمرة كالنار أو تسرّب الوقود)، وطمأنة المصاب وتهدئته لمنع الذعر، ومحاولة إيقاف النزيف إن وُجد. واستدعاء الإسعاف جزء من خطوة التقييم. ولا ينبغي تحريك المصاب إلا في حالات الضرورة القصوى.",
+        image: ""
+      },
+      {
+        title: "Causes of Burns",
+        titleAR: "أسباب الحروق",
+        content: "Burns can occur from exposure to heat, chemicals, or electric currents; all these causes lead to skin and body tissue injuries.",
+        contentAR: "الحروق يمكن أن تحدث بسبب التعرض للحرارة أو المواد الكيميائية أو التيارات الكهربائية، وجميع هذه الأسباب تؤدي إلى إصابات في الجلد وأنسجة الجسم.",
+        image: ""
+      },
+      {
+        title: "What Bleeding Means",
+        titleAR: "تعريف النزيف",
+        content: "Bleeding is the discharge of blood from blood vessels (arteries - veins - capillaries).",
+        contentAR: "النزيف هو خروج الدم من الأوعية الدموية ( الشرايين – الأوردة – الشعيرات الدموية ). النزيف هو بالفعل خروج الدم من الأوعية الدموية سواء كانت شرايين أو أوردة أو شعيرات دموية، وهذا التعريف الطبي الدقيق للنزيف.",
+        image: ""
+      },
+      {
+        title: "Types of Bleeding: External and Internal",
+        titleAR: "أنواع النزيف: خارجي وداخلي",
+        content: "Bleeding is divided into two main types: external bleeding where blood exits the body, and internal bleeding where blood collects inside body cavities like skull, chest, abdomen, and joints.",
+        contentAR: "النزيف ينقسم إلى نوعين رئيسيين: نزيف خارجي حيث يخرج الدم من الجسم، ونزيف داخلي حيث يتجمع الدم داخل تجاويف الجسم مثل الجمجمة والصدر والبطن والمفاصل.",
+        image: ""
+      },
+      {
+        title: "First Aid Procedures for Bleeding",
+        titleAR: "إجراءات الإسعاف الأولي للنزيف",
+        content: "First aid for bleeding starts with calling for medical help immediately, then comforting and reassuring the injured person to keep them calm (panic worsens bleeding), then working to stop the bleeding using direct pressure with a clean cloth. All three steps together give the casualty the best chance of recovery.",
+        contentAR: "تبدأ الإسعافات الأولية للنزيف بطلب المساعدة الطبية فوراً، ثم طمأنة المصاب وتهدئته (لأن الذعر يزيد النزيف)، ثم العمل على إيقاف النزيف بالضغط المباشر بقماش نظيف. والقيام بهذه الخطوات الثلاث معاً يمنح المصاب أفضل فرصة للتعافي.",
+        image: ""
+      },
+      {
+        title: "Stopping Bleeding With Direct Pressure",
+        titleAR: "إيقاف النزيف بالضغط المباشر",
+        content: "Direct pressure is the first step to stop bleeding; tourniquets are used in severe arterial bleeding when direct pressure fails.",
+        contentAR: "الضغط المباشر هو الخطوة الأولى لإيقاف النزيف، والرباط الحاصر يستخدم في حالات النزيف الشرياني الشديد عند عدم نجاح الضغط المباشر.",
+        image: ""
+      },
+      {
+        title: "Procedures for an Unconscious Casualty",
+        titleAR: "إجراءات التعامل مع مصاب فاقد الوعي",
+        content: "When dealing with an unconscious person, you must check breathing and the injured person's heart, and call an ambulance immediately for proper treatment.",
+        contentAR: "عند التعامل مع فاقد الوعي يجب التأكد من التنفس وقلب المصاب، واستدعاء سيارة الإسعاف فوراً لضمان تقديم العلاج المناسب.",
+        image: ""
+      },
+      {
+        title: "Handling an Unconscious Casualty Safely",
+        titleAR: "التعامل الآمن مع مصاب فاقد الوعي",
+        content: "An unconscious injured person must not be moved to avoid worsening injuries, and no part of their body should be splinted before medical examination to avoid potential complications.",
+        contentAR: "يجب عدم نقل المصاب فاقد الوعي لتجنب تفاقم الإصابات، وعدم تجبير أي جزء من جسمه قبل الفحص الطبي لتجنب مضاعفات محتملة.",
+        image: ""
+      },
+      {
+        title: "Burns From Opening a Hot Radiator Cap",
+        titleAR: "الحروق من فتح غطاء الرديتر الساخن",
+        content: "The rush of steam and hot water when opening the radiator cap, with steam flowing from the chamber, causes you to suffer burns. When opening the radiator cap while the engine is hot, steam and hot water may shoot out causing serious burns, so you must be careful and not open the cap until after the engine has cooled down.",
+        contentAR: "إندفاع البخار والماء الساخن عند فتح غطاء المشع ( الرديتر ) والبخار يتدفق من الحجيرة يؤدي إلى إصابتك بحروق. عند فتح غطاء الرديتر بينما المحرك ساخن، قد يندفع البخار والماء الساخن مما يسبب حروقاً خطيرة، لذلك يجب الحذر وعدم فتح الغطاء إلا بعد تبريد المحرك.",
+        image: ""
+      }
+    ]
+  },
+  {
+    title: "Vehicle Maintenance and Basic Mechanics",
+    titleAR: "صيانة المركبات وميكانيكيتها",
+    description: "How the main systems of the vehicle work and how to keep them in good condition: engine, cooling, lubrication, fuel system, electrical system, steering, suspension, transmission, tires, and habits that lower fuel consumption.",
+    descriptionAR: "كيف تعمل الأنظمة الرئيسية في المركبة وكيفية الحفاظ عليها في حالة جيدة: المحرك، والتبريد، والتزييت، ونظام الوقود، والنظام الكهربائي، والتوجيه، والتعليق، وناقل الحركة، والإطارات، والعادات التي تُقلّل استهلاك الوقود.",
+    image: "",
+    order: 9,
     isPublished: true,
     lessons: [
       {
@@ -2467,18 +2552,7 @@ module.exports = [
         content: "For safe fuel filling, the engine must be turned off, no smoking, and no use of mobile phones to avoid any sources of ignition or interference during filling.",
         contentAR: "للحصول على تعبئة وقود آمنة يجب إطفاء المحرك، عدم التدخين، وعدم استخدام الهاتف المتنقل لتجنب أي مصادر اشتعال أو تشويش أثناء التعبئة.",
         image: ""
-      }
-    ]
-  },
-  {
-    title: "Fuel Economy and Environment",
-    titleAR: "اقتصاد الوقود والبيئة",
-    description: "Driving habits and vehicle conditions that lower fuel consumption and reduce emissions, including economic speed, tire pressure, gear use, and the effect of open windows.",
-    descriptionAR: "العادات في القيادة وحالة المركبة التي تُقلّل استهلاك الوقود وتُخفّض الانبعاثات، بما في ذلك السرعة الاقتصادية، وضغط الإطارات، واستخدام الغيارات، وأثر فتح النوافذ.",
-    image: "",
-    order: 8,
-    isPublished: true,
-    lessons: [
+      },
       {
         title: "The Economic Speed Range for Fuel Saving",
         titleAR: "نطاق السرعة الاقتصادية لتوفير الوقود",
@@ -2512,80 +2586,6 @@ module.exports = [
         titleAR: "نقص ضغط الإطارات يزيد استهلاك الوقود",
         content: "Low tire pressure increases fuel consumption. When tires are under-inflated, more of their surface contacts the road, which raises rolling resistance and forces the engine to work harder. Check tire pressure regularly and keep it at the level recommended by the vehicle manufacturer.",
         contentAR: "نقص ضغط الإطارات يزيد استهلاك الوقود. فعندما تكون الإطارات ناقصة الهواء، يلامس سطحها الطريق أكثر، مما يرفع مقاومة الدوران ويجبر المحرك على العمل بجهد أكبر. افحص ضغط الإطارات بانتظام وحافظ عليه عند المستوى الذي توصي به الشركة المصنّعة.",
-        image: ""
-      }
-    ]
-  },
-  {
-    title: "Emergency Situations and First Aid",
-    titleAR: "حالات الطوارئ والإسعافات الأولية",
-    description: "What to do when something goes wrong on the road: bleeding, burns, an unconscious casualty, accidents, and the responsibilities of the first person on the scene.",
-    descriptionAR: "ماذا تفعل عندما يحدث طارئ على الطريق: النزيف، والحروق، والمصاب فاقد الوعي، والحوادث، ومسؤوليات أول شخص يصل إلى مكان الحادث.",
-    image: "",
-    order: 9,
-    isPublished: true,
-    lessons: [
-      {
-        title: "Responsibilities of the First Aid Provider",
-        titleAR: "مسؤوليات المسعف الأولي",
-        content: "The first person to provide aid at an accident has three core responsibilities: assessing the situation around the casualty (looking for ongoing dangers like fire or fuel leaks), reassuring and calming the injured person to prevent panic, and working to stop bleeding when present. Calling an ambulance is part of the assessment step. The provider should not move the casualty unless absolutely necessary.",
-        contentAR: "أول شخص يقدّم الإسعاف في الحادث لديه ثلاث مسؤوليات أساسية: تقييم الموقف حول المصاب (البحث عن مخاطر مستمرة كالنار أو تسرّب الوقود)، وطمأنة المصاب وتهدئته لمنع الذعر، ومحاولة إيقاف النزيف إن وُجد. واستدعاء الإسعاف جزء من خطوة التقييم. ولا ينبغي تحريك المصاب إلا في حالات الضرورة القصوى.",
-        image: ""
-      },
-      {
-        title: "Causes of Burns",
-        titleAR: "أسباب الحروق",
-        content: "Burns can occur from exposure to heat, chemicals, or electric currents; all these causes lead to skin and body tissue injuries.",
-        contentAR: "الحروق يمكن أن تحدث بسبب التعرض للحرارة أو المواد الكيميائية أو التيارات الكهربائية، وجميع هذه الأسباب تؤدي إلى إصابات في الجلد وأنسجة الجسم.",
-        image: ""
-      },
-      {
-        title: "What Bleeding Means",
-        titleAR: "تعريف النزيف",
-        content: "Bleeding is the discharge of blood from blood vessels (arteries - veins - capillaries).",
-        contentAR: "النزيف هو خروج الدم من الأوعية الدموية ( الشرايين – الأوردة – الشعيرات الدموية ). النزيف هو بالفعل خروج الدم من الأوعية الدموية سواء كانت شرايين أو أوردة أو شعيرات دموية، وهذا التعريف الطبي الدقيق للنزيف.",
-        image: ""
-      },
-      {
-        title: "Types of Bleeding: External and Internal",
-        titleAR: "أنواع النزيف: خارجي وداخلي",
-        content: "Bleeding is divided into two main types: external bleeding where blood exits the body, and internal bleeding where blood collects inside body cavities like skull, chest, abdomen, and joints.",
-        contentAR: "النزيف ينقسم إلى نوعين رئيسيين: نزيف خارجي حيث يخرج الدم من الجسم، ونزيف داخلي حيث يتجمع الدم داخل تجاويف الجسم مثل الجمجمة والصدر والبطن والمفاصل.",
-        image: ""
-      },
-      {
-        title: "First Aid Procedures for Bleeding",
-        titleAR: "إجراءات الإسعاف الأولي للنزيف",
-        content: "First aid for bleeding starts with calling for medical help immediately, then comforting and reassuring the injured person to keep them calm (panic worsens bleeding), then working to stop the bleeding using direct pressure with a clean cloth. All three steps together give the casualty the best chance of recovery.",
-        contentAR: "تبدأ الإسعافات الأولية للنزيف بطلب المساعدة الطبية فوراً، ثم طمأنة المصاب وتهدئته (لأن الذعر يزيد النزيف)، ثم العمل على إيقاف النزيف بالضغط المباشر بقماش نظيف. والقيام بهذه الخطوات الثلاث معاً يمنح المصاب أفضل فرصة للتعافي.",
-        image: ""
-      },
-      {
-        title: "Stopping Bleeding With Direct Pressure",
-        titleAR: "إيقاف النزيف بالضغط المباشر",
-        content: "Direct pressure is the first step to stop bleeding; tourniquets are used in severe arterial bleeding when direct pressure fails.",
-        contentAR: "الضغط المباشر هو الخطوة الأولى لإيقاف النزيف، والرباط الحاصر يستخدم في حالات النزيف الشرياني الشديد عند عدم نجاح الضغط المباشر.",
-        image: ""
-      },
-      {
-        title: "Procedures for an Unconscious Casualty",
-        titleAR: "إجراءات التعامل مع مصاب فاقد الوعي",
-        content: "When dealing with an unconscious person, you must check breathing and the injured person's heart, and call an ambulance immediately for proper treatment.",
-        contentAR: "عند التعامل مع فاقد الوعي يجب التأكد من التنفس وقلب المصاب، واستدعاء سيارة الإسعاف فوراً لضمان تقديم العلاج المناسب.",
-        image: ""
-      },
-      {
-        title: "Handling an Unconscious Casualty Safely",
-        titleAR: "التعامل الآمن مع مصاب فاقد الوعي",
-        content: "An unconscious injured person must not be moved to avoid worsening injuries, and no part of their body should be splinted before medical examination to avoid potential complications.",
-        contentAR: "يجب عدم نقل المصاب فاقد الوعي لتجنب تفاقم الإصابات، وعدم تجبير أي جزء من جسمه قبل الفحص الطبي لتجنب مضاعفات محتملة.",
-        image: ""
-      },
-      {
-        title: "Burns From Opening a Hot Radiator Cap",
-        titleAR: "الحروق من فتح غطاء الرديتر الساخن",
-        content: "The rush of steam and hot water when opening the radiator cap, with steam flowing from the chamber, causes you to suffer burns. When opening the radiator cap while the engine is hot, steam and hot water may shoot out causing serious burns, so you must be careful and not open the cap until after the engine has cooled down.",
-        contentAR: "إندفاع البخار والماء الساخن عند فتح غطاء المشع ( الرديتر ) والبخار يتدفق من الحجيرة يؤدي إلى إصابتك بحروق. عند فتح غطاء الرديتر بينما المحرك ساخن، قد يندفع البخار والماء الساخن مما يسبب حروقاً خطيرة، لذلك يجب الحذر وعدم فتح الغطاء إلا بعد تبريد المحرك.",
         image: ""
       }
     ]

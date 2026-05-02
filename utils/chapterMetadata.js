@@ -12,27 +12,27 @@ const CHAPTERS = [
     {
         chapterKey: 'road-priorities-right-of-way',
         title: 'Road Priorities and Right of Way',
-        aliases: ['Road Priorities and Right of Way']
+        aliases: ['Right of Way and Road Priorities']
     },
     {
         chapterKey: 'speed-limits-safe-driving',
         title: 'Speed Limits and Safe Driving',
-        aliases: ['Speed Limits and Safe Following']
+        aliases: ['Speed Limits and Safe Driving Distance']
     },
     {
         chapterKey: 'safety-systems-vehicle-safety',
         title: 'Safety Systems and Vehicle Safety',
-        aliases: ['Seat Belt Safety and Passenger Rules']
+        aliases: ['Seat Belt and Passenger Safety Rules']
     },
     {
         chapterKey: 'traffic-laws-violations',
         title: 'Traffic Laws and Violations',
-        aliases: ['Alcohol and Driving Laws', 'License Categories and Vehicle Types']
+        aliases: ['Driving and Alcohol Laws', 'Driving License Categories and Vehicle Types']
     },
     {
         chapterKey: 'vehicle-mechanics-maintenance',
         title: 'Vehicle Mechanics and Maintenance',
-        aliases: ['Vehicle Maintenance and Mechanics']
+        aliases: ['Vehicle Maintenance and Basic Mechanics']
     },
     {
         chapterKey: 'fuel-economy-environment',
@@ -42,7 +42,7 @@ const CHAPTERS = [
     {
         chapterKey: 'emergency-first-aid',
         title: 'Emergency Situations and First Aid',
-        aliases: ['First Aid and Emergency Response']
+        aliases: ['First Aid and Emergency Situations']
     }
 ];
 
