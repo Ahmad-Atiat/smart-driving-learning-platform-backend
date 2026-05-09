@@ -6,7 +6,15 @@
       "Bash(node --check services/chapterQuizProgressService.js)",
       "Bash(node --check controllers/chapterQuizProgressController.js)",
       "Bash(node --check routes/chapterQuizProgressRoutes.js)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(node -c models/Bookmark.js)",
+      "Bash(node -c repositories/bookmarkRepository.js)",
+      "Bash(node -c services/bookmarkService.js)",
+      "Bash(node -c controllers/bookmarkController.js)",
+      "Bash(node -c routes/bookmarkRoutes.js)",
+      "Bash(npx tsc *)",
+      "Bash(npx ng *)",
+      "Bash(echo \"exit=$?\")"
     ]
   }
 }

@@ -1,6 +1,29 @@
 const quizRepository = require('../repositories/quizRepository');
 const progressRepository = require('../repositories/progressRepository');
 const ApiError = require('../utils/apiError');
+const Quiz = require('../models/Quiz');
+const {
+    getChapterByKey,
+    getChapterByTitle,
+    getQuizTitleAliasesForKey
+} = require('../utils/chapterMetadata');
+
+const resolveChapterAliases = (value) => {
+    if (typeof value !== 'string' || !value.trim()) return [];
+
+    const trimmed = value.trim();
+    const fromKey = getChapterByKey(trimmed);
+    if (fromKey) {
+        return getQuizTitleAliasesForKey(fromKey.chapterKey);
+    }
+
+    const fromTitle = getChapterByTitle(trimmed);
+    if (fromTitle) {
+        return Array.from(new Set([fromTitle.title, ...fromTitle.aliases]));
+    }
+
+    return [trimmed];
+};
 
 const getAllQuizzes = async () => {
     const quizzes = await quizRepository.findAll();
@@ -16,8 +39,12 @@ const getAllQuizzes = async () => {
     return grouped;
 };
 
-const getQuizzesByChapter = async (chapterTitle) => {
-    const quizzes = await quizRepository.findByChapter(chapterTitle);
+const getQuizzesByChapter = async (chapterTitleOrKey) => {
+    const aliases = resolveChapterAliases(chapterTitleOrKey);
+    const quizzes = aliases.length
+        ? await Quiz.find({ chapterTitle: { $in: aliases } })
+        : await quizRepository.findByChapter(chapterTitleOrKey);
+
     if (quizzes.length === 0) {
         throw new ApiError(404, 'No quizzes found for this chapter');
     }

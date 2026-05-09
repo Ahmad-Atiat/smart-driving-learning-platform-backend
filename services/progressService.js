@@ -92,13 +92,38 @@ const completeLessonProgress = async (userId, { chapterId, subLessonIndex }) => 
         overallProgress: progress.overallProgress
     });
 
+    const completedSubLessonsForChapter = countCompletedSubLessons(updatedProgress, lesson);
+    const isChapterCompleted =
+        lesson.lessons.length > 0 && completedSubLessonsForChapter === lesson.lessons.length;
+    const isLastSubLesson = subLessonIndex === lesson.lessons.length - 1;
+
+    let nextChapter = null;
+    if (isChapterCompleted || isLastSubLesson) {
+        const allLessons = await lessonRepository.findAllPublished();
+        const idx = allLessons.findIndex((c) => c._id.toString() === lesson._id.toString());
+        const candidate = idx >= 0 ? allLessons[idx + 1] : null;
+        if (candidate) {
+            nextChapter = {
+                _id: candidate._id,
+                chapterKey: candidate.chapterKey,
+                title: candidate.title,
+                titleAR: candidate.titleAR,
+                order: candidate.order
+            };
+        }
+    }
+
     return {
         message: 'Sub-lesson completed',
+        completed: true,
         completedLesson: updatedProgress.completedLessons.find((entry) =>
             isCompletedEntry(entry, lesson._id, subLessonIndex)
         ),
         completedLessons: updatedProgress.completedLessons,
-        overallProgress: updatedProgress.overallProgress
+        overallProgress: updatedProgress.overallProgress,
+        isChapterCompleted,
+        isLastSubLesson,
+        nextChapter
     };
 };
 
