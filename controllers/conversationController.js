@@ -32,13 +32,15 @@ const sendMessage = async (req, res, next) => {
         const message = req.body?.message;
         const imageFile = req.files?.image?.[0] || null;
         const pdfFile = req.files?.file?.[0] || null;
+        const externalImageUrl = typeof req.body?.imageUrl === 'string' ? req.body.imageUrl : '';
 
         const result = await conversationService.sendMessage({
             conversationId: req.params.id,
             userId: req.user._id,
             message,
             imageFile,
-            pdfFile
+            pdfFile,
+            externalImageUrl
         });
 
         return res.status(200).json(result);

@@ -225,7 +225,15 @@ const buildSystemPrompt = ({ userContext, knowledgeBase, uploadedPdfText }) => {
     return promptSections.join('\n\n');
 };
 
-const buildMessages = ({ message, conversationHistory, imageFile, fullSystemPrompt }) => {
+const sanitizeRemoteImageUrl = (url) => {
+    if (typeof url !== 'string') return null;
+    const trimmed = url.trim();
+    if (!trimmed) return null;
+    if (!/^https?:\/\//i.test(trimmed)) return null;
+    return trimmed;
+};
+
+const buildMessages = ({ message, conversationHistory, imageFile, imageUrl, fullSystemPrompt }) => {
     const history = normalizeConversationHistory(conversationHistory);
 
     const messages = [
@@ -252,6 +260,20 @@ const buildMessages = ({ message, conversationHistory, imageFile, fullSystemProm
                 }
             ]
         });
+    } else if (imageUrl) {
+        messages.push({
+            role: 'user',
+            content: [
+                {
+                    type: 'text',
+                    text: message
+                },
+                {
+                    type: 'image_url',
+                    image_url: { url: imageUrl }
+                }
+            ]
+        });
     } else {
         messages.push({
             role: 'user',
@@ -262,8 +284,10 @@ const buildMessages = ({ message, conversationHistory, imageFile, fullSystemProm
     return messages;
 };
 
-const chat = async ({ message, conversationHistory = [], userId, imageFile = null, pdfFile = null } = {}) => {
+const chat = async ({ message, conversationHistory = [], userId, imageFile = null, pdfFile = null, imageUrl = null } = {}) => {
     validateImageFile(imageFile);
+
+    const remoteImageUrl = imageFile ? null : sanitizeRemoteImageUrl(imageUrl);
 
     const [userContext, knowledgeBase, uploadedPdfText] = await Promise.all([
         userId ? buildUserContext(userId) : '',
@@ -273,7 +297,7 @@ const chat = async ({ message, conversationHistory = [], userId, imageFile = nul
 
     const trimmedMessage = typeof message === 'string' ? message.trim() : '';
     const fallbackMessage = buildFallbackMessage({
-        hasImage: Boolean(imageFile),
+        hasImage: Boolean(imageFile) || Boolean(remoteImageUrl),
         hasPdf: Boolean(uploadedPdfText)
     });
     const effectiveMessage = trimmedMessage || fallbackMessage;
@@ -288,6 +312,7 @@ const chat = async ({ message, conversationHistory = [], userId, imageFile = nul
         message: effectiveMessage,
         conversationHistory,
         imageFile,
+        imageUrl: remoteImageUrl,
         fullSystemPrompt
     });
 

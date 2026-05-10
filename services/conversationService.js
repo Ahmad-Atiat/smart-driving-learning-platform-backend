@@ -216,12 +216,21 @@ const getConversationById = async (conversationId, userId) => {
     return getOwnedConversation(conversationId, userId);
 };
 
-const sendMessage = async ({ conversationId, userId, message, imageFile = null, pdfFile = null }) => {
+const sanitizeExternalImageUrl = (rawUrl) => {
+    if (typeof rawUrl !== 'string') return null;
+    const trimmed = rawUrl.trim();
+    if (!trimmed) return null;
+    if (!/^https?:\/\//i.test(trimmed)) return null;
+    return trimmed;
+};
+
+const sendMessage = async ({ conversationId, userId, message, imageFile = null, pdfFile = null, externalImageUrl = '' }) => {
     const conversation = await getOwnedConversation(conversationId, userId);
 
     const normalizedMessage = typeof message === 'string' ? message.trim() : '';
+    const remoteImageUrl = sanitizeExternalImageUrl(externalImageUrl);
 
-    if (!normalizedMessage && !imageFile && !pdfFile) {
+    if (!normalizedMessage && !imageFile && !pdfFile && !remoteImageUrl) {
         throw new ApiError(400, 'Provide a message, image, or PDF file.');
     }
 
@@ -230,10 +239,12 @@ const sendMessage = async ({ conversationId, userId, message, imageFile = null, 
         persistPdfUpload(pdfFile)
     ]);
 
+    const messageImageUrl = savedImage?.imageUrl || remoteImageUrl || null;
+
     const userMessagePayload = {
         role: 'user',
         content: normalizedMessage,
-        imageUrl: savedImage?.imageUrl || null,
+        imageUrl: messageImageUrl,
         fileUrl: savedPdf?.fileUrl || null,
         fileName: savedPdf?.fileName || null,
         createdAt: new Date()
@@ -246,7 +257,7 @@ const sendMessage = async ({ conversationId, userId, message, imageFile = null, 
     const nextTitle = deriveConversationTitle({
         currentTitle: conversation.title,
         message: normalizedMessage,
-        hasImage: Boolean(savedImage),
+        hasImage: Boolean(messageImageUrl),
         hasPdf: Boolean(savedPdf)
     });
 
@@ -259,7 +270,8 @@ const sendMessage = async ({ conversationId, userId, message, imageFile = null, 
         conversationHistory,
         userId,
         imageFile,
-        pdfFile
+        pdfFile,
+        imageUrl: !imageFile ? remoteImageUrl : null
     });
 
     const assistantMessagePayload = {

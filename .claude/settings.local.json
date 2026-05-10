@@ -14,7 +14,10 @@
       "Bash(node -c routes/bookmarkRoutes.js)",
       "Bash(npx tsc *)",
       "Bash(npx ng *)",
-      "Bash(echo \"exit=$?\")"
+      "Bash(echo \"exit=$?\")",
+      "Bash(node --check controllers/conversationController.js)",
+      "Bash(node --check services/conversationService.js)",
+      "Bash(node --check services/assistantService.js)"
     ]
   }
 }
