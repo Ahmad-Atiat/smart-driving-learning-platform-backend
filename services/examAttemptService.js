@@ -434,7 +434,8 @@ const buildActiveAttemptResponse = async (attempt) => {
         totalQuestions: attempt.totalQuestions,
         passingScore: PASSING_CORRECT_COUNT,
         questions: displayQuestions,
-        answers: attempt.answers || []
+        answers: attempt.answers || [],
+        currentQuestionIndex: typeof attempt.currentQuestionIndex === 'number' ? attempt.currentQuestionIndex : 0
     };
 };
 
@@ -638,8 +639,18 @@ const saveAnswer = async (userId, attemptId, payload) => {
         attempt.answers.push(answerPayload);
     }
 
+    // Optionally persist the user's current question pointer so a refresh / close
+    // resumes the exam on the same question. Defensive bounds check — silently
+    // ignore an out-of-range value rather than blowing up the whole save.
+    const requestedIndex = normalizeIndex(payload?.currentQuestionIndex);
+    const updatePayload = { answers: attempt.answers };
+    if (requestedIndex !== null && requestedIndex >= 0 && requestedIndex < attempt.questions.length) {
+        updatePayload.currentQuestionIndex = requestedIndex;
+        attempt.currentQuestionIndex = requestedIndex;
+    }
+
     // Persist the updated answers (including the new isCorrect field)
-    await examAttemptRepository.updateById(attempt._id, { answers: attempt.answers });
+    await examAttemptRepository.updateById(attempt._id, updatePayload);
 
     // Compute running wrongCount from the in-memory answers array.
     // Skipped and unanswered answers are never counted as wrong.
@@ -675,6 +686,30 @@ const saveAnswer = async (userId, attemptId, payload) => {
         totalQuestions: attempt.totalQuestions,
         earlyFailed: false
     };
+};
+
+// PATCH /:attemptId/position – persist the user's current question index without
+// touching answers. Used when the user navigates inside the exam (e.g. skip, next)
+// so a browser refresh resumes on the same question.
+const savePosition = async (userId, attemptId, payload) => {
+    const attempt = await getOwnedAttempt(attemptId, userId);
+
+    if (attempt.status !== 'in-progress') {
+        throw new ApiError(400, 'Exam attempt is not in progress');
+    }
+    if (isExpired(attempt)) {
+        await finalizeAttempt(attempt, 'expired');
+        throw new ApiError(409, 'Exam attempt expired');
+    }
+
+    const requestedIndex = normalizeIndex(payload?.currentQuestionIndex);
+    if (requestedIndex === null || requestedIndex < 0 || requestedIndex >= attempt.questions.length) {
+        throw new ApiError(400, 'Invalid current question index');
+    }
+
+    await examAttemptRepository.updateById(attempt._id, { currentQuestionIndex: requestedIndex });
+
+    return { message: 'Position saved', currentQuestionIndex: requestedIndex };
 };
 
 // POST /:attemptId/submit – score and finalize the attempt.
@@ -743,6 +778,7 @@ module.exports = {
     startAttempt,
     getActiveAttempt,
     saveAnswer,
+    savePosition,
     submitAttempt,
     getHistory,
     getAttemptById

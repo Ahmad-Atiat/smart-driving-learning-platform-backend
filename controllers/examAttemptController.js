@@ -35,6 +35,17 @@ const saveAnswer = async (req, res, next) => {
     }
 };
 
+// PATCH /api/exam-attempts/:attemptId/position
+// Persist the user's current question pointer for resume-on-refresh.
+const savePosition = async (req, res, next) => {
+    try {
+        const result = await examAttemptService.savePosition(req.user._id, req.params.attemptId, req.body);
+        return res.status(200).json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
 // POST /api/exam-attempts/:attemptId/submit
 // Score and finalise the attempt. Idempotent: safe to call more than once.
 const submitAttempt = async (req, res, next) => {
@@ -72,6 +83,7 @@ module.exports = {
     startAttempt,
     getActiveAttempt,
     saveAnswer,
+    savePosition,
     submitAttempt,
     getHistory,
     getAttemptById

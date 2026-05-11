@@ -23,7 +23,10 @@
       "Bash(node --check services/quizBookmarkService.js)",
       "Bash(node --check controllers/quizBookmarkController.js)",
       "Bash(node --check routes/quizBookmarkRoutes.js)",
-      "Bash(node --check services/examAttemptService.js)"
+      "Bash(node --check services/examAttemptService.js)",
+      "Bash(node --check controllers/examAttemptController.js)",
+      "Bash(node --check routes/examAttemptRoutes.js)",
+      "Bash(node --check models/ExamAttempt.js)"
     ]
   }
 }

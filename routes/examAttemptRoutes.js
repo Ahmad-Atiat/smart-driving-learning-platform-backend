@@ -5,6 +5,7 @@ const {
     startAttempt,
     getActiveAttempt,
     saveAnswer,
+    savePosition,
     submitAttempt,
     getHistory,
     getAttemptById
@@ -18,6 +19,9 @@ router.get('/active', protect, getActiveAttempt);
 
 // Save or overwrite the answer to a single question mid-exam
 router.patch('/:attemptId/answer', protect, saveAnswer);
+
+// Persist the user's current question pointer for resume-on-refresh
+router.patch('/:attemptId/position', protect, savePosition);
 
 // Score and finalise the attempt; idempotent
 router.post('/:attemptId/submit', protect, submitAttempt);

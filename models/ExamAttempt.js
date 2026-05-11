@@ -97,6 +97,14 @@ const examAttemptSchema = new mongoose.Schema(
             type: Number,
             default: 60
         },
+        // Zero-based index of the question the user was on when they last interacted.
+        // Persisted so an exam can be resumed exactly where the user left off after a
+        // browser close / refresh. Never decremented by skip — skipped questions are
+        // returned to at the end of the flow, not by rewinding currentQuestionIndex.
+        currentQuestionIndex: {
+            type: Number,
+            default: 0
+        },
         // Full result objects including correct answers (set on finalisation only)
         results: {
             type: [mongoose.Schema.Types.Mixed],
