@@ -17,7 +17,13 @@
       "Bash(echo \"exit=$?\")",
       "Bash(node --check controllers/conversationController.js)",
       "Bash(node --check services/conversationService.js)",
-      "Bash(node --check services/assistantService.js)"
+      "Bash(node --check services/assistantService.js)",
+      "Bash(node --check models/QuizBookmark.js)",
+      "Bash(node --check repositories/quizBookmarkRepository.js)",
+      "Bash(node --check services/quizBookmarkService.js)",
+      "Bash(node --check controllers/quizBookmarkController.js)",
+      "Bash(node --check routes/quizBookmarkRoutes.js)",
+      "Bash(node --check services/examAttemptService.js)"
     ]
   }
 }

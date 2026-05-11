@@ -186,6 +186,36 @@ const hasSelectedAnswer = (answer) =>
     Boolean(normalizeText(answer?.selectedAnswer)) ||
     Boolean(normalizeText(answer?.selectedAnswerAR));
 
+// A result is "reached/answered" when the user committed an answer for it.
+// Skipped-only or empty (never-reached) questions are excluded so the
+// review page does not expose correct answers/explanations for them.
+const isAnsweredResult = (result) => {
+    if (!result || result.skipped === true) return false;
+    if (typeof result.selectedIndex === 'number') return true;
+    return typeof result.selectedAnswer === 'string' && result.selectedAnswer.trim().length > 0;
+};
+
+const filterAnsweredResults = (results) => (results || []).filter(isAnsweredResult);
+
+// Resolve the zero-based index of the correct option using English first, then Arabic fallback
+const resolveCorrectIndex = (question) => {
+    if (!question) return null;
+    const options = Array.isArray(question.options) ? question.options : [];
+    const optionsAR = Array.isArray(question.optionsAR) ? question.optionsAR : [];
+    const correct = normalizeText(question.correctAnswer);
+    const correctAR = normalizeText(question.correctAnswerAR);
+
+    if (correct) {
+        const idx = options.findIndex((opt) => normalizeText(opt) === correct);
+        if (idx !== -1) return idx;
+    }
+    if (correctAR) {
+        const idx = optionsAR.findIndex((opt) => normalizeText(opt) === correctAR);
+        if (idx !== -1) return idx;
+    }
+    return null;
+};
+
 // ---------------------------------------------------------------------------
 // Scoring logic
 // ---------------------------------------------------------------------------
@@ -410,6 +440,9 @@ const buildActiveAttemptResponse = async (attempt) => {
 
 // Response for a finalised attempt – includes correct answers, results, and
 // all real-exam pass/fail fields.
+// Results are filtered to only include reached/answered questions so the
+// review page does not expose correct answers for questions the user never
+// reached (manual end / timer end at question N < 60).
 const buildSubmittedResponse = (attempt) => ({
     ...buildAttemptIdentifiers(attempt),
     status: attempt.status,
@@ -418,34 +451,29 @@ const buildSubmittedResponse = (attempt) => ({
     // Real-exam result fields
     passed: attempt.passed ?? false,
     correctCount: attempt.correctCount ?? 0,
+    correct: attempt.correctCount ?? 0,
     wrongCount: attempt.wrongCount ?? 0,
     emptyCount: attempt.emptyCount ?? 0,
     skippedCount: attempt.skippedCount ?? 0,
     failureReason: attempt.failureReason ?? null,
     passingScore: PASSING_CORRECT_COUNT,
-    results: attempt.results || [],
+    results: filterAnsweredResults(attempt.results),
     startedAt: attempt.startedAt,
     submittedAt: attempt.submittedAt
 });
 
-// Build partial review for early-fail: only include results for questions the user reached.
-// Do not expose correct answers for unseen questions.
+// Build partial review for early-fail: only include results for questions the user actually
+// answered (skipped-only / never-reached entries are excluded so the review page never
+// reveals correct answers / explanations for questions the user did not commit to).
 const buildEarlyFailResponse = (attempt, failedAttempt, latestAnswer = {}) => {
-    const answeredQuestionIds = new Set(
-        attempt.answers
-            .filter((a) => a.skipped === true || hasSelectedAnswer(a))
-            .map((a) => a.questionId.toString())
-    );
-
-    const partialResults = (failedAttempt.results || []).filter((r) =>
-        answeredQuestionIds.has(r.questionId.toString())
-    );
+    const partialResults = filterAnsweredResults(failedAttempt.results);
 
     return {
         ...buildAttemptIdentifiers(failedAttempt),
         message: 'Answer saved',
         questionId: latestAnswer.questionId ?? null,
         isCorrect: latestAnswer.isCorrect ?? false,
+        correctIndex: latestAnswer.correctIndex ?? null,
         status: failedAttempt.status,
         score: failedAttempt.score,
         totalQuestions: failedAttempt.totalQuestions,
@@ -573,13 +601,17 @@ const saveAnswer = async (userId, attemptId, payload) => {
     // Evaluate correctness at save time so we can maintain a running wrongCount
     // without re-fetching all 60 questions on every save.
     // isCorrect is stored on the answer record and never exposed during the exam.
+    // correctIndex is returned to the frontend AFTER the user has committed an
+    // answer (so it is no longer exploitable) to enable in-card green/red feedback.
     let isCorrect = false;
+    let correctIndex = null;
     if (!skipped) {
         const question = await quizRepository.findById(questionId);
         if (!question) {
             throw new ApiError(404, 'Question not found');
         }
         isCorrect = evaluateCorrectness(question, { selectedAnswer, selectedAnswerAR, selectedIndex });
+        correctIndex = resolveCorrectIndex(question);
     }
 
     const answerPayload = {
@@ -619,7 +651,7 @@ const saveAnswer = async (userId, attemptId, payload) => {
     // The attempt is submitted (not expired) because the user was actively answering.
     if (wrongCount >= MAX_WRONG_COUNT) {
         const { attempt: failedAttempt } = await finalizeAttempt(attempt, 'submitted');
-        return buildEarlyFailResponse(attempt, failedAttempt, { questionId, isCorrect });
+        return buildEarlyFailResponse(attempt, failedAttempt, { questionId, isCorrect, correctIndex });
     }
 
     // Normal save: return real-time correctness stats for frontend progress tracking.
@@ -634,6 +666,7 @@ const saveAnswer = async (userId, attemptId, payload) => {
         message: 'Answer saved',
         questionId,
         isCorrect,
+        correctIndex,
         correctCount,
         wrongCount,
         answeredCount,
