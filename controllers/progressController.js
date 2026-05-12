@@ -55,4 +55,22 @@ const getActivity = async (req, res, next) => {
     }
 };
 
-module.exports = { getProgress, getLessonProgress, completeLessonProgress, getProgressSummary, resetProgress, getActivity };
+const getChapterStrength = async (req, res, next) => {
+    try {
+        const range = typeof req.query.range === 'string' ? req.query.range : '30d';
+        const result = await progressService.getChapterStrength(req.user._id, range);
+        return res.status(200).json(result);
+    } catch (error) {
+        next(error);
+    }
+};
+
+module.exports = {
+    getProgress,
+    getLessonProgress,
+    completeLessonProgress,
+    getProgressSummary,
+    resetProgress,
+    getActivity,
+    getChapterStrength
+};

@@ -1,6 +1,14 @@
 const express = require('express');
 const router = express.Router();
-const { getProgress, getLessonProgress, completeLessonProgress, getProgressSummary, resetProgress, getActivity } = require('../controllers/progressController');
+const {
+    getProgress,
+    getLessonProgress,
+    completeLessonProgress,
+    getProgressSummary,
+    resetProgress,
+    getActivity,
+    getChapterStrength
+} = require('../controllers/progressController');
 const { protect } = require('../middleware/authMiddleware');
 
 /**
@@ -122,5 +130,27 @@ router.delete('/reset', protect, resetProgress);
  *         description: Activity series with buckets and active-days count
  */
 router.get('/activity', protect, getActivity);
+
+/**
+ * @swagger
+ * /api/progress/chapter-strength:
+ *   get:
+ *     summary: Per-chapter exam strength (radar chart input) for the authenticated user
+ *     description: Returns one row per published chapter with `correct`, `answered` and `strength` (0-100) derived from exam-attempt answers in the selected window. Skipped/unanswered questions are excluded.
+ *     tags: [Progress]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: query
+ *         name: range
+ *         schema:
+ *           type: string
+ *           enum: [7d, 30d, all]
+ *           default: 30d
+ *     responses:
+ *       200:
+ *         description: Chapter strength rows
+ */
+router.get('/chapter-strength', protect, getChapterStrength);
 
 module.exports = router;

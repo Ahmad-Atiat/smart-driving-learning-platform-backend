@@ -2,6 +2,7 @@ const progressRepository = require('../repositories/progressRepository');
 const lessonRepository = require('../repositories/lessonRepository');
 const ChapterQuizProgress = require('../models/ChapterQuizProgress');
 const ExamAttempt = require('../models/ExamAttempt');
+const Quiz = require('../models/Quiz');
 const ApiError = require('../utils/apiError');
 
 const normalizeId = (value) => value?.toString();
@@ -296,4 +297,127 @@ const getActivity = async (userId, rangeKey = '30d') => {
     };
 };
 
-module.exports = { getProgress, getLessonProgress, completeLessonProgress, getProgressSummary, resetProgress, getActivity };
+// ---------------------------------------------------------------------------
+// Chapter strength (radar chart input)
+// ---------------------------------------------------------------------------
+// For every published chapter, compute the user's exam strength as
+//   strength = round((correctlyAnswered / answered) * 100)
+// where `answered` counts only exam answers that have a value and are NOT
+// flagged as skipped. Chapters with zero answers are returned with 0%
+// strength and `answered = 0` so the radar/weakest list can render them
+// safely. The range argument filters by attempt timestamp, matching the
+// rest of the Progress page filters.
+
+// Decide whether an exam-answer record counts as "answered" for scoring
+// purposes. Skipped questions and ones with no selection are ignored — the
+// user explicitly said "Use only answered questions."
+const isCountedAnswer = (answer) => {
+    if (!answer || answer.skipped === true) return false;
+    if (typeof answer.selectedIndex === 'number') return true;
+    if (typeof answer.selectedAnswer === 'string' && answer.selectedAnswer.trim().length > 0) return true;
+    if (typeof answer.selectedAnswerAR === 'string' && answer.selectedAnswerAR.trim().length > 0) return true;
+    return false;
+};
+
+// Pick the best timestamp to bucket an attempt under: prefer submission
+// (the moment the user finished) and fall back to start.
+const getAttemptTimestamp = (attempt) => {
+    const t = attempt?.submittedAt || attempt?.startedAt || attempt?.createdAt;
+    return t ? new Date(t) : null;
+};
+
+const getChapterStrength = async (userId, rangeKey = '30d') => {
+    const normalizedRange = Object.prototype.hasOwnProperty.call(RANGE_TO_DAYS, rangeKey)
+        ? rangeKey
+        : '30d';
+    const days = RANGE_TO_DAYS[normalizedRange];
+    const now = new Date();
+    const since = days ? startOfDayOffset(now, days - 1) : null;
+
+    const [publishedLessons, attempts] = await Promise.all([
+        lessonRepository.findAllPublished(),
+        ExamAttempt.find({ user: userId }).select('answers startedAt submittedAt createdAt').lean()
+    ]);
+
+    // Filter attempts by the selected window using attempt timestamp
+    const inWindowAttempts = (attempts || []).filter((attempt) => {
+        if (!since) return true;
+        const t = getAttemptTimestamp(attempt);
+        return t && t >= since;
+    });
+
+    // Collect every counted answer paired with its question id
+    const countedAnswers = [];
+    for (const attempt of inWindowAttempts) {
+        for (const answer of attempt.answers || []) {
+            if (!isCountedAnswer(answer)) continue;
+            if (!answer.questionId) continue;
+            countedAnswers.push(answer);
+        }
+    }
+
+    // Build a single questionId -> chapterTitle lookup so we touch the Quiz
+    // collection at most once per request regardless of attempt count.
+    const uniqueQuestionIds = Array.from(
+        new Set(countedAnswers.map((a) => a.questionId?.toString()).filter(Boolean))
+    );
+
+    const chapterByQuestionId = new Map();
+    if (uniqueQuestionIds.length > 0) {
+        const quizDocs = await Quiz.find({ _id: { $in: uniqueQuestionIds } })
+            .select('chapterTitle')
+            .lean();
+        for (const q of quizDocs) {
+            chapterByQuestionId.set(q._id.toString(), q.chapterTitle || null);
+        }
+    }
+
+    // Aggregate per chapterTitle (Quiz's chapter identifier)
+    const statsByChapterTitle = new Map();
+    for (const answer of countedAnswers) {
+        const chapterTitle = chapterByQuestionId.get(answer.questionId.toString());
+        if (!chapterTitle) continue;
+        const current = statsByChapterTitle.get(chapterTitle) || { correct: 0, answered: 0 };
+        current.answered += 1;
+        if (answer.isCorrect === true) current.correct += 1;
+        statsByChapterTitle.set(chapterTitle, current);
+    }
+
+    // Emit one row per published chapter (stable order, includes zero-answer
+    // chapters so the radar always renders the full polygon). Lesson.title is
+    // the join key with Quiz.chapterTitle — same convention as the rest of
+    // the app (see lessons/quizzes alignment).
+    const rows = publishedLessons.map((chapter) => {
+        const stats = statsByChapterTitle.get(chapter.title) || { correct: 0, answered: 0 };
+        const strength = stats.answered > 0
+            ? Math.round((stats.correct / stats.answered) * 100)
+            : 0;
+        return {
+            chapterId: chapter._id,
+            chapterKey: chapter.chapterKey,
+            chapterTitle: chapter.title,
+            chapterTitleAR: chapter.titleAR || null,
+            correct: stats.correct,
+            answered: stats.answered,
+            strength
+        };
+    });
+
+    return {
+        range: normalizedRange,
+        days,
+        chapters: rows,
+        totalAnsweredAcrossChapters: countedAnswers.length,
+        attemptsConsidered: inWindowAttempts.length
+    };
+};
+
+module.exports = {
+    getProgress,
+    getLessonProgress,
+    completeLessonProgress,
+    getProgressSummary,
+    resetProgress,
+    getActivity,
+    getChapterStrength
+};
