@@ -26,7 +26,10 @@
       "Bash(node --check services/examAttemptService.js)",
       "Bash(node --check controllers/examAttemptController.js)",
       "Bash(node --check routes/examAttemptRoutes.js)",
-      "Bash(node --check models/ExamAttempt.js)"
+      "Bash(node --check models/ExamAttempt.js)",
+      "Bash(node -c services/progressService.js)",
+      "Bash(node -c controllers/progressController.js)",
+      "Bash(node -c routes/progressRoutes.js)"
     ]
   }
 }

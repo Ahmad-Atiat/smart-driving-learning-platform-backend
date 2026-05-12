@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { getProgress, getLessonProgress, completeLessonProgress, getProgressSummary, resetProgress } = require('../controllers/progressController');
+const { getProgress, getLessonProgress, completeLessonProgress, getProgressSummary, resetProgress, getActivity } = require('../controllers/progressController');
 const { protect } = require('../middleware/authMiddleware');
 
 /**
@@ -100,5 +100,27 @@ router.get('/summary', protect, getProgressSummary);
  *         description: No progress found to reset
  */
 router.delete('/reset', protect, resetProgress);
+
+/**
+ * @swagger
+ * /api/progress/activity:
+ *   get:
+ *     summary: Get study-activity series for the authenticated user
+ *     description: Returns per-day activity counts (lesson completions, chapter quiz answers, exam attempts/submissions/answers) plus unique active-day count for the requested range.
+ *     tags: [Progress]
+ *     security:
+ *       - bearerAuth: []
+ *     parameters:
+ *       - in: query
+ *         name: range
+ *         schema:
+ *           type: string
+ *           enum: [7d, 30d, all]
+ *           default: 30d
+ *     responses:
+ *       200:
+ *         description: Activity series with buckets and active-days count
+ */
+router.get('/activity', protect, getActivity);
 
 module.exports = router;

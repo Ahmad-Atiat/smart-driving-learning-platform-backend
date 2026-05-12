@@ -1,5 +1,7 @@
 const progressRepository = require('../repositories/progressRepository');
 const lessonRepository = require('../repositories/lessonRepository');
+const ChapterQuizProgress = require('../models/ChapterQuizProgress');
+const ExamAttempt = require('../models/ExamAttempt');
 const ApiError = require('../utils/apiError');
 
 const normalizeId = (value) => value?.toString();
@@ -186,4 +188,112 @@ const resetProgress = async (userId) => {
     return { message: 'Progress reset successfully' };
 };
 
-module.exports = { getProgress, getLessonProgress, completeLessonProgress, getProgressSummary, resetProgress };
+// ---------------------------------------------------------------------------
+// Study activity aggregation
+// ---------------------------------------------------------------------------
+// Collects every timestamp that represents user activity (lesson completion,
+// chapter-quiz answer, exam attempt start/answer/submit) and groups them by
+// calendar day. Used by the Progress page chart, active-days count and
+// 7d / 30d / all range filters.
+
+const RANGE_TO_DAYS = { '7d': 7, '30d': 30, 'all': null };
+
+// YYYY-MM-DD in server-local time so all daily aggregations are consistent.
+const toDayKey = (date) => {
+    if (!(date instanceof Date) || Number.isNaN(date.getTime())) return null;
+    const y = date.getFullYear();
+    const m = String(date.getMonth() + 1).padStart(2, '0');
+    const d = String(date.getDate()).padStart(2, '0');
+    return `${y}-${m}-${d}`;
+};
+
+// Local midnight `daysBack` days before `from` (inclusive window anchor).
+const startOfDayOffset = (from, daysBack) =>
+    new Date(from.getFullYear(), from.getMonth(), from.getDate() - daysBack);
+
+const collectActivityStamps = async (userId) => {
+    const [progress, chapterProgress, examAttempts] = await Promise.all([
+        progressRepository.findByUserId(userId),
+        ChapterQuizProgress.find({ user: userId }).select('answers updatedAt').lean(),
+        ExamAttempt.find({ user: userId })
+            .select('startedAt submittedAt answers status')
+            .lean()
+    ]);
+
+    const stamps = [];
+
+    if (progress?.completedLessons?.length) {
+        for (const entry of progress.completedLessons) {
+            if (entry?.completedAt) stamps.push(new Date(entry.completedAt));
+        }
+    }
+
+    for (const cp of chapterProgress || []) {
+        for (const a of cp.answers || []) {
+            if (a?.answeredAt) stamps.push(new Date(a.answeredAt));
+        }
+    }
+
+    for (const ea of examAttempts || []) {
+        if (ea?.startedAt) stamps.push(new Date(ea.startedAt));
+        if (ea?.submittedAt) stamps.push(new Date(ea.submittedAt));
+        for (const a of ea.answers || []) {
+            if (a?.answeredAt) stamps.push(new Date(a.answeredAt));
+        }
+    }
+
+    return stamps.filter((d) => d instanceof Date && !Number.isNaN(d.getTime()));
+};
+
+const getActivity = async (userId, rangeKey = '30d') => {
+    const normalizedRange = Object.prototype.hasOwnProperty.call(RANGE_TO_DAYS, rangeKey)
+        ? rangeKey
+        : '30d';
+    const days = RANGE_TO_DAYS[normalizedRange];
+
+    const stamps = await collectActivityStamps(userId);
+
+    const now = new Date();
+    const since = days ? startOfDayOffset(now, days - 1) : null;
+    const filtered = since ? stamps.filter((d) => d >= since) : stamps;
+
+    const byDay = new Map();
+    for (const d of filtered) {
+        const key = toDayKey(d);
+        if (key) byDay.set(key, (byDay.get(key) || 0) + 1);
+    }
+
+    const buckets = [];
+    if (days) {
+        // Dense series: one entry per day in the selected window (zero-filled).
+        for (let i = days - 1; i >= 0; i--) {
+            const day = startOfDayOffset(now, i);
+            const key = toDayKey(day);
+            buckets.push({ date: key, count: byDay.get(key) || 0 });
+        }
+    } else {
+        // 'all' — sparse series: every day that had any activity, oldest first.
+        const sortedKeys = Array.from(byDay.keys()).sort();
+        for (const key of sortedKeys) {
+            buckets.push({ date: key, count: byDay.get(key) });
+        }
+    }
+
+    const totalActiveDaysAll = new Set(
+        stamps.map((d) => toDayKey(d)).filter((k) => k)
+    ).size;
+    const activeDays = new Set(
+        filtered.map((d) => toDayKey(d)).filter((k) => k)
+    ).size;
+
+    return {
+        range: normalizedRange,
+        days,
+        buckets,
+        activeDays,
+        totalActiveDays: totalActiveDaysAll,
+        totalEvents: filtered.length
+    };
+};
+
+module.exports = { getProgress, getLessonProgress, completeLessonProgress, getProgressSummary, resetProgress, getActivity };
