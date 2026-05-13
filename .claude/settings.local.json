@@ -29,7 +29,8 @@
       "Bash(node --check models/ExamAttempt.js)",
       "Bash(node -c services/progressService.js)",
       "Bash(node -c controllers/progressController.js)",
-      "Bash(node -c routes/progressRoutes.js)"
+      "Bash(node -c routes/progressRoutes.js)",
+      "Bash(git stash *)"
     ]
   }
 }
