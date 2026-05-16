@@ -3,6 +3,8 @@ const lessonRepository = require('../repositories/lessonRepository');
 const ChapterQuizProgress = require('../models/ChapterQuizProgress');
 const ExamAttempt = require('../models/ExamAttempt');
 const Quiz = require('../models/Quiz');
+const Bookmark = require('../models/Bookmark');
+const QuizBookmark = require('../models/QuizBookmark');
 const ApiError = require('../utils/apiError');
 
 const normalizeId = (value) => value?.toString();
@@ -180,12 +182,28 @@ const getProgressSummary = async (userId) => {
     };
 };
 
+// Wipes every collection that stores user-scoped progress so the account
+// behaves like a fresh signup. The User document itself is untouched, so
+// authentication / profile / settings / subscription remain intact. If the
+// user has no Progress doc yet (genuinely new account) we still proceed to
+// clear sibling collections — they may exist independently.
 const resetProgress = async (userId) => {
     const progress = await progressRepository.findByUserId(userId);
-    if (!progress) {
-        throw new ApiError(404, 'No progress found to reset');
+
+    const tasks = [
+        ChapterQuizProgress.deleteMany({ user: userId }),
+        ExamAttempt.deleteMany({ user: userId }),
+        Bookmark.deleteMany({ userId }),
+        QuizBookmark.deleteMany({ userId })
+    ];
+
+    if (progress) {
+        tasks.push(progressRepository.resetProgress(progress._id));
+    } else {
+        tasks.push(progressRepository.createForUser(userId));
     }
-    await progressRepository.resetProgress(progress._id);
+
+    await Promise.all(tasks);
     return { message: 'Progress reset successfully' };
 };
 
