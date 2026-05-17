@@ -23,13 +23,23 @@ const deleteUser = async (userId) => {
     return { message: 'User deleted successfully' };
 };
 
-const updateUser = async (userId, { email, password }) => {
+const ALLOWED_ROLES = ['student', 'admin'];
+
+const updateUser = async (userId, { name, email, password, role }) => {
     const user = await userRepository.findById(userId);
     if (!user) {
         throw new ApiError(404, 'User not found');
     }
 
     const updateData = {};
+
+    if (typeof name === 'string') {
+        const trimmed = name.trim();
+        if (!trimmed) {
+            throw new ApiError(400, 'Name cannot be empty');
+        }
+        updateData.name = trimmed;
+    }
 
     if (email) {
         const normalizedEmail = email.trim().toLowerCase();
@@ -48,8 +58,18 @@ const updateUser = async (userId, { email, password }) => {
         updateData.password = await bcrypt.hash(password, salt);
     }
 
+    if (role !== undefined) {
+        if (!ALLOWED_ROLES.includes(role)) {
+            throw new ApiError(400, 'Invalid role. Must be "student" or "admin".');
+        }
+        if (user.email === 'admin@driving.com' && role !== 'admin') {
+            throw new ApiError(403, 'Cannot demote the primary admin account');
+        }
+        updateData.role = role;
+    }
+
     if (Object.keys(updateData).length === 0) {
-        throw new ApiError(400, 'No fields to update. Provide email or password.');
+        throw new ApiError(400, 'No fields to update. Provide name, email, password, or role.');
     }
 
     const updated = await userRepository.updateById(userId, updateData);

@@ -3,6 +3,7 @@ const Lesson = require('../models/Lesson');
 const Quiz = require('../models/Quiz');
 const Progress = require('../models/Progress');
 const Document = require('../models/Document');
+const documentRepository = require('../repositories/documentRepository');
 
 const isCompletedEntry = (entry, chapterId, subLessonIndex) =>
     entry &&
@@ -119,7 +120,8 @@ const getChapterReport = async () => {
         ])
     ]);
 
-    const totalStudents = allProgress.length || 1;
+    // Active users = anyone with a Progress record (signed-up student who started).
+    const activeUsers = allProgress.length;
 
     const quizCountMap = {};
     for (const q of quizCounts) quizCountMap[q._id] = q.count;
@@ -136,17 +138,37 @@ const getChapterReport = async () => {
     }
 
     return lessons.map((lesson) => {
-        const completedCount = allProgress.filter((p) =>
-            lesson.lessons.length > 0 &&
-            lesson.lessons.every((_, index) =>
-                p.completedLessons.some((entry) => isCompletedEntry(entry, lesson._id, index))
-            )
-        ).length;
+        const subLessonCount = lesson.lessons.length;
+
+        // Granular completion: sum every completed sub-lesson entry across all users
+        // for THIS chapter, then divide by the maximum possible (sub-lessons × active users).
+        // This gives a true 0–100 % progress signal instead of an all-or-nothing rate.
+        let completedEntries = 0;
+        let studentsCompleted = 0;
+        for (const p of allProgress) {
+            let perUser = 0;
+            for (let i = 0; i < subLessonCount; i += 1) {
+                if (p.completedLessons.some((entry) => isCompletedEntry(entry, lesson._id, i))) {
+                    perUser += 1;
+                }
+            }
+            completedEntries += perUser;
+            if (subLessonCount > 0 && perUser === subLessonCount) studentsCompleted += 1;
+        }
+
+        const denominator = subLessonCount * activeUsers;
+        const completionRate = denominator > 0
+            ? Math.round((completedEntries / denominator) * 100)
+            : 0;
 
         return {
             chapterTitle: lesson.title,
-            totalSubLessons: lesson.lessons.length,
-            completionRate: Math.round((completedCount / totalStudents) * 100),
+            chapterTitleAr: lesson.titleAR || lesson.title,
+            totalSubLessons: subLessonCount,
+            completionRate,
+            completedEntries,
+            studentsCompleted,
+            activeUsers,
             quizStats: quizStatsMap[lesson.title] || {
                 totalQuestions: quizCountMap[lesson.title] || 0,
                 totalAttempts: 0,
@@ -158,33 +180,52 @@ const getChapterReport = async () => {
 };
 
 const getRecentActivity = async () => {
-    const recentUsers = await User.find()
-        .select('-password')
-        .sort({ createdAt: -1 })
-        .limit(10);
+    // Build a per-chapter title map so quiz events can be localized client-side.
+    const lessonsForMap = await Lesson.find().select('title titleAR');
+    const titleMap = {};
+    for (const l of lessonsForMap) {
+        titleMap[l.title] = { en: l.title, ar: l.titleAR || l.title };
+    }
 
-    const progressDocs = await Progress.find({ 'quizResults.0': { $exists: true } })
-        .populate('userId', 'name email')
-        .sort({ updatedAt: -1 })
-        .limit(20);
+    const [recentUsers, progressDocs, recentDocs] = await Promise.all([
+        User.find().select('-password').sort({ createdAt: -1 }).limit(10),
+        Progress.find({ 'quizResults.0': { $exists: true } })
+            .populate('userId', 'name email')
+            .sort({ updatedAt: -1 })
+            .limit(20),
+        documentRepository.findAll().then((docs) => docs.slice(0, 10))
+    ]);
 
     const recentQuizAttempts = [];
     for (const p of progressDocs) {
         if (!p.userId) continue;
         const lastResult = p.quizResults[p.quizResults.length - 1];
         if (lastResult) {
+            const titles = titleMap[lastResult.chapterTitle];
             recentQuizAttempts.push({
-                userName: p.userId.name,
-                userEmail: p.userId.email,
+                id: `${p._id}-${p.quizResults.length - 1}`,
+                user: {
+                    id: p.userId._id,
+                    name: p.userId.name,
+                    email: p.userId.email
+                },
                 chapterTitle: lastResult.chapterTitle,
+                chapterTitleAr: titles ? titles.ar : lastResult.chapterTitle,
                 score: lastResult.score,
                 totalQuestions: lastResult.totalQuestions,
-                date: p.updatedAt
+                createdAt: p.updatedAt
             });
         }
     }
 
-    recentQuizAttempts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    recentQuizAttempts.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
+
+    const recentDocuments = recentDocs.map((d) => ({
+        id: String(d._id),
+        name: d.originalName,
+        uploadedBy: d.uploadedBy ? { id: d.uploadedBy._id, name: d.uploadedBy.name } : null,
+        createdAt: d.createdAt
+    }));
 
     return {
         recentUsers: recentUsers.map((u) => ({
@@ -194,7 +235,8 @@ const getRecentActivity = async () => {
             role: u.role,
             createdAt: u.createdAt
         })),
-        recentQuizAttempts: recentQuizAttempts.slice(0, 10)
+        recentQuizAttempts: recentQuizAttempts.slice(0, 10),
+        recentDocuments
     };
 };
 
