@@ -1,0 +1,1140 @@
+[
+  {
+    "number": 1,
+    "question": "Among the early signs of fatigue while driving is:",
+    "options": [
+      "Failing to pay attention to traffic signs.",
+      "Easily staying within the lane markings.",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Failing to pay attention to traffic signs.",
+    "explanation": "An early sign of driver fatigue is failing to notice traffic signs, due to reduced concentration and a weaker mental response to the surroundings.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من المؤشرات المبكرة للشعور بالارهاق أثناء القيادة:",
+    "optionsAR": [
+      "عدم الإنتباه لشواخص المرور.",
+      "سهولة البقاء في مسارات الطريق.",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "عدم الإنتباه لشواخص المرور.",
+    "explanationAR": "من المؤشرات المبكرة للشعور بالإرهاق أثناء القيادة عدم انتباه السائق لشواخص المرور، نتيجة تراجع التركيز وضعف الاستجابة الذهنية للمؤثرات المحيطة.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 2,
+    "question": "When the driver reaches an intersection regulated by a traffic light, he must:",
+    "options": [
+      "Stop his vehicle before the designated stop line when the red light appears",
+      "Get ready to move when the yellow light appears after the red light",
+      "Set off when the green light appears",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "At a signal-controlled intersection, the driver must stop before the stop line on red, prepare to move when yellow follows red, and set off on green; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "عند وصول السائق الى تقاطع طرق منظم بإشارة مرور ضوئية عليه :",
+    "optionsAR": [
+      "الوقوف بمركبته قبل خط التوقف المخصص لذلك عند ظهور الضوء الاحمر",
+      "الاستعداد للحركة بمركبته عند ظهور الضوء الاصفر بعد الضوء الاحمر",
+      "الانطلاق بمركبته عند ظهور الضوء الاخضر",
+      "جميع ما ذكر."
+    ],
+    "correctAnswerAR": "جميع ما ذكر.",
+    "explanationAR": "عند التقاطع المنظم بإشارة ضوئية يجب الوقوف قبل خط التوقف عند الضوء الأحمر، والاستعداد للحركة عند ظهور الأصفر بعد الأحمر، والانطلاق عند الأخضر؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 3,
+    "question": "It is one of the driver's duties on the road not to use the brakes suddenly to slow down.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the driver must avoid sudden braking because it surprises the drivers behind him and may cause rear-end collisions, and it may also make the vehicle skid and cause loss of control.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من واجبات السائق على الطرق عدم استعمال مكابح مركبته بصورة مفاجئة لتخفيف سرعتها.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يجب على السائق تجنب استعمال المكابح بصورة مفاجئة لأنها تُربك السائقين خلفه وتؤدي إلى الاصطدام من الخلف، وقد تسبب انزلاق المركبة وفقدان السيطرة عليها.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 4,
+    "question": "The airbag is inflated by an electrical signal sent from one of the sensors located in the front of the car.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the airbag inflates on impact via an electrical signal sent from the crash sensors located in the front of the car, to protect the occupant at the moment of the accident.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "تتم عملية انتفاخ الوسادة الهوائية بواسطة إشارة كهربائية تنبعث من احدى اجهزة الاحساس الواقعة في مقدمة السيارة .",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ تنتفخ الوسادة الهوائية عند الاصطدام بإشارة كهربائية تُرسل من حساسات الاصطدام الموجودة في مقدمة السيارة لحماية الراكب لحظة وقوع الحادث.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 5,
+    "question": "The driver must keep to the right side of the road in order to turn onto another road on his right.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; to turn onto a road on his right, the driver must keep to the right side of the road in preparation for turning safely without obstructing traffic.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "يجب على السائق الإلتزام بالجانب الايمن من الطريق للانتقال الى طريق اخر يقع على يمينه.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ للانتقال إلى طريق يقع على يمين السائق يجب الالتزام بالجانب الأيمن من الطريق تمهيداً للانعطاف بأمان ودون عرقلة حركة المرور.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 6,
+    "question": "The likelihood of feeling fatigue increases as the hours of driving increase.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the longer the continuous driving hours, the greater the chance of fatigue due to physical and mental strain, which is why regular rest breaks are recommended.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "تزداد احتمالات الشعور بالإرهاق كلما زادت ساعات القيادة.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ كلما زادت ساعات القيادة المتواصلة زادت احتمالات الشعور بالإرهاق بسبب الإجهاد البدني والذهني، ولذلك يُنصح بأخذ استراحات منتظمة.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 7,
+    "question": "Among the medications that affect driving are:",
+    "options": [
+      "Tranquilizers, sedatives, and some painkillers.",
+      "Some medications for blood pressure, nausea, allergies, inflammation, and fungal infections",
+      "Sleeping pills",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "Tranquilizers, sedatives, sleeping pills, and some medications for blood pressure, nausea, allergies, inflammation, and fungal infections may cause drowsiness or reduced concentration and affect driving; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من الادوية التي تؤثر على القيادة :",
+    "optionsAR": [
+      "المهدئات والمسكنات وبعض الأدوية المسكنه.",
+      "بعض الأدوية الخاصة بعلاج ضغط الدم والغثيان والحساسية والالتهابات والعدوى الفطرية",
+      "الأقراص المنومة",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "المهدئات والمسكنات والأقراص المنومة وبعض أدوية ضغط الدم والغثيان والحساسية والالتهابات والعدوى الفطرية قد تسبب النعاس أو ضعف التركيز وتؤثر على القيادة؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 8,
+    "question": "Among the factors that affect the vehicle's stopping distance are:",
+    "options": [
+      "The vehicle's load",
+      "Road surface conditions",
+      "The tires",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "The vehicle's load, road surface conditions, and the condition of the tires all affect the vehicle's stopping (braking) distance; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من العوامل التي تتأثر فيها مسافة وقوف المركبة:",
+    "optionsAR": [
+      "حمولة المركبة",
+      "ظروف سطح الطريق",
+      "الإطارات",
+      "جميع ما ذكر."
+    ],
+    "correctAnswerAR": "جميع ما ذكر.",
+    "explanationAR": "حمولة المركبة وظروف سطح الطريق وحالة الإطارات كلها عوامل تؤثر في مسافة وقوف المركبة (الكبح)؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 9,
+    "question": "All bicycle riders must be given sufficient safety distance when approaching them.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; bicycle riders must be given sufficient safety distance when approaching them, because they are among the most vulnerable road users.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "يجب أعطاء جميع راكبي الدراجات الهوائية مسافات الامان الكافية عند الاقترب منهم.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يجب إعطاء راكبي الدراجات الهوائية مسافة أمان كافية عند الاقتراب منهم لأنهم من الفئات الأكثر عرضة للخطر على الطريق.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 10,
+    "question": "Among the factors that affect the vehicle's stopping distance are:",
+    "options": [
+      "The condition of the brakes",
+      "The driver's reaction time",
+      "The vehicle's design",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "The condition of the brakes, the driver's reaction time, and the vehicle's design all affect the vehicle's stopping distance; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من العوامل التي تتأثر فيها مسافة وقوف المركبة :",
+    "optionsAR": [
+      "حالة الفرامل (البريكات)",
+      "زمن ردة فعل السائق",
+      "تصميم المركبة",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "حالة الفرامل وزمن ردة فعل السائق وتصميم المركبة كلها عوامل تؤثر في مسافة وقوف المركبة؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 11,
+    "question": "Among the things that help reduce sources of distraction and therefore help reduce accidents is:",
+    "options": [
+      "Using the phone while driving",
+      "Trying to operate the radio or cassette while driving",
+      "Not using the mobile phone while driving",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Not using the mobile phone while driving",
+    "explanation": "Not using the mobile phone while driving reduces distraction and keeps the driver's attention on the road, which helps to avoid accidents.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من الامور التى تساعد على تقليل مصادر شرود الذهن والتي تساعد على التقليل من إرتكاب حوادث",
+    "optionsAR": [
+      "إستخدام الهاتف اثناء القيادة",
+      "محاولة تشغيل الراديو أو الكاسيت أثناء القيادة",
+      "عدم إستخدام الهاتف المتنقل أثناء القيادة",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "عدم إستخدام الهاتف المتنقل أثناء القيادة",
+    "explanationAR": "عدم استخدام الهاتف المتنقل أثناء القيادة يقلل من شرود الذهن ويحافظ على تركيز السائق على الطريق، مما يساعد على تجنب الحوادث.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 12,
+    "question": "The letter (D) on an automatic transmission means the forward drive position (DRIVE).",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the letter (D) on an automatic transmission stands for (DRIVE) and indicates the forward drive position.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "حرف (D) في الجير الأتوماتيك تعني وضع الحركة الى الأمام(DRIVE)",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ حرف (D) في ناقل الحركة الأوتوماتيكي هو اختصار لكلمة (DRIVE)، ويعني وضع الحركة إلى الأمام.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 13,
+    "question": "Distraction while driving is considered one of the leading causes of traffic accidents.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; distraction while driving is one of the leading causes of traffic accidents, because it weakens attention and slows the driver's reaction to changes on the road.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "يعتبر شرود الذهن اثناء القيادة من اكثر الاسباب المؤدية لارتكاب الحوادث المرورية",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ شرود الذهن أثناء القيادة من أكثر الأسباب المؤدية إلى الحوادث المرورية، لأنه يُضعف الانتباه ويُبطئ ردة فعل السائق تجاه المتغيرات على الطريق.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 14,
+    "question": "Giving the right of way helps others to drive safely.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; giving the right of way to others reduces the likelihood of collisions at intersections and merges, and helps all road users to drive safely.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "اعطاء الاولوية يساعد الاخرين على القيادة بأمان",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ إعطاء الأولوية للآخرين يقلل من احتمالات التصادم عند التقاطعات والاندماج، ويساعد جميع مستخدمي الطريق على القيادة بأمان.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 15,
+    "question": "It is forbidden to leave unfit or broken-down vehicles on the roads, and the owners are required to move them.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; leaving unfit or broken-down vehicles on the roads is forbidden because they pose a danger to traffic, and the owners must move them immediately to a safe location.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "يمنع ترك المركبات غير الصالحة او المتعطلة عن العمل على الطرق ويترتب على اصحابها نقلها",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يُمنع ترك المركبات غير الصالحة أو المتعطلة على الطرق لأنها تشكل خطراً على حركة المرور، ويترتب على أصحابها نقلها فوراً إلى مكان آمن.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 16,
+    "question": "When the driver arrives at an intersection regulated by a traffic officer, he must:",
+    "options": [
+      "Drive through with his vehicle without the officer permitting him",
+      "Not drive through with his vehicle until the officer permits him",
+      "None of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Not drive through with his vehicle until the officer permits him",
+    "explanation": "At an intersection regulated by a traffic officer, the driver must not drive through until the officer permits him, because the officer's signals take precedence over all other traffic-control devices.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "على السائق عند وصوله الى تقاطع طرق منظم بواسطة شرطي مرور",
+    "optionsAR": [
+      "أن يقوم بالمرور بمركبته بدون ان يسمح له الشرطي",
+      "عدم المرور بمركبته الا عندما يسمح له الشرطي",
+      "لاشئ مما ذكر"
+    ],
+    "correctAnswerAR": "عدم المرور بمركبته الا عندما يسمح له الشرطي",
+    "explanationAR": "على السائق عند الوصول إلى تقاطع منظم بشرطي مرور عدم المرور إلا بعد أن يأذن له الشرطي بذلك، لأن إشارات الشرطي تعلو على باقي وسائل تنظيم المرور.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 17,
+    "question": "Drinking liquids while driving distracts the driver's attention and therefore increases the probability of being involved in accidents.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; drinking liquids while driving distracts the driver's attention and takes one of his hands off the steering wheel, which increases the likelihood of being involved in an accident.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "تناول السوائل أثناء القيادة يؤدي إلى تشتيت انتباه السائق وبالتالي زيادة نسبة احتمالية الإشتراك في الحوادث",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ تناول السوائل أثناء القيادة يشتت انتباه السائق ويبعد إحدى يديه عن المقود، مما يزيد من احتمال الاشتراك في الحوادث.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 18,
+    "question": "The most vulnerable road users are:",
+    "options": [
+      "Pedestrians",
+      "Bicycle riders",
+      "Motorcycle riders",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "Pedestrians, bicycle riders, and motorcycle riders are among the most vulnerable road users because of the lack of protective measures available to them; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من أكثر مستخدمي الطريق المعرضون للخطر",
+    "optionsAR": [
+      "المشاة",
+      "راكبوا الدرجات الهوائية",
+      "راكبوا الدراجات الآلية",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "المشاة وراكبو الدراجات الهوائية وراكبو الدراجات الآلية من أكثر مستخدمي الطريق عرضة للخطر بسبب قلة وسائل الحماية المتوفرة لهم؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 19,
+    "question": "In bad weather conditions, the following rule must be applied:",
+    "options": [
+      "The two (2) second rule",
+      "The three (3) second rule",
+      "The four (4) second rule",
+      "The five (5) second rule"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "The two (2) second rule",
+    "explanation": "In bad weather conditions, the driver must apply the two-second rule to maintain a sufficient time gap between his vehicle and the one ahead, allowing a safe reaction to any sudden change.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "في الظروف الجوية السيئة يجب اتباع قاعدة",
+    "optionsAR": [
+      "التانيتين (2) ثانية",
+      "الثلاث (3) ثواني",
+      "الأربع (4) ثواني",
+      "الخمس (5) ثواني"
+    ],
+    "correctAnswerAR": "التانيتين (2) ثانية",
+    "explanationAR": "في الظروف الجوية السيئة يجب على السائق اتباع قاعدة الثانيتين (2) للحفاظ على مسافة أمان كافية زمنياً بينه وبين المركبة التي أمامه، تتيح له ردة فعل آمنة عند المفاجآت.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 20,
+    "question": "Light trailers include the following:",
+    "options": [
+      "Trailers with an empty weight exceeding 750 kg",
+      "Caravans designed for sleeping and recreation",
+      "Equipment and devices other than those used for construction, agricultural, or industrial work",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "Light trailers include trailers with an empty weight exceeding 750 kg, caravans designed for sleeping and recreation, and equipment and devices other than those used for construction, agricultural, or industrial work; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "تشمل المقطورات الخفيفة ما يلي",
+    "optionsAR": [
+      "المقطورات التي يزيد وزنها الفارغ على 750 كغم",
+      "الكرفانات المعدّة للنوم والنزهة",
+      "المعدات والأجهزة غير التي تستخدم في الأعمال الإنشائية أو الزراعية أو الصناعية",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "تشمل المقطورات الخفيفة المقطورات التي يزيد وزنها الفارغ على 750 كغم، والكرفانات المعدّة للنوم والنزهة، والمعدات والأجهزة غير المستخدمة في الأعمال الإنشائية أو الزراعية أو الصناعية؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 21,
+    "question": "To reduce the risk of collisions with heavy vehicles, you must:",
+    "options": [
+      "Avoid driving in the blind spots of trucks and buses",
+      "Avoid driving close to trucks and buses, as this may block your view of the road",
+      "Do not try to compete with them on the same part of the road; give them plenty of space, especially when turning or when they are braking",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "To reduce the risk of collisions with heavy vehicles, you must avoid driving in their blind spots, avoid driving close to them, and not compete with them on the same part of the road, giving them plenty of space especially when turning or braking; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "لتقليل مخاطر حدوث تصادم مع المركبات الثقيلة يجب",
+    "optionsAR": [
+      "تحاشي القيادة في المساحات العمياء للشاحنات و الحافلات",
+      "تجنب السير قريبا من الشاحنات و الحافلات حيث ان هذا قد يحجب رؤيتك للطريق",
+      "لا تحاول المنافسة معهم على نفس الجزء من الطريق اعطهم الكثير من الفراغ و بالذات عند الدوران او عندما يستخدمون الكوابح الفرامل",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "لتقليل مخاطر التصادم مع المركبات الثقيلة يجب تحاشي القيادة في المساحات العمياء لها، وتجنب السير قريباً منها، وعدم منافستها على نفس الجزء من الطريق وإعطاؤها مسافة كافية خاصة عند الدوران أو الفرملة؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 22,
+    "question": "Speed is the main cause of fatal and injury-causing road accidents, and it also costs society huge sums each year.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; speed is the main cause of fatal and injury-causing road accidents, and it costs society significant losses in lives and property every year.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "السرعة ھي السبب الرئیسي وراء وقوع حوادث الطرق الممیتة والمسببة للإصابات ، بالإضافة إلى أنھا تكلف المجتمع مبالغ طائلة سنویا.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ السرعة هي السبب الرئيسي لوقوع حوادث الطرق المميتة والمسببة للإصابات، وتكلف المجتمع خسائر كبيرة سنوياً في الأرواح والممتلكات.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 23,
+    "question": "Research and studies have shown that exceeding the speed limit, even slightly, can significantly increase the risk of traffic accidents.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; research has shown that exceeding the speed limit, even slightly, greatly increases the risk and severity of traffic accidents.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "أثبتت الابحاث والدراسات أن تجاوز السرعة المحددة ولو بشكل بسیط یمكن أن یزید من خطر إرتكاب حوادث مروریة بشكل كبیر .",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ أثبتت الأبحاث والدراسات أن تجاوز السرعة المحددة ولو بشكل بسيط يزيد بشكل كبير من خطر ارتكاب الحوادث المرورية ومن حدّتها.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 24,
+    "question": "The vehicle driver must read the leaflet attached to any medication he takes to make sure it does not affect his driving in any way.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the driver must read the leaflet attached to any medication to make sure it does not cause drowsiness or other effects that could negatively affect his driving.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "یجب على سائق المركبة ان یقرأ النشرة المرفقة مع الادویة التي یتناولھا للتأكد من انھا لاتؤثر على قیادة المركبة بأي شكل من الأشكال.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يجب على السائق قراءة النشرة المرفقة مع الأدوية للتأكد من أنها لا تسبب النعاس أو أي تأثيرات تنعكس سلباً على قيادته للمركبة.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 25,
+    "question": "Among the most important safety devices available in a car are:",
+    "options": [
+      "The seat belt.",
+      "The head restraint.",
+      "The airbag (Air bag).",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "The seat belt, the head restraint, and the airbag are all among the most important safety devices available in a car to protect the occupant during accidents; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من أھم وسائل الحمایة المتوفرة في السیارة",
+    "optionsAR": [
+      "حزام الأمان.",
+      "مسند الرأس.",
+      "الوسادة الھوائیة ( bag Air ).",
+      "جمیع ما ذكر."
+    ],
+    "correctAnswerAR": "جمیع ما ذكر.",
+    "explanationAR": "حزام الأمان ومسند الرأس والوسادة الهوائية كلها من أهم وسائل الحماية المتوفرة في السيارة لحماية الراكب عند الحوادث؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 26,
+    "question": "The seat belt in vehicles is:",
+    "options": [
+      "Mandatory under Jordanian traffic law.",
+      "Not mandatory.",
+      "Does not help protect the user.",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Mandatory under Jordanian traffic law.",
+    "explanation": "The seat belt is mandatory under Jordanian traffic law, and it is one of the most important safety devices that reduce injuries and deaths in traffic accidents.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "حزام الأمان في المركبات:",
+    "optionsAR": [
+      "إلزامي حسب قانون السیر الأردني. .",
+      "غیر إلزامي .",
+      "لا یساعد على حمایة المستخدم.",
+      "كل ما ذكر أعلاه."
+    ],
+    "correctAnswerAR": "إلزامي حسب قانون السیر الأردني. .",
+    "explanationAR": "حزام الأمان في المركبات إلزامي حسب قانون السير الأردني، وهو من أهم وسائل الحماية التي تقلل الإصابات والوفيات في حوادث المرور.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 27,
+    "question": "Driving is more dangerous:",
+    "options": [
+      "If you adjust the radio while driving.",
+      "If you are talking on the mobile phone while driving.",
+      "If you adjust the radio and talk on the phone while driving."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "If you adjust the radio and talk on the phone while driving.",
+    "explanation": "Adjusting the radio and talking on the phone at the same time while driving are the greatest sources of distraction, occupying the driver's hands, eyes, and attention all at once, which makes driving extremely dangerous.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "القيادة تكون أكثر خطورة",
+    "optionsAR": [
+      "إذا قمت بتعديل المذياع (الراديو) أثناء القيادة.",
+      "إذا كنت تتحدث على الهاتف النقال أثناء القيادة.",
+      "اذا قمت بتعديل المذياع (الراديو) والتحدث في الهاتف أثناء القيادة."
+    ],
+    "correctAnswerAR": "اذا قمت بتعديل المذياع (الراديو) والتحدث في الهاتف أثناء القيادة.",
+    "explanationAR": "تعديل المذياع والتحدث في الهاتف معاً أثناء القيادة هما أعلى مصادر شرود الذهن، إذ يشغلان يدي السائق وعينيه وانتباهه في آن واحد، مما يجعل القيادة في غاية الخطورة.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 28,
+    "question": "Feeling fatigue may cause a traffic accident.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; fatigue reduces the driver's concentration and reaction ability, and may lead to dozing off behind the wheel, causing serious traffic accidents.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "قد يتسبب الشعور بالإرهاق الى حادث سير",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ الإرهاق يقلل من تركيز السائق وقدرته على ردة الفعل، وقد يؤدي إلى الإغفاء أثناء القيادة، فيُسبب حوادث سير خطيرة.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 29,
+    "question": "In the event of a traffic accident, wearing the seat belt correctly helps to:",
+    "options": [
+      "Increase injury and harm to the user",
+      "It has no benefit",
+      "Save the user's life",
+      "None of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Save the user's life",
+    "explanation": "Wearing the seat belt correctly keeps the occupant's body in place and prevents him from striking parts of the vehicle or being thrown from it during an accident, which helps to save the user's life.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "في حالة وقوع حادث مروري فإن استخدام حزام الأمان بالصورة الصحيحة يساعد على",
+    "optionsAR": [
+      "زيادة الإصابة والأذى للمستخدم",
+      "لا فائدة من استخدامه",
+      "انقاذ حياة مستخدمة",
+      "لاشي مما ذكر"
+    ],
+    "correctAnswerAR": "انقاذ حياة مستخدمة",
+    "explanationAR": "استخدام حزام الأمان بالصورة الصحيحة يحافظ على ثبات جسم الراكب ويمنع اصطدامه بأجزاء المركبة أو اندفاعه خارجها عند الحادث، مما يساعد على إنقاذ حياة مستخدمه.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 30,
+    "question": "After stopping the vehicle, you must:",
+    "options": [
+      "Close all doors and windows",
+      "Not leave children alone in the vehicle",
+      "Apply the permanent (parking) hand brake",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "After stopping the vehicle, you must close all doors and windows, not leave children alone inside, and apply the parking hand brake to keep the vehicle secured; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "بعد ایقاف المركبة یجب:",
+    "optionsAR": [
+      "غلق جمیع الأبواب والنوافذ",
+      "عدم ترك الأطفال بمفردھم في المركبة",
+      "استعمال المكابح الیدویة الدائمة",
+      "جمیع ما ذكر."
+    ],
+    "correctAnswerAR": "جمیع ما ذكر.",
+    "explanationAR": "بعد إيقاف المركبة يجب إغلاق جميع الأبواب والنوافذ، وعدم ترك الأطفال بمفردهم داخلها، واستعمال المكابح اليدوية الدائمة لتثبيت المركبة؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 31,
+    "question": "Cargo vehicles whose gross weight exceeds seven and a half tons are allowed to enter within the limits of the municipal councils.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; cargo vehicles whose gross weight exceeds seven and a half tons are not allowed to enter within the limits of municipal councils, except by special permit and at designated times, to avoid road congestion and damage to infrastructure.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "یسمح بدخول سیارات الشحن التي یزید وزنھا الاجمالي سبعة اطنان ونصف الطن بالدخول داخل حدود المجالس البلدیة .",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ لا يُسمح بدخول سيارات الشحن التي يزيد وزنها الإجمالي عن سبعة أطنان ونصف الطن إلى داخل حدود المجالس البلدية إلا بإذن خاص وفي أوقات محددة، تجنباً لازدحام الطرق وتلف البنية التحتية.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 32,
+    "question": "Parking agricultural and construction vehicles on main streets within the limits of the municipal councils is prohibited for any reason whatsoever.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; parking agricultural and construction vehicles on main streets within the limits of the municipal councils is prohibited for any reason, because they obstruct and endanger traffic.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "یمنع وقوف المركبات الزراعیة والانشائیة على الشوارع الرئیسیة داخل حدود المجالس البلدیة لاي سبب من الاسباب.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يُمنع وقوف المركبات الزراعية والإنشائية على الشوارع الرئيسية داخل حدود المجالس البلدية لأي سبب، لأنها تشكل عائقاً وخطراً على حركة المرور.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 33,
+    "question": "The driver is prohibited from using audible warning devices (horns):",
+    "options": [
+      "While the vehicle is stationary.",
+      "Near hospitals, schools, and places of worship.",
+      "Continuously and without justification, in a way that disturbs pedestrians or others' peace.",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "Using the horn is prohibited while the vehicle is stationary, near hospitals, schools, and places of worship, and continuously without justification in a way that disturbs pedestrians or others' peace; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "یحظر على السائق استعمال اجھزة التنبیھ الصوتیة",
+    "optionsAR": [
+      "أثناء وقوف المركبة.",
+      "القرب من المستشفیات والمدارس واماكن العبادة.",
+      "بصفة مستمرة وبدون مبرر وبطریقة تزعج المشاة او تقلق راحة الآخرین.",
+      "جمیع ما ذكر."
+    ],
+    "correctAnswerAR": "جمیع ما ذكر.",
+    "explanationAR": "يُحظر استعمال أجهزة التنبيه الصوتية أثناء وقوف المركبة، وقرب المستشفيات والمدارس وأماكن العبادة، وبصفة مستمرة وبدون مبرر بطريقة تزعج المشاة وراحة الآخرين؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 34,
+    "question": "It is prohibited to install or use any type of device that produces noise on the exhaust pipe.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; installing or using any device that produces noise on the exhaust pipe is prohibited because it causes noise pollution and violates environmental and traffic regulations.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "یحظر تركیب أو استعمال أي نوع من الأجھزة التي تخرج صوتا على ماسورة غاز العادم",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يُحظر تركيب أو استعمال أي جهاز يُخرج صوتاً على ماسورة غاز العادم لأنه يسبب إزعاجاً صوتياً ومخالفاً للأنظمة البيئية والمرورية.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 35,
+    "question": "No one may open the vehicle's doors, and the driver may not allow passengers to open them, leave them open, or alight from the vehicle, before making sure that this does not endanger the safety of road users.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the doors of the vehicle may not be opened, left open, or used to alight before making sure that doing so does not endanger road users.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "لایجوز لأي شخص فتح أبواب المركبة ولا یجوز لسائقھا السماح لركابھا بفتحھا أو تركھا مفتوحة أو النزول من المركبة قبل التأكد من أن ذلك لا یعرض سلامة مستخدمي الطریق للخطر",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ لا يجوز فتح أبواب المركبة أو السماح للركاب بفتحها أو تركها مفتوحة أو النزول قبل التأكد من أن ذلك لا يعرض سلامة مستخدمي الطريق للخطر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 36,
+    "question": "Among the steps taken to complete an overtaking maneuver:",
+    "options": [
+      "Observing road signs",
+      "Making sure the road ahead is clear for a sufficient distance to complete the overtake",
+      "Checking the interior mirror and then the side mirror to make sure the situation behind is safe and permits overtaking",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "To complete an overtaking maneuver safely, the driver must observe road signs, make sure the road ahead is clear for a sufficient distance, and check the interior and then the side mirror to confirm the situation behind is safe; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من الاجراءات التي تتخذ لاتمام عملیة التجاوز:",
+    "optionsAR": [
+      "مراعاة اشارات الطرق",
+      "التأكد من ان الطریق مكشوف امامه لمسافة كافیة لاتمام عملیة التجاوز",
+      "النظر في المراة الداخلیة ومن ثم الجانبیة للتأكد من ان الوضع امن من الخلف ویسمح بالتجاوز",
+      "جمیع ما ذكر"
+    ],
+    "correctAnswerAR": "جمیع ما ذكر",
+    "explanationAR": "لإتمام عملية التجاوز بأمان يجب مراعاة إشارات الطرق، والتأكد من أن الطريق مكشوف لمسافة كافية، والنظر في المرآة الداخلية ثم الجانبية للتأكد من أن الوضع آمن من الخلف؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 37,
+    "question": "Among the places where stopping is prohibited:",
+    "options": [
+      "Pedestrian crossings and sidewalks",
+      "Lanes designated for bicycles",
+      "Railway crossings and railway tracks",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "Stopping is prohibited at pedestrian crossings and on sidewalks, in bicycle lanes, and at railway crossings and on railway tracks; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من الاماكن التي یمنع التوقف بھا:",
+    "optionsAR": [
+      "اماكن عبور المشاة وعلى الارصفة",
+      "الممرات المخصصة للدراجات الھوائیة",
+      "مقاطع السكك الحدیدیة والخطوط الحدیدیة",
+      "جمیع ما ذكر"
+    ],
+    "correctAnswerAR": "جمیع ما ذكر",
+    "explanationAR": "يُمنع التوقف في أماكن عبور المشاة وعلى الأرصفة، وفي الممرات المخصصة للدراجات الهوائية، وعلى مقاطع السكك الحديدية والخطوط الحديدية؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 38,
+    "question": "A driver may not overtake another vehicle except from the left side, except in cases where overtaking from the right is permitted.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; as a general rule, overtaking is done from the left side of the vehicle, and overtaking from the right is not permitted except in cases allowed by law.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "لا یجوز للسائق التجاوز بالمركبة الا من الجانب الایسر ما عدا الحالات التي یسمح بھا التجاوز من الیمین.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ القاعدة العامة أن التجاوز يكون من الجانب الأيسر للمركبة، ولا يجوز التجاوز من اليمين إلا في الحالات التي يسمح بها القانون.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 39,
+    "question": "A driver driving downhill must keep to the far right or stop his vehicle completely to allow the vehicle going uphill to pass, if the width of the road does not permit both vehicles to pass together.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; on narrow downhill roads, the descending driver must keep to the far right or stop completely to allow the ascending vehicle to pass, because an ascending vehicle has difficulty restarting from a stop on a slope.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "على السائق الذي یقود مركبته في الاتجاه المنحدر من الطریق الالتزام باقصى یمینه او ایقاف مركبته تماما وذلك لتمكین المركبة الصاعدة من المرور اذا كان عرض الطریق لا یسمح بمرور المركبتین معا.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ في الطرق الضيقة المنحدرة يجب على السائق النازل الالتزام بأقصى يمينه أو إيقاف مركبته تماماً لتمكين المركبة الصاعدة من المرور، لأن الصاعدة تجد صعوبة في إعادة الانطلاق من وضع التوقف على المنحدر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 40,
+    "question": "If two vehicles meet from opposite directions on a road whose width is not enough for them to pass together, they must:",
+    "options": [
+      "Reduce speed",
+      "Move onto the edge of the road if necessary",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "If two vehicles meet from opposite directions on a narrow road not wide enough for both, the drivers must reduce speed and move onto the edge of the road if necessary; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "اذا التقت مركبتان من اتجاھین متقابلین في طریق لا یكفي عرضه لمرورھما معا فعلیھما:",
+    "optionsAR": [
+      "تخفیف السرعة",
+      "تخطي حافة الطریق اذا اقتضت الضرورة",
+      "جمیع ماذكر"
+    ],
+    "correctAnswerAR": "جمیع ماذكر",
+    "explanationAR": "إذا التقت مركبتان من اتجاهين متقابلين في طريق ضيق لا يكفي عرضه لمرورهما معاً، يجب على السائقين تخفيف السرعة وتخطي حافة الطريق إذا اقتضت الضرورة؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 41,
+    "question": "The best way to avoid traffic accidents is to use defensive driving, which means leaving a sufficient safety distance between vehicles.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the best way to avoid traffic accidents is defensive driving, and one of its most important elements is leaving a sufficient safety distance between vehicles to allow a safe reaction in emergencies.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "ان افضل طریق لتجنب الحوادث المروریة استخدام اسلوب القیادة الوقائیة المتمثل بترك مسافة امان كافیة بین المركبات:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ أفضل طريق لتجنب الحوادث المرورية هو القيادة الوقائية، ومن أهم عناصرها ترك مسافة أمان كافية بين المركبات تتيح ردة فعل آمنة عند الطوارئ.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 42,
+    "question": "In order to refuel safely, you must:",
+    "options": [
+      "Turn off the engine",
+      "Not smoke",
+      "Not use the mobile phone, and leave it inside the car or turn it off",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "To refuel safely, the driver must turn off the engine, refrain from smoking, and not use the mobile phone (leaving it inside the car or turned off), to avoid sources of ignition; so the correct answer is all of the above.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من اجل الحصول على تعبئة وقود امنه یجب:",
+    "optionsAR": [
+      "اطفاء المحرك",
+      "عدم التدخین",
+      "عدم إستخدام الھاتف المتنقل،وتركه داخل السیارة أو إغلاقه",
+      "جمیع ما ذكر"
+    ],
+    "correctAnswerAR": "جمیع ما ذكر",
+    "explanationAR": "للحصول على تعبئة وقود آمنة يجب إطفاء المحرك، وعدم التدخين، وعدم استخدام الهاتف المتنقل وتركه داخل السيارة أو إغلاقه، تجنباً لمصادر الاشتعال؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 43,
+    "question": "The loading method of the vehicle shown in the image is:",
+    "options": [
+      "Correct because the driver is carrying a light load.",
+      "Incorrect because the driver has not used safety measures.",
+      "None of the above"
+    ],
+    "image": "assets/images/driver-behavior/driver-behavior-043.png",
+    "video": null,
+    "correctAnswer": "Incorrect because the driver has not used safety measures.",
+    "explanation": "The loading method shown is incorrect because the driver has not used safety measures to secure the load; the load extends beyond the vehicle's sides and is not firmly tied down, which is dangerous to him and to other road users.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "طریقة تحمیل المركبة المبینة في الصورة:",
+    "optionsAR": [
+      "صحیحة كون السائق یحمل حمولة خفیفة.",
+      "غیر صحیحة كون السائق لم یستخدم وسائل السلامة.",
+      "لاشئ مما ذكر"
+    ],
+    "correctAnswerAR": "غیر صحیحة كون السائق لم یستخدم وسائل السلامة.",
+    "explanationAR": "طريقة التحميل المبيّنة غير صحيحة لأن السائق لم يستخدم وسائل السلامة لتثبيت الحمولة؛ فالحمولة متجاوزة لأبعاد المركبة وغير مربوطة بإحكام، مما يشكل خطراً عليه وعلى مستخدمي الطريق.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 44,
+    "question": "From the image shown, the vehicle with its load:",
+    "options": [
+      "Takes the necessary precautions to secure and cover the load.",
+      "Does not take the necessary precautions because it does not display the required reflectors.",
+      "Does not take the necessary precautions to secure and cover the load, because its load poses a danger to others."
+    ],
+    "image": "assets/images/driver-behavior/driver-behavior-044.png",
+    "video": null,
+    "correctAnswer": "Does not take the necessary precautions to secure and cover the load, because its load poses a danger to others.",
+    "explanation": "The vehicle in the image is not taking the necessary precautions to secure and cover its load; the load is piled on top of the cargo bed without straps or covering, which makes it likely to fall onto other vehicles and pose a danger to them.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "من خلال الصورة المبینة فإن المركبة بحمولتھا:",
+    "optionsAR": [
+      "تتخذ الاحتیاطات اللازمة لتثبیت الحمولة و تغطیتھا.",
+      "لا تتخذ الاحتیاطات اللازمة لأنھا لاتضع العواكس المطلوبة.",
+      "لا تتخذ الاحتیاطات اللازمة لتثبیت الحمولة و تغطیتھا لأن حمولتھا تشكل خطرا على الآخرین."
+    ],
+    "correctAnswerAR": "لا تتخذ الاحتیاطات اللازمة لتثبیت الحمولة و تغطیتھا لأن حمولتھا تشكل خطرا على الآخرین.",
+    "explanationAR": "المركبة المبيّنة لا تتخذ الاحتياطات اللازمة لتثبيت الحمولة وتغطيتها، فالحمولة مكدّسة فوق صندوق الشحن من دون أربطة أو غطاء، مما يجعلها عرضة للسقوط على المركبات الأخرى ويشكل خطراً عليها.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 45,
+    "question": "The driver of the red car does not disturb the driver of the vehicle in front (the green one) with his light, because he is not tailgating him.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/driver-behavior/driver-behavior-045.gif",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; the driver of the red car disturbs the driver of the green car with his (high-beam) light even if he is not tailgating, because the high beams reflect in the front vehicle's interior and side mirrors and reduce visibility.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "ان سائق المركبة الحمراء لا يزعج بضوئه سائق المركبة الموجودة في الأمام (الخضراء) و ذلك لأنه لا يسير ملاصقا له",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ سائق المركبة الحمراء يزعج بضوئه (الأنوار العالية) سائق المركبة الخضراء حتى وإن لم يكن ملاصقاً له، لأن الإضاءة العالية تنعكس على المرايا الداخلية والجانبية للمركبة الأمامية وتُضعف الرؤية.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 46,
+    "question": "The driver of the red car disturbs the driver of the vehicle in front (the yellow one) with his light because:",
+    "options": [
+      "He is tailgating him",
+      "He is not tailgating him"
+    ],
+    "image": "assets/images/driver-behavior/driver-behavior-046.jpg",
+    "video": null,
+    "correctAnswer": "He is tailgating him",
+    "explanation": "The driver of the red car disturbs the driver of the yellow car with his light because he is tailgating him (driving very close behind); the headlights reflect in the front vehicle's mirrors and cause annoying glare for the driver.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "ان سائق المركبة الحمراء يزعج بضوئه سائق المركبة الموجودة في الأمام (الصفراء) لانه :",
+    "optionsAR": [
+      "يسير ملاصقا له",
+      "لا يسير ملاصقا له"
+    ],
+    "correctAnswerAR": "يسير ملاصقا له",
+    "explanationAR": "سائق المركبة الحمراء يزعج بضوئه سائق المركبة الصفراء لأنه يسير ملاصقاً له (قريباً جداً منه)، فينعكس ضوء مصابيحه على مرايا المركبة الأمامية ويُسبب وهجاً مزعجاً للسائق.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 47,
+    "question": "The presence of street stalls in this manner:",
+    "options": [
+      "Is allowed because it provides a service to people",
+      "Is forbidden because it does not comply with set prices",
+      "Is forbidden because it encroaches on the road right-of-way"
+    ],
+    "image": "assets/images/driver-behavior/driver-behavior-047.png",
+    "video": null,
+    "correctAnswer": "Is forbidden because it encroaches on the road right-of-way",
+    "explanation": "Street stalls set up in this manner are forbidden because they encroach on the road right-of-way, obstruct traffic and pedestrians, block visibility, and endanger road users.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "وجود البسطات بهذا الشكل:",
+    "optionsAR": [
+      "مسموح به لأنه يقدم خدمة للناس",
+      "ممنوع لأنه لايلتزم بالأسعار المحددة",
+      "ممنوع لأنه يتعدى على حرم الطريق"
+    ],
+    "correctAnswerAR": "ممنوع لأنه يتعدى على حرم الطريق",
+    "explanationAR": "وجود البسطات بهذا الشكل ممنوع لأنه يتعدى على حرم الطريق، ويُعيق حركة المرور والمشاة ويحجب الرؤية ويعرض مستخدمي الطريق للخطر.",
+    "sourceCategory": "سلوكيات السائقين"
+  },
+  {
+    "number": 48,
+    "question": "Placing a cushion between your back and the seat back reduces the effectiveness of the head restraint in the event of an accident.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; placing a cushion between the back and the seat back moves the head away from the head restraint, which reduces its effectiveness in protecting the neck and increases the risk of neck injuries in rear-end collisions.",
+    "chapterTitle": "Driver Behavior",
+    "chapterTitleAR": "سلوكيات السائقين",
+    "questionAR": "إن وضع وسادة بين ظهرك وظهر المقعد يقلل من فعالية مسند الرأس في حال وقوع حادث",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ وضع وسادة بين الظهر وظهر المقعد يُبعد الرأس عن مسند الرأس، مما يقلل من فعاليته في حماية الرقبة ويزيد من خطر إصابات العنق عند الاصطدامات الخلفية.",
+    "sourceCategory": "سلوكيات السائقين"
+  }
+]

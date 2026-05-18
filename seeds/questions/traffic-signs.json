@@ -1,0 +1,2372 @@
+[
+  {
+    "number": 1,
+    "question": "This sign means:",
+    "options": [
+      "No entry for vehicles wider than 12m.",
+      "No entry for vehicles taller than 12m.",
+      "No entry for vehicles longer than 12m.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-001.jpg",
+    "video": null,
+    "correctAnswer": "No entry for vehicles longer than 12m.",
+    "explanation": "The sign prohibits the passage of vehicles whose length exceeds 12 meters; the number on the sign indicates the maximum allowed vehicle length.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع مرور المركبات التي يزيد عرضها عن 12م.",
+      "ممنوع مرور المركبات التي يزيد ارتفاعها عن 12م.",
+      "ممنوع مرور المركبات التي يزيد طولها عن 12م.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع مرور المركبات التي يزيد طولها عن 12م.",
+    "explanationAR": "الشاخصة تمنع مرور المركبات التي يزيد طولها عن 12 متراً، حيث يدل الرقم المُدرج داخل الشاخصة على الحد الأقصى المسموح به لطول المركبة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 2,
+    "question": "This sign means:",
+    "options": [
+      "Tourist areas",
+      "Medical / spa areas",
+      "Archaeological areas",
+      "All of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-002.jpg",
+    "video": null,
+    "correctAnswer": "Tourist areas",
+    "explanation": "An informational sign indicating the presence of tourist areas to alert drivers.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "مناطق سياحية",
+      "مناطق علاجيه",
+      "مناطق اثرية",
+      "جميع ما ذكر."
+    ],
+    "correctAnswerAR": "مناطق سياحية",
+    "explanationAR": "الشاخصة إرشادية تدل على وجود مناطق سياحية في المنطقة لتنبيه السائقين.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 3,
+    "question": "This sign means:",
+    "options": [
+      "Railroad crossing with barrier ahead.",
+      "Railroad crossing without barrier ahead.",
+      "Train ahead.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-003.jpg",
+    "video": null,
+    "correctAnswer": "Railroad crossing with barrier ahead.",
+    "explanation": "A warning sign indicating a railroad crossing equipped with a barrier ahead; slow down and be ready to stop.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "أمامك سكة حديد مع حاجز.",
+      "امامك سكة حديد دون حاجز.",
+      "امامك قطار.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "أمامك سكة حديد مع حاجز.",
+    "explanationAR": "الشاخصة التحذيرية تدل على اقترابك من مقطع سكة حديد مزود بحاجز، ويجب التمهل والاستعداد للتوقف.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 4,
+    "question": "This sign means:",
+    "options": [
+      "No entry for vehicles wider than 2.2m.",
+      "No entry for vehicles taller than 2.2m.",
+      "No entry for vehicles longer than 2.2m.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-004.jpg",
+    "video": null,
+    "correctAnswer": "No entry for vehicles wider than 2.2m.",
+    "explanation": "The sign prohibits the passage of vehicles whose width exceeds 2.2 meters; the number indicates the maximum allowed vehicle width.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع مرور المركبات التي يزيد عرضها عن 2.2م.",
+      "ممنوع مرور المركبات التي يزيد ارتفاعها عن 2.2م.",
+      "ممنوع مرور المركبات التي يزيد طولها عن 2.2م.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع مرور المركبات التي يزيد عرضها عن 2.2م.",
+    "explanationAR": "الشاخصة تمنع مرور المركبات التي يزيد عرضها عن 2.2 متر، حيث يدل الرقم على الحد الأقصى المسموح به لعرض المركبة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 5,
+    "question": "This sign means:",
+    "options": [
+      "End of a main road.",
+      "You have priority.",
+      "Main road.",
+      "Priority for oncoming traffic."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-005.jpg",
+    "video": null,
+    "correctAnswer": "You have priority.",
+    "explanation": "The sign indicates that you have priority over oncoming vehicles in the narrow section of the road.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "نهاية طريق رئيسي.",
+      "أفضلية المرور لك.",
+      "طريق رئيسي.",
+      "الأولوية للقادمين."
+    ],
+    "correctAnswerAR": "أفضلية المرور لك.",
+    "explanationAR": "الشاخصة تدل على أن أفضلية (أولوية) المرور لك على المركبات القادمة من الاتجاه المقابل في الطريق الضيق.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 6,
+    "question": "This sign means:",
+    "options": [
+      "Railroad crossing with barrier ahead.",
+      "Railroad crossings at varying distances from the intersection.",
+      "Single-track railroad crossing.",
+      "Multi-track railroad crossing."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-006.jpg",
+    "video": null,
+    "correctAnswer": "Railroad crossings at varying distances from the intersection.",
+    "explanation": "A warning sign indicating railroad crossings at different distances from the intersection; pay attention and slow down.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "أمامك سكة حديد مع حاجز.",
+      "مقاطع سكة حديد على أبعاد مختلفة من التقاطع.",
+      "مقطع سكة حديد(خط واحد) .",
+      "مقطع سكة حديد (أكثر من خط)."
+    ],
+    "correctAnswerAR": "مقاطع سكة حديد على أبعاد مختلفة من التقاطع.",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود مقاطع سكة حديد على أبعاد مختلفة من التقاطع، ويجب الانتباه والتمهل.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 7,
+    "question": "This sign means:",
+    "options": [
+      "Intersection ahead.",
+      "Roundabout ahead.",
+      "Stop sign ahead.",
+      "Stop."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-007.jpg",
+    "video": null,
+    "correctAnswer": "Stop sign ahead.",
+    "explanation": "A warning sign indicating a Stop sign ahead; be prepared to make a full stop when you reach it.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "أمامك تقاطع .",
+      "امامك دوار.",
+      "أمامك شاخصة قف .",
+      "قف."
+    ],
+    "correctAnswerAR": "أمامك شاخصة قف .",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود شاخصة (قف) أمامك، ويجب الاستعداد للتوقف التام عند الوصول إليها.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 8,
+    "question": "This sign means:",
+    "options": [
+      "No left turn.",
+      "No U-turn.",
+      "U-turn allowed.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-008.jpg",
+    "video": null,
+    "correctAnswer": "No U-turn.",
+    "explanation": "A red circular sign with a crossed-out U-turn arrow, meaning U-turns are prohibited.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع الانعطاف إلى اليسار.",
+      "ممنوع الدوران.",
+      "مسموح الدوران.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع الدوران.",
+    "explanationAR": "الشاخصة دائرية حمراء بداخلها سهم دائري مشطوب، وتعني منع الدوران (الالتفاف) للخلف.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 9,
+    "question": "This sign means:",
+    "options": [
+      "Children",
+      "Bicycle path or entry",
+      "Pedestrian crossing",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-009.jpg",
+    "video": null,
+    "correctAnswer": "Bicycle path or entry",
+    "explanation": "The sign indicates a dedicated path or entry for bicycles; pay attention to cyclists.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "أطفال",
+      "ممر او مدخل دراجات",
+      "ممر مشاة",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممر او مدخل دراجات",
+    "explanationAR": "الشاخصة تدل على وجود ممر أو مدخل خاص لمرور الدراجات الهوائية، فيجب الانتباه لها.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 10,
+    "question": "This sign means:",
+    "options": [
+      "Tunnel ahead.",
+      "Bridge ahead.",
+      "Divided road with median ahead.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-010.jpg",
+    "video": null,
+    "correctAnswer": "Tunnel ahead.",
+    "explanation": "A warning sign indicating a tunnel ahead; slow down and turn on headlights as required.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "امامك نفق.",
+      "امامك جسر.",
+      "أمامك طريق مفصول بجزيرة وسطية.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "امامك نفق.",
+    "explanationAR": "الشاخصة التحذيرية تدل على اقترابك من نفق، ويجب التمهل وإضاءة الأنوار حسب التعليمات.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 11,
+    "question": "When you see this sign you must:",
+    "options": [
+      "Pass carefully if your vehicle is taller than 4.7m.",
+      "Not pass if your vehicle is shorter than 4.7m.",
+      "Not pass if your vehicle is taller than 4.7m.",
+      "Not pass if your vehicle is wider than 4.7m."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-011.jpg",
+    "video": null,
+    "correctAnswer": "Not pass if your vehicle is taller than 4.7m.",
+    "explanation": "The sign prohibits the passage of vehicles taller than 4.7 meters, so you must not pass if your vehicle exceeds that height, for safety.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند رؤيتك لهذه الشاخصة فإنة يجب عليك :",
+    "optionsAR": [
+      "المرور بحذر إذا كان إرتفاع مركبتك اكثر من 4.7 متر.",
+      "عدم المرور إذا كان إرتفاع مركبتك اقل 4.7 متر.",
+      "عدم المرور إذا كان إرتفاع مركبتك اكثر من 4.7متر.",
+      "عدم المرور إذا كان عرض مركبتك اكثر من 4.7 متر."
+    ],
+    "correctAnswerAR": "عدم المرور إذا كان إرتفاع مركبتك اكثر من 4.7متر.",
+    "explanationAR": "الشاخصة تمنع مرور المركبات التي يزيد ارتفاعها عن 4.7 متر، لذلك يُمنع المرور إذا كان ارتفاع المركبة أكثر من ذلك حفاظاً على السلامة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 12,
+    "question": "This sign means:",
+    "options": [
+      "End of no-overtaking zone for trucks.",
+      ". End of no-overtaking zone.",
+      "No overtaking for trucks.",
+      "End of all restrictions."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-012.jpg",
+    "video": null,
+    "correctAnswer": "End of all restrictions.",
+    "explanation": "The sign indicates the end of all restriction zones; normal driving conditions resume.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "نهاية منطقة منع التجاوز للشاحنات.",
+      ". نهاية منطقة منع التجاوز.",
+      "ممنوع التجاوز للشاحنات.",
+      "نهاية منطقة المنع."
+    ],
+    "correctAnswerAR": "نهاية منطقة المنع.",
+    "explanationAR": "الشاخصة تدل على نهاية جميع مناطق المنع (نهاية المنع)، ويعود الوضع إلى الحالة الطبيعية.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 13,
+    "question": "This sign means:",
+    "options": [
+      "Main road.",
+      "End of highway.",
+      "Start of highway",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-013.jpg",
+    "video": null,
+    "correctAnswer": "End of highway.",
+    "explanation": "The sign indicates the end of the highway (motorway); regular road rules apply beyond this point.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق رئيسي.",
+      "نهاية الأوتوستراد.",
+      "بداية الأوتوستراد",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "نهاية الأوتوستراد.",
+    "explanationAR": "الشاخصة تدل على نهاية الطريق السريع (الأوتوستراد)، ويجب التقيد بقواعد الطرق العادية بعدها.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 14,
+    "question": "The correct action when seeing this sign while driving is:",
+    "options": [
+      "Reduce speed, keep to the right lane, and give priority to vehicles with the right of way.",
+      "Reduce speed, keep to the left lane, and give priority to vehicles with the right of way.",
+      "Reduce speed, keep to the appropriate lane, and give priority to vehicles with the right of way.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-014.jpg",
+    "video": null,
+    "correctAnswer": "Reduce speed, keep to the appropriate lane, and give priority to vehicles with the right of way.",
+    "explanation": "The sign indicates a merging road, so you must reduce speed, stay in the appropriate lane, and yield to vehicles with the right of way.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "الإجراء الصحيح عند رؤيتك لهذه الشاخصة أثناء القيادة :",
+    "optionsAR": [
+      "تخفيض سرعة مركبتك والالتزام بالمسرب الايمن وإعطاء الأولوية للمركبات التي تملك حق الأولوية.",
+      "تخفيض سرعة مركبتك والالتزام بالمسرب الأيسر وإعطاء الأولوية للمركبات التي تملك حق الأولوية.",
+      "تخفيض سرعة مركبتك والالتزام بالمسرب المناسب وإعطاء الأولوية للمركبات التي تملك حق الأولوية.",
+      "لاشئ مماذكر."
+    ],
+    "correctAnswerAR": "تخفيض سرعة مركبتك والالتزام بالمسرب المناسب وإعطاء الأولوية للمركبات التي تملك حق الأولوية.",
+    "explanationAR": "الشاخصة تدل على اندماج طريق آخر مع طريقك، لذا يجب تخفيض السرعة والالتزام بالمسرب المناسب وإعطاء الأولوية للمركبات صاحبة حق الأولوية.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 15,
+    "question": "This sign means:",
+    "options": [
+      "End of a main road.",
+      "You have priority.",
+      "Two-lane road.",
+      "Priority for oncoming traffic."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-015.jpg",
+    "video": null,
+    "correctAnswer": "Priority for oncoming traffic.",
+    "explanation": "The sign indicates that oncoming vehicles have priority when you pass through the narrow section of road.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "نهاية طريق رئيسي.",
+      "أفضلية المرور لك.",
+      "طريق بمسربين.",
+      "الأولولية للقادمين من الجهة المقابلة."
+    ],
+    "correctAnswerAR": "الأولولية للقادمين من الجهة المقابلة.",
+    "explanationAR": "الشاخصة تدل على أن الأولوية للمركبات القادمة من الجهة المقابلة عند مرورك في الطريق الضيق.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 16,
+    "question": "The correct action when seeing this sign while driving is:",
+    "options": [
+      "Increase speed to match the curve and allow overtaking.",
+      "Reduce speed to match the curves and do not overtake.",
+      "Reduce speed to match the curve and allow overtaking.",
+      "Stop your vehicle, then move slowly toward the curve to enter safely and prevent overtaking."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-016.jpg",
+    "video": null,
+    "correctAnswer": "Reduce speed to match the curves and do not overtake.",
+    "explanation": "The sign indicates a series of successive curves ahead, so you must reduce speed to match the road and refrain from overtaking.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "الإجراء الصحيح عند رؤيتك لهذه الشاخصة أثناء القيادة :",
+    "optionsAR": [
+      "زيادة سرعة مركبتك، لتتناسب مع سرعة المنعطف والسماح بالتجاوز.",
+      "تخفيض سرعة مركبتك، لتتناسب مع سرعة المنعطفات وعدم التجاوز.",
+      "تخفيض سرعة مركبتك، لتتناسب مع سرعة المنعطف والسماح بالتجاوز.",
+      "إيقاف مركبتك ثم التحرك ببطء نحو المنعطف لدخوله بأمان ومنع التجاوز."
+    ],
+    "correctAnswerAR": "تخفيض سرعة مركبتك، لتتناسب مع سرعة المنعطفات وعدم التجاوز.",
+    "explanationAR": "الشاخصة تدل على وجود عدة منعطفات متتالية أمامك، فيجب تخفيض السرعة لتتناسب مع طبيعة الطريق وعدم التجاوز.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 17,
+    "question": "This sign means:",
+    "options": [
+      "Main road.",
+      "End of highway.",
+      "Start of highway.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-017.jpg",
+    "video": null,
+    "correctAnswer": "Start of highway.",
+    "explanation": "The sign indicates the start of a highway (motorway); its special rules now apply.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق رئيسي.",
+      "نهاية الأوتوستراد.",
+      "بداية الأوتوستراد .",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "بداية الأوتوستراد .",
+    "explanationAR": "الشاخصة تدل على بداية الطريق السريع (الأوتوستراد)، وتطبق عليه قواعده الخاصة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 18,
+    "question": "This sign means:",
+    "options": [
+      "No overtaking.",
+      "End of no-overtaking zone.",
+      "No overtaking for trucks.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-018.jpg",
+    "video": null,
+    "correctAnswer": "No overtaking.",
+    "explanation": "A circular sign showing two cars side by side (one of them red) meaning overtaking between vehicles is prohibited.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع التجاوز.",
+      "نهاية منطقة منع التجاوز.",
+      "ممنوع التجاوز للشاحنات.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع التجاوز.",
+    "explanationAR": "الشاخصة دائرية بداخلها سيارتان متجاورتان (إحداهما حمراء) وتعني منع التجاوز بين المركبات.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 19,
+    "question": "This sign means:",
+    "options": [
+      "Dangerous road.",
+      "Yield sign ahead.",
+      "Main road.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-019.jpg",
+    "video": null,
+    "correctAnswer": "Yield sign ahead.",
+    "explanation": "An inverted-triangle warning sign indicating that a Yield sign is ahead; be prepared to give the right of way to other vehicles.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق خطر.",
+      "امامك شاخصة اعط الاولوية.",
+      "طريق رئيسي.",
+      "لاشئ مما ذكر ."
+    ],
+    "correctAnswerAR": "امامك شاخصة اعط الاولوية.",
+    "explanationAR": "الشاخصة التحذيرية على شكل مثلث مقلوب تدل على اقترابك من شاخصة (اعط الأولوية)، فعليك الاستعداد لإعطاء الأولوية للمركبات الأخرى.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 20,
+    "question": "The correct action when seeing this sign while driving is:",
+    "options": [
+      "Reduce speed, observe the posted speed limit, keep to the left of the road, and do not overtake.",
+      "Reduce speed, observe the posted speed limit, keep to the left of the road, and overtaking is allowed.",
+      "Increase speed, observe the posted speed limit, keep to the right of the road, and do not overtake.",
+      "Reduce speed, observe the posted speed limit, keep to the right of the road, and do not overtake."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-020.jpg",
+    "video": null,
+    "correctAnswer": "Reduce speed, observe the posted speed limit, keep to the right of the road, and do not overtake.",
+    "explanation": "The sign indicates successive curves ahead, so you must reduce speed, observe the speed limit, keep to the right side of the road, and refrain from overtaking.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "الإجراء الصحيح عند رؤيتك لهذه الشاخصة أثناء القيادة :",
+    "optionsAR": [
+      "تخفيض سرعة مركبتك والالتزام بحدود السرعة المقررة والجانب الأيسر من الطريق وعدم التجاوز.",
+      "تخفيض سرعة مركبتك والالتزام بحدود السرعة المقررة والجانب الأيسر من الطريق وإمكانية التجاوز.",
+      "زيادة سرعة مركبتك والالتزام بحدود السرعة المقررة والجانب الأيمن من الطريق وعدم التجاوز.",
+      "تخفيض سرعة مركبتك والالتزام بحدود السرعة المقررة والجانب الأيمن من الطريق وعدم التجاوز."
+    ],
+    "correctAnswerAR": "تخفيض سرعة مركبتك والالتزام بحدود السرعة المقررة والجانب الأيمن من الطريق وعدم التجاوز.",
+    "explanationAR": "الشاخصة تدل على وجود منعطفات متتالية أمامك، لذا يجب تخفيض السرعة والالتزام بحدود السرعة المقررة والجانب الأيمن من الطريق وعدم التجاوز.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 21,
+    "question": "The correct action when seeing this sign while driving is:",
+    "options": [
+      "Do not make a U-turn because it is prohibited and the narrow intersection may pose hazards.",
+      "Make a U-turn after making sure the road is clear of other vehicles.",
+      "Make a U-turn only during evening hours."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-021.jpg",
+    "video": null,
+    "correctAnswer": "Do not make a U-turn because it is prohibited and the narrow intersection may pose hazards.",
+    "explanation": "The sign prohibits U-turns because the intersection is not wide enough and a U-turn could cause hazards, so do not make a U-turn.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "الإجراء الصحيح عند رؤيتك لهذه الشاخصة أثناء القيادة :",
+    "optionsAR": [
+      "عدم الدوران كون ذلك ممنوع ومن الممكن ان يواجهك مخاطر ناتجة عن عدم اتساع التقاطع.",
+      "الدوران بعد التأكد من خلو الطريق من المركبات الأخرى.",
+      "الدوران خلال اوقات المساء فقط."
+    ],
+    "correctAnswerAR": "عدم الدوران كون ذلك ممنوع ومن الممكن ان يواجهك مخاطر ناتجة عن عدم اتساع التقاطع.",
+    "explanationAR": "الشاخصة تمنع الدوران (الالتفاف) لأن طبيعة التقاطع لا تتسع لذلك وقد يؤدي إلى مخاطر، فيجب عدم الدوران.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 22,
+    "question": "This sign means:",
+    "options": [
+      "Safe road.",
+      "Reduce speed.",
+      "Various hazards.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-022.jpg",
+    "video": null,
+    "correctAnswer": "Various hazards.",
+    "explanation": "A warning sign with an exclamation mark indicating various hazards on the road; pay attention and proceed with caution.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق غير خطر.",
+      "خفض السرعة.",
+      "أخطار مختلفة.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "أخطار مختلفة.",
+    "explanationAR": "الشاخصة التحذيرية بداخلها علامة تعجب تدل على وجود أخطار مختلفة على الطريق، فيجب الانتباه والحذر.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 23,
+    "question": "This sign means:",
+    "options": [
+      "Railroad crossing with barrier ahead.",
+      "Railroad crossings at varying distances from the intersection.",
+      "Single-track railroad crossing",
+      "Multi-track railroad crossing"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-023.jpg",
+    "video": null,
+    "correctAnswer": "Single-track railroad crossing",
+    "explanation": "A warning sign indicating a single-track railroad crossing; slow down and proceed with caution.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "أمامك سكة حديد مع حاجز.",
+      "مقاطع سكة حديد على أبعاد مختلفة من التقاطع.",
+      "مقطع سكة حديد(خط واحد)",
+      "مقطع سكة حديد (أكثر من خط)"
+    ],
+    "correctAnswerAR": "مقطع سكة حديد(خط واحد)",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود مقطع سكة حديد بخط واحد فقط، ويجب التمهل والانتباه.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 24,
+    "question": "This sign means:",
+    "options": [
+      "Mandatory right turn.",
+      "Mandatory left turn.",
+      "Priority for traffic turning right",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-024.jpg",
+    "video": null,
+    "correctAnswer": "Mandatory right turn.",
+    "explanation": "A blue mandatory sign with an arrow pointing right, meaning you must turn right.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "انعطاف إجباري نحو اليمين.",
+      "انعطاف إجباري نحو اليسار.",
+      "الاولوية للمتجه الى اليمين",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "انعطاف إجباري نحو اليمين.",
+    "explanationAR": "الشاخصة الإلزامية الزرقاء بسهم متجه إلى اليمين تعني وجوب الانعطاف الإجباري نحو اليمين.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 25,
+    "question": "This sign means:",
+    "options": [
+      "Main road intersecting with a secondary road from the left.",
+      "Main road intersecting with two secondary roads.",
+      "Main road intersecting with a main road.",
+      "Main road intersecting with a secondary road from the right."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-025.jpg",
+    "video": null,
+    "correctAnswer": "Main road intersecting with a secondary road from the left.",
+    "explanation": "A warning sign indicating an intersection of a main road with a secondary road coming from the left.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "تقاطع طريق رئيسي مع فرعي من جهة اليسار.",
+      "تقاطع طريق رئيسي مع طريقين فرعيين.",
+      "تقاطع طريق رئيسي مع طريق رئيسي.",
+      "تقاطع طريق رئيسي مع فرعي من جهة اليمين."
+    ],
+    "correctAnswerAR": "تقاطع طريق رئيسي مع فرعي من جهة اليسار.",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود تقاطع طريق رئيسي مع طريق فرعي قادم من جهة اليسار.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 26,
+    "question": "This sign means:",
+    "options": [
+      "Pedestrian crossing.",
+      "No pedestrians.",
+      "Wait for pedestrians to pass.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-026.jpg",
+    "video": null,
+    "correctAnswer": "No pedestrians.",
+    "explanation": "A red circular sign with a crossed-out pedestrian figure, meaning pedestrians are not allowed on this road.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممر مشاة.",
+      "ممنوع مرور المشاة.",
+      "انتظر مرور المشاة",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع مرور المشاة.",
+    "explanationAR": "الشاخصة دائرية حمراء بداخلها صورة مشاة مشطوبة، وتعني منع مرور المشاة في هذا الطريق.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 27,
+    "question": "This sign means:",
+    "options": [
+      "Dangerous road.",
+      "Reduce speed.",
+      "Various hazards.",
+      "Equal-priority intersection."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-027.jpg",
+    "video": null,
+    "correctAnswer": "Equal-priority intersection.",
+    "explanation": "A warning sign indicating an equal-priority intersection, where priority is given to vehicles approaching from the right.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق خطر.",
+      "خفض السرعة.",
+      "أخطار مختلفة.",
+      "تقاطع متكافئ الحقوق."
+    ],
+    "correctAnswerAR": "تقاطع متكافئ الحقوق.",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود تقاطع متكافئ الحقوق، حيث الأولوية فيه للقادم من جهة اليمين.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 28,
+    "question": "This sign means:",
+    "options": [
+      "No animals allowed.",
+      "Dangerous area.",
+      "Animal crossing.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-028.jpg",
+    "video": null,
+    "correctAnswer": "Animal crossing.",
+    "explanation": "A warning sign indicating that animals may cross the road; slow down and proceed with caution.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع مرور الحيوانات.",
+      "منطقة خطرة.",
+      "عبور حيوانات.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "عبور حيوانات.",
+    "explanationAR": "الشاخصة التحذيرية تدل على احتمال عبور الحيوانات في الطريق، فيجب التمهل والحذر.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 29,
+    "question": "This sign means:",
+    "options": [
+      "Airport ahead.",
+      "Low-flying aircraft area.",
+      "Dangerous area.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-029.jpg",
+    "video": null,
+    "correctAnswer": "Low-flying aircraft area.",
+    "explanation": "A warning sign indicating you are entering a low-flying aircraft area (near an airport); be prepared for sudden noise.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "أمامك مطار.",
+      "منطقة طيران منخفض.",
+      "منطقة خطرة.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "منطقة طيران منخفض.",
+    "explanationAR": "الشاخصة التحذيرية تدل على دخولك منطقة طيران منخفض (قرب مطار)، فيجب الانتباه إلى الضوضاء المفاجئة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 30,
+    "question": "This sign means:",
+    "options": [
+      "Mountainous area",
+      "Strong winds from the right.",
+      "Strong winds from the left.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-030.jpg",
+    "video": null,
+    "correctAnswer": "Strong winds from the right.",
+    "explanation": "A warning sign indicating strong winds coming from the right, as shown by the direction of the windsock.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "منطقة جبلية",
+      "رياح شديدة من اليمين.",
+      "رياح شديدة من اليسار.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "رياح شديدة من اليمين.",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود رياح شديدة قادمة من جهة اليمين، حسب اتجاه شارة الرياح.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 31,
+    "question": "This sign means:",
+    "options": [
+      "Mountainous area",
+      "Strong winds from the right.",
+      "Strong winds from the left.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-031.jpg",
+    "video": null,
+    "correctAnswer": "Strong winds from the left.",
+    "explanation": "A warning sign indicating strong winds coming from the left, as shown by the direction of the windsock.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "منطقة جبلية",
+      "رياح شديدة من اليمين.",
+      "رياح شديدة من اليسار.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "رياح شديدة من اليسار.",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود رياح شديدة قادمة من جهة اليسار، حسب اتجاه شارة الرياح.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 32,
+    "question": "This sign means:",
+    "options": [
+      "Divided road.",
+      "Two-way road.",
+      "Divided road with median ahead.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-032.jpg",
+    "video": null,
+    "correctAnswer": "Two-way road.",
+    "explanation": "A warning sign with two opposing arrows indicating a two-way road; keep to the right.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق مفصول.",
+      "طريق ذو اتجاهين.",
+      "أمامك طريق مفصول بجزيرة وسطية.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "طريق ذو اتجاهين.",
+    "explanationAR": "الشاخصة التحذيرية بسهمين متعاكسين تدل على أن الطريق ذو اتجاهين، فيجب الالتزام بالجانب الأيمن.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 33,
+    "question": "This sign means:",
+    "options": [
+      "Divided road.",
+      "Two-way road",
+      "End of divided road with median.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-033.jpg",
+    "video": null,
+    "correctAnswer": "End of divided road with median.",
+    "explanation": "The sign indicates the end of the divided road with a median and the start of a two-way road without a divider.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق مفصول.",
+      "طريق ذو اتجاهين",
+      "إنتهاء الطريق المفصول بجزيرة وسطية.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "إنتهاء الطريق المفصول بجزيرة وسطية.",
+    "explanationAR": "الشاخصة تدل على انتهاء الطريق المفصول بجزيرة وسطية وبدء الطريق ذي الاتجاهين بدون فاصل.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 34,
+    "question": "This sign means:",
+    "options": [
+      "Railroad crossing with glass barrier ahead",
+      "Railroad crossing without barrier ahead.",
+      "Train ahead.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-034.jpg",
+    "video": null,
+    "correctAnswer": "Railroad crossing without barrier ahead.",
+    "explanation": "A warning sign indicating a railroad crossing without a barrier ahead; slow down and check before crossing.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "أمامك سكة حديد مع حاجز زجاجي",
+      "امامك سكة حديد دون حاجز.",
+      "امامك قطار.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "امامك سكة حديد دون حاجز.",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود مقطع سكة حديد بدون حاجز أمامك، فيجب التمهل والتأكد قبل العبور.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 35,
+    "question": "This sign means:",
+    "options": [
+      "Railroad crossing with barrier ahead",
+      "Railroad crossings at varying distances from the intersection.",
+      "Single-track railroad crossing",
+      "Multi-track railroad crossing."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-035.jpg",
+    "video": null,
+    "correctAnswer": "Multi-track railroad crossing.",
+    "explanation": "A warning sign indicating a railroad crossing with multiple tracks; pay attention and proceed with caution.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "أمامك سكة حديد مع حاجز",
+      "مقاطع سكة حديد على أبعاد مختلفة من التقاطع.",
+      "مقطع سكة حديد(خط واحد)",
+      "مقطع سكة حديد (أكثر من خط)."
+    ],
+    "correctAnswerAR": "مقطع سكة حديد (أكثر من خط).",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود مقطع سكة حديد بأكثر من خط (متعدد الخطوط)، فيجب الانتباه والحذر.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 36,
+    "question": "This sign means:",
+    "options": [
+      "Safe road.",
+      "Reduce speed.",
+      "Various hazards.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-036.jpg",
+    "video": null,
+    "correctAnswer": "Various hazards.",
+    "explanation": "A triangular warning sign with an exclamation mark, alerting drivers to the presence of various hazards on the road.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق غير خطر.",
+      "خفض السرعة.",
+      "أخطار مختلفة.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "أخطار مختلفة.",
+    "explanationAR": "الشاخصة التحذيرية المثلثة بداخلها علامة تعجب تنبه إلى وجود أخطار مختلفة على الطريق.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 37,
+    "question": "This sign means:",
+    "options": [
+      "Dangerous road.",
+      "Reduce speed.",
+      "Roundabout ahead.",
+      "U-turn required."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-037.jpg",
+    "video": null,
+    "correctAnswer": "Roundabout ahead.",
+    "explanation": "A warning sign with a circular pattern of arrows indicating a roundabout ahead; slow down and prepare to enter it.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق خطر.",
+      "خفض السرعة.",
+      "أمامك دوار .",
+      "يجب الدوران."
+    ],
+    "correctAnswerAR": "أمامك دوار .",
+    "explanationAR": "الشاخصة التحذيرية بداخلها رسم دائري بأسهم تدل على وجود دوار أمامك، فيجب التمهل والاستعداد لدخوله.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 38,
+    "question": "This sign means:",
+    "options": [
+      "Intersection ahead.",
+      "Main road intersecting with two secondary roads.",
+      "Secondary intersection.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-038.jpg",
+    "video": null,
+    "correctAnswer": "Main road intersecting with two secondary roads.",
+    "explanation": "A warning sign indicating an intersection of a main road with two secondary roads on opposite sides.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "أمامك تقاطع.",
+      "تقاطع طريق رئيسي مع طريقين فرعيين.",
+      "تقاطع فرعي.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "تقاطع طريق رئيسي مع طريقين فرعيين.",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود تقاطع طريق رئيسي مع طريقين فرعيين متعاكسين.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 39,
+    "question": "This sign means:",
+    "options": [
+      "Dangerous road.",
+      "Yield sign ahead.",
+      "Main road.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-039.jpg",
+    "video": null,
+    "correctAnswer": "Yield sign ahead.",
+    "explanation": "An inverted-triangle sign indicating that a Yield sign is ahead; be prepared to give the right of way to other vehicles.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق خطر.",
+      "امامك شاخصة اعط الاولوية.",
+      "طريق رئيسي.",
+      "لاشئ مما ذكر"
+    ],
+    "correctAnswerAR": "امامك شاخصة اعط الاولوية.",
+    "explanationAR": "الشاخصة على شكل مثلث مقلوب وتعني أن أمامك شاخصة (اعط الأولوية)، فيجب الاستعداد لإعطاء الأولوية للمركبات الأخرى.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 40,
+    "question": "This sign means:",
+    "options": [
+      "Intersection ahead.",
+      "Roundabout ahead.",
+      "Stop sign ahead.",
+      "Mandatory stop"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-040.jpg",
+    "video": null,
+    "correctAnswer": "Mandatory stop",
+    "explanation": "The red octagonal Stop sign requires a complete stop before the intersection and ensuring the road is clear before proceeding.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "امامك تقاطع.",
+      "امامك دوار.",
+      "أمامك شاخصة قف.",
+      "وجوب الوقوف"
+    ],
+    "correctAnswerAR": "وجوب الوقوف",
+    "explanationAR": "الشاخصة (قف) ثُمانية الأضلاع باللون الأحمر تعني وجوب الوقوف التام قبل التقاطع والتأكد من خلو الطريق.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 41,
+    "question": "This sign means:",
+    "options": [
+      "Dangerous road.",
+      "Main road.",
+      "Yield.",
+      "None of the above"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-041.jpg",
+    "video": null,
+    "correctAnswer": "Yield.",
+    "explanation": "An inverted-triangle sign meaning Yield: give the right of way to other vehicles before proceeding.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "طريق خطر.",
+      "طريق رئيسي.",
+      "اعطي الاولوية.",
+      "لا شيء مما ذكر"
+    ],
+    "correctAnswerAR": "اعطي الاولوية.",
+    "explanationAR": "الشاخصة على شكل مثلث مقلوب تعني (اعط الأولوية) للمركبات الأخرى قبل المتابعة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 42,
+    "question": "This sign means:",
+    "options": [
+      "End of priority road.",
+      "Yield sign ahead.",
+      "Priority road.",
+      "Be cautious."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-042.jpg",
+    "video": null,
+    "correctAnswer": "Priority road.",
+    "explanation": "A yellow diamond-shaped sign indicating that you are driving on a priority road (main road).",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "نهاية الطريق ذات الاولوية.",
+      "أمامك شاخصة اعطي الاولوية.",
+      "طريق ذو اولوية .",
+      "كن حذراً."
+    ],
+    "correctAnswerAR": "طريق ذو اولوية .",
+    "explanationAR": "الشاخصة المعينة الصفراء تدل على أنك تسير في طريق ذي أولوية (طريق رئيسي).",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 43,
+    "question": "This sign means:",
+    "options": [
+      "End of priority road.",
+      "Yield sign ahead.",
+      "Start of priority road.",
+      "Be cautious."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-043.jpg",
+    "video": null,
+    "correctAnswer": "End of priority road.",
+    "explanation": "The diamond sign crossed out indicates the end of the priority road; you no longer have the right of way.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "نهاية الطريق ذات الاولوية.",
+      "أمامك شاخصة اعطي الاولوية.",
+      "بداية طريق ذو اولوية.",
+      "كن حذراً ."
+    ],
+    "correctAnswerAR": "نهاية الطريق ذات الاولوية.",
+    "explanationAR": "الشاخصة المعينة المشطوبة تدل على نهاية الطريق ذي الأولوية، فتفقد بعدها حق الأولوية.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 44,
+    "question": "This sign means:",
+    "options": [
+      "No entry for vehicles from both directions",
+      "You have priority.",
+      "No entry.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-044.jpg",
+    "video": null,
+    "correctAnswer": "No entry for vehicles from both directions",
+    "explanation": "A plain red circular sign meaning no entry for vehicles in either direction.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع مرور المركبات بالاتجاهين",
+      "أفضلية المرور لك.",
+      "ممنوع المرور.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع مرور المركبات بالاتجاهين",
+    "explanationAR": "الشاخصة الدائرية الحمراء الصامتة تعني منع مرور المركبات في الاتجاهين (ممنوع المرور).",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 45,
+    "question": "This sign means:",
+    "options": [
+      "No motor vehicles",
+      "No motorcycles.",
+      "No entry.",
+      "No bicycles."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-045.jpg",
+    "video": null,
+    "correctAnswer": "No bicycles.",
+    "explanation": "A red circular sign with a bicycle symbol, meaning bicycles are prohibited.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع مرور المركبات الآلية",
+      "ممنوع مرور الدراجات النارية.",
+      "ممنوع المرور.",
+      "ممنوع مرور الدراجات الهوائية ."
+    ],
+    "correctAnswerAR": "ممنوع مرور الدراجات الهوائية .",
+    "explanationAR": "الشاخصة دائرية حمراء بداخلها رسم دراجة هوائية، وتعني منع مرور الدراجات الهوائية.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 46,
+    "question": "This sign means:",
+    "options": [
+      "No entry for vehicles wider than 3.5m.",
+      "No entry for vehicles taller than 3.5m.",
+      "No entry for vehicles longer than 3.5m.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-046.jpg",
+    "video": null,
+    "correctAnswer": "No entry for vehicles taller than 3.5m.",
+    "explanation": "The sign prohibits the passage of vehicles taller than 3.5 meters; the number between the two vertical arrows indicates the maximum allowed height.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع مرور المركبات التي يزيد عرضها عن 3.5 م.",
+      "ممنوع مرور المركبات التي يزيد ارتفاعها عن 3.5م.",
+      "ممنوع مرور المركبات التي يزيد طولها عن 3.5م.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع مرور المركبات التي يزيد ارتفاعها عن 3.5م.",
+    "explanationAR": "الشاخصة تمنع مرور المركبات التي يزيد ارتفاعها عن 3.5 متر، حيث يدل الرقم بين السهمين العموديين على الارتفاع الأقصى المسموح به.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 47,
+    "question": "This sign means:",
+    "options": [
+      "No vehicles weighing less than 12 tons.",
+      "No vehicles with an axle load greater than 12 tons.",
+      "No vehicles longer than 12m.",
+      "No vehicles weighing more than 12 tons."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-047.jpg",
+    "video": null,
+    "correctAnswer": "No vehicles weighing more than 12 tons.",
+    "explanation": "The sign prohibits the passage of vehicles whose total weight exceeds 12 tons.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع مرور المركبات التي يقل وزنها عن 12طن.",
+      "ممنوع مرور المركبات التي تزن اكثر من (12) طن على المحور .",
+      "ممنوع مرور المركبات التي يزيد طولها عن 12 م.",
+      "ممنوع مرور المركبات التي يزيد وزنها عن 12طن."
+    ],
+    "correctAnswerAR": "ممنوع مرور المركبات التي يزيد وزنها عن 12طن.",
+    "explanationAR": "الشاخصة تمنع مرور المركبات التي يزيد وزنها الإجمالي عن 12 طن.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 48,
+    "question": "This sign means:",
+    "options": [
+      "No entry for vehicles wider than 8m",
+      "No entry for vehicles taller than 8m",
+      "No entry for vehicles weighing more than 8 tons",
+      "No entry for vehicles with an axle load greater than 8 tons"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-048.jpg",
+    "video": null,
+    "correctAnswer": "No entry for vehicles with an axle load greater than 8 tons",
+    "explanation": "The sign prohibits the passage of vehicles with an axle load greater than 8 tons; the symbol indicates axle weight.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع مرور المركبات التي يزيد عرضها عن 8م",
+      "ممنوع مرور المركبات التي يزيد ارتفاعها عن 8م",
+      "ممنوع مرور المركبات التي يزيد وزنها عن 8طن",
+      "ممنوع مرور المركبات التي تزن اكثر من 8طن على المحور"
+    ],
+    "correctAnswerAR": "ممنوع مرور المركبات التي تزن اكثر من 8طن على المحور",
+    "explanationAR": "الشاخصة تمنع مرور المركبات التي يزيد حملها على المحور الواحد عن 8 طن، حيث يدل الرسم على وزن المحور.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 49,
+    "question": "This sign means:",
+    "options": [
+      "No left turn.",
+      "No right turn.",
+      "Left turn allowed.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-049.jpg",
+    "video": null,
+    "correctAnswer": "No left turn.",
+    "explanation": "A circular sign with a crossed-out left-turn arrow, meaning left turns are prohibited.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع الانعطاف إلى اليسار.",
+      "ممنوع الانعطاف إلى اليمين.",
+      "مسموح الانعطاف الى اليسار.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع الانعطاف إلى اليسار.",
+    "explanationAR": "الشاخصة دائرية بسهم متجه إلى اليسار مشطوب، وتعني منع الانعطاف إلى اليسار.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 50,
+    "question": "This sign means:",
+    "options": [
+      "No overtaking.",
+      "End of no-overtaking zone.",
+      "No overtaking for trucks.",
+      "End of all restrictions."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-050.jpg",
+    "video": null,
+    "correctAnswer": "End of no-overtaking zone.",
+    "explanation": "The sign indicates the end of the no-overtaking zone; overtaking is allowed beyond it according to the rules.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع التجاوز.",
+      "نهاية منطقة منع التجاوز.",
+      "ممنوع التجاوز للشاحنات.",
+      "نهاية منطقة المنع."
+    ],
+    "correctAnswerAR": "نهاية منطقة منع التجاوز.",
+    "explanationAR": "الشاخصة تدل على نهاية منطقة منع التجاوز، ويُسمح بالتجاوز بعدها وفق القواعد.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 51,
+    "question": "This sign means:",
+    "options": [
+      "Maximum speed.",
+      "End of the speed limit shown on the sign.",
+      "Minimum allowed speed.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-051.jpg",
+    "video": null,
+    "correctAnswer": "Maximum speed.",
+    "explanation": "A red circular sign with a number inside indicating the maximum allowed speed on this road.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "السرعة القصوى.",
+      "نهاية حد السرعة المدون في الشاخصة.",
+      "السرعة الدنيا المسموح بها.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "السرعة القصوى.",
+    "explanationAR": "الشاخصة الدائرية الحمراء بداخلها رقم تدل على الحد الأقصى المسموح به للسرعة في هذا الطريق.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 52,
+    "question": "This sign means:",
+    "options": [
+      "Minimum allowed speed",
+      "End of the speed limit shown on the sign.",
+      "Maximum speeds by vehicle type.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-052.jpg",
+    "video": null,
+    "correctAnswer": "Maximum speeds by vehicle type.",
+    "explanation": "The sign shows the maximum allowed speeds for each type of vehicle as illustrated.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "السرعة الدنيا المسموح بها",
+      "نهاية حد السرعة المدون في الشاخصة.",
+      "السرعات القصوى للمركبات.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "السرعات القصوى للمركبات.",
+    "explanationAR": "الشاخصة تبين الحدود القصوى للسرعات المسموح بها لكل نوع من المركبات حسب الرسم.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 53,
+    "question": "This sign means:",
+    "options": [
+      "Parking.",
+      "Customs area.",
+      "No passing without stopping (Customs).",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-053.jpg",
+    "video": null,
+    "correctAnswer": "No passing without stopping (Customs).",
+    "explanation": "The sign prohibits passing without a full stop (customs checkpoint); you must stop for inspection.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "وقوف.",
+      "منطقة جمركية.",
+      "ممنوع المرور دون توقف (جمارك) .",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع المرور دون توقف (جمارك) .",
+    "explanationAR": "الشاخصة تمنع المرور دون توقف تام (نقطة جمارك)، فيجب الوقوف لإجراءات التفتيش.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 54,
+    "question": "This sign means:",
+    "options": [
+      "Mandatory direction to the left.",
+      "Mandatory direction to the right.",
+      "Priority for traffic going right.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-054.jpg",
+    "video": null,
+    "correctAnswer": "Mandatory direction to the right.",
+    "explanation": "A blue mandatory sign with an arrow pointing right, meaning you must proceed to the right.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "اتجاه إجباري إلى اليسار.",
+      "اتجاه إجباري الى اليمين.",
+      "الاولوية الاتجاه الى اليمين .",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "اتجاه إجباري الى اليمين.",
+    "explanationAR": "الشاخصة الإلزامية الزرقاء بسهم يشير إلى اليمين تعني وجوب الاتجاه الإجباري إلى اليمين.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 55,
+    "question": "This sign means:",
+    "options": [
+      "Mandatory turn right or left.",
+      "Mandatory direction to the right.",
+      "Mandatory direction to the left.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-055.jpg",
+    "video": null,
+    "correctAnswer": "Mandatory turn right or left.",
+    "explanation": "A mandatory sign with two arrows, meaning you must turn right or left only.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "انعطاف إجباري نحو اليمين أو اليسار.",
+      "اتجاه اجباري لليمين .",
+      "اتجاه اجباري لليسار.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "انعطاف إجباري نحو اليمين أو اليسار.",
+    "explanationAR": "الشاخصة الإلزامية تشير بسهمين، وتعني وجوب الانعطاف إجبارياً نحو اليمين أو اليسار فقط.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 56,
+    "question": "This sign means:",
+    "options": [
+      "Informational sign \"Roundabout ahead\".",
+      "Warning sign \"Roundabout ahead\".",
+      "Mandatory roundabout direction.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-056.jpg",
+    "video": null,
+    "correctAnswer": "Mandatory roundabout direction.",
+    "explanation": "A blue mandatory sign with circular arrows, meaning you must follow the circular direction (roundabout).",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "شاخصة إرشادية \"امامك دوار\".",
+      "شاخصة تحذيرية \"امامك دوار\".",
+      "اتجاه اجباري دائري (دوار).",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "اتجاه اجباري دائري (دوار).",
+    "explanationAR": "الشاخصة الإلزامية الزرقاء بأسهم دائرية تدل على وجوب اتخاذ الاتجاه الدائري (الدوار) إجبارياً.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 57,
+    "question": "This sign means:",
+    "options": [
+      "No standing or parking.",
+      "No parking.",
+      "Parking allowed.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-057.jpg",
+    "video": null,
+    "correctAnswer": "No standing or parking.",
+    "explanation": "A blue circular sign crossed out with two intersecting lines, meaning both standing and parking are prohibited.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع الوقوف والتوقف.",
+      "ممنوع الوقوف.",
+      "مسموح الوقوف.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع الوقوف والتوقف.",
+    "explanationAR": "الشاخصة الدائرية الزرقاء المشطوبة بخطين متقاطعين تعني منع الوقوف والتوقف معاً.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 58,
+    "question": "This sign means:",
+    "options": [
+      "No standing or parking.",
+      "No parking.",
+      "Parking allowed for a limited time.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-058.jpg",
+    "video": null,
+    "correctAnswer": "No parking.",
+    "explanation": "A blue circular sign with a single diagonal line, meaning parking is prohibited but brief stopping is allowed.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع الوقوف والتوقف.",
+      "ممنوع الوقوف.",
+      "مسموح الوقوف لفترة معينة.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "ممنوع الوقوف.",
+    "explanationAR": "الشاخصة الدائرية الزرقاء المشطوبة بخط واحد تعني منع الوقوف، مع السماح بالتوقف اللحظي.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 59,
+    "question": "This sign means:",
+    "options": [
+      "General parking",
+      "Parking for persons with disabilities",
+      "Shared parking for disabled and other vehicles",
+      "All of the above"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-059.jpg",
+    "video": null,
+    "correctAnswer": "Parking for persons with disabilities",
+    "explanation": "An informational sign with a wheelchair symbol, indicating that this parking is reserved exclusively for persons with disabilities.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "موقف عام",
+      "موقف لذوي الاحتياجات الخاصه",
+      "موقف مشترك لذوي الاحتياجات والمركبات الاخرى",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "موقف لذوي الاحتياجات الخاصه",
+    "explanationAR": "الشاخصة الإرشادية بداخلها رمز كرسي متحرك تدل على أن هذا الموقف مخصص لذوي الاحتياجات الخاصة فقط.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 60,
+    "question": "The correct action when seeing this sign while driving is:",
+    "options": [
+      "Adjust your speed to suit the downhill grade, observe the posted speed limit, and use lower gears.",
+      "Adjust your speed to suit the uphill grade, observe the posted speed limit, and keep to the right side of the road.",
+      "Adjust your speed to suit the downhill grade, observe the posted speed limit, and use the brakes.",
+      "Adjust your speed to suit the downhill grade, exceed the posted speed limit, and use lower gears."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-060.jpg",
+    "video": null,
+    "correctAnswer": "Adjust your speed to suit the downhill grade, observe the posted speed limit, and use lower gears.",
+    "explanation": "The sign indicates a downhill grade, so you must adjust your speed, observe the speed limit, and use lower gears to avoid losing control.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "الإجراء الصحيح عند رؤيتك لهذه الشاخصة أثناء القيادة :",
+    "optionsAR": [
+      "ملائمة سرعة مركبتك مع هذا المنحدر والالتزام بحدود السرعة المقررة واستعمال الغيارات العكسية.",
+      "ملائمة سرعة مركبتك مع هذا المرتفع والالتزام بحدود السرعة المقررة والتزام الجانب الأيمن من الطريق.",
+      "ملائمة سرعة مركبتك مع هذا المنحدر والالتزام بحدود السرعة المقررة واستعمال المكابح.",
+      "ملائمة سرعة مركبتك مع هذا المنحدر وزيادة السرعة عن المقررة واستعمال الغيارات العكسية."
+    ],
+    "correctAnswerAR": "ملائمة سرعة مركبتك مع هذا المنحدر والالتزام بحدود السرعة المقررة واستعمال الغيارات العكسية.",
+    "explanationAR": "الشاخصة تدل على وجود منحدر (هابط)، لذا يجب ملاءمة السرعة مع المنحدر والالتزام بحدود السرعة واستعمال الغيارات العكسية لتجنب فقدان السيطرة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 61,
+    "question": "The correct action when seeing this sign while driving is:",
+    "options": [
+      "Increase your speed before reaching the intersection and give priority to other vehicles.",
+      "Come to a complete stop before reaching the intersection and give priority to other vehicles.",
+      "Reduce your speed before reaching the intersection and give priority to vehicles with the right of way.",
+      "All of the above are correct."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-061.jpg",
+    "video": null,
+    "correctAnswer": "Reduce your speed before reaching the intersection and give priority to vehicles with the right of way.",
+    "explanation": "The sign indicates you are approaching an intersection, so you must reduce speed and give priority to vehicles with the right of way.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "الإجراء الصحيح عند رؤيتك لهذه الشاخصة أثناء القيادة :",
+    "optionsAR": [
+      "زيادة سرعة مركبتك قبل الوصول إلى التقاطع وإعطاء الاولوية للمركبات الأخرى.",
+      "الوقوف التام بمركبتك قبل الوصول إلى التقاطع وإعطاء الاولوية للمركبات الأخرى.",
+      "تخفيض سرعة مركبتك قبل الوصول إلى التقاطع وإعطاء الاولوية للمركبات صاحبة حق الأولوية .",
+      "جميع ما ذكر صحيح."
+    ],
+    "correctAnswerAR": "تخفيض سرعة مركبتك قبل الوصول إلى التقاطع وإعطاء الاولوية للمركبات صاحبة حق الأولوية .",
+    "explanationAR": "الشاخصة تدل على اقترابك من تقاطع، لذا يجب تخفيض السرعة وإعطاء الأولوية للمركبات صاحبة حق الأولوية.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 62,
+    "question": "The correct action when seeing this sign while driving is:",
+    "options": [
+      "Reduce your speed, stay in your lane, and do not overtake.",
+      "Increase your speed, stay in your lane, and do not overtake.",
+      "Reduce your speed, change to the appropriate lane, and do not overtake.",
+      "Reduce your speed, change to the appropriate lane, and overtaking is allowed."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-062.jpg",
+    "video": null,
+    "correctAnswer": "Reduce your speed, change to the appropriate lane, and do not overtake.",
+    "explanation": "The sign indicates a narrowing of the lane and the necessity to change lanes, so reduce speed, move to the appropriate lane, and do not overtake.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "الإجراء الصحيح عند رؤيتك لهذه الشاخصة أثناء القيادة :",
+    "optionsAR": [
+      "تخفيض سرعة مركبتك والالتزام بمسربك وعدم التجاوز.",
+      "زيادة سرعة مركبتك والالتزام بمسربك وعدم التجاوز.",
+      "تخفيض سرعة مركبتك وتغيير مسربك الى المسرب المناسب وعدم التجاوز.",
+      "تخفيض سرعة مركبتك وتغيير مسربك الى المسرب المناسب والسماح بالتجاوز."
+    ],
+    "correctAnswerAR": "تخفيض سرعة مركبتك وتغيير مسربك الى المسرب المناسب وعدم التجاوز.",
+    "explanationAR": "الشاخصة تدل على ضيق المسرب وإلزامية تغييره، فيجب تخفيض السرعة والتحول إلى المسرب المناسب دون تجاوز.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 63,
+    "question": "Based on the image shown, you must:",
+    "options": [
+      "Pass with caution because you are approaching a work zone 50m ahead.",
+      "Pass with caution because you are approaching a work zone.",
+      "Not exceed a speed of 50 km/h.",
+      "B + C."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-063.jpg",
+    "video": null,
+    "correctAnswer": "B + C.",
+    "explanation": "The sign warns that a work zone is 50 meters ahead and that you must not exceed 50 km/h in that zone, so the correct answer is B + C.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "من خلال الصورة المبينة فإنة يجب عليك:",
+    "optionsAR": [
+      "المرور بحذر لأنك تقترب من منطقة عمل على بعد 50م.",
+      "المرور بحذر لأنك تقترب من منطقة عمل.",
+      "ان لاتزيد من سرعة مركبتك عن 50كم/ساعة.",
+      "ب + ج ."
+    ],
+    "correctAnswerAR": "ب + ج .",
+    "explanationAR": "الشاخصة تنبه إلى اقترابك من منطقة عمل على بعد 50 متراً، ويجب عدم تجاوز سرعة 50 كم/ساعة فيها، لذا الإجابة (ب + ج) صحيحة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 64,
+    "question": "This sign means (the top one):",
+    "options": [
+      "Pass with caution.",
+      "Pass because they have priority.",
+      "No passing.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-064.jpg",
+    "video": null,
+    "correctAnswer": "No passing.",
+    "explanation": "The top sign shows a crossed-out pedestrian, meaning pedestrians are not allowed (no passing).",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني (الاولى من الأعلى):",
+    "optionsAR": [
+      "المرور لكن بحذر.",
+      "المرور لأنهم يملكون الأولوية.",
+      "عدم المرور .",
+      "لاشيء مما ذكر ."
+    ],
+    "correctAnswerAR": "عدم المرور .",
+    "explanationAR": "الشاخصة الأولى (العلوية) فيها صورة مشاة مشطوبة، وتعني منع مرور المشاة (عدم المرور).",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 65,
+    "question": "When you see this sign while driving your vehicle, you must:",
+    "options": [
+      "Slow down and stop when pedestrians are crossing the road.",
+      "Continue without stopping because it is a main road.",
+      "Reduce speed without stopping.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-065.jpg",
+    "video": null,
+    "correctAnswer": "Slow down and stop when pedestrians are crossing the road.",
+    "explanation": "The sign indicates a pedestrian crossing, so you must slow down and stop to allow pedestrians to cross safely.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عندما ترى هذه الشاخصة وانت تقود مركبتك فإنه يجب عليك:",
+    "optionsAR": [
+      "التمهل و التوقف عند وجود مشاة يعبرون الطريق.",
+      "إكمال الطريق دون توقف لأنه طريق رئيسي.",
+      "يجب عليك تخفيف السرعة دون التوقف .",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "التمهل و التوقف عند وجود مشاة يعبرون الطريق.",
+    "explanationAR": "الشاخصة تدل على وجود ممر مشاة، لذا يجب التمهل والتوقف للسماح للمشاة بعبور الطريق بأمان.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 66,
+    "question": "If the vehicle in front of you is parked on a slope, are the wheels positioned as shown in the figure?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-066.jpg",
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; when parking on a downhill slope, the front wheels must be turned toward the curb (right side of the road) as shown, to prevent the vehicle from rolling if the brakes fail.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "إذا كانت المركبة التي امامك تقف على منحدر فإن وضعية عجلات المركبة تكون كما في الشكل :",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم، عند الوقوف على منحدر هابط يجب توجيه عجلات المركبة الأمامية نحو حافة الرصيف (يمين الطريق) كما هو مبين، لمنع انزلاقها في حال تعطل المكابح.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 67,
+    "question": "The correct action when seeing this sign while driving is:",
+    "options": [
+      "Reduce your speed so you can safely cross this dip.",
+      "Reduce your speed so you can safely cross the speed bump.",
+      "Increase your speed so you can safely cross the speed bump.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-067.jpg",
+    "video": null,
+    "correctAnswer": "Reduce your speed so you can safely cross this dip.",
+    "explanation": "The sign indicates a dip in the road ahead, so you must reduce speed to cross it safely and avoid damaging the vehicle.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "الإجراء الصحيح عند رؤيتك لهذه الشاخصة أثناء القيادة",
+    "optionsAR": [
+      "تخفيض سرعة مركبتك لكي تستطيع اجتياز هذا الانخفاض بأمان",
+      "تخفيض سرعة مركبتك، لكي تستطيع اجتياز المطب بأمان",
+      "زيادة سرعة مركبتك، لكي تستطيع اجتياز المطب بأمان",
+      "لا شئ مما ذكر"
+    ],
+    "correctAnswerAR": "تخفيض سرعة مركبتك لكي تستطيع اجتياز هذا الانخفاض بأمان",
+    "explanationAR": "الشاخصة تدل على وجود انخفاض في مستوى الطريق أمامك، فيجب تخفيض السرعة لاجتيازه بأمان وتجنب الأضرار بالمركبة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 68,
+    "question": "This sign means:",
+    "options": [
+      "No stopping",
+      "No standing or parking",
+      "No entry",
+      "None of the above"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-068.png",
+    "video": null,
+    "correctAnswer": "No entry",
+    "explanation": "A plain red circular sign meaning no entry for all vehicles on this road.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني:",
+    "optionsAR": [
+      "ممنوع الوقف",
+      "ممنوع الوقوف والتوقف",
+      "ممنوع المرور",
+      "لا شيء من ما ذكر"
+    ],
+    "correctAnswerAR": "ممنوع المرور",
+    "explanationAR": "الشاخصة دائرية حمراء صامتة تعني ممنوع المرور لجميع المركبات في هذا الطريق.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 69,
+    "question": "This sign means:",
+    "options": [
+      "No motor vehicles",
+      "No entry",
+      "No vehicles",
+      "No goods-transport vehicles"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-069.png",
+    "video": null,
+    "correctAnswer": "No goods-transport vehicles",
+    "explanation": "A red circular sign with a truck symbol, meaning goods-transport vehicles (trucks) are prohibited.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني :",
+    "optionsAR": [
+      "ممنوع مرور المركبات الالية",
+      "ممنوع المرور",
+      "ممنوع مرور المركبات",
+      "ممنوع مرور المركبات المعده لنقل البضائع"
+    ],
+    "correctAnswerAR": "ممنوع مرور المركبات المعده لنقل البضائع",
+    "explanationAR": "الشاخصة دائرية حمراء بداخلها رسم شاحنة، وتعني منع مرور المركبات المُعدة لنقل البضائع (الشاحنات).",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 70,
+    "question": "When you see this sign:",
+    "options": [
+      "Maximum speed for trucks is 90 km/h and for small vehicles 100 km/h.",
+      "Maximum speed for trucks is 100 km/h and for small vehicles 80 km/h.",
+      "Maximum speed for trucks is 90 km/h and for small vehicles 80 km/h.",
+      "Minimum speed for trucks is 90 km/h and for small vehicles 100 km/h."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-070.jpg",
+    "video": null,
+    "correctAnswer": "Maximum speed for trucks is 90 km/h and for small vehicles 100 km/h.",
+    "explanation": "The informational sign shows the maximum speed limits: 90 km/h for trucks and 100 km/h for small vehicles.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند رؤیة ھذه الشاخصة فإن:",
+    "optionsAR": [
+      "السرعة القصوى للشاحنات ٩٠ كم/ساعة وللمركبات الصغیرة ١٠٠ كم/ساعة.",
+      "السرعة القصوى للشاحنات ١٠٠ كم/ساعة وللمركبات الصغیرة ٨٠ كم/ساعة",
+      "السرعة القصوى للشاحنات ٩٠ كم/ساعة وللمركبات الصغیرة ٨٠ كم/ساعة.",
+      "السرعة الدنیا للشاحنات ٩٠ كم/ساعة وللمركبات الصغیرة ١٠٠ كم/ساعة."
+    ],
+    "correctAnswerAR": "السرعة القصوى للشاحنات ٩٠ كم/ساعة وللمركبات الصغیرة ١٠٠ كم/ساعة.",
+    "explanationAR": "الشاخصة الإرشادية تبين الحدود القصوى للسرعة، فللشاحنات 90 كم/ساعة وللمركبات الصغيرة 100 كم/ساعة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 71,
+    "question": "When you see this sign you must:",
+    "options": [
+      "Reduce vehicle speed because you are approaching a cross intersection (+).",
+      "Increase vehicle speed because you are approaching an intersection.",
+      "Reduce vehicle speed because you are approaching a roundabout.",
+      "Increase vehicle speed because you are approaching a roundabout."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-071.jpg",
+    "video": null,
+    "correctAnswer": "Reduce vehicle speed because you are approaching a roundabout.",
+    "explanation": "The sign indicates you are approaching a roundabout, so you must reduce speed to enter it safely.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند رؤيتك لهذه الشاخصة فأنه يجب عليك",
+    "optionsAR": [
+      "ان تخفف من سرعة المركبة لانك تقترب من تقاطع طرق على شكل (+)",
+      "ان تزيد من سرعة المركبة لانك تقترب من تقاطع طرق",
+      "ان تخفف من سرعة المركبة لانك تقترب من دوار",
+      "ان تزيد من سرعة المركبة لانك تقترب من دوار"
+    ],
+    "correctAnswerAR": "ان تخفف من سرعة المركبة لانك تقترب من دوار",
+    "explanationAR": "الشاخصة تدل على اقترابك من دوار، لذا يجب تخفيف سرعة المركبة استعداداً للدخول إليه بأمان.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 72,
+    "question": "This sign means:",
+    "options": [
+      "The driver must be cautious of falling rocks from the right side.",
+      "The driver must be cautious of falling rocks from the left side.",
+      "The driver must be cautious of falling rocks from both sides of the road."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-072.jpg",
+    "video": null,
+    "correctAnswer": "The driver must be cautious of falling rocks from the right side.",
+    "explanation": "The sign warns of falling rocks from the right side, based on the direction shown in the symbol; proceed with caution.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "وجود ھذه الشاخصة یعني:",
+    "optionsAR": [
+      "على السائق الحذر والانتباه من وجود تساقط للحجارة من جھة الیمین.",
+      "على السائق الحذر والانتباه من وجود تساقط للحجارة من جھة الیسار.",
+      "على السائق الحذر والانتباه من وجود تساقط للحجارة من جھتي الطریق."
+    ],
+    "correctAnswerAR": "على السائق الحذر والانتباه من وجود تساقط للحجارة من جھة الیمین.",
+    "explanationAR": "الشاخصة تحذر من تساقط الحجارة من جهة اليمين حسب اتجاه الرسم، فيجب الحذر والانتباه.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 73,
+    "question": "The bus stopping in this location is:",
+    "options": [
+      "Prohibited because it is on a main road.",
+      "Prohibited because it is under a pedestrian bridge.",
+      "Permitted due to the presence of a sign indicating so.",
+      "Incorrect because it did not stop within the designated bus stop."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-073.jpg",
+    "video": null,
+    "correctAnswer": "Incorrect because it did not stop within the designated bus stop.",
+    "explanation": "The bus stopping here is wrong because it did not pull into the designated bus stop, which obstructs traffic flow.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "إن توقف الباص في هذا المكان هو :",
+    "optionsAR": [
+      "ممنوع لأنه على طريق رئيسي.",
+      "ممنوع لأنه تحت جسر مشاة.",
+      "مسموح لوجود شاخصة تدل على ذلك.",
+      "خاطئ كونه لم يلتزم بالوقوف بالموقف."
+    ],
+    "correctAnswerAR": "خاطئ كونه لم يلتزم بالوقوف بالموقف.",
+    "explanationAR": "وقوف الباص هنا خاطئ لأنه لم يلتزم بالوقوف داخل الموقف المخصص له، مما يعيق حركة المرور.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 74,
+    "question": "These signs are considered:",
+    "options": [
+      "Warning.",
+      "Informational.",
+      "Mandatory."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-074.jpg",
+    "video": null,
+    "correctAnswer": "Informational.",
+    "explanation": "These signs have a blue background with white symbols; they are informational signs that direct the driver to facilities and services.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "تعتبر هذه الشواخص :",
+    "optionsAR": [
+      "تحذيرية.",
+      "إرشادية.",
+      "إلزامية."
+    ],
+    "correctAnswerAR": "إرشادية.",
+    "explanationAR": "هذه الشواخص ذات أرضية زرقاء ورموز بيضاء، وهي من الشواخص الإرشادية التي توجه السائق إلى المرافق والخدمات.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 75,
+    "question": "When you see this sign:",
+    "options": [
+      "You must turn right because going straight is prohibited.",
+      "Proceed toward the tunnel but with great caution.",
+      "Reverse and take another road."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-075.jpg",
+    "video": null,
+    "correctAnswer": "You must turn right because going straight is prohibited.",
+    "explanation": "The sign indicates that entry into the tunnel is prohibited and you must turn right; going straight is not allowed.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند رؤية هذه الشاخصة فإنه:",
+    "optionsAR": [
+      "يجب عليك ان تتجه الى اليمين بشكل إجباري كون المسير الى الامام ممنوع.",
+      "التقدم نحو النفق لكن بحذر كبير.",
+      "الرجوع إلى الخلف واتخاذ طريق أخر."
+    ],
+    "correctAnswerAR": "يجب عليك ان تتجه الى اليمين بشكل إجباري كون المسير الى الامام ممنوع.",
+    "explanationAR": "الشاخصة تدل على منع الدخول إلى النفق ووجوب الاتجاه إجبارياً إلى اليمين، فالمسير إلى الأمام ممنوع.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 76,
+    "question": "When you see these two signs:",
+    "options": [
+      "U-turn is allowed and left turn is prohibited.",
+      "U-turn is prohibited and left turn is allowed.",
+      "Left turn is prohibited and U-turn is prohibited.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-076.jpg",
+    "video": null,
+    "correctAnswer": "Left turn is prohibited and U-turn is prohibited.",
+    "explanation": "The first sign prohibits left turns and the second prohibits U-turns, so both are prohibited.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند رؤية هاتين الشاخصتين فإنه:",
+    "optionsAR": [
+      "يسمح الدوران ويمنع الإنعطاف لليسار.",
+      "يمنع الدوران ويسمح الإنعطاف لليسار.",
+      "يمنع الإنعطاف لليسار ويمنع الدوران.",
+      "لاشئ مما ذكر."
+    ],
+    "correctAnswerAR": "يمنع الإنعطاف لليسار ويمنع الدوران.",
+    "explanationAR": "الشاخصة الأولى تمنع الانعطاف إلى اليسار، والثانية تمنع الدوران (الالتفاف)، فيُمنع الاثنان معاً.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 77,
+    "question": "The action you must take when seeing this sign is:",
+    "options": [
+      "Use the horn at all times",
+      "Use the horn only when necessary",
+      "Do not use the horn",
+      "None of the above"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-077.jpg",
+    "video": null,
+    "correctAnswer": "Do not use the horn",
+    "explanation": "A circular sign with a crossed-out horn symbol, meaning the use of the horn is prohibited in this area.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "الإجراء الذي يجب أن تتخذه عند رؤية هذه الشاخصة هو",
+    "optionsAR": [
+      "إستعمال الزامور في جميع الاحوال",
+      "إستعمال الزامور عند الضرورة فقط",
+      "عدم إستعمال الزامور",
+      "لاشي مما ذكر"
+    ],
+    "correctAnswerAR": "عدم إستعمال الزامور",
+    "explanationAR": "الشاخصة دائرية بداخلها رسم زامور مشطوب، وتعني منع استعمال الزامور (المنبه) في هذه المنطقة.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 78,
+    "question": "This informational sign means:",
+    "options": [
+      "First-aid center",
+      "An informational sign indicating a mosque.",
+      "Hospital.",
+      "None of the above"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-078.jpg",
+    "video": null,
+    "correctAnswer": "First-aid center",
+    "explanation": "An informational sign with a cross (first-aid symbol) indicating a first-aid center nearby.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة الارشادية تعني",
+    "optionsAR": [
+      "مركز إسعاف أولي",
+      "شاخصة ارشاديه لوجود مسجد.",
+      "مستشفى.",
+      "لاشئ مما ذكر"
+    ],
+    "correctAnswerAR": "مركز إسعاف أولي",
+    "explanationAR": "الشاخصة الإرشادية بداخلها صليب (رمز إسعاف) تدل على وجود مركز إسعاف أولي قريب.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 79,
+    "question": "This informational sign means:",
+    "options": [
+      "Café.",
+      "An informational sign for a household goods seller.",
+      "Restaurant.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-079.jpg",
+    "video": null,
+    "correctAnswer": "Restaurant.",
+    "explanation": "An informational sign with a fork-and-knife symbol indicating a restaurant nearby.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة الارشادية تعني",
+    "optionsAR": [
+      "مقهى.",
+      "اشارة ارشادية لبائع ادوات منزلية.",
+      "مطعم.",
+      "لاشي مما ذكر."
+    ],
+    "correctAnswerAR": "مطعم.",
+    "explanationAR": "الشاخصة الإرشادية بداخلها رمز شوكة وسكين تدل على وجود مطعم قريب.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 80,
+    "question": "This warning sign means:",
+    "options": [
+      "Presence of a school",
+      "Presence of school students",
+      "Presence of children"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-080.jpg",
+    "video": null,
+    "correctAnswer": "Presence of school students",
+    "explanation": "A warning sign with an illustration of students carrying bags, indicating the presence of school students; slow down and proceed with caution.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصه التحذيريه تعني",
+    "optionsAR": [
+      "وجود مدرسه",
+      "وجود طلاب مدارس",
+      "وجود اطفال"
+    ],
+    "correctAnswerAR": "وجود طلاب مدارس",
+    "explanationAR": "الشاخصة التحذيرية بداخلها رسم لطلاب يحملون حقائب تدل على وجود طلاب مدارس، فيجب التمهل والحذر.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 81,
+    "question": "This sign is considered:",
+    "options": [
+      "Informational.",
+      "Warning.",
+      "Mandatory."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-081.png",
+    "video": null,
+    "correctAnswer": "Informational.",
+    "explanation": "The sign has a blue background with an illustrative symbol; it is an informational sign that directs the driver to services.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "تعتبر ھذه الشاخصة من الشواخص:",
+    "optionsAR": [
+      "الإرشادیة .",
+      "التحذیریة.",
+      "الالزامیة ."
+    ],
+    "correctAnswerAR": "الإرشادیة .",
+    "explanationAR": "الشاخصة ذات أرضية زرقاء ورمز توضيحي، وهي من الشواخص الإرشادية التي توجه السائق إلى الخدمات.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 82,
+    "question": "When you see this sign:",
+    "options": [
+      "Parking is allowed.",
+      "Parking is not allowed.",
+      "Parking is allowed for persons with disabilities only."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-082.png",
+    "video": null,
+    "correctAnswer": "Parking is allowed.",
+    "explanation": "The blue informational sign (P) indicates a parking area where parking is permitted.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند رؤیة ھذه الشاخصة فإنه:",
+    "optionsAR": [
+      "یسمح لك بالوقوف.",
+      "لا یسمح لك بالوقوف .",
+      "یسمح بالوقوف لذوي الاحتیاجات الخاصة فقط."
+    ],
+    "correctAnswerAR": "یسمح لك بالوقوف.",
+    "explanationAR": "الشاخصة الإرشادية الزرقاء (P) تدل على وجود موقف مسموح فيه الوقوف.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 83,
+    "question": "Based on the sign shown:",
+    "options": [
+      "Right turn is prohibited.",
+      "Left turn is prohibited.",
+      "Right turn is allowed.",
+      "Left turn is allowed."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-083.png",
+    "video": null,
+    "correctAnswer": "Right turn is prohibited.",
+    "explanation": "A red circular sign with a crossed-out right-turn arrow, meaning right turns are prohibited.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "من خلال الشاخصة المبینة فإنه:",
+    "optionsAR": [
+      "یمنع الانعطاف إلى الیمین.",
+      "یمنع الانعطاف إلى الیسار.",
+      "یسمح الانعطاف إلى الیمین.",
+      "یسمح الانعطاف إلى الیسار ."
+    ],
+    "correctAnswerAR": "یمنع الانعطاف إلى الیمین.",
+    "explanationAR": "الشاخصة دائرية حمراء بداخلها سهم متجه إلى اليمين مشطوب، وتعني منع الانعطاف إلى اليمين.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 84,
+    "question": "When this sign is present, the driver must:",
+    "options": [
+      "Reduce vehicle speed in order to cross the pothole safely.",
+      "Reduce vehicle speed in order to cross the speed bump safely.",
+      "Increase vehicle speed so as not to feel the impact of the bump."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-084.png",
+    "video": null,
+    "correctAnswer": "Reduce vehicle speed in order to cross the speed bump safely.",
+    "explanation": "The sign indicates a speed bump ahead; the driver must reduce vehicle speed to cross it safely.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند وجود ھذه الشاخصة فإنه یجب:",
+    "optionsAR": [
+      "على السائق العمل على تخفیض سرعة مركبته لكي یستطیع اجتیاز الحفر بأمان.",
+      "على السائق العمل على تخفیض سرعة مركبته لكي یستطیع اجتیاز المطب بأمان.",
+      "على السائق العمل على زیادة سرعة مركبته لكي لایشعر بقوة المطب."
+    ],
+    "correctAnswerAR": "على السائق العمل على تخفیض سرعة مركبته لكي یستطیع اجتیاز المطب بأمان.",
+    "explanationAR": "الشاخصة تدل على وجود مطب أمامك، فيجب على السائق تخفيض سرعة المركبة لاجتيازه بأمان.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 85,
+    "question": "When approaching this sign:",
+    "options": [
+      "You must stop and allow vehicles to pass.",
+      "You must give priority to other vehicles.",
+      "1+2.",
+      "None of the above."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-085.png",
+    "video": null,
+    "correctAnswer": "1+2.",
+    "explanation": "The Stop sign requires a complete stop and giving priority to other vehicles, so both 1 and 2 are correct.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند الاقتراب من ھذه الشاخصة:",
+    "optionsAR": [
+      "یجب التوقف والسماح للمركبات بالمرور.",
+      "یجب إعطاء الأولویة للمركبات بالمرور.",
+      "1+2.",
+      "لاشيء مما ذكر."
+    ],
+    "correctAnswerAR": "1+2.",
+    "explanationAR": "الشاخصة (قف) تعني وجوب التوقف التام مع إعطاء الأولوية للمركبات بالمرور، لذا الإجابتان (1+2) صحيحتان.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 86,
+    "question": "When you see these two signs:",
+    "options": [
+      "You must turn right.",
+      "You must turn left.",
+      "Left turn is allowed.",
+      "You must go straight."
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-086.png",
+    "video": null,
+    "correctAnswer": "You must turn right.",
+    "explanation": "The first sign prohibits going straight and the second prohibits left turns, so the only remaining option is to turn right.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند رؤیة ھاتین الشاخصتین فإنه:",
+    "optionsAR": [
+      "یجب ان تنعطف الى الیمین.",
+      "یجب ان تنعطف الي الیسار.",
+      "یسمح الإنعطاف للیسار.",
+      "یجب ان تسیر الى الامام."
+    ],
+    "correctAnswerAR": "یجب ان تنعطف الى الیمین.",
+    "explanationAR": "الشاخصة الأولى تمنع السير إلى الأمام والثانية تمنع الانعطاف لليسار، فيكون البديل الوحيد هو الانعطاف إلى اليمين.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 87,
+    "question": "When you see these two signs:",
+    "options": [
+      "U-turn is allowed and left turn is prohibited",
+      "Going straight is mandatory",
+      "Right turn is prohibited"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-087.png",
+    "video": null,
+    "correctAnswer": "U-turn is allowed and left turn is prohibited",
+    "explanation": "The first sign allows U-turns while the second prohibits left turns, so U-turn is permitted and left turn is prohibited.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند رؤیة ھاتین الشاخصتین فإن:",
+    "optionsAR": [
+      "الالتفاف مسموح والانعطاف إلى الیسار ممنوع",
+      "السیر الى الأمام إلزامي",
+      "الانعطاف للیمین ممنوع"
+    ],
+    "correctAnswerAR": "الالتفاف مسموح والانعطاف إلى الیسار ممنوع",
+    "explanationAR": "الشاخصة الأولى تسمح بالالتفاف (الدوران)، والثانية تمنع الانعطاف إلى اليسار، فيكون الالتفاف مسموحاً والانعطاف لليسار ممنوعاً.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 88,
+    "question": "This warning sign means:",
+    "options": [
+      "Dangerous road",
+      "Slippery road",
+      "Loose gravel",
+      "Dangerous shoulders"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-088.jpg",
+    "video": null,
+    "correctAnswer": "Loose gravel",
+    "explanation": "A warning sign indicating loose gravel on the road; slow down to avoid skidding and flying stones.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة التحذيرية تعني:",
+    "optionsAR": [
+      "طريق خطر",
+      "طريق زلقة",
+      "تناثر حصى",
+      "اكتاف خطرة"
+    ],
+    "correctAnswerAR": "تناثر حصى",
+    "explanationAR": "الشاخصة التحذيرية تنبه إلى وجود تناثر للحصى على الطريق، فيجب التمهل لتجنب انزلاق المركبة وتطاير الحصى.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 89,
+    "question": "This warning sign means:",
+    "options": [
+      "Dip in the road",
+      "Uneven road",
+      "Speed bump",
+      "None of the above"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-089.jpg",
+    "video": null,
+    "correctAnswer": "Uneven road",
+    "explanation": "A warning sign indicating an uneven road (wavy surface); reduce speed to cross it safely.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة التحذيرية تعني:",
+    "optionsAR": [
+      "انخفاض في مستوى الطريق",
+      "طريق غير مستوي",
+      "مطب",
+      "لا شيء مما ذكر"
+    ],
+    "correctAnswerAR": "طريق غير مستوي",
+    "explanationAR": "الشاخصة التحذيرية تدل على وجود طريق غير مستوي (تموجات)، فيجب تخفيض السرعة لاجتيازه بأمان.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 90,
+    "question": "When you see the traffic light in this color you must:",
+    "options": [
+      "Proceed forward with caution",
+      "Make a complete stop",
+      "Prepare to move forward",
+      "None of the above"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-090.jpg",
+    "video": null,
+    "correctAnswer": "Make a complete stop",
+    "explanation": "A red traffic light means you must come to a complete stop before the stop line and not proceed until the light turns green.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "عند رؤية الإشارة الضوئية بهذا اللون يجب عليك",
+    "optionsAR": [
+      "السير الى الامام بحذر",
+      "التوقف بصورة تامة",
+      "الاستعداد للتقدم",
+      "لا شيء مما ذكر"
+    ],
+    "correctAnswerAR": "التوقف بصورة تامة",
+    "explanationAR": "الإشارة الضوئية الحمراء تعني التوقف بصورة تامة قبل خط التوقف وعدم المتابعة حتى تتحول إلى اللون الأخضر.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 91,
+    "question": "This sign means:",
+    "options": [
+      "Caution: horse-riding club ahead",
+      "No horses",
+      "Mandatory path for horses",
+      "None of the above"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-091.jpg",
+    "video": null,
+    "correctAnswer": "Mandatory path for horses",
+    "explanation": "A blue mandatory sign with a horse symbol, indicating a designated path for horses.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني",
+    "optionsAR": [
+      "انتبه امامك نادي فروسية",
+      "يمنع مرور الخيول",
+      "ممر إلزامي للخيول",
+      "لا شيء مما ذكر"
+    ],
+    "correctAnswerAR": "ممر إلزامي للخيول",
+    "explanationAR": "الشاخصة الإلزامية الزرقاء بداخلها رمز حصان تدل على وجود ممر إلزامي مخصص لمرور الخيول.",
+    "sourceCategory": "شواخص المرور"
+  },
+  {
+    "number": 92,
+    "question": "This sign means:",
+    "options": [
+      "No pedestrians",
+      "Mandatory path for pedestrians",
+      "Priority for pedestrians",
+      "None of the above"
+    ],
+    "image": "assets/images/traffic-signs/traffic-signs-092.jpg",
+    "video": null,
+    "correctAnswer": "Mandatory path for pedestrians",
+    "explanation": "A blue mandatory sign with a pedestrian symbol, indicating a designated path for pedestrian crossing.",
+    "chapterTitle": "Traffic Signs",
+    "chapterTitleAR": "شواخص المرور",
+    "questionAR": "هذه الشاخصة تعني",
+    "optionsAR": [
+      "يمنع مرور المشاة",
+      "ممر إلزامي للمشاة",
+      "اولوية المرور للمشاة",
+      "لا شيء مما ذكر"
+    ],
+    "correctAnswerAR": "ممر إلزامي للمشاة",
+    "explanationAR": "الشاخصة الإلزامية الزرقاء بداخلها رمز مشاة تدل على وجود ممر إلزامي مخصص لعبور المشاة.",
+    "sourceCategory": "شواخص المرور"
+  }
+]

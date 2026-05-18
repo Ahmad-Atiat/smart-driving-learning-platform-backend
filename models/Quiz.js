@@ -29,7 +29,16 @@ const quizSchema = new mongoose.Schema(
             type: Number
         },
         image: {
-            type: String
+            type: String,
+            default: null
+        },
+        video: {
+            type: String,
+            default: null
+        },
+        sourceCategory: {
+            type: String,
+            default: ""
         },
         questionAR: {
             type: String,

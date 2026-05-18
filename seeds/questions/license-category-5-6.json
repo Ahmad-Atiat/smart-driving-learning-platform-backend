@@ -1,0 +1,2318 @@
+[
+  {
+    "number": 1,
+    "question": "When loading or unloading students, you must ensure the following:",
+    "options": [
+      "Using the left turn signal to alert vehicles behind that you intend to stop.",
+      "Moving off immediately after students board, so as not to obstruct traffic.",
+      "Turning on the red flashing warning lights.",
+      "Stopping in the left lane during loading and unloading."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Turning on the red flashing warning lights.",
+    "explanation": "When loading or unloading students, you must turn on the red flashing warning lights to alert other drivers that students are getting on or off, to ensure their safety.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند تحميل أو تنزيل الطلاب يجب التأكد مما يلي :",
+    "optionsAR": [
+      "استعمال الغماز الأيسر لإشعار المركبات التي تسير خلفه بعزمه على التوقف.",
+      "التحرك بعد صعود الطلاب مباشرة حتى لا يعيق حركة المرور.",
+      "تشغيل أضوية التنبيه الحمراء المتقطعة.",
+      "الوقوف على المسرب الأيسر عند التحميل والتنزيل."
+    ],
+    "correctAnswerAR": "تشغيل أضوية التنبيه الحمراء المتقطعة.",
+    "explanationAR": "عند تحميل أو تنزيل الطلاب يجب تشغيل أضوية التنبيه الحمراء المتقطعة لإعلام السائقين الآخرين بوجود طلاب ينزلون أو يصعدون، حفاظاً على سلامتهم.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 2,
+    "question": "Student-bus drivers are allowed to carry more than the permitted number of passengers under 12 years old, provided it does not exceed:",
+    "options": [
+      "Three students instead of two adults.",
+      "Four students instead of two adults.",
+      "Five students instead of two adults.",
+      "Six students instead of two adults."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Three students instead of two adults.",
+    "explanation": "Student-bus drivers are allowed to replace two adult passengers with three students under 12 years old as a maximum, given their smaller size.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "يسمح لسائقي باصات نقل الطلاب بتحميل زيادة عن العدد المسموح به لمن تقل أعمارهم عن 12 سنة بحيث لا يزيدوا عن:",
+    "optionsAR": [
+      "ثلاثة طلاب بدل من اثنين بالغين.",
+      "أربعة طلاب بدل من اثنين بالغين .",
+      "خمسة طلاب بدل من اثنين بالغين.",
+      "ستة طلاب بدل من اثنين بالغين."
+    ],
+    "correctAnswerAR": "ثلاثة طلاب بدل من اثنين بالغين.",
+    "explanationAR": "يُسمح لسائقي باصات نقل الطلاب باستبدال راكبين بالغين بثلاثة طلاب لمن تقل أعمارهم عن 12 سنة بحد أقصى، نظراً لصغر حجمهم.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 3,
+    "question": "When transporting heavy, oversized, and non-divisible loads, you must:",
+    "options": [
+      "Use a vehicle with a raised floor.",
+      "Take whichever route the driver sees fit.",
+      "Prevent the vehicle from crossing bridges if the total weight of the vehicle or combination exceeds 80 tons.",
+      "Equip the tractor head with orange warning lights (light bar)."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Equip the tractor head with orange warning lights (light bar).",
+    "explanation": "When transporting large and heavy non-divisible loads, the tractor head must be equipped with orange warning lights (light bar) to alert other drivers to the oversized load.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند نقل حمولات ذات أحجام وأوزان ثقيلة ولا يمكن تجزئتها يجب:",
+    "optionsAR": [
+      "ان تكون المركبة ذات أرضية مرتفعة.",
+      "سلوك الطريق الذي يراه السائق مناسباً.",
+      "ان يمنع سير المركبة فوق الجسور إذا زاد الوزن الإجمالي للمركبة أو مجموع المركبات على (80) طنا.",
+      "تزويد الرأس القاطر بالأنوار التحذيرية (اللواح) اللون البرتقالي."
+    ],
+    "correctAnswerAR": "تزويد الرأس القاطر بالأنوار التحذيرية (اللواح) اللون البرتقالي.",
+    "explanationAR": "عند نقل الحمولات الكبيرة الحجم والوزن وغير القابلة للتجزئة يجب تزويد الرأس القاطر بأنوار تحذيرية برتقالية (اللواح) لتنبيه السائقين الآخرين إلى ضخامة الحمولة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 4,
+    "question": "When transporting heavy non-divisible loads without an escort (control) vehicle, the total width of the vehicle must not exceed:",
+    "options": [
+      "Two meters and twenty centimeters.",
+      "Two meters and forty centimeters.",
+      "Two meters and sixty centimeters.",
+      "Two meters and eighty centimeters."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Two meters and eighty centimeters.",
+    "explanation": "When transporting heavy non-divisible loads without an escort vehicle, the total width of the vehicle must not exceed 2.80 meters to ensure safety.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند نقل حمولات ذات أحجام وأوزان ثقيلة ولا يمكن تجزئتها بدون سيارة مرافقة (سيطرة) يجب ان لا يزيد العرض الإجمالي للمركبة عن:",
+    "optionsAR": [
+      "مترين وعشرين سنتيمترا.",
+      "مترين وأربعين سنتيمترا.",
+      "مترين وستين سنتيمترا.",
+      "مترين وثمانين سنتيمترا."
+    ],
+    "correctAnswerAR": "مترين وثمانين سنتيمترا.",
+    "explanationAR": "عند نقل الحمولات الثقيلة وغير القابلة للتجزئة بدون مركبة سيطرة مرافقة، يجب ألا يزيد العرض الإجمالي للمركبة عن مترين وثمانين سنتيمتراً حفاظاً على السلامة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 5,
+    "question": "The load must be inspected continuously:",
+    "options": [
+      "After starting",
+      "Every 5 hours or 450 km",
+      "At each rest stop",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "At each rest stop",
+    "explanation": "The driver must inspect the load and check its fastenings at each rest stop, because the load may shift or its straps may loosen during driving.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "يجب معاينة الحمولة باستمرار:",
+    "optionsAR": [
+      "بعد البدء",
+      "كل 5 ساعات أو 450 كم",
+      "عند كل استراحة",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "عند كل استراحة",
+    "explanationAR": "يجب على السائق معاينة الحمولة وتفقد تثبيتها عند كل استراحة، لأنها قد تتحرك أو تنفك أربطتها أثناء السير.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 6,
+    "question": "Poor balancing of the load can pose a great danger to the movement of heavy vehicles through:",
+    "options": [
+      "Distributing the load evenly around the vehicle's center of gravity",
+      "Setting a suitable axle load that matches the vehicle's specifications",
+      "Distributing the load unevenly around the vehicle's center of gravity",
+      "None of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Distributing the load unevenly around the vehicle's center of gravity",
+    "explanation": "Poor balancing means distributing the load unevenly around the vehicle's center of gravity, which affects the vehicle's stability and increases the risk of tipping over.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن عدم موازنة الحمولة بشكل جيد قد تشكل خطورة كبيرة على حركة الآليات الثقيلة من خلال :",
+    "optionsAR": [
+      "توزيع الحمولة بصورة منتظمة حول مركز ثقل المركبة",
+      "وضع حمل محوري مناسب يتلاءم مع مواصفات المركبة",
+      "توزيع الحمولة بصورة غير منتظمة حول مركز ثقل المركبة",
+      "لا شيء مما ذكر"
+    ],
+    "correctAnswerAR": "توزيع الحمولة بصورة غير منتظمة حول مركز ثقل المركبة",
+    "explanationAR": "عدم موازنة الحمولة بشكل جيد يعني توزيعها بصورة غير منتظمة حول مركز ثقل المركبة، مما يؤثر على ثبات الآلية ويزيد خطر انقلابها.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 7,
+    "question": "An under-loaded front axle (because the load shifted to the rear) may:",
+    "options": [
+      "Make the steering axle very light for steering",
+      "Make the steering axle very heavy for steering",
+      "Have no effect on the steering axle"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Make the steering axle very light for steering",
+    "explanation": "An under-loaded front axle, caused by the load shifting to the rear, makes the steering axle very light, which makes steering difficult and reduces vehicle control.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن قلة تحميل المحور الأمامي ( بسبب تحرك الحمولة إلى الجهة الخلفية ) من الممكن أن:",
+    "optionsAR": [
+      "تجعل محور القيادة خفيف جدا ً للتوجيه",
+      "تجعل محور القيادة ثقيل جدا ً للتوجيه",
+      "لا تؤثر على محور التوجيه"
+    ],
+    "correctAnswerAR": "تجعل محور القيادة خفيف جدا ً للتوجيه",
+    "explanationAR": "قلة تحميل المحور الأمامي بسبب انتقال الحمولة إلى الخلف تجعل محور القيادة خفيفاً جداً، مما يصعّب التوجيه ويقلل التحكم بالمركبة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 8,
+    "question": "When transporting hazardous or explosive materials:",
+    "options": [
+      "It is not required for the importing entity or agent to obtain the necessary approvals from the competent authorities to bring these materials into the Kingdom",
+      "A permit is required for the transport of these materials",
+      "Transport may be carried out by any available means of transport",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A permit is required for the transport of these materials",
+    "explanation": "When transporting hazardous or explosive materials, a special permit is required from the competent authorities to transport these materials, in order to avoid risks.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند نقل المواد الخطرة والقابلة للانفجار:",
+    "optionsAR": [
+      "لا يشترط حصول الجهة المستوردة أو الوكيل على الموافقات المطلوبة من الجهات المختصة لإدخال هذه المواد إلى المملكة",
+      "يشترط الحصول على التصريح اللازم لنقل هذه المواد",
+      "أن يتم النقل بأي واسطة نقل متوفرة",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "يشترط الحصول على التصريح اللازم لنقل هذه المواد",
+    "explanationAR": "عند نقل المواد الخطرة والقابلة للانفجار يشترط الحصول على تصريح خاص من الجهات المختصة لنقل هذه المواد، تجنباً للمخاطر.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 9,
+    "question": "A driver transporting hazardous or explosive materials must:",
+    "options": [
+      "Carry the hazardous/explosive materials transport document after it has been signed upon receipt of the materials",
+      "Choose any route the driver deems suitable",
+      "Keep the warning signs in place after unloading the hazardous or explosive material that was transported",
+      "Clean the transport vehicle inside a car-wash with water after delivering and unloading the material"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Carry the hazardous/explosive materials transport document after it has been signed upon receipt of the materials",
+    "explanation": "The driver must carry the transport document for the hazardous or explosive materials, signed for receipt, to prove the legality of the transport and inform official authorities of the contents.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "يجب على السائق عند نقله المواد الخطرة أو المواد القابلة للانفجار :",
+    "optionsAR": [
+      "حمل وثيقة نقل المواد الخطرة أو المواد القابلة للانفجار بعد التوقيع عليها باستلام المواد",
+      "اختيار أي مسار يراه السائق مناسبا",
+      "الإبقاء على الإشارات التحذيرية بعد تفريغ المادة الخطرة أو المواد القابلة للانفجار المنقولة",
+      "يجب تنظيف واسطة النقل داخل مغسلة وبالماء بعد إيصال المادة وتفريغها"
+    ],
+    "correctAnswerAR": "حمل وثيقة نقل المواد الخطرة أو المواد القابلة للانفجار بعد التوقيع عليها باستلام المواد",
+    "explanationAR": "يجب على السائق حمل وثيقة نقل المواد الخطرة أو القابلة للانفجار موقعة باستلام المواد، لإثبات شرعية النقل وتعريف الجهات الرسمية بمحتوى الحمولة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 10,
+    "question": "Among the conditions that must be met by a vehicle used to transport hazardous materials:",
+    "options": [
+      "It must undergo periodic inspection by the Public Security every year",
+      "Its capacity must be twice the volume of the material being transported",
+      "A warning label specific to hazardous materials must be placed on the vehicle",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A warning label specific to hazardous materials must be placed on the vehicle",
+    "explanation": "One of the conditions for a vehicle transporting hazardous materials is that a warning label be placed on it indicating the type of material transported, to alert road users and authorities.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من الشروط التي يجب أن تتوفر في واسطة نقل المواد الخطرة:",
+    "optionsAR": [
+      "أن تخضع لفحص دوري من الأمن العام كل سنة",
+      "أن تكون سعتها ضعفي حجم المادة المنقولة",
+      "أن يوضع على المركبة ملصق تحذيري والخاص بالمواد الخطرة",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "أن يوضع على المركبة ملصق تحذيري والخاص بالمواد الخطرة",
+    "explanationAR": "من شروط واسطة نقل المواد الخطرة وضع ملصق تحذيري عليها يدل على نوع المادة المنقولة، لتنبيه مستخدمي الطريق والجهات المختصة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 11,
+    "question": "Among the conditions that must be met by drivers of vehicles transporting hazardous materials:",
+    "options": [
+      "Holding a special driver's license for transporting hazardous materials",
+      "Holding a certificate from the exporting party for the materials, confirming the driver's competence to transport them",
+      "Holding a permit from the Public Security to drive such vehicles, renewed annually.",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Holding a permit from the Public Security to drive such vehicles, renewed annually.",
+    "explanation": "Drivers of vehicles transporting hazardous materials must obtain a permit from the Public Security to drive this type of vehicle, and this permit must be renewed annually.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من الشروط التي يجب أن تتوفر في سائقي وسائط نقل المواد الخطرة:",
+    "optionsAR": [
+      "أن يكون حاصلا على رخصة سوق خاصة لنقل المواد الخطرة",
+      "أن يكون حاصلا على شهادة من الجهة المصدرة للمواد بكفاءته على نقلها",
+      "أن يكون حاصلا على تصريح من الأمن العام لقيادة مثل هذه المركبات ويجدد سنويا.",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "أن يكون حاصلا على تصريح من الأمن العام لقيادة مثل هذه المركبات ويجدد سنويا.",
+    "explanationAR": "يجب على سائقي وسائط نقل المواد الخطرة الحصول على تصريح من الأمن العام لقيادة هذا النوع من المركبات، ويُجدد هذا التصريح سنوياً.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 12,
+    "question": "Among the parts of the hazardous-materials guidance label:",
+    "options": [
+      "The warning sign symbol",
+      "The element's number in the periodic table",
+      "The name of the manufacturer of the chemical material",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "The warning sign symbol",
+    "explanation": "One of the most important parts of the hazardous-materials guidance label is the warning sign symbol, which indicates the type of hazard associated with the transported material.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من أجزاء الملصق الإرشادي الخاص بنقل المواد الخطرة:",
+    "optionsAR": [
+      "رمز الإشارة التحذيرية",
+      "رقم العنصر في الجدول الدوري",
+      "اسم الجهة المصنعة للمادة الكيميائية",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "رمز الإشارة التحذيرية",
+    "explanationAR": "من أهم أجزاء الملصق الإرشادي الخاص بالمواد الخطرة رمز الإشارة التحذيرية الذي يدل على نوع الخطر المرتبط بالمادة المنقولة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 13,
+    "question": "The guidance labels are fixed on vehicles used to transport hazardous or explosive materials:",
+    "options": [
+      "On the back and on both sides in the middle",
+      "On both sides at the top of the vehicle",
+      "On the front and back",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "On the back and on both sides in the middle",
+    "explanation": "Guidance labels are placed on the back and on both sides in the middle of the hazardous-materials transport vehicle so they are visible from all directions.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "تثبت الملصقات الإرشادية على وسائط النقل المستخدمة لنقل المواد الخطرة أو القابلة للانفجار :",
+    "optionsAR": [
+      "على الخلف وعلى الجانبين من الوسط",
+      "على الجانبين من الأعلى لواسطة النقل",
+      "على الأمام والخلف",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "على الخلف وعلى الجانبين من الوسط",
+    "explanationAR": "تُثبّت الملصقات الإرشادية على واسطة نقل المواد الخطرة على الخلف وعلى الجانبين من الوسط لتكون مرئية من جميع الاتجاهات.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 14,
+    "question": "Among the conditions for the label on vehicles used to transport hazardous or explosive materials:",
+    "options": [
+      "The label must be painted red except for the part dedicated to the warning sign, which is white.",
+      "It must be made of plastic",
+      "The label must be fixed at the front and back",
+      "The label must be painted orange except for the part dedicated to the warning sign, which is white."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "The label must be painted orange except for the part dedicated to the warning sign, which is white.",
+    "explanation": "The label must be painted orange, except for the part dedicated to the warning sign, which is white, to distinguish it clearly from other labels.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من شروط الملصق على وسائط النقل المستخدمة لنقل المواد الخطرة أو القابلة للانفجار:",
+    "optionsAR": [
+      "يجب أن يدهن الملصق باللون الأحمر ماعدا الجزء المخصص للإشارة التحذيرية يكون باللون الأبيض .",
+      "أن يكون مصنوع من مادة البلاستيك",
+      "أن يثبت الملصق من الأمام والخلف",
+      "يجب أن يدهن الملصق باللون البرتقالي ما عدا الجزء المخصص للإشارة التحذيرية فإنه يكون باللون الأبيض."
+    ],
+    "correctAnswerAR": "يجب أن يدهن الملصق باللون البرتقالي ما عدا الجزء المخصص للإشارة التحذيرية فإنه يكون باللون الأبيض.",
+    "explanationAR": "يجب أن يدهن الملصق باللون البرتقالي ما عدا الجزء المخصص للإشارة التحذيرية فيكون باللون الأبيض، لتمييزه بوضوح عن باقي الملصقات.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 15,
+    "question": "The period during which a driver can apply for a Category 4 license from the date of obtaining a Category 3 (1) driver's license is:",
+    "options": [
+      "One year",
+      "Two years",
+      "Three years",
+      "Four years"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "One year",
+    "explanation": "A driver can apply for a Category 4 license after one year from obtaining a Category 3 (1) license, to gain the necessary experience.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "الفترة الزمنية التي يستطيع فيها السائق التقدم في طلب الحصول على الرخصة من الفئة الرابعة من تاريخ حصوله على رخصة سوق من الفئة الثالثة (1) هي:",
+    "optionsAR": [
+      "سنة واحدة",
+      "سنتين",
+      "ثلاث سنوات",
+      "أربع سنوات"
+    ],
+    "correctAnswerAR": "سنة واحدة",
+    "explanationAR": "يستطيع السائق التقدم بطلب الحصول على رخصة الفئة الرابعة بعد مرور سنة واحدة على حصوله على رخصة الفئة الثالثة (1)، اكتساباً للخبرة اللازمة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 16,
+    "question": "The period during which a driver can apply for a Category 5 license from the date of obtaining a Category 4 driver's license is:",
+    "options": [
+      "One year",
+      "Two years",
+      "Three years",
+      "Four years"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Two years",
+    "explanation": "A driver can apply for a Category 5 license after two years from obtaining a Category 4 license, to gain sufficient experience with larger vehicles.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "الفترة الزمنية التي يستطيع فيها السائق التقدم في طلب الحصول على الرخصة من الفئة الخامسة من تاريخ حصوله على رخصة سوق من الفئة الرابعة هي:",
+    "optionsAR": [
+      "سنة",
+      "سنتين",
+      "ثلاث سنوات",
+      "أربع سنوات"
+    ],
+    "correctAnswerAR": "سنتين",
+    "explanationAR": "يستطيع السائق التقدم بطلب الحصول على رخصة الفئة الخامسة بعد مرور سنتين على حصوله على رخصة الفئة الرابعة، لاكتساب الخبرة الكافية للمركبات الأكبر.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 17,
+    "question": "A Category 5 driver's license is classified as:",
+    "options": [
+      "A driver's license to drive a vehicle whose total weight is less than thirty tons, or a passenger car carrying no more than twenty passengers including the driver",
+      "A license to drive a medium-sized bus or a vehicle whose total weight exceeds seven and a half tons",
+      "A driver's license to drive a vehicle whose total weight is less than twenty tons, or a passenger car carrying no more than thirty passengers including the driver",
+      "A driver's license to drive a vehicle whose total weight is twenty tons or more, or a tractor-trailer, or a tractor and semi-trailer"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A license to drive a medium-sized bus or a vehicle whose total weight exceeds seven and a half tons",
+    "explanation": "Category 5 is a license to drive a medium-sized bus or a vehicle whose total weight exceeds seven and a half tons.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "رخصة السوق من الفئة الخامسة تصنف بأنها:",
+    "optionsAR": [
+      "رخصة سوق لقيادة مركبة يقل وزنها الإجمالي عن ثلاثين طن أو سيارة ركوب لا يزيد عدد ركابها عن عشرين راكبا بما فيهم السائق",
+      "رخصة قيادة حافلة متوسطة أو مركبة يزيد وزنها الإجمالي على سبعة أطنان ونصف الطن",
+      "رخصة سوق لقيادة مركبة يقل وزنها الإجمالي عن عشرين طن أو سيارة ركوب لا يزيد عدد ركابها عن ثلاثين راكبا بما فيهم السائق",
+      "رخصة سوق لقيادة مركبة وزنها الإجمالي عشرون طنا أو أكثر أو قاطرة ومقطورة أو رأس قاطرة ونصف مقطورة"
+    ],
+    "correctAnswerAR": "رخصة قيادة حافلة متوسطة أو مركبة يزيد وزنها الإجمالي على سبعة أطنان ونصف الطن",
+    "explanationAR": "رخصة الفئة الخامسة هي رخصة قيادة حافلة متوسطة أو مركبة يزيد وزنها الإجمالي عن سبعة أطنان ونصف الطن.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 18,
+    "question": "A Category 6 (1) driver's license is classified as:",
+    "options": [
+      "A driver's license to drive a vehicle whose total weight does not exceed seven and a half tons, or a public passenger car carrying no more than nine passengers including the driver",
+      "A driver's license to drive a vehicle whose total weight is less than twenty tons, or a passenger car carrying no more than thirty passengers including the driver",
+      "A license to drive a tractor-trailer or a tractor and semi-trailer",
+      "None of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A license to drive a tractor-trailer or a tractor and semi-trailer",
+    "explanation": "Category 6 (1) is a license to drive a tractor-trailer or a tractor and semi-trailer, for the largest vehicles.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "رخصة السوق من الفئة السادسة (1) تصنف بأنها :",
+    "optionsAR": [
+      "رخصة سوق لقيادة مركبة لا يزيد وزنها الإجمالي على سبعة أطنان ونصف الطن أو سيارة ركوب عمومية لا يزيد عدد ركابها على تسعة ركاب بمن فيهم السائق",
+      "رخصة سوق لقيادة مركبة يقل وزنها الإجمالي عن عشرين طنا أو سيارة ركوب لا يزيد عدد ركابها على ثلاثين راكبا بمن فيهم السائق",
+      "رخصة قيادة قاطرة ومقطورة أو رأس قاطرة ونصف مقطورة",
+      "لا شيء مما ذكر"
+    ],
+    "correctAnswerAR": "رخصة قيادة قاطرة ومقطورة أو رأس قاطرة ونصف مقطورة",
+    "explanationAR": "رخصة الفئة السادسة (1) هي رخصة قيادة قاطرة ومقطورة أو رأس قاطرة ونصف مقطورة، وهي للمركبات الأكبر حجماً.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 19,
+    "question": "A Category 6 (2) driver's license is classified as:",
+    "options": [
+      "A driver's license to drive a vehicle whose total weight does not exceed seven and a half tons, or a public passenger car carrying no more than nine passengers including the driver",
+      "A driver's license to drive a vehicle whose total weight is no less than twenty tons, or a passenger car carrying no more than thirty passengers including the driver",
+      "A license to drive a bus"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A license to drive a bus",
+    "explanation": "Category 6 (2) is a license to drive a large bus, specifically for driving large public buses.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "تصنف رخصة القيادة من الفئة السادسة (2) بأنها :",
+    "optionsAR": [
+      "رخصة سوق لقيادة مركبة لا يزيد وزنها الإجمالي على سبعة أطنان ونصف الطن أو سيارة ركوب عمومية لا يزيد عدد ركابها على تسعة ركاب بمن فيهم السائق",
+      "رخصة سوق لقيادة مركبة لا يقل وزنها الإجمالي عن عشرين طنا أو سيارة ركوب لا يزيد عدد ركابها على ثلاثين راكبا بمن فيهم السائق",
+      "رخصة قيادة حافلة"
+    ],
+    "correctAnswerAR": "رخصة قيادة حافلة",
+    "explanationAR": "رخصة الفئة السادسة (2) هي رخصة قيادة حافلة كبيرة، وتخص قيادة الحافلات العامة الكبيرة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 20,
+    "question": "Driver's licenses for categories four, five, and six are issued for a period of:",
+    "options": [
+      "Three years",
+      "Five years",
+      "Seven years",
+      "Ten years"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Five years",
+    "explanation": "Driver's licenses for categories four, five, and six are issued for a period of five years, in accordance with the traffic regulations in force.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "تصدر رخص السوق من الفئات الرابعة والخامسة والسادسة لمدة:",
+    "optionsAR": [
+      "ثلاث سنوات",
+      "خمس سنوات",
+      "سبع سنوات",
+      "عشر سنوات"
+    ],
+    "correctAnswerAR": "خمس سنوات",
+    "explanationAR": "تصدر رخص السوق من الفئات الرابعة والخامسة والسادسة لمدة خمس سنوات، وفق نظام السير المعمول به.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 21,
+    "question": "This fire extinguisher is used to put out fires of:",
+    "options": [
+      "Vehicles",
+      "Electricity",
+      "Oils, greases, and petroleum",
+      "All of the above"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-021.jpg",
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "This (dry-powder) extinguisher is used to put out all the mentioned types of fires: vehicle fires, electrical fires, and oil/grease/petroleum fires, as it is multi-purpose.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "تستخدم هذه الطفاية لإطفاء حرائق:",
+    "optionsAR": [
+      "المركبات",
+      "الكهرباء",
+      "الزيوت والدهون والنفط",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "جميع ماذكر",
+    "explanationAR": "هذه الطفاية (المسحوق الجاف) تستخدم لإطفاء جميع أنواع الحرائق المذكورة: حرائق المركبات والكهرباء والزيوت والدهون والنفط، فهي متعددة الاستعمالات.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 22,
+    "question": "This fire extinguisher is used to put out fires of:",
+    "options": [
+      "Vehicles",
+      "Electricity",
+      "Oils, greases, and petroleum",
+      "1 + 3"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-022.jpg",
+    "video": null,
+    "correctAnswer": "1 + 3",
+    "explanation": "This extinguisher is used to put out vehicle fires and oil/grease/petroleum fires (1 + 3), but is not suitable for electrical fires.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "تستخدم هذه الطفاية لإطفاء حرائق:",
+    "optionsAR": [
+      "المركبات",
+      "الكهرباء",
+      "الزيوت والدهون والنفط",
+      "1 + 3"
+    ],
+    "correctAnswerAR": "1 + 3",
+    "explanationAR": "هذه الطفاية تستخدم لإطفاء حرائق المركبات والزيوت والدهون والنفط (1+3)، ولا تصلح لحرائق الكهرباء.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 23,
+    "question": "This fire extinguisher is used to put out fires of:",
+    "options": [
+      "Vehicles",
+      "Electricity",
+      "Greases, oils, and petroleum",
+      "All of the above"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-023.jpg",
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "This (carbon-dioxide) extinguisher is used to put out all the mentioned types of fires because it leaves no residue after extinguishing.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "تستخدم هذه الطفاية لإطفاء حرائق:",
+    "optionsAR": [
+      "المركبات",
+      "الكهرباء",
+      "الدهون وازيوت والنفط",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "جميع ماذكر",
+    "explanationAR": "هذه الطفاية (ثاني أكسيد الكربون) تستخدم لإطفاء جميع أنواع الحرائق المذكورة لأنها لا تترك أثراً بعد الإطفاء.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 24,
+    "question": "This fire extinguisher is used to put out fires of:",
+    "options": [
+      "Electricity",
+      "Oils, greases, and petroleum",
+      "1+2",
+      "None of the above"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-024.jpg",
+    "video": null,
+    "correctAnswer": "None of the above",
+    "explanation": "This (water) extinguisher must not be used on electrical fires or on oil/grease/petroleum fires, because using it in these cases may increase the danger.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "تستخدم هذه الطفاية لإطفاء حرائق:",
+    "optionsAR": [
+      "الكهرباء",
+      "الزيوت والدهون والنفط",
+      "1+2",
+      "لا شئ مما ذكر"
+    ],
+    "correctAnswerAR": "لا شئ مما ذكر",
+    "explanationAR": "هذه الطفاية (المائية) لا تستخدم لإطفاء حرائق الكهرباء أو الزيوت والدهون والنفط، لأن استخدامها في هذه الحالات قد يزيد الخطر.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 25,
+    "question": "Heavy vehicles must be equipped with sun visors on the window edges, because they widen the lateral viewing field and reduce the amount of sunlight from the front:",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Incorrect",
+    "explanation": "The statement is incorrect; sun visors reduce the driver's lateral field of view rather than widening it, so they must be used with caution.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "يجب تزويد المركبات الثقيلة بواقيات شمس على حواف النوافذ، لأنها تزيد من مجال الرقابة الجانبية وتقلل كمية الأشعة الشمسية من الأمام:",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "العبارة خاطئة؛ واقيات الشمس تُقلل من مجال الرؤية الجانبية للسائق ولا تزيد من مجال الرقابة، فاستخدامها يجب أن يكون بحذر.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 26,
+    "question": "Modern vehicles are equipped with additional side mirrors directed toward the front tires. Among the advantages of these mirrors:",
+    "options": [
+      "Monitoring the distance between the front tires and the curbs",
+      "Detecting all blind spots of the vehicle",
+      "Alerting the driver when air pressure is low",
+      "Providing the driver with reflectors of the road surface at night"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Monitoring the distance between the front tires and the curbs",
+    "explanation": "The additional side mirrors directed toward the front tires in modern vehicles help the driver monitor the distance between the front tires and curbs to avoid hitting them.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "المركبات الحديثة يتم تزويدها بمرايا جانبية إضافية موجهة نحو الإطارات الأمامية من مميزات هذه المرايا:",
+    "optionsAR": [
+      "مراقبة المسافة بين الإطارات الأمامية والأرصفة",
+      "كشف جميع النقاط العمياء للمركبة",
+      "إعطاء تنبيه للسائق عند انخفاض ضغط الهواء",
+      "تزويد السائق بعواكس لسطح الطريق أثناء المسير ليلا"
+    ],
+    "correctAnswerAR": "مراقبة المسافة بين الإطارات الأمامية والأرصفة",
+    "explanationAR": "المرايا الجانبية الإضافية الموجهة نحو الإطارات الأمامية في المركبات الحديثة تساعد السائق على مراقبة المسافة بين الإطارات الأمامية والأرصفة لتجنب الاصطدام بها.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 27,
+    "question": "Student-bus drivers must adhere to the following:",
+    "options": [
+      "Stopping to load or unload students in all areas, including the left lane",
+      "Driving in any lane because it is not a public-transport bus",
+      "Making sure the bus is in proper working condition before setting off",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Making sure the bus is in proper working condition before setting off",
+    "explanation": "Student-bus drivers must make sure the bus is in proper working condition before setting off, to ensure the safety of the students and avoid breakdowns during the trip.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "على سائقي باصات نقل الطلاب التقيد بما يلي:",
+    "optionsAR": [
+      "التوقف لتحميل أو تنزيل الطلاب في كافة المناطق بما فيها المسرب الأيسر",
+      "أن يسير بأي مسرب كونه ليس من باصات النقل العام",
+      "التأكد من صلاحية الباص قبل الانطلاق",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "التأكد من صلاحية الباص قبل الانطلاق",
+    "explanationAR": "على سائقي باصات نقل الطلاب التأكد من صلاحية الباص قبل الانطلاق، حفاظاً على سلامة الطلاب وتجنب الأعطال أثناء الرحلة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 28,
+    "question": "When loading or unloading students, you must ensure the following:",
+    "options": [
+      "Using the left turn signal to alert vehicles behind that you intend to stop",
+      "Moving off immediately after students board, so as not to obstruct traffic",
+      "Turning on the red flashing warning lights",
+      "Stopping in the left lane during loading and unloading"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Turning on the red flashing warning lights",
+    "explanation": "When loading or unloading students, you must turn on the red flashing warning lights to alert other drivers that students are boarding or alighting.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند تحميل أو تنزيل الطلاب يجب التأكد مما يلي :",
+    "optionsAR": [
+      "استعمال الغماز الأيسر لإشعار المركبات التي تسير خلفه بعزمه على التوقف",
+      "التحرك بعد صعود الطلاب مباشرة حتى لا يعيق حركة المرور",
+      "تشغيل أضوية التنبيه الحمراء المتقطعة",
+      "الوقوف على المسرب الأيسر عند التحميل والتنزيل"
+    ],
+    "correctAnswerAR": "تشغيل أضوية التنبيه الحمراء المتقطعة",
+    "explanationAR": "عند تحميل أو تنزيل الطلاب يجب تشغيل أضوية التنبيه الحمراء المتقطعة لتنبيه السائقين الآخرين إلى وجود طلاب يصعدون أو ينزلون.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 29,
+    "question": "Student-bus drivers are allowed to carry more than the permitted number of passengers under 12 years old, provided it does not exceed:",
+    "options": [
+      "Three students instead of two adults",
+      "Four students instead of two adults",
+      "Five students instead of two adults",
+      "Six students instead of two adults"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Three students instead of two adults",
+    "explanation": "Student-bus drivers are allowed to replace two adult passengers with three students under 12 years old as a maximum.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "يسمح لسائقي باصات نقل الطلاب بتحميل زيادة عن العدد المسموح به لمن تقل أعمارهم عن 12 سنة بحيث لا يزيدوا عن:",
+    "optionsAR": [
+      "ثلاثة طلاب بدل من اثنين بالغين",
+      "أربعة طلاب بدل من اثنين بالغين",
+      "خمسة طلاب بدل من اثنين بالغين",
+      "ستة طلاب بدل من اثنين بالغين"
+    ],
+    "correctAnswerAR": "ثلاثة طلاب بدل من اثنين بالغين",
+    "explanationAR": "يُسمح لسائقي باصات نقل الطلاب باستبدال راكبين بالغين بثلاثة طلاب لمن تقل أعمارهم عن 12 سنة كحد أقصى.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 30,
+    "question": "When transporting heavy, oversized, and non-divisible loads, you must:",
+    "options": [
+      "Use a vehicle with a raised floor",
+      "Take whichever route the driver sees fit",
+      "Prevent the vehicle from crossing bridges if the total weight of the vehicle or combination exceeds 80 tons",
+      "Equip the tractor head with orange warning lights (light bar)"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Equip the tractor head with orange warning lights (light bar)",
+    "explanation": "When transporting large non-divisible loads, the tractor head must be equipped with orange warning lights (light bar) to alert other drivers.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند نقل حمولات ذات أحجام وأوزان ثقيلة ولا يمكن تجزئتها يجب:",
+    "optionsAR": [
+      "ان تكون المركبة ذات أرضية مرتفعة",
+      "سلوك الطريق الذي يراه السائق مناسباً",
+      "ان يمنع سير المركبة فوق الجسور إذا زاد الوزن الإجمالي للمركبة أو مجموع المركبات على (80) طنا",
+      "تزويد الرأس القاطر بالأنوار التحذيرية (اللواح) اللون البرتقالي"
+    ],
+    "correctAnswerAR": "تزويد الرأس القاطر بالأنوار التحذيرية (اللواح) اللون البرتقالي",
+    "explanationAR": "عند نقل الحمولات الكبيرة وغير القابلة للتجزئة يجب تزويد الرأس القاطر بأنوار تحذيرية برتقالية (اللواح) لتنبيه السائقين.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 31,
+    "question": "When transporting heavy non-divisible loads without an escort (control) vehicle, the total width of the vehicle must not exceed:",
+    "options": [
+      "Two meters and twenty centimeters",
+      "Two meters and forty centimeters",
+      "Two meters and sixty centimeters",
+      "Two meters and eighty centimeters"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Two meters and eighty centimeters",
+    "explanation": "When transporting heavy loads without an escort vehicle, the total width of the vehicle must not exceed 2.80 meters.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند نقل حمولات ذات أحجام وأوزان ثقيلة ولا يمكن تجزئتها بدون سيارة مرافقة (سيطرة) يجب ان لا يزيد العرض الإجمالي للمركبة عن:",
+    "optionsAR": [
+      "مترين وعشرين سنتيمترا",
+      "مترين وأربعين سنتيمترا",
+      "مترين وستين سنتيمترا",
+      "مترين وثمانين سنتيمترا"
+    ],
+    "correctAnswerAR": "مترين وثمانين سنتيمترا",
+    "explanationAR": "عند نقل الحمولات الثقيلة بدون مركبة سيطرة، يجب ألا يزيد العرض الإجمالي للمركبة عن مترين وثمانين سنتيمتراً.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 32,
+    "question": "The method of arranging the bags as the load is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-032.jpg",
+    "video": null,
+    "correctAnswer": "Incorrect method",
+    "explanation": "The arrangement of the bags is incorrect because the load is distributed unevenly or stacked in a way that may cause the vehicle to lose balance and the bags to slide.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة ترتيب الأحمال الموضوعة في الأكياس:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة خاطئة",
+    "explanationAR": "طريقة ترتيب الأكياس خاطئة لأن الحمولة موزعة بشكل غير متوازن أو مكدّسة بطريقة قد تسبب اختلال توازن المركبة وانزلاق الأكياس.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 33,
+    "question": "The method of securing the load shown in the figure is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-033.jpg",
+    "video": null,
+    "correctAnswer": "Correct method",
+    "explanation": "The method of securing the load is correct because the logs are arranged inside the side barriers and fastened with straps, so they do not move while driving.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تثبيت الحمولة المبينة بالرسم:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة صحيحة",
+    "explanationAR": "طريقة تثبيت الحمولة صحيحة لأن جذوع الأشجار مرصوفة داخل الحواجز الجانبية ومثبّتة بأحزمة شد، فلا تتحرك أثناء السير.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 34,
+    "question": "The method of securing the load shown in the figure is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-034.jpg",
+    "video": null,
+    "correctAnswer": "Incorrect method",
+    "explanation": "The method of securing the load is incorrect because using only a net at the top is not enough to secure heavy logs; strong fastening straps must be used.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تثبيت الحمولة المبينة بالرسم:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة خاطئة",
+    "explanationAR": "طريقة تثبيت الحمولة خاطئة لأن استعمال شبكة فقط من الأعلى لا يكفي لتثبيت جذوع الأشجار الثقيلة، ويجب استخدام أحزمة شد قوية.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 35,
+    "question": "The method of securing the load shown in the figure is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-035.jpg",
+    "video": null,
+    "correctAnswer": "Correct method",
+    "explanation": "The method of securing the load is correct because the large cylindrical object is fastened with multiple strong straps and chains, distributed appropriately along the load.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تثبيت الحمولة المبينة بالرسم:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة صحيحة",
+    "explanationAR": "طريقة تثبيت الحمولة صحيحة لأن الجسم الأسطواني الكبير مثبت بأحزمة وسلاسل قوية متعددة وموزعة بشكل مناسب على طول الحمولة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 36,
+    "question": "The method of securing the load shown within the side barriers of the truck box is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-036.jpg",
+    "video": null,
+    "correctAnswer": "Correct method",
+    "explanation": "The method of securing the load is correct because the bags are placed inside the side barriers of the truck box and arranged neatly, preventing them from moving during driving.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تثبيت الحمولة المبينة ضمن حواجز صندوق الشاحنة:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة صحيحة",
+    "explanationAR": "طريقة تثبيت الحمولة صحيحة لأن الأكياس موضوعة داخل حواجز صندوق الشاحنة ومرتبة بانتظام، مما يمنع تحركها أثناء السير.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 37,
+    "question": "The placement of the vehicle in this way is:",
+    "options": [
+      "Correct because it is well secured",
+      "Incorrect because there is no cover",
+      "Prohibited because transporting a vehicle on top of another is not allowed",
+      "None of the above"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-037.jpg",
+    "video": null,
+    "correctAnswer": "Correct because it is well secured",
+    "explanation": "The placement of the vehicle in this way is correct because it is well secured on the low-bed trailer using appropriate fastening straps.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن وجود المركبة بهذه الطريقة:",
+    "optionsAR": [
+      "صحيح لأنها مثبتة بشكل جيد",
+      "خاطئ لعدم موجود غطاء",
+      "ممنوع لأن نقل مركبة على مركبة أخرى غير مسموح به",
+      "لاشئ مماذكر"
+    ],
+    "correctAnswerAR": "صحيح لأنها مثبتة بشكل جيد",
+    "explanationAR": "وضع المركبة بهذه الطريقة صحيح لأنها مثبتة بشكل جيد على المقطورة المنخفضة (اللوبد) باستعمال أحزمة الشد المناسبة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 38,
+    "question": "Load fasteners are used to:",
+    "options": [
+      "Prevent the load from moving",
+      "Raise the load off the vehicle's surface to reduce friction",
+      "Mark the ends and edges of the load",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Prevent the load from moving",
+    "explanation": "Load fasteners are used to prevent the load from moving or sliding while the vehicle is in motion, to protect the load, the vehicle, and the road.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "تستعمل مثبتات الحمولة:",
+    "optionsAR": [
+      "لمنع الحمولة من التحرك",
+      "لرفع الحمولة عن سطح المركبة لتقليل الاحتكاك",
+      "لتحديد نهايات الحمولة وأطرافها",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "لمنع الحمولة من التحرك",
+    "explanationAR": "تستعمل مثبتات الحمولة لمنع الحمولة من التحرك أو الانزلاق أثناء سير المركبة، حفاظاً على سلامة الحمولة والمركبة والطريق.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 39,
+    "question": "In closed trucks, arranging the load is not necessary because it does not affect the steering of the vehicle:",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Incorrect",
+    "explanation": "The statement is incorrect; arranging the load is necessary even in closed trucks because it affects the balance, steering, and stability of the vehicle on the road.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "في الشاحنات المغلقة ترتيب الحمولة غير ضروري لأنه لا يؤثر على توجيه المركبة :",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "العبارة خاطئة؛ ترتيب الحمولة ضروري حتى في الشاحنات المغلقة لأنه يؤثر على توازن المركبة وتوجيهها وثباتها على الطريق.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 40,
+    "question": "Among the reasons for covering the load:",
+    "options": [
+      "Preserving the balance of the vehicle",
+      "Preventing the load from moving",
+      "Reducing the centrifugal forces affecting the load",
+      "Protecting the load from weather conditions"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Protecting the load from weather conditions",
+    "explanation": "One of the most important reasons for covering the load is to protect it from weather conditions such as rain, sun, and dust, as well as to prevent parts of it from scattering.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من أسباب تغطية الحمولة :",
+    "optionsAR": [
+      "المحافظة على توازن المركبة",
+      "منع الحمولة من التحرك",
+      "تقليل قوى الطرد المركزي المؤثرة على الحمولة",
+      "حماية الحمولة من العوامل الجوية"
+    ],
+    "correctAnswerAR": "حماية الحمولة من العوامل الجوية",
+    "explanationAR": "من أهم أسباب تغطية الحمولة حمايتها من العوامل الجوية كالأمطار والشمس والغبار، إضافة إلى منع تطاير أجزاء منها.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 41,
+    "question": "Vehicles transporting hazardous or explosive materials may be parked or left overnight in residential areas after obtaining a permit.",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Incorrect",
+    "explanation": "The statement is incorrect; vehicles transporting hazardous materials must not be parked or left overnight in residential areas, even with a permit, to avoid risks to residents.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "يجوز اصطفاف أو مبيت وسائط نقل المواد الخطرة أو المواد القابلة للانفجار في الأماكن المأهولة بالسكان بعد الحصول على تصريح بذلك.",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "العبارة خاطئة؛ لا يجوز اصطفاف أو مبيت وسائط نقل المواد الخطرة في الأماكن المأهولة بالسكان، حتى مع التصريح، تجنباً للمخاطر على السكان.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 42,
+    "question": "Vehicles transporting hazardous materials that pass through by transit are exempt from displaying the guidance labels.",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Incorrect",
+    "explanation": "The statement is incorrect; vehicles passing through by transit are not exempt from displaying guidance labels; the labels must always be present to inform authorities of the type of load.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "تعفى وسائط النقل التي تنقل المواد الخطرة والمارة بها عن طريق ( الترانزيت ) من وضع الملصقات الإرشادية.",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "العبارة خاطئة؛ وسائط النقل المارة بالترانزيت لا تُعفى من وضع الملصقات الإرشادية، فيجب أن تكون الملصقات موجودة دائماً لتعريف الجهات بنوع الحمولة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 43,
+    "question": "The method of loading the vehicle shown in the figure is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-043.jpg",
+    "video": null,
+    "correctAnswer": "Incorrect method",
+    "explanation": "The loading method is incorrect because the load (the wood) extends outside the truck bed from the rear, which poses a danger to other vehicles.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تحميل المركبة المبينة في الرسم:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة خاطئة",
+    "explanationAR": "طريقة التحميل خاطئة لأن الحمولة (الأخشاب) تمتد خارج صندوق الشاحنة من الخلف، مما يشكل خطراً على المركبات الأخرى.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 44,
+    "question": "The method of loading the vehicle shown in the figure is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-044.jpg",
+    "video": null,
+    "correctAnswer": "Correct method",
+    "explanation": "The loading method is correct because the load is placed entirely inside the truck bed without extending outside it.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تحميل المركبة المبينة في الرسم:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة صحيحة",
+    "explanationAR": "طريقة التحميل صحيحة لأن الحمولة موضوعة بالكامل داخل صندوق الشاحنة دون أن تمتد خارجها.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 45,
+    "question": "The method of loading the vehicle shown in the figure is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-045.jpg",
+    "video": null,
+    "correctAnswer": "Incorrect method",
+    "explanation": "The loading method is incorrect because the load is stacked vertically too high and unbalanced, which raises the vehicle's center of gravity and increases the risk of tipping over.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تحميل المركبة المبينة في الرسم:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة خاطئة",
+    "explanationAR": "طريقة التحميل خاطئة لأن الحمولة مرصوفة بشكل عمودي مرتفع غير متوازن، مما يرفع مركز ثقل المركبة ويزيد خطر انقلابها.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 46,
+    "question": "The method of loading the vehicle shown in the figure is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-046.jpg",
+    "video": null,
+    "correctAnswer": "Incorrect method",
+    "explanation": "The loading method is incorrect because the load is placed at only one end of the box, which causes the vehicle to be unbalanced and affects its stability.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تحميل المركبة المبينة في الرسم:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة خاطئة",
+    "explanationAR": "طريقة التحميل خاطئة لأن الحمولة موضوعة في طرف واحد من الصندوق فقط، مما يسبب عدم توازن المركبة ويؤثر على ثباتها.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 47,
+    "question": "The method of loading the vehicle shown in the figure is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-047.jpg",
+    "video": null,
+    "correctAnswer": "Incorrect method",
+    "explanation": "The loading method is incorrect because the load is placed only at the front, which overloads the front axle and affects steering and braking.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تحميل المركبة المبينة في الرسم:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة خاطئة",
+    "explanationAR": "طريقة التحميل خاطئة لأن الحمولة موضوعة في الجزء الأمامي فقط، مما يثقل المحور الأمامي ويؤثر على التوجيه والمكابح.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 48,
+    "question": "The method of loading the vehicle shown in the figure is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-048.jpg",
+    "video": null,
+    "correctAnswer": "Correct method",
+    "explanation": "The loading method is correct because the load is distributed evenly inside the truck box, which achieves the required balance and maintains the vehicle's stability.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تحميل المركبة المبينة في الرسم:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة صحيحة",
+    "explanationAR": "طريقة التحميل صحيحة لأن الحمولة موزعة بانتظام داخل صندوق الشاحنة، مما يحقق التوازن المطلوب ويحافظ على ثبات المركبة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 49,
+    "question": "The method of loading the vehicle shown in the figure is:",
+    "options": [
+      "Correct method",
+      "Incorrect method"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-049.jpg",
+    "video": null,
+    "correctAnswer": "Correct method",
+    "explanation": "The loading method is correct because the load is arranged in a pyramid shape, with heavier boxes at the bottom and lighter ones on top, which keeps the vehicle's center of gravity low and maintains balance.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تحميل المركبة المبينة في الرسم:",
+    "optionsAR": [
+      "طريقة صحيحة",
+      "طريقة خاطئة"
+    ],
+    "correctAnswerAR": "طريقة صحيحة",
+    "explanationAR": "طريقة التحميل صحيحة لأن الحمولة مرتبة بشكل هرمي بحيث تكون الصناديق الثقيلة في الأسفل والأخف في الأعلى، مما يحافظ على انخفاض مركز ثقل المركبة وتوازنها.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 50,
+    "question": "Supports are placed in front of:",
+    "options": [
+      "Behind the load",
+      "On the sides of the load",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "On the sides of the load",
+    "explanation": "Supports are placed on the sides of the load to secure it and prevent it from moving sideways while the vehicle is in motion.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "توضع الدعامات أمام:",
+    "optionsAR": [
+      "خلف الحمولة",
+      "على جوانب الحمولة",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "على جوانب الحمولة",
+    "explanationAR": "توضع الدعامات على جوانب الحمولة لتثبيتها ومنعها من التحرك جانبياً أثناء سير المركبة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 51,
+    "question": "The method of loading the vehicle shown in the figure is:",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-051.jpg",
+    "video": null,
+    "correctAnswer": "Correct",
+    "explanation": "The loading method is correct because the barrels/cylinders are placed evenly and balanced inside the vehicle box and well secured.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تحميل المركبة المبينة في الرسم:",
+    "optionsAR": [
+      "صحيحة",
+      "خاطئة"
+    ],
+    "correctAnswerAR": "صحيحة",
+    "explanationAR": "طريقة التحميل صحيحة لأن البراميل/الأسطوانات موضوعة بشكل منتظم ومتوازن داخل صندوق المركبة، ومثبتة جيداً.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 52,
+    "question": "The method of loading the vehicle shown in the figure is:",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": "assets/images/license-category-5-6/license-category-5-6-052.jpg",
+    "video": null,
+    "correctAnswer": "Correct",
+    "explanation": "The loading method is correct because the load is placed evenly and is balanced on the truck, with each piece fastened appropriately.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن طريقة تحميل المركبة المبينة في الرسم:",
+    "optionsAR": [
+      "صحيحة",
+      "خاطئة"
+    ],
+    "correctAnswerAR": "صحيحة",
+    "explanationAR": "طريقة التحميل صحيحة لأن الحمولة موضوعة بانتظام ومتوازنة على الشاحنة، مع تثبيت كل قطعة بشكل مناسب.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 53,
+    "question": "The dimensions of the guidance label are 70 cm length and 40 cm width:",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Correct",
+    "explanation": "The statement is correct; the legal dimensions for the hazardous-materials guidance label are 70 cm in length and 40 cm in width, per the approved standards.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "ابعاد الملصق الارشادي هي الطول (70) سم والعرض (40) سم :",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "صحيح",
+    "explanationAR": "العبارة صحيحة؛ الأبعاد القانونية للملصق الإرشادي الخاص بالمواد الخطرة هي 70 سم طولاً و40 سم عرضاً وفق المعايير المعتمدة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 54,
+    "question": "The guidance label must be painted orange except for the part dedicated to the warning sign, which is white:",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the guidance label must be painted orange, except for the part dedicated to the warning sign which is white, to make it easily distinguishable.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "يجب ان يدهن الملصق الارشادي بالون البرتقالي ما عدا الجزء المخصص للاشارة التحذيرية يكون باللون الابيض :",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يجب أن يدهن الملصق الإرشادي باللون البرتقالي ماعدا الجزء المخصص للإشارة التحذيرية فيكون باللون الأبيض، لتمييزه بسهولة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 55,
+    "question": "The manually operated trailer brakes are used in case of:",
+    "options": [
+      "Parking safely on a downhill slope",
+      "Normal stopping situations",
+      "1+2"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Parking safely on a downhill slope",
+    "explanation": "The manually operated trailer brakes are used to park safely on a downhill slope, to secure the trailer and prevent it from rolling.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "فرامل المقطورة التي تدار بالشكل اليدوي تستخدم في حالة :",
+    "optionsAR": [
+      "الوقوف بامان في حالة الانحدار من على مرتفع",
+      "الاوضاع العادية للتوقف",
+      "1+2"
+    ],
+    "correctAnswerAR": "الوقوف بامان في حالة الانحدار من على مرتفع",
+    "explanationAR": "تُستخدم فرامل المقطورة اليدوية للوقوف بأمان في حالة الانحدار من على مرتفع، لتأمين ثبات المقطورة ومنع تحركها.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 56,
+    "question": "Among the equipment that must be available in a heavy vehicle before starting a trip:",
+    "options": [
+      "A shovel and pick",
+      "A directory of essential phone numbers",
+      "1+2",
+      "None of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "1+2",
+    "explanation": "Among the equipment that must be available in a heavy vehicle before any trip: a shovel and pick, and a directory of essential phone numbers (1+2), to handle emergencies.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من المعدات اللازم توفرها في المركبة الثقيلة قبل الانطلاق في رحلة :",
+    "optionsAR": [
+      "مجرفة وكريك",
+      "دليل بارقام الهواتف الضرورية",
+      "1+2",
+      "لا شئ مما ذكر"
+    ],
+    "correctAnswerAR": "1+2",
+    "explanationAR": "من المعدات اللازم توفرها في المركبة الثقيلة قبل أي رحلة: مجرفة وكريك ودليل بأرقام الهواتف الضرورية (1+2)، للتعامل مع الطوارئ.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 57,
+    "question": "Public-transport drivers may not refuse to take on a child under (6) years old without an accompanying adult:",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Incorrect",
+    "explanation": "The statement is incorrect; public-transport drivers may refuse to take on a child under six years old without an accompanying adult, for the child's safety.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "لا يجوز لسائقي وسائط النقل العام الامتناع عن تحميل طفل يقل عمره عن (6) سنوات دون مرافق:",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "العبارة خاطئة؛ يجوز لسائقي وسائط النقل العام الامتناع عن تحميل طفل دون السادسة بدون مرافق، حفاظاً على سلامة الطفل.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 58,
+    "question": "When the vehicle is in a heavy-vehicle parking area, the vehicle's lights must be turned on even if the parking area is well lit and equipped with the necessary traffic signs:",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Incorrect",
+    "explanation": "The statement is incorrect; if the heavy-vehicle parking area is well lit and equipped with the necessary traffic signs, there is no need to turn on the vehicle's lights.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "في حال وجود المركبة في موقف للمركبات الثقيلة يجب اضاءة انوار المركبة حتى لو كان الموقف مضاء ومزودا بالشواخص المرورية اللازمة :",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "العبارة خاطئة؛ إذا كان موقف المركبات الثقيلة مضاءً ومزوداً بالشواخص المرورية اللازمة فلا داعي لإضاءة أنوار المركبة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 59,
+    "question": "Among the cases in which it is permitted to turn off the lights:",
+    "options": [
+      "Heavy-vehicle parking areas on the road with the necessary facilities in place",
+      "When stopping on the side of the road at night",
+      "When stopping on emergency lanes",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Heavy-vehicle parking areas on the road with the necessary facilities in place",
+    "explanation": "It is permitted to turn off the lights only in heavy-vehicle parking areas on the road that are equipped with the necessary lighting and warning signs.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من الحالات التي يسمح بها بإطفاء الانوار:",
+    "optionsAR": [
+      "مواقف المركبات الثقيلة على الطريق بوجود التجهيزات اللازمة",
+      "عند الوقوف على طرف الطريق في الليل",
+      "عند الوقوف على مسارب الطوارئ",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "مواقف المركبات الثقيلة على الطريق بوجود التجهيزات اللازمة",
+    "explanationAR": "يُسمح بإطفاء الأنوار في مواقف المركبات الثقيلة على الطريق فقط عند وجود التجهيزات اللازمة من إنارة وشواخص تحذيرية.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 60,
+    "question": "If there is any possibility of fog forming at night, it is preferable for heavy-vehicle drivers to:",
+    "options": [
+      "Use the four-way flashers",
+      "Use the high beam",
+      "Not drive",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Not drive",
+    "explanation": "If there is a possibility of fog forming at night, heavy-vehicle drivers are advised not to drive, in order to avoid the risks caused by poor visibility.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إذا كان هناك اي احتمال لتشكل الضباب اثناء الليل فانه يفضل لسائقي المركبات الثقيلة:",
+    "optionsAR": [
+      "إستخدام الأضواء الرباعية (الفلشر)",
+      "إستخدام الضوء العالي",
+      "عدم القيادة",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "عدم القيادة",
+    "explanationAR": "إذا كان هناك احتمال لتشكل الضباب ليلاً، يُفضل لسائقي المركبات الثقيلة عدم القيادة لتجنب المخاطر الناتجة عن ضعف الرؤية.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 61,
+    "question": "When there are no vehicles approaching from the opposite direction, heavy-vehicle drivers should use:",
+    "options": [
+      "(High beam) to see as far as possible",
+      "The dipped (low) beam",
+      "The four-way flashers",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "(High beam) to see as far as possible",
+    "explanation": "When there are no oncoming vehicles, the high beam is used to increase the viewing distance and see the road more clearly.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "في حال عدم وجود مركبات قادمة باتجاه سائقي المركبات الثقيلة فعليهم استخدام:",
+    "optionsAR": [
+      "(الضوء العالي) لرؤية ابعد ما يمكن رؤيته",
+      "إستخدام أنوار التلاقي",
+      "إستخدام الأضواء الرباعية (الفلشر)",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "(الضوء العالي) لرؤية ابعد ما يمكن رؤيته",
+    "explanationAR": "في حال عدم وجود مركبات قادمة باتجاهك، يُستخدم الضوء العالي لزيادة مسافة الرؤية وكشف الطريق بشكل أوسع.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 62,
+    "question": "When a heavy-vehicle driver overtakes at night, they must:",
+    "options": [
+      "Cut off other drivers",
+      "Force other vehicles to deviate from their path",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Force other vehicles to deviate from their path",
+    "explanation": "When overtaking at night, the driver must not force other vehicles to deviate from their path, as this is a wrong behavior that leads to accidents.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "في حال قيام سائق المركبة الثقيلة بالتجاوز اثناء الليل فعليه:",
+    "optionsAR": [
+      "قطع الطريق على سائقي مركبات اخرى",
+      "اجبار المركبات الأخرى على الانحراف عن مسارها",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "اجبار المركبات الأخرى على الانحراف عن مسارها",
+    "explanationAR": "عند التجاوز ليلاً يجب على السائق ألا يجبر المركبات الأخرى على الانحراف عن مسارها، فهذا تصرف خاطئ يؤدي إلى الحوادث.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 63,
+    "question": "When the vehicle breaks down at night, you must:",
+    "options": [
+      "Stop immediately and not move from the breakdown location to avoid unsafe consequences for other road users",
+      "Stop on the sidewalk if possible",
+      "Move as far to the right of the road as possible",
+      "Avoid stopping completely because it is dangerous"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Move as far to the right of the road as possible",
+    "explanation": "When the vehicle breaks down at night, move as far to the right of the road as possible, turn on the hazard lights, and place the warning triangle to keep danger away from other drivers.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند تعطل المركبة أثناء الليل فيجب :",
+    "optionsAR": [
+      "التوقف مباشرة وعدم التحرك من مكان التعطل تجنباً لحصول عواقب غير أمنه لمستعملي الطريق الآخرين",
+      "التوقف على الأرصفة ان أمكن ذلك",
+      "إتخاذ أقصى يمين الطريق قدر المستطاع",
+      "تجنب التوقف نهائيا لما يشكل ذلك من خطورة"
+    ],
+    "correctAnswerAR": "إتخاذ أقصى يمين الطريق قدر المستطاع",
+    "explanationAR": "عند تعطل المركبة ليلاً يجب اتخاذ أقصى يمين الطريق قدر المستطاع، مع تشغيل أنوار الطوارئ ووضع المثلث التحذيري لإبعاد الخطر عن السائقين.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 64,
+    "question": "If a mechanical fault is suspected in a heavy vehicle, the driver must:",
+    "options": [
+      "Continue the trip as usual because a small problem does not cause major damage",
+      "Not continue the trip because a small problem may turn into a major hazard",
+      "Find an alternative route to drive on so it is less dangerous"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Not continue the trip because a small problem may turn into a major hazard",
+    "explanation": "When a mechanical fault is suspected, the trip must not be continued, because a small problem may develop into a major breakdown or a serious safety hazard.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "اذا ما تم الاشتباه بوجود عطل ميكانيكي في المركبات الثقيلة فيجب على السائق:",
+    "optionsAR": [
+      "إكمال رحلته كالمعتاد لأن مشكلة صغيرة لاتحدث اضرار كبيرة",
+      "عدم إكمال رحلته لأن مشكلة صغيرة قد تتحول الى خطر كبير",
+      "إيجاد طريق بديل للسير عليه حتى يكون اقل خطورة"
+    ],
+    "correctAnswerAR": "عدم إكمال رحلته لأن مشكلة صغيرة قد تتحول الى خطر كبير",
+    "explanationAR": "عند الاشتباه بوجود عطل ميكانيكي يجب عدم إكمال الرحلة، لأن المشكلة الصغيرة قد تتطور إلى عطل أو خطر كبير على السلامة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 65,
+    "question": "Among the precautions that heavy-vehicle drivers must take during light rain:",
+    "options": [
+      "Using high beam headlights so other drivers notice the vehicle",
+      "Increasing speed to overcome some obstacles on the road surface",
+      "Using the two-second rule",
+      "Making sure all wipers and defogger are working"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Making sure all wipers and defogger are working",
+    "explanation": "During light rain, you must make sure the windshield wipers and defogger are working properly to ensure clear visibility and safe driving.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من الاحتياطات اللازمة التي يجب على سائقي المركبات الثقيلة إتخاذها اثناء الأمطار الخفيفة:",
+    "optionsAR": [
+      "استخدام أنوار الضوء العالي بحيث يلاحظ السائقون الآخرون وجود المركبة",
+      "زيادة السرعة للتغلب على بعض العوائق على سطح الطريق",
+      "استخدام قاعدة الثانيتين",
+      "التأكد من صلاحية عمل جميع ماسحات الزجاج ومزيل الضباب"
+    ],
+    "correctAnswerAR": "التأكد من صلاحية عمل جميع ماسحات الزجاج ومزيل الضباب",
+    "explanationAR": "أثناء الأمطار الخفيفة يجب التأكد من صلاحية ماسحات الزجاج ومزيل الضباب، لضمان الرؤية الواضحة والقيادة الآمنة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 66,
+    "question": "Among the areas where the effect of side winds on other road users must be watched out for:",
+    "options": [
+      "Bridge areas when crossing them",
+      "Tunnels",
+      "Open intersections",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Bridge areas when crossing them",
+    "explanation": "Bridge areas when crossing them are among the areas where caution must be taken regarding side winds, because they are exposed and elevated, where wind force is increased.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من المناطق التي يجب الحذر من تأثير قوة الرياح الجانبية على مستخدمي الطريق الآخرين:",
+    "optionsAR": [
+      "مناطق الجسور عند عبورها",
+      "الأنفاق",
+      "التقاطعات المكشوفة",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "مناطق الجسور عند عبورها",
+    "explanationAR": "مناطق الجسور عند عبورها من أكثر المناطق التي يجب الحذر فيها من تأثير الرياح الجانبية، لأنها مكشوفة ومرتفعة وتزيد فيها قوة الرياح.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 67,
+    "question": "Among road users most affected by side winds:",
+    "options": [
+      "Motorcyclists",
+      "Drivers of small 4-cylinder cars",
+      "Drivers of shared-transport cars",
+      "Drivers of furniture-moving vehicles"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Motorcyclists",
+    "explanation": "Motorcyclists are among the road users most affected by side winds, due to the small size of their vehicles and the lack of protection around them.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من أكثر مستخدمي الطريق تأثراً بالرياح الجانبية :",
+    "optionsAR": [
+      "سائقي الدراجات الآلية",
+      "سائقي السيارات الصغيرة ذات 4 اسطوانات",
+      "سائقي سيارات النقل المشترك",
+      "سائقي مركبات نقل الأثاث"
+    ],
+    "correctAnswerAR": "سائقي الدراجات الآلية",
+    "explanationAR": "سائقو الدراجات الآلية هم أكثر مستخدمي الطريق تأثراً بالرياح الجانبية بسبب صغر حجم مركباتهم وعدم وجود حماية حولهم.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 68,
+    "question": "When there is ice on the road, the steering wheel becomes:",
+    "options": [
+      "Light",
+      "Heavy",
+      "No change because the tires are large"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Light",
+    "explanation": "When there is ice on the road, the steering wheel feels light due to the reduced grip of the tires on the road surface, which requires very cautious driving.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند وجود الجليد على الطريق فإن حركة المقود تكون:",
+    "optionsAR": [
+      "خفيفة",
+      "ثقيلة",
+      "لايحدث عليها اي تغيير لأن حجم الإطارات كبير"
+    ],
+    "correctAnswerAR": "خفيفة",
+    "explanationAR": "عند وجود الجليد على الطريق تكون حركة المقود خفيفة بسبب ضعف تماسك الإطارات مع سطح الطريق، مما يستدعي القيادة بحذر شديد.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 69,
+    "question": "When there is ice on the road, the safety distance to be kept is estimated at:",
+    "options": [
+      "Three times the normal distance",
+      "Five times the normal distance",
+      "Seven times the normal distance",
+      "Ten times the normal distance"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Ten times the normal distance",
+    "explanation": "When there is ice on the road, the safety distance must be ten times the normal distance, because the stopping distance becomes much longer on ice.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند وجود جليد على الطريق يجب ترك مسافات أمان تقدر :",
+    "optionsAR": [
+      "بثلاثة أضعاف الوضع الطبيعي",
+      "بخمسة أضعاف الوضع الطبيعي",
+      "بسبعة اضعاف الوضع الطبيعي",
+      "بعشرة أضعاف الوضع الطبيعي"
+    ],
+    "correctAnswerAR": "بعشرة أضعاف الوضع الطبيعي",
+    "explanationAR": "عند وجود الجليد على الطريق يجب ترك مسافة أمان تعادل عشرة أضعاف الوضع الطبيعي، لأن مسافة الوقوف تطول بشكل كبير على الجليد.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 70,
+    "question": "When direct sunlight hits you, you must:",
+    "options": [
+      "Wear sunglasses",
+      "Increase your speed",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Wear sunglasses",
+    "explanation": "When facing direct sunlight, you must wear sunglasses to protect your eyes and improve visibility, not increase your speed.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند تعرضك لأشعة الشمس المواجهة لك بصورة مباشرة يجب عليك:",
+    "optionsAR": [
+      "إرتداء نظارات شمسية",
+      "زيادة سرعتك",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "إرتداء نظارات شمسية",
+    "explanationAR": "عند مواجهة أشعة الشمس المباشرة يجب ارتداء النظارات الشمسية لحماية العينين وتحسين الرؤية، وليس زيادة السرعة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 71,
+    "question": "Among the defects of tires in heavy vehicles:",
+    "options": [
+      "Tread depth",
+      "The condition of the tire surface (rubber)",
+      "The presence of wires protruding from the tire walls",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "All of the above are defects of tires in heavy vehicles: tread depth, tire surface condition, and protruding wires; all of them affect safety.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من عيوب الإطارات في المركبات الثقيلة ما يلي:",
+    "optionsAR": [
+      "عمق الفرزات",
+      "حالة سطح الاطار (الكاوشوك)",
+      "جود أسلاك بارزة من جدران الاطار",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "جميع ما ذكر يُعدّ من عيوب الإطارات في المركبات الثقيلة: عمق الفرزات، حالة سطح الإطار، ووجود أسلاك بارزة، فجميعها تؤثر على السلامة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 72,
+    "question": "The engine consumes additional amounts of oil:",
+    "options": [
+      "At high temperatures",
+      "At low temperatures",
+      "Temperature does not affect oil consumption"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "At high temperatures",
+    "explanation": "The engine consumes additional amounts of oil at high temperatures, due to increased evaporation and reduced viscosity of the oil in hot weather.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "المحرك يستهلك كميات اضافية من الزيوت:",
+    "optionsAR": [
+      "في درجات الحرارة العالية",
+      "في درجات الحرارة المنخفضة",
+      "درجات الحرارة لاتؤثر على إستهلاك الزيوت"
+    ],
+    "correctAnswerAR": "في درجات الحرارة العالية",
+    "explanationAR": "يستهلك المحرك كميات إضافية من الزيوت في درجات الحرارة العالية، بسبب زيادة التبخر وقلة لزوجة الزيت في الجو الحار.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 73,
+    "question": "When a heavy-vehicle driver faces fog and thick dust, they must:",
+    "options": [
+      "Increase the vehicle's speed steadily",
+      "Use the high beam, since the low beam reflects back at you",
+      "Avoid using the hazard lights (flashers)",
+      "Use the road-surface markings as a guide while driving"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Use the road-surface markings as a guide while driving",
+    "explanation": "When facing fog or thick dust, use the road-surface markings as a guide for driving, because they are more visible than distant scenes.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند مواجهة سائق المركبات الثقيلة الضباب والغبار الكثيف فعليه:",
+    "optionsAR": [
+      "زيادة سرعة مركبته وبشكل ثابت",
+      "استعمل الضوء المرتفع حيث ان الضوء المنخفض يرتد إليك",
+      "تجنب إستخدام أنوار الطوارئ (الفلشر)",
+      "استعمل علامات سطح الطريق كدليل إرشادي لك عند القيادة"
+    ],
+    "correctAnswerAR": "استعمل علامات سطح الطريق كدليل إرشادي لك عند القيادة",
+    "explanationAR": "عند مواجهة الضباب أو الغبار الكثيف يُستعان بعلامات سطح الطريق كدليل إرشادي للقيادة، لأنها تظهر بوضوح أكبر من المناظر البعيدة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 74,
+    "question": "If there is no safe place to stop the heavy vehicle off the road, it is permitted to stop heavy vehicles on or near the public road:",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "It is not permitted to stop heavy vehicles on or near the public road; a safe place must be found off the road to avoid accidents.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "في حال عدم وجود مكان آمن لإيقاف المركبات الثقيلة خارج الطريق يسمح بإيقاف المركبات الثقيلة على الطريق العام أو بالقرب منه:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا يُسمح بإيقاف المركبات الثقيلة على الطريق العام أو بالقرب منه، يجب البحث عن مكان آمن لإيقافها خارج الطريق تجنباً للحوادث.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 75,
+    "question": "When driving in hailstorms, heavy-vehicle drivers must:",
+    "options": [
+      "Drive slowly",
+      "Not turn on the lights",
+      "Avoid stopping the vehicle",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Drive slowly",
+    "explanation": "When driving in hailstorms, heavy-vehicle drivers must drive slowly due to poor visibility and increased stopping distance.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند القيادة بالعواصف البردية يجب على سائقي المركبات الثقيلة:",
+    "optionsAR": [
+      "القيادة ببطئ",
+      "عدم تشغيل الاضوية",
+      "تجنب ايقاف المركبة",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "القيادة ببطئ",
+    "explanationAR": "عند القيادة في العواصف البردية يجب على سائقي المركبات الثقيلة القيادة ببطء بسبب ضعف الرؤية وزيادة مسافة الوقوف.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 76,
+    "question": "In case of snowfall, the vehicle is exposed to:",
+    "options": [
+      "Less grip with the road surface",
+      "More grip with the road surface",
+      "Snow does not affect grip; other factors do"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Less grip with the road surface",
+    "explanation": "In case of snowfall, the vehicle has less grip on the road surface due to the snow layer that reduces tire friction.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "في حالة تساقط الثلج تتعرض المركبة :",
+    "optionsAR": [
+      "لتماسك اقل مع سطح الطريق",
+      "لتماسك اكبر مع سطح الطريق",
+      "الثلج لايؤثر على التماسك انما عوامل اخرى"
+    ],
+    "correctAnswerAR": "لتماسك اقل مع سطح الطريق",
+    "explanationAR": "في حالة تساقط الثلج تتعرض المركبة لتماسك أقل مع سطح الطريق بسبب الطبقة الثلجية التي تقلل احتكاك الإطارات.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 77,
+    "question": "Among the procedures that affect driving during or while snow is falling:",
+    "options": [
+      "Removing snow from the top of the vehicle",
+      "Removing snow from the air intake grilles",
+      "Cleaning shoes before entering the vehicle",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "All the mentioned procedures affect driving during snowfall: removing snow from the vehicle's top and from the air intake grilles, and cleaning shoes before entering the vehicle.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من الإجراءات التي تؤثر على القيادة عند او اثناء تساقط الثلوج:",
+    "optionsAR": [
+      "إزالة الثلج من أعلى سطح المركبة",
+      "إزالة الثلج من شبكات دخول الهواء",
+      "تنظيف الحذاء قبل الدخول إلى المركبة",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "جميع الإجراءات المذكورة تؤثر على القيادة عند تساقط الثلوج: إزالة الثلج من سطح المركبة وشبكات الهواء وتنظيف الحذاء قبل ركوب المركبة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 78,
+    "question": "When driving during heavy rain, the safety distance to be kept is estimated at:",
+    "options": [
+      "Double the normal distance",
+      "Twice the normal distance",
+      "Three times the normal distance",
+      "Four times the normal distance"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Double the normal distance",
+    "explanation": "During heavy rain, the safety distance must be double the normal distance, due to the increased stopping distance and poor visibility.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند القيادة أثناء المطر الشديد على الطريق يجب ترك مسافات أمان تقدر :",
+    "optionsAR": [
+      "بضعف الوضع الطبيعي",
+      "بضعفي الوضع الطبيعي",
+      "بثلاثة أضعاف الوضع الطبيعي",
+      "بأربعة أضعاف الوضع الطبيعي"
+    ],
+    "correctAnswerAR": "بضعف الوضع الطبيعي",
+    "explanationAR": "أثناء المطر الشديد يجب ترك مسافة أمان تعادل ضعف الوضع الطبيعي، بسبب طول مسافة الوقوف وضعف الرؤية.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 79,
+    "question": "When driving heavy vehicles while there is movement of road users around you, you must:",
+    "options": [
+      "Concentrate while driving",
+      "Stay alert, vigilant, and cautious",
+      "Watch out for changes in traffic flow",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "When driving heavy vehicles with traffic around you, you must concentrate, stay alert, and watch for changes in traffic flow (all of the above).",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند قيادة المركبات الثقيلة وكان هناك حركة لمستخدمي الطريق من حولك فإنه يجب عليك:",
+    "optionsAR": [
+      "التركيز أثناء القيادة",
+      "البقاء على حالة من الانتباه واليقظة والحذر",
+      "مراقبة التغير في الحركة المرورية",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "جميع ماذكر",
+    "explanationAR": "عند قيادة المركبات الثقيلة بوجود حركة مرور حولك يجب التركيز والبقاء يقظاً ومراقبة التغير في حركة السير (جميع ما ذكر).",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 80,
+    "question": "When a traffic accident occurs, the heavy-vehicle driver must:",
+    "options": [
+      "Warn other vehicles approaching the accident site using the (orange) light-bar lights",
+      "Keep uninjured people at the accident scene until police arrive",
+      "Provide first aid even if you are not familiar with first aid",
+      "Help the injured by giving them something to drink"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Warn other vehicles approaching the accident site using the (orange) light-bar lights",
+    "explanation": "When a traffic accident occurs, the heavy-vehicle driver must warn approaching vehicles using the orange warning lights (light bar) to avoid secondary accidents.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند وقوع حادث سير فإنه يجب على سائق المركبة الثقيلة:",
+    "optionsAR": [
+      "تنبيه المركبات الأخرى المقتربة من موقع الحادث باستخدام أنوار أللواحات (البرتقالي)",
+      "إبقاء الأشخاص غير المصابين في مكان الحادث لحين وصول رجال الأمن",
+      "تقديم الإسعافات الأولية حتى إذا لم تكن على علم بالإسعافات الأولية",
+      "مساعدة المصابين إعطاءهم أي شئ يشربونه"
+    ],
+    "correctAnswerAR": "تنبيه المركبات الأخرى المقتربة من موقع الحادث باستخدام أنوار أللواحات (البرتقالي)",
+    "explanationAR": "عند وقوع حادث سير يجب على سائق المركبة الثقيلة تنبيه المركبات المقتربة من موقع الحادث باستخدام الأنوار التحذيرية البرتقالية (اللواح) لتجنب حوادث ثانوية.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 81,
+    "question": "Among the procedures for dealing with accidents involving vehicles transporting hazardous materials:",
+    "options": [
+      "Informing the Civil Defense and giving them as much information as possible about the load through the label attached to the vehicle",
+      "Staying close to these vehicles",
+      "Trying to take samples of the leaked material",
+      "Reassuring other drivers that there is no danger"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Informing the Civil Defense and giving them as much information as possible about the load through the label attached to the vehicle",
+    "explanation": "In accidents involving hazardous-materials vehicles, inform the Civil Defense and provide them with information from the label on the vehicle so they can handle the situation safely.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من إجراءات التعامل مع حوادث المركبات التي تحمل المواد الخطرة:",
+    "optionsAR": [
+      "إخبار الدفاع المدني بذلك وإعطاءهم اكبر قدر من المعلومات عن الحمولة من خلال الملصق المثبت على المركبة",
+      "البقاء قريبا من هذه المركبات",
+      "محاولة اخذ عينات من المادة المتسربة",
+      "طمئنه السائقين الآخرين من عدم وجود خطر"
+    ],
+    "correctAnswerAR": "إخبار الدفاع المدني بذلك وإعطاءهم اكبر قدر من المعلومات عن الحمولة من خلال الملصق المثبت على المركبة",
+    "explanationAR": "عند حوادث المركبات الناقلة للمواد الخطرة يجب إخبار الدفاع المدني وتزويدهم بالمعلومات من الملصق المثبت على المركبة، ليتعاملوا معها بطريقة آمنة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 82,
+    "question": "If a fire is discovered or suspected in the vehicle, it is necessary to:",
+    "options": [
+      "Stop the vehicle as quickly as possible",
+      "Increase the vehicle's speed to expose it to a strong air stream to extinguish the fire",
+      "Ask for help from people at the location",
+      "Do not approach the fire even with the extinguisher available if you are not experienced with it"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Stop the vehicle as quickly as possible",
+    "explanation": "When a fire is discovered in the vehicle, stop the vehicle as quickly as possible to prevent the fire from spreading and to facilitate firefighting and evacuation.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "في حال اكتشاف أو الاشتباه بوجود حريق في المركبة فمن الضروري:",
+    "optionsAR": [
+      "إيقاف المركبة بأسرع وقت ممكن",
+      "زيادة سرعة المركبة لتعريضها لتيار هوائي كبير لإطفاء الحريق",
+      "طلب المساعدة من الأشخاص الموجودين في الموقع",
+      "عدم الاقتراب من الحريق وحتى بوجود الطفاية إذا لم تكن على خبرة بذلك"
+    ],
+    "correctAnswerAR": "إيقاف المركبة بأسرع وقت ممكن",
+    "explanationAR": "عند اكتشاف حريق في المركبة يجب إيقاف المركبة بأسرع وقت ممكن لتجنب امتداد الحريق وتسهيل عمليات الإطفاء والإخلاء.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 83,
+    "question": "When a fire occurs in the vehicle, the driver must use whatever extinguisher is available regardless of its type or the type of fire, to mitigate the danger:",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; the appropriate extinguisher for the type of fire must be used, as the wrong extinguisher may worsen the fire (such as using water on an electrical or oil fire).",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند حصول حريق في المركبة يجب على السائق استخدام الطفاية المتوفرة بغض النظر عن نوعها أو نوع الحريق لتخفيف الخطر:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ يجب استخدام الطفاية المناسبة لنوع الحريق، فالطفاية الخاطئة قد تزيد الحريق سوءاً (مثل استخدام الماء على حريق كهرباء أو زيت).",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 84,
+    "question": "When the front tire blows out, the vehicle:",
+    "options": [
+      "Veers toward the side where it blew out",
+      "Veers away from the side where it blew out",
+      "Veers randomly",
+      "Does not veer as a result of the tire blowout"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Veers toward the side where it blew out",
+    "explanation": "When the front tire blows out, the vehicle veers toward the side where it blew out, so you must grip the steering wheel firmly to avoid losing control.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند انفجار الإطار الأمامي فإن المركبة :",
+    "optionsAR": [
+      "تنحرف للجانب الذي انفجر به",
+      "تنحرف بعكس الجانب الذي انفجر به",
+      "تنحرف بشكل عشوائي",
+      "لا تنحرف نتيجة انفجار الإطار"
+    ],
+    "correctAnswerAR": "تنحرف للجانب الذي انفجر به",
+    "explanationAR": "عند انفجار الإطار الأمامي تنحرف المركبة نحو الجانب الذي انفجر فيه الإطار، فيجب الإمساك بالمقود بقوة لتفادي فقدان السيطرة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 85,
+    "question": "When the rear tire blows out, the vehicle:",
+    "options": [
+      "Veers toward the side where it blew out",
+      "Veers away from the side where it blew out",
+      "Veers randomly",
+      "Does not veer as a result of the tire blowout"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Veers away from the side where it blew out",
+    "explanation": "When the rear tire blows out, the vehicle veers away from the side where it blew out, due to loss of balance at the back of the vehicle.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند انفجار الإطار الخلفي فإن المركبة :",
+    "optionsAR": [
+      "تنحرف للجانب الذي انفجر به",
+      "تنحرف بعكس الجانب الذي انفجر به",
+      "تنحرف بشكل عشوائي",
+      "لا تنحرف نتيجة انفجار الإطار"
+    ],
+    "correctAnswerAR": "تنحرف بعكس الجانب الذي انفجر به",
+    "explanationAR": "عند انفجار الإطار الخلفي تنحرف المركبة بعكس الجانب الذي انفجر فيه الإطار، نتيجة فقدان التوازن في المؤخرة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 86,
+    "question": "Among the procedures for dealing with a tire blowout:",
+    "options": [
+      "Reducing the vehicle's speed using the brakes",
+      "Holding the steering wheel firmly and keeping the vehicle on a zig-zag path",
+      "Avoiding turning on the hazard lights so other vehicles are not alarmed",
+      "Gradually changing lanes to exit the road"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Gradually changing lanes to exit the road",
+    "explanation": "Among the procedures for handling a tire blowout is to gradually change lanes to exit the road safely, without using the brakes hard to avoid tipping over.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من إجراءات التعامل مع حالة انفجار الإطار:",
+    "optionsAR": [
+      "تخفيف سرعة المركبة باستخدام الفرامل",
+      "الإمساك بالمقود بصورة جيدة وإبقاء المركبة بمسار متعرج",
+      "تجنب تشغيل أنوار الطوارئ حتى لا تصيب المركبات الأخرى بالذعر",
+      "تغيير المسرب بصورة تدريجية للخروج عن الطريق"
+    ],
+    "correctAnswerAR": "تغيير المسرب بصورة تدريجية للخروج عن الطريق",
+    "explanationAR": "من إجراءات التعامل مع انفجار الإطار تغيير المسرب بصورة تدريجية للخروج عن الطريق بأمان، دون استخدام الفرامل بقوة لتفادي الانقلاب.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 87,
+    "question": "The blowout of one of the rear tires of the vehicle or trailer poses a greater danger than the blowout of the front tire:",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; a front-tire blowout is more dangerous than a rear-tire blowout, because it directly affects steering and makes vehicle control more difficult.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إن انفجار احد الإطارات الخلفية للمركبة أو المقطورة يشكل خطورة كبيرة بعكس انفجار الإطار الأمامي :",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ انفجار الإطار الأمامي أخطر من انفجار الإطار الخلفي، لأنه يؤثر مباشرة على التوجيه ويصعّب السيطرة على المركبة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 88,
+    "question": "Over-tightening the tire bolts leads to:",
+    "options": [
+      "Preserving the bolts in the long term",
+      "Damaging the bolts in the long term",
+      "Keeping the tires fixed in place",
+      "Affecting the brake system (pressing on the disc)"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Damaging the bolts in the long term",
+    "explanation": "Over-tightening the tire bolts damages them in the long term, may break them or deform their shape, which may lead to the tire coming loose.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "زيادة الشد في براغي الإطارات تؤدي إلى:",
+    "optionsAR": [
+      "المحافظة على البراغي على المدى الطويل",
+      "الإضرار بالبراغي على المدى الطويل",
+      "المحافظة على الإطارات ثابتة",
+      "التأثير على عمل نظام الفرملة(الضغط على الديسك)"
+    ],
+    "correctAnswerAR": "الإضرار بالبراغي على المدى الطويل",
+    "explanationAR": "زيادة الشد في براغي الإطارات تضر بالبراغي على المدى الطويل، قد تكسرها أو تشوه شكلها مما يؤدي إلى فك الإطار.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 89,
+    "question": "If the accelerator pedal sticks and you have to stop quickly, you must:",
+    "options": [
+      "Press the brake pedal firmly until you stop",
+      "Avoid putting the gear into neutral",
+      "Do not try to switch off the engine",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Press the brake pedal firmly until you stop",
+    "explanation": "If the accelerator pedal sticks and you need to stop quickly, press the brake pedal firmly until the vehicle comes to a complete stop.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "إذا حدث تعليق في دواسة الوقود واضطررت إلى الوقوف بسرعة فيجب عليك:",
+    "optionsAR": [
+      "الضغط على دواسة البريك بقوة حتى تتوقف",
+      "تجنب وضع الغيار على المحايد",
+      "عدم المحاولة لإطفاء المحرك",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "الضغط على دواسة البريك بقوة حتى تتوقف",
+    "explanationAR": "إذا تعلقت دواسة الوقود واضطررت إلى الوقوف بسرعة يجب الضغط على دواسة الفرامل بقوة حتى تتوقف المركبة تماماً.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 90,
+    "question": "Among the preventive measures to prevent the accelerator pedal from sticking:",
+    "options": [
+      "Inspecting the vehicle's fuel system",
+      "Making sure the correct fuel type for the vehicle is used",
+      "Inspecting the vehicle floor and accelerator pedal, and lubricating the accelerator cable",
+      "Wearing low-heeled shoes"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Inspecting the vehicle floor and accelerator pedal, and lubricating the accelerator cable",
+    "explanation": "Among the preventive measures to prevent the accelerator pedal from sticking is inspecting the vehicle floor and accelerator pedal and lubricating its cable to keep it moving smoothly.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من الإجراءات الوقائية لمنع تعليق دواسة الوقود:",
+    "optionsAR": [
+      "تفقد نظام الوقود في المركبة",
+      "التأكد من وضع نوع الوقود المناسب والخاص بتلك المركبة",
+      "تفقد أرضية المركبة و دواسة الوقود وتزييت سلك دواسة الوقود",
+      "استخدام حذاء ذو كعب قصير"
+    ],
+    "correctAnswerAR": "تفقد أرضية المركبة و دواسة الوقود وتزييت سلك دواسة الوقود",
+    "explanationAR": "من الإجراءات الوقائية لمنع تعليق دواسة الوقود تفقد أرضية المركبة ودواسة الوقود وتزييت سلكها للحفاظ على حركتها السلسة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 91,
+    "question": "When the vehicle's headlights fail, you must:",
+    "options": [
+      "Turn on the hazard lights",
+      "Increase the vehicle's speed to get out of this situation",
+      "Change the lane you are driving in to avoid other vehicles"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Turn on the hazard lights",
+    "explanation": "When the headlights fail, turn on the hazard lights (flashers) to alert other drivers to a problem with your vehicle.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "عند تعطل اضوية الإنارة في المركبة فإنه يجب عليك:",
+    "optionsAR": [
+      "تشغيل أنوار الطوارئ",
+      "زيادة سرعة المركبة للخروج من هذا المأزق",
+      "تغيير المسرب الذي تسير فيه لتجنب المركبات الأخرى"
+    ],
+    "correctAnswerAR": "تشغيل أنوار الطوارئ",
+    "explanationAR": "عند تعطل أضوية الإنارة يجب تشغيل أنوار الطوارئ (الفلاشر) لتنبيه السائقين الآخرين إلى وجود مشكلة في مركبتك.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 92,
+    "question": "Among the procedures when the engine stops working:",
+    "options": [
+      "Use heavy gears",
+      "Avoid pressing the brake pedal",
+      "Do not try to start the vehicle using the ignition key"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Do not try to start the vehicle using the ignition key",
+    "explanation": "When the engine stops working while driving, do not try to start the vehicle with the ignition key, and hold on to the steering wheel, because the attempt may be dangerous and lead to bigger problems.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من الإجراءات عند توقف المحرك عن العمل:",
+    "optionsAR": [
+      "استخدام الغيارات الثقيلة",
+      "تجنب الضغط على دواسة الفرامل",
+      "عدم محاولة تشغيل المركبة باستعمال مفتاح التشغيل"
+    ],
+    "correctAnswerAR": "عدم محاولة تشغيل المركبة باستعمال مفتاح التشغيل",
+    "explanationAR": "عند توقف المحرك عن العمل أثناء السير يجب عدم محاولة تشغيل المركبة بمفتاح التشغيل والتمسك بالمقود، لأن المحاولة قد تكون خطرة وتؤدي إلى مشاكل أكبر.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 93,
+    "question": "In buses with designated standing areas, they must be equipped with overhead hand straps suitable for the number of standing passengers permitted:",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Correct",
+    "explanation": "The statement is correct; buses with designated standing areas must be equipped with overhead hand straps in a number that matches the standing passengers, to ensure their safety.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "في الحافلات المحدد فيها أماكن للوقوف يجب أن تكون مزودة بمماسك اليدين العلوية والمتناسبة مع العدد المسموح لهم بالوقوف:",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "صحيح",
+    "explanationAR": "العبارة صحيحة؛ يجب تزويد الحافلات المخصصة فيها أماكن للوقوف بمماسك يدوية علوية بعدد يتناسب مع عدد الواقفين، حفاظاً على سلامتهم.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  },
+  {
+    "number": 94,
+    "question": "Among the duties of public-transport drivers:",
+    "options": [
+      "Being well-groomed and presentable, without the requirement to wear the prescribed uniform",
+      "Treating passengers with courtesy and respect, and providing help to any of them when needed",
+      "Talking to passengers to give them a good impression",
+      "1+2"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Treating passengers with courtesy and respect, and providing help to any of them when needed",
+    "explanation": "One of the most important duties of public-transport drivers is to treat passengers with courtesy and respect and provide help to those who need it, as they represent the face of the service.",
+    "chapterTitle": "Fifth and Sixth License Categories",
+    "chapterTitleAR": "الفئات الخامسة والسادسة",
+    "questionAR": "من واجبات سائقي وسائط النقل العام:",
+    "optionsAR": [
+      "أن يكون حسن الهندام والمظهر دون اشتراط ارتداء الزى الموحد المقرر",
+      "معاملة الركاب بأدب واحترام وتقديم المساعدة لأي منهم عند الحاجة",
+      "الحديث مع الركاب ليعطيهم الانطباع الجيد",
+      "1+2"
+    ],
+    "correctAnswerAR": "معاملة الركاب بأدب واحترام وتقديم المساعدة لأي منهم عند الحاجة",
+    "explanationAR": "من أهم واجبات سائقي وسائط النقل العام معاملة الركاب بأدب واحترام وتقديم المساعدة لمن يحتاجها، لأنهم يمثلون واجهة الخدمة.",
+    "sourceCategory": "الفئات الخامسة والسادسة"
+  }
+]

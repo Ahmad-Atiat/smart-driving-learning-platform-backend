@@ -2,13 +2,14 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
 const Lesson = require('../models/Lesson');
-const lessons = require('./lessons');
+const lessons = require('./Lessons/index.js');
 const { getChapterByTitle } = require('../utils/chapterMetadata');
 
 dotenv.config();
 
 const withChapterKeys = lessons.map((lesson) => {
-    const chapter = getChapterByTitle(lesson.title);
+    const chapter =
+        getChapterByTitle(lesson.title) || getChapterByTitle(lesson.titleAR);
     if (!chapter) {
         throw new Error(`No chapterKey mapping found for lesson title: ${lesson.title}`);
     }
@@ -29,13 +30,29 @@ const seedLessons = async () => {
 
         await mongoose.connect(mongoUri);
 
-        const { deletedCount } = await Lesson.deleteMany({});
-        console.log(`Deleted ${deletedCount} existing lessons`);
+        let upserted = 0;
+        let modified = 0;
+        for (const lesson of withChapterKeys) {
+            const result = await Lesson.updateOne(
+                { chapterKey: lesson.chapterKey },
+                { $set: lesson },
+                { upsert: true }
+            );
 
-        await Lesson.insertMany(withChapterKeys, { ordered: false });
+            if (result.upsertedCount) upserted += result.upsertedCount;
+            if (result.modifiedCount) modified += result.modifiedCount;
+        }
+
+        const seededKeys = withChapterKeys.map((l) => l.chapterKey);
+        const { deletedCount } = await Lesson.deleteMany({
+            chapterKey: { $nin: seededKeys }
+        });
+
         const totalLessons = await Lesson.countDocuments();
 
-        console.log(`${withChapterKeys.length} lessons inserted successfully`);
+        console.log(`Inserted: ${upserted}`);
+        console.log(`Updated:  ${modified}`);
+        console.log(`Removed stale chapters: ${deletedCount}`);
         console.log(`Lesson collection count: ${totalLessons}`);
 
         await mongoose.connection.close();

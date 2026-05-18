@@ -1,0 +1,310 @@
+[
+  {
+    "number": 1,
+    "question": "Burns are injuries that occur to the skin and other body tissues due to:",
+    "options": [
+      "Exposure to the sun, or to dry or moist heat.",
+      "Chemicals such as acids, alkalis, and radioactive substances.",
+      "Electric currents.",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "Burns are injuries to the skin and body tissues caused by exposure to the sun or to dry or moist heat, by chemicals such as acids, alkalis, and radioactive substances, or by electric currents; so the correct answer is all of the above.",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "الحروق هي عبارة عن إصابات تحدث في الجلد وانسجة الجسم الأخرى بسبب:",
+    "optionsAR": [
+      "التعرض للشمس او الحرارة الجافة او الرطبة .",
+      "المواد الكيماوية مثل الاحماض والقلويات والمواد المشعة .",
+      "التيارات الكهربائية .",
+      "جميع ما ذكر ."
+    ],
+    "correctAnswerAR": "جميع ما ذكر .",
+    "explanationAR": "الحروق إصابات تحدث في الجلد وأنسجة الجسم نتيجة التعرض للشمس أو الحرارة الجافة أو الرطبة، أو المواد الكيماوية كالأحماض والقلويات والمواد المشعة، أو التيارات الكهربائية؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 2,
+    "question": "Bleeding is the escape of blood from the blood vessels (the arteries).",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; bleeding is the escape of blood from the blood vessels as a result of a rupture or injury in them, whether they are arteries, veins, or capillaries.",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "النزيف هو خروج الدم من الأوعية الدموية (الشرايين)",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ النزيف هو خروج الدم من الأوعية الدموية نتيجة تمزق أو إصابة فيها، سواء أكانت شرايين أم أوردة أم شعيرات دموية.",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 3,
+    "question": "Among the types of bleeding are:",
+    "options": [
+      "External bleeding, which is the flow of blood out of the body",
+      "Internal bleeding, which is the flow of blood inside the body cavities such as the skull, chest, abdomen, and joints",
+      "A + B",
+      "None of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A + B",
+    "explanation": "The types of bleeding are external bleeding (the flow of blood out of the body) and internal bleeding (the flow of blood inside body cavities such as the skull, chest, abdomen, and joints); so the correct answer is (A + B).",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "من انواع النزيف",
+    "optionsAR": [
+      "نزيف خارجي وهو سيلان الدم خارج الجسم",
+      "نزيف داخلي وهو سيلان الدم داخل تجاويف الجسم مثل تجويف الجمجمة و الصدر و البطن والمفاصل",
+      "أ + ب",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "أ + ب",
+    "explanationAR": "أنواع النزيف هي: النزيف الخارجي وهو سيلان الدم خارج الجسم، والنزيف الداخلي وهو سيلان الدم داخل تجاويف الجسم كالجمجمة والصدر والبطن والمفاصل؛ فالإجابة الصحيحة (أ + ب).",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 4,
+    "question": "The procedures taken for an unconscious casualty:",
+    "options": [
+      "An ambulance must be called immediately",
+      "Make sure the casualty is breathing normally",
+      "Make sure his heart is working",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "When dealing with an unconscious casualty, an ambulance must be called immediately, the casualty must be checked to ensure he is breathing normally, and his heartbeat must be checked; so the correct answer is all of the above.",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "الاجراءات التي تتخذ لفاقد الوعي:",
+    "optionsAR": [
+      "يجب استدعاء سيارة الإسعاف فورا",
+      "التأكد من أن المصاب يتنفس بشكل طبيعي",
+      "التأكد من أن قلبه يعمل",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "عند التعامل مع فاقد الوعي يجب استدعاء سيارة الإسعاف فوراً، والتأكد من أن المصاب يتنفس بشكل طبيعي، والتأكد من أن قلبه يعمل؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 5,
+    "question": "Among the first-aid procedures for bleeding:",
+    "options": [
+      "Calling for medical help by requesting an ambulance immediately",
+      "Making the casualty comfortable by laying him on his back with the head lowered below body level",
+      "Working to stop the bleeding",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "First-aid procedures for bleeding include calling for medical help by requesting an ambulance immediately, making the casualty comfortable by laying him on his back with the head lowered below body level, and working to stop the bleeding by applying pressure to the injury site; so the correct answer is all of the above.",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "من إجراءات الاسعافات الاولية للنزيف:",
+    "optionsAR": [
+      "طلب المساعدة الطبية من خلال استدعاء الإسعاف فورا",
+      "العمل على إراحة المصاب من خلال وضعه على ظهره مع خفض الرأس عن مستوى الجسم",
+      "العمل على إيقاف النزيف",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "من إجراءات إسعاف النزيف: طلب المساعدة الطبية باستدعاء الإسعاف فوراً، وإراحة المصاب بوضعه على ظهره مع خفض الرأس عن مستوى الجسم، والعمل على إيقاف النزيف بالضغط على مكان الإصابة؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 6,
+    "question": "Among the procedures taken for an unconscious casualty:",
+    "options": [
+      "Not moving the casualty from the scene of the accident",
+      "Not splinting any part of his body",
+      "A + B",
+      "None of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A + B",
+    "explanation": "When giving first aid to an unconscious casualty, the casualty must not be moved from the accident scene and no part of his body should be splinted before specialists arrive, in order to avoid making the injury worse; so the correct answer is (A + B).",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "من إجراءات التي تتخذ لفاقد الوعي:",
+    "optionsAR": [
+      "عدم نقل المصاب من مكان الحادث",
+      "عدم تجبير أي جزء من جسمه",
+      "أ + ب",
+      "لاشيء مما ذكر"
+    ],
+    "correctAnswerAR": "أ + ب",
+    "explanationAR": "عند إسعاف فاقد الوعي يجب عدم نقل المصاب من مكان الحادث وعدم تجبير أي جزء من جسمه قبل وصول المختصين، تجنباً لمضاعفة الإصابة؛ فالإجابة الصحيحة (أ + ب).",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 7,
+    "question": "Among the injuries that require first aid are:",
+    "options": [
+      "Respiratory injuries such as choking and respiratory failure",
+      "Fainting – coma – shock",
+      "Heart conditions such as angina and cardiac arrest",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "Injuries that require first aid include respiratory injuries such as choking and respiratory failure, fainting and coma and shock, and heart conditions such as angina and cardiac arrest; so the correct answer is all of the above.",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "من الإصابات التي تتطلب إسعافات أولية",
+    "optionsAR": [
+      "إصابات الجهاز التنفسي مثل الإختناق وفشل التنفس",
+      "الإغماء – الغيبوبة – الصدمة",
+      "إصابات القلب مثل الذبحة الصدرية وتوقف القلب",
+      "جميع ما ذكر."
+    ],
+    "correctAnswerAR": "جميع ما ذكر.",
+    "explanationAR": "من الإصابات التي تتطلب إسعافات أولية: إصابات الجهاز التنفسي كالاختناق وفشل التنفس، والإغماء والغيبوبة والصدمة، وإصابات القلب كالذبحة الصدرية وتوقف القلب؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 8,
+    "question": "The first-aid kit contains:",
+    "options": [
+      "A triangular bandage",
+      "Small slings and splints",
+      "Rubber gloves",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "The first-aid kit contains a triangular bandage, small slings and splints, and rubber gloves, in addition to other first-aid tools; so the correct answer is all of the above.",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "يحتوي صندوق الإسعافات الأولية على",
+    "optionsAR": [
+      "رباط مثلث",
+      "علاقات وجبائر صغيرة",
+      "قفاز مطاطي",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "جميع ماذكر",
+    "explanationAR": "يحتوي صندوق الإسعافات الأولية على الرباط المثلث، والعلاقات والجبائر الصغيرة، والقفاز المطاطي، إضافةً إلى أدوات أخرى للإسعاف الأولي؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 9,
+    "question": "Among the most important first-aid measures for neck fractures:",
+    "options": [
+      "Not allowing the casualty to tilt his neck forward or backward",
+      "Not moving the casualty",
+      "Calling an ambulance",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "The most important first-aid measures for neck fractures are not allowing the casualty to tilt his neck forward or backward, not moving the casualty at all, and calling an ambulance immediately — in order to avoid harming the spinal cord; so the correct answer is all of the above.",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "من أهم الإسعافات الأولية لكسور الرقبة:",
+    "optionsAR": [
+      "عدم السماح للمصاب أن يميل رقبته للامام أو الخلف",
+      "عدم تحريك المصاب",
+      "استدعاء الاسعاف",
+      "جميع ما ذكر."
+    ],
+    "correctAnswerAR": "جميع ما ذكر.",
+    "explanationAR": "من أهم إسعافات كسور الرقبة: عدم السماح للمصاب بإمالة رقبته للأمام أو الخلف، وعدم تحريك المصاب نهائياً، واستدعاء الإسعاف فوراً؛ وذلك تجنباً لإلحاق ضرر بالنخاع الشوكي؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 10,
+    "question": "Among the most important symptoms and signs of fractures:",
+    "options": [
+      "The casualty feels or hears a cracking of one of the bones",
+      "The casualty feels pain at the site of the injury",
+      "The casualty is unable to move the broken part",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "The most important symptoms and signs of fractures are that the casualty feels or hears a cracking of one of the bones, feels pain at the site of the injury, and is unable to move the broken part; so the correct answer is all of the above.",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "من أهم اعراض و علامات الكسور:",
+    "optionsAR": [
+      "ان يشعر المصاب أو يسمع بطقطقة أحد العظام",
+      "ان يشعر المصاب بألم في مكان الإصابة",
+      "عدم قدرة المصاب على تحريك الجزء المكسور",
+      "جميع ما ذكر."
+    ],
+    "correctAnswerAR": "جميع ما ذكر.",
+    "explanationAR": "من أهم أعراض وعلامات الكسور أن يشعر المصاب أو يسمع طقطقة أحد العظام، وأن يشعر بألم في مكان الإصابة، وعدم قدرته على تحريك الجزء المكسور؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 11,
+    "question": "The main causes of fractures:",
+    "options": [
+      "During sports activities",
+      "Accidents involving falls to the ground",
+      "Car accidents",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "The main causes of fractures are sports activities, accidents involving falls to the ground, and car accidents; so the correct answer is all of the above.",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "الاسباب الرئيسية للكسور:",
+    "optionsAR": [
+      "خلال ممارسة الأنشطة الرياضية",
+      "الحوادث المرتبطة بالسقوط على الأرض",
+      "حوادث السيارات",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "من الأسباب الرئيسية للكسور: ممارسة الأنشطة الرياضية، والحوادث المرتبطة بالسقوط على الأرض، وحوادث السيارات؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "الإسعافات الأولية"
+  },
+  {
+    "number": 12,
+    "question": "Among the responsibilities of the first-aid provider:",
+    "options": [
+      "Assessing the situation",
+      "Reassuring the casualty",
+      "Trying to stop the bleeding if there is any",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "The responsibilities of the first-aid provider include carefully assessing the situation, reassuring the casualty and easing his anxiety, and trying to stop the bleeding if present until specialists arrive; so the correct answer is all of the above.",
+    "chapterTitle": "First Aid",
+    "chapterTitleAR": "الإسعافات الأولية",
+    "questionAR": "من مسؤولية المسعف الأولي",
+    "optionsAR": [
+      "تقييم الموقف",
+      "طمأنة المصاب",
+      "محاولة إيقاف النزيف إذا وجد",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "من مسؤوليات المسعف الأولي تقييم الموقف بدقة، وطمأنة المصاب والتخفيف من قلقه، ومحاولة إيقاف النزيف إذا وُجد لحين وصول المختصين؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "الإسعافات الأولية"
+  }
+]

@@ -1,0 +1,332 @@
+[
+  {
+    "number": 1,
+    "question": "Play the video. The red car driver's behavior:",
+    "options": [
+      "Correct",
+      "Wrong"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-001.mp4",
+    "correctAnswer": "Wrong",
+    "explanation": "The red car driver's behavior is wrong because he did not give priority to the vehicle approaching from the right at the intersection; the general rule at unmarked intersections is to yield to the vehicle coming from the right before proceeding.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو تصرف سائق المركبة الحمراء",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "تصرف سائق المركبة الحمراء خاطئ لأنه لم يعطِ الأولوية للمركبة القادمة من جهة اليمين عند التقاطع، فالقاعدة العامة في التقاطعات غير المنظمة هي إعطاء الأولوية للمركبة القادمة من اليمين قبل المرور.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 2,
+    "question": "Play the video. The white car driver's behavior:",
+    "options": [
+      "Correct",
+      "Wrong"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-002.mp4",
+    "correctAnswer": "Wrong",
+    "explanation": "The white car driver's behavior is wrong because he overtook another vehicle near a pedestrian crossing, which is prohibited as it blocks visibility and endangers pedestrians; the driver should slow down and not overtake before pedestrian crossings.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو تصرف سائق المركبة البيضاء",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "تصرف سائق المركبة البيضاء خاطئ لأنه قام بالتجاوز قرب ممر المشاة، وهذا ممنوع لأنه يحجب الرؤية ويعرض المشاة العابرين للخطر؛ فالواجب تخفيف السرعة وعدم التجاوز قبل ممرات المشاة.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 3,
+    "question": "Play the video. The red car driver's behavior:",
+    "options": [
+      "Correct",
+      "Wrong"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-003.mp4",
+    "correctAnswer": "Wrong",
+    "explanation": "The red car driver's behavior is wrong because he attempted to overtake in an unsafe situation, lingering alongside the yellow car without completing the maneuver quickly and safely, in addition to the presence of an ambulance on the road which requires extra caution and making way for it.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو تصرف سائق المركبة الحمراء",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "تصرف سائق المركبة الحمراء خاطئ لأنه قام بالتجاوز في موقف غير آمن، حيث بقي ملاصقاً للمركبة الصفراء دون إكمال التجاوز بسرعة وأمان، إضافةً إلى وجود مركبة إسعاف على الطريق مما يستوجب الحذر الشديد وإفساح المجال لها.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 4,
+    "question": "Play the video. The red car driver's behavior:",
+    "options": [
+      "Correct",
+      "Wrong"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-004.mp4",
+    "correctAnswer": "Correct",
+    "explanation": "The red car driver's behavior is correct because he gave priority to the truck coming from the opposite direction and waited for it to pass before performing his turn, in compliance with the right-of-way rules at intersections.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو تصرف سائق المركبة الحمراء",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "صحيح",
+    "explanationAR": "تصرف سائق المركبة الحمراء صحيح لأنه أعطى الأولوية للمركبة (الشاحنة) القادمة من الاتجاه المقابل وانتظر مرورها قبل تنفيذ مناورة الانعطاف، التزاماً بقواعد الأولوية في التقاطعات.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 5,
+    "question": "Play the video. The red car driver's behavior is correct.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-005.mp4",
+    "correctAnswer": "No",
+    "explanation": "No; the red car driver's behavior is not correct because he did not yield to the yellow car coming from his right side; the general rule at unmarked intersections is to give priority to the vehicle approaching from the right.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو تصرف سائق المركبة الحمراء صحيح",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "تصرف سائق المركبة الحمراء غير صحيح لأنه لم يعطِ الأولوية للمركبة الصفراء القادمة من جهة اليمين، فالقاعدة العامة عند التقاطعات غير المنظمة هي إعطاء الأولوية للمركبة القادمة من اليمين.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 6,
+    "question": "Play the video. The red car driver's behavior is correct.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-006.mp4",
+    "correctAnswer": "No",
+    "explanation": "No; the red car driver's behavior is not correct because he did not obey the traffic officer's stop signal (arm raised upward), continuing past the officer instead of coming to a complete stop.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو تصرف سائق المركبة الحمراء صحيح",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "تصرف سائق المركبة الحمراء غير صحيح لأنه لم يتقيد بإشارة شرطي المرور التي تأمر بالوقوف (الذراع المرفوعة لأعلى)، حيث استمر في السير متجاوزاً الشرطي بدلاً من التوقف الكامل.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 7,
+    "question": "Play the video. The taxi driver's behavior is correct.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-007.mp4",
+    "correctAnswer": "No",
+    "explanation": "No; the taxi driver's behavior is not correct because he stopped his vehicle in the driving lane and let the passenger out on the road (traffic) side, which endangers the passenger and disrupts traffic; the driver should pull over to the curb and let passengers out from the safe side.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو تصرف سائق التكسي صحيح",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "تصرف سائق التكسي غير صحيح لأنه أوقف مركبته على الجزء السالك من الطريق وأنزل الراكب من جهة الطريق (جهة حركة المرور)، مما يعرض الراكب وحركة المرور للخطر؛ فالواجب الاصطفاف عند الرصيف وإنزال الركاب من الجهة الآمنة.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 8,
+    "question": "Play the video. The path the driver took to move from point (1) to point (2):",
+    "options": [
+      "Correct",
+      "Wrong"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-008.mp4",
+    "correctAnswer": "Wrong",
+    "explanation": "The path the driver took from point (1) to point (2) is wrong because he drove against the permitted direction of traffic, violating the direction sign (the blue arrow) and the no-entry sign; he should have followed the correct designated route to reach point (2).",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو المسار الذي سلكه سائق المركبة للإنتقال من النقطة (1) الى النقطة (2)",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "المسار الذي سلكه السائق من النقطة (1) إلى النقطة (2) خاطئ لأنه سار عكس اتجاه السير المسموح به وخالف لوحات الإرشاد (السهم الأزرق) ولوحة الممنوع، وكان عليه اتباع المسار الصحيح المخصص للوصول إلى النقطة (2).",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 9,
+    "question": "Play the video. What the yellow car driver did:",
+    "options": [
+      "Correct action",
+      "Wrong action"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-009.mp4",
+    "correctAnswer": "Wrong action",
+    "explanation": "The yellow car driver's action is wrong because he did not give priority to the main road traffic as the 'Give Way' sign requires, and merged directly in front of the red car without waiting for a safe gap.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو ما قام به سائق المركبة الصفراء",
+    "optionsAR": [
+      "إجراء صحيح",
+      "إجراء خاطئ"
+    ],
+    "correctAnswerAR": "إجراء خاطئ",
+    "explanationAR": "إجراء سائق المركبة الصفراء خاطئ لأنه لم يعطِ الأولوية لحركة المرور على الطريق الرئيسي كما تشير شاخصة \"أعطِ الأولوية\"، فقام بالاندماج أمام المركبة الحمراء مباشرة دون انتظار وجود فجوة آمنة.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 10,
+    "question": "Play the video. What the red car driver did:",
+    "options": [
+      "Correct action",
+      "Wrong action"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-010.mp4",
+    "correctAnswer": "Correct action",
+    "explanation": "The red car driver's action is correct because he stayed in his lane and drove at an appropriate speed in his designated lane on a multi-lane road, maintaining a safe distance from the yellow car in the adjacent lane.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو ما قام به سائق المركبة الحمراء",
+    "optionsAR": [
+      "إجراء صحيح",
+      "إجراء خاطئ"
+    ],
+    "correctAnswerAR": "إجراء صحيح",
+    "explanationAR": "إجراء سائق المركبة الحمراء صحيح لأنه التزم بمساره وسار بالسرعة المناسبة في الحارة المخصصة له على طريق متعدد المسارات، مع الحفاظ على مسافة الأمان مع المركبة الصفراء في الحارة المجاورة.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 11,
+    "question": "Play the video. What the taxi driver did:",
+    "options": [
+      "Correct action",
+      "Wrong action"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-011.mp4",
+    "correctAnswer": "Wrong action",
+    "explanation": "The taxi driver's action is wrong because he stopped his vehicle in the driving lane instead of pulling over to the curb, and let the passenger board/exit from the road side, which endangers the passenger and disrupts traffic.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو ما قام به سائق التكسي",
+    "optionsAR": [
+      "إجراء صحيح",
+      "إجراء خاطئ"
+    ],
+    "correctAnswerAR": "إجراء خاطئ",
+    "explanationAR": "إجراء سائق التكسي خاطئ لأنه أوقف مركبته على الجزء السالك من الطريق بدلاً من الاصطفاف عند الرصيف، وسمح للراكب بالصعود/النزول من جهة الطريق، مما يشكل خطراً على الراكب وعلى حركة المرور.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 12,
+    "question": "Play the video. What the red car driver did:",
+    "options": [
+      "Correct action",
+      "Wrong action"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-012.mp4",
+    "correctAnswer": "Correct action",
+    "explanation": "The red car driver's action is correct because he overtook the yellow car from the left side on a divided road with a central median separating the two directions, while maintaining a safe distance and performing the maneuver safely.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو ما قام به سائق المركبة الحمراء",
+    "optionsAR": [
+      "إجراء صحيح",
+      "إجراء خاطئ"
+    ],
+    "correctAnswerAR": "إجراء صحيح",
+    "explanationAR": "إجراء سائق المركبة الحمراء صحيح لأنه قام بتجاوز المركبة الصفراء من الجانب الأيسر على طريق مزدوج تفصل بين اتجاهيه جزيرة وسطية، مع الحفاظ على مسافة الأمان وسلامة المناورة.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 13,
+    "question": "Play the video. What the red car driver did:",
+    "options": [
+      "Correct",
+      "Wrong"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-013.mp4",
+    "correctAnswer": "Correct",
+    "explanation": "The red car driver's behavior is correct because he overtook the yellow car from the left side, which is the proper side for overtaking, while maintaining a safe distance and using the designated overtaking lane properly.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو ما قام به سائق المركبة الحمراء",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "صحيح",
+    "explanationAR": "تصرف سائق المركبة الحمراء صحيح لأنه قام بتجاوز المركبة الصفراء من الجانب الأيسر وهو الجانب الصحيح للتجاوز، مع الحفاظ على مسافة الأمان واستخدام الحارة المخصصة للتجاوز بشكل سليم.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 14,
+    "question": "Play the video. What the red car driver did:",
+    "options": [
+      "Correct",
+      "Wrong"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-014.mp4",
+    "correctAnswer": "Correct",
+    "explanation": "The red car driver's behavior is correct because when he encountered roadworks or an obstacle on the side of the road, he safely moved to the adjacent lane to bypass the obstacle and then returned to his lane, in compliance with safe driving rules.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو ما قام به سائق المركبة الحمراء",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "صحيح",
+    "explanationAR": "تصرف سائق المركبة الحمراء صحيح لأنه عندما واجه منطقة أشغال أو حاجزاً على جانب الطريق، انتقل بأمان إلى الحارة المجاورة لتجاوز العائق ثم عاد إلى مساره، التزاماً بقواعد السير الآمن.",
+    "sourceCategory": "اسئلة متحركة"
+  },
+  {
+    "number": 15,
+    "question": "Play the video. What the red car driver did:",
+    "options": [
+      "Correct",
+      "Wrong"
+    ],
+    "image": null,
+    "video": "assets/videos/animated-questions/animated-questions-015.mp4",
+    "correctAnswer": "Correct",
+    "explanation": "The red car driver's behavior is correct because he followed the lane direction arrows painted on the road when merging from the side road onto the main road, taking the correct permitted path.",
+    "chapterTitle": "Animated Questions",
+    "chapterTitleAR": "اسئلة متحركة",
+    "questionAR": "تشغيل الفيديو ما قام به سائق المركبة الحمراء",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "صحيح",
+    "explanationAR": "تصرف سائق المركبة الحمراء صحيح لأنه التزم بأسهم اتجاه الحارات المرسومة على الطريق عند الاندماج من الطريق الجانبي إلى الطريق الرئيسي، فاتبع المسار الصحيح المسموح به.",
+    "sourceCategory": "اسئلة متحركة"
+  }
+]

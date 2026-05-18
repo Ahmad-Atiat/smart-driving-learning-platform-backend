@@ -1,0 +1,796 @@
+[
+  {
+    "number": 1,
+    "question": "The driving license category that qualifies you to drive a medium-sized bus is:",
+    "options": [
+      "Category Three.",
+      "Category Four.",
+      "Category Five.",
+      "Category Seven."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Category Five.",
+    "explanation": "A Category Five license is the one that qualifies the holder to drive a medium-sized bus or any vehicle whose gross weight exceeds seven and a half tons.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "فئة رخصة السوق التي تؤهلك لقيادة حافلة متوسطة هي:",
+    "optionsAR": [
+      "الفئة الثالثة.",
+      "الفئة الرابعة .",
+      "الفئة الخامسة .",
+      "الفئة السابعة ."
+    ],
+    "correctAnswerAR": "الفئة الخامسة .",
+    "explanationAR": "رخصة الفئة الخامسة هي التي تؤهل قيادة الحافلة المتوسطة أو المركبة التي يزيد وزنها الإجمالي على سبعة أطنان ونصف الطن.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 2,
+    "question": "The traffic officer's hand signal shown in the image means:",
+    "options": [
+      "Stopping vehicle traffic.",
+      "Slowing the vehicles down.",
+      "Letting vehicles approaching from the sides of the road pass and stopping vehicles approaching from the front and rear.",
+      "Letting traffic pass, with the arm signaling toward the vehicles required to move."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-002.jpg",
+    "video": null,
+    "correctAnswer": "Letting vehicles approaching from the sides of the road pass and stopping vehicles approaching from the front and rear.",
+    "explanation": "When the officer extends both arms horizontally out to the sides, the signal means that vehicles approaching from the sides of the road may pass while vehicles coming from the front and rear must stop.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "تشير حركة يد الشرطي الموضحة في الصورة التي امامك الى :",
+    "optionsAR": [
+      "ايقاف حركة المرور المركبات .",
+      "تخفيف سرعة المركبات .",
+      "تمرير المركبات القادمة من الجانب الطريق وايقاف المركبات القادمة من الامام و الخلف.",
+      "تمرير حركة المرور وتكون الاشارة بالذراع نحو المركبات المطلوب تحريكها."
+    ],
+    "correctAnswerAR": "تمرير المركبات القادمة من الجانب الطريق وايقاف المركبات القادمة من الامام و الخلف.",
+    "explanationAR": "إشارة الشرطي بمد ذراعه أفقياً إلى الجانبين تعني تمرير المركبات القادمة من جانبي الطريق وإيقاف القادمة من الأمام والخلف.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 3,
+    "question": "A Category Seven driving license is classified as:",
+    "options": [
+      "A license to drive a vehicle for people with special needs.",
+      "A driving license for a vehicle with a gross weight of twenty tons or more, or for a tractor and trailer, or for a tractor head and semi-trailer.",
+      "A driving license for a passenger vehicle carrying more than thirty passengers including the driver.",
+      "B + C."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A license to drive a vehicle for people with special needs.",
+    "explanation": "A Category Seven driving license is the license for driving a vehicle designated for people with special needs.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "رخصة السوق من الفئة السابعة تصنف بأنها:",
+    "optionsAR": [
+      "رخصة قيادة مركبة ذوي الاحتياجات الخاصه .",
+      "رخصة سوق لقيادة مركبة وزنها الاجمالي عشرون طنا او اكثر او قاطرة ومقطورة او راس قاطرة ونصف مقطورة .",
+      "رخصة سوق لقيادة سيارة الركوب التي يزيد عدد ركابها على ثلاثين راكبا بمن فيهم السائق .",
+      "ب + ج ."
+    ],
+    "correctAnswerAR": "رخصة قيادة مركبة ذوي الاحتياجات الخاصه .",
+    "explanationAR": "رخصة السوق من الفئة السابعة هي رخصة قيادة مركبة مخصصة لذوي الاحتياجات الخاصة.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 4,
+    "question": "The driving license category that qualifies you to drive the shown vehicle is:",
+    "options": [
+      "Category Three.",
+      "Category Four.",
+      "Category Five.",
+      "Category Seven."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-004.jpg",
+    "video": null,
+    "correctAnswer": "Category Seven.",
+    "explanation": "This vehicle is designated for people with special needs, and driving it requires a Category Seven driving license.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "فئة رخصة السوق التي تؤهلك لقيادة المركبة المبينة هي:",
+    "optionsAR": [
+      "الفئة الثالثة.",
+      "الفئة الرابعة .",
+      "الفئة الخامسة.",
+      "الفئة السابعة."
+    ],
+    "correctAnswerAR": "الفئة السابعة.",
+    "explanationAR": "هذه المركبة مخصصة لذوي الاحتياجات الخاصة، ويلزم لقيادتها رخصة سوق من الفئة السابعة.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 5,
+    "question": "Pedestrians are:",
+    "options": [
+      "Those who walk on foot.",
+      "Riders of bicycles.",
+      "Any person pushing or pulling a baby carriage, a wheelchair, a chair, or a hand cart.",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "The definition of pedestrians covers all of the above: people walking on foot, bicycle riders, and anyone pushing or pulling a baby carriage, a wheelchair, a chair, or a hand cart.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "المشاة هم:",
+    "optionsAR": [
+      "الذين يسيرون على اقدامهم.",
+      "سائقوا الدراجات الهوائية .",
+      "أي شخص يدفع أو يجر عربة اطفال اوعربة مريض او مقعد او عربة يد.",
+      "جميع ما ذكر."
+    ],
+    "correctAnswerAR": "جميع ما ذكر.",
+    "explanationAR": "تعريف المشاة يشمل جميع ما ذكر: السائرين على أقدامهم، وراكبي الدراجات الهوائية، ومن يدفع أو يجر عربات الأطفال أو المرضى أو المقاعد أو عربات اليد.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 6,
+    "question": "A motorized transport, lifting, or towing vehicle equipped with permanently fixed equipment that can only be used for the purposes for which it is designed is called:",
+    "options": [
+      "A cargo vehicle.",
+      "A bus.",
+      "A shared transport vehicle.",
+      "A special-use vehicle."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A special-use vehicle.",
+    "explanation": "A transport, lifting, or towing vehicle that is permanently fitted with fixed equipment and is used only for its designed purpose is called a special-use vehicle.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "مركبة النقل او الرفع او الجر الية مجهزة بمعدات ثابتة وبصورة دائمة و لا يمكن استعمالها الا في الاغراض المصممة لها تسمى :",
+    "optionsAR": [
+      "سيارة الشحن.",
+      "الحافلة.",
+      "سيارة النقل المشترك.",
+      "مركبة ذات الاستعمال الخاص."
+    ],
+    "correctAnswerAR": "مركبة ذات الاستعمال الخاص.",
+    "explanationAR": "مركبة النقل أو الرفع أو الجر المجهزة بمعدات ثابتة بصورة دائمة ولا تستعمل إلا في الأغراض المصممة لها تسمى مركبة ذات استعمال خاص.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 7,
+    "question": "The traffic officer's hand signal shown in the image means:",
+    "options": [
+      "Stopping vehicle traffic.",
+      "Slowing the vehicles down.",
+      "Letting vehicles approaching from the sides of the road pass and stopping vehicles approaching from the front and rear.",
+      "Letting traffic pass, with the arm signaling toward the vehicles required to move."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-007.jpg",
+    "video": null,
+    "correctAnswer": "Slowing the vehicles down.",
+    "explanation": "When the officer extends his arm horizontally and moves his hand up and down, the signal means that drivers must slow down.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "تشير حركة يد الشرطي الموضحة في الصورة التي امامك الى :",
+    "optionsAR": [
+      "ايقاف حركة مرور المركبات .",
+      "تخفيف سرعة المركبات .",
+      "تمرير المركبات القادمة من جانب الطريق وايقاف المركبات القادمة من الامام و الخلف.",
+      "تمرير حركة المرور وتكون الاشارة بالذراع نحو المركبات المطلوب تحريكها."
+    ],
+    "correctAnswerAR": "تخفيف سرعة المركبات .",
+    "explanationAR": "إشارة الشرطي بمد الذراع أفقياً مع تحريك اليد لأعلى ولأسفل تعني تخفيف سرعة المركبات.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 8,
+    "question": "The driving license category that qualifies you to drive the shown vehicle is:",
+    "options": [
+      "Category One (2).",
+      "Category Two (2).",
+      "Category Three.",
+      "Category Four."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-008.jpg",
+    "video": null,
+    "correctAnswer": "Category Two (2).",
+    "explanation": "This vehicle (an agricultural tractor) requires a Category Two (2) driving license, which is designated for agricultural vehicles.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "فئة رخصة السوق التي تؤهلك لقيادة المركبة المبينة هي:",
+    "optionsAR": [
+      "الفئة الاولى(2) .",
+      "الفئة الثانيه (2) .",
+      "الفئة الثالثة.",
+      "الفئة الرابعة."
+    ],
+    "correctAnswerAR": "الفئة الثانيه (2) .",
+    "explanationAR": "هذه المركبة (الجرّار الزراعي) تتطلب رخصة سوق من الفئة الثانية (2) المخصصة للمركبات الزراعية.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 9,
+    "question": "A Category Five driving license is classified as:",
+    "options": [
+      "A driving license for all types of motorcycles.",
+      "A driving license for a works (construction) vehicle.",
+      "A driving license for an agricultural vehicle.",
+      "A license to drive a medium-sized bus or a vehicle whose gross weight exceeds seven and a half tons."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A license to drive a medium-sized bus or a vehicle whose gross weight exceeds seven and a half tons.",
+    "explanation": "A Category Five license is a license to drive a medium-sized bus or a vehicle whose gross weight exceeds seven and a half tons.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "رخصة السوق من الفئة الخامسة تصنف بأنها:",
+    "optionsAR": [
+      "رخصة سوق لجميع انواع الدراجات الالية .",
+      "رخصة سوق لقيادة مركبة اشغال.",
+      "رخصة سوق لقيادة مركبة زراعية .",
+      "رخصة قيادة حافلة متوسطة أو مركبة يزيد وزنها الإجمالي عن سبعة أطنان ونصف الطن ."
+    ],
+    "correctAnswerAR": "رخصة قيادة حافلة متوسطة أو مركبة يزيد وزنها الإجمالي عن سبعة أطنان ونصف الطن .",
+    "explanationAR": "رخصة الفئة الخامسة هي رخصة قيادة حافلة متوسطة أو مركبة يزيد وزنها الإجمالي عن سبعة أطنان ونصف الطن.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 10,
+    "question": "The driving license category that qualifies you to drive the shown vehicle is:",
+    "options": [
+      "Category Four.",
+      "Category Five.",
+      "Category Six (1).",
+      "Category Six (2)."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-010.jpg",
+    "video": null,
+    "correctAnswer": "Category Six (1).",
+    "explanation": "This vehicle (a tractor head with a semi-trailer) requires a Category Six (1) driving license, which covers a tractor and trailer or a tractor head and semi-trailer.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "فئة رخصة السوق التي تؤهلك لقيادة المركبة المبينة هي:",
+    "optionsAR": [
+      "الفئة الرابعة .",
+      "الفئة الخامسة.",
+      "الفئة السادسة(1).",
+      "الفئة السادسه (2)."
+    ],
+    "correctAnswerAR": "الفئة السادسة(1).",
+    "explanationAR": "هذه المركبة (رأس قاطر مع نصف مقطورة) تتطلب رخصة سوق من الفئة السادسة (1)، المخصصة لقيادة القاطرة والمقطورة أو رأس القاطرة ونصف المقطورة.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 11,
+    "question": "A cargo vehicle is designed to transport:",
+    "options": [
+      "People",
+      "People and goods",
+      "Goods",
+      "None of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Goods",
+    "explanation": "A cargo vehicle is designed to transport goods only, not people; this is what distinguishes it from passenger vehicles.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "مركبة الشحن مصممة لنقل",
+    "optionsAR": [
+      "الاشخاص",
+      "الاشخاص و البضائع",
+      "البضائع",
+      "لا شيء مما ذكر"
+    ],
+    "correctAnswerAR": "البضائع",
+    "explanationAR": "مركبة الشحن مصممة لنقل البضائع فقط وليس الأشخاص، وهذا ما يميزها عن مركبات الركاب.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 12,
+    "question": "The driving license category that qualifies you to drive the shown vehicle is:",
+    "options": [
+      "Category One.",
+      "Category Two (1).",
+      "Category Two (2).",
+      "Category Four."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-012.jpg",
+    "video": null,
+    "correctAnswer": "Category Two (1).",
+    "explanation": "This vehicle (a wheel loader / works vehicle) requires a Category Two (1) driving license, which is designated for works and construction vehicles.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "فئة رخصة السوق التي تؤهلك لقيادة المركبة المبينة هي:",
+    "optionsAR": [
+      "الفئة الاولى .",
+      "الفئة الثانية (1).",
+      "الفئة الثانية (2).",
+      "الفئة الرابعة ."
+    ],
+    "correctAnswerAR": "الفئة الثانية (1).",
+    "explanationAR": "هذه المركبة (لودر/مركبة أشغال) تتطلب رخصة سوق من الفئة الثانية (1)، المخصصة لقيادة مركبات الأشغال والإنشاءات.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 13,
+    "question": "The driving license category that qualifies you to drive the taxi shown is:",
+    "options": [
+      "Category One.",
+      "Category Two.",
+      "Category Three.",
+      "Category Four."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-013.jpg",
+    "video": null,
+    "correctAnswer": "Category Four.",
+    "explanation": "A taxi requires a Category Four driving license because it is used for public passenger transport.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "فئة رخصة السوق التي تؤهلك لقيادة سيارة التاكسي المبينة هي:",
+    "optionsAR": [
+      "الفئة الاولى .",
+      "الفئة الثانية.",
+      "الفئة الثالثة.",
+      "الفئة الرابعة ."
+    ],
+    "correctAnswerAR": "الفئة الرابعة .",
+    "explanationAR": "سيارة التاكسي تتطلب رخصة سوق من الفئة الرابعة، لأنها مخصصة للنقل العمومي للركاب.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 14,
+    "question": "A Category Four driving license is classified as:",
+    "options": [
+      "A driving license for all types of motorcycles.",
+      "A driving license for a works (construction) vehicle.",
+      "A driving license for an agricultural vehicle.",
+      "A driving license for a vehicle whose gross weight does not exceed seven and a half tons."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A driving license for a vehicle whose gross weight does not exceed seven and a half tons.",
+    "explanation": "A Category Four license is a license to drive a vehicle whose gross weight does not exceed seven and a half tons; it covers taxis and small public passenger cars.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "رخصة السوق من الفئة الرابعة تصنف بأنها:",
+    "optionsAR": [
+      "رخصة سوق لجميع انواع الدراجات الالية .",
+      "رخصة سوق لقيادة مركبة اشغال.",
+      "رخصة سوق لقيادة مركبة زراعية.",
+      "رخصة سوق لقيادة مركبة لا يزيد وزنها الإجمالي على سبعة أطنان ونصف الطن ."
+    ],
+    "correctAnswerAR": "رخصة سوق لقيادة مركبة لا يزيد وزنها الإجمالي على سبعة أطنان ونصف الطن .",
+    "explanationAR": "رخصة الفئة الرابعة هي رخصة لقيادة مركبة لا يزيد وزنها الإجمالي على سبعة أطنان ونصف الطن، وتشمل سيارات الأجرة وسيارات الركوب العمومية الصغيرة.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 15,
+    "question": "A Category Two (1) license is classified as:",
+    "options": [
+      "A driving license for all types of motorcycles.",
+      "A driving license for a works (construction) vehicle.",
+      "A driving license for an agricultural vehicle.",
+      "B + C."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A driving license for a works (construction) vehicle.",
+    "explanation": "A Category Two (1) license is a license to drive works (construction) vehicles such as loaders, excavators, and bulldozers.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "الرخصة من الفئة الثانية (1) تصنف بأنها:",
+    "optionsAR": [
+      "رخصة سوق لجميع أنواع الدراجات الآلية .",
+      "رخصة سوق لقيادة مركبة أشغال.",
+      "رخصة سوق لقيادة مركبة زراعية.",
+      "ب + ج ."
+    ],
+    "correctAnswerAR": "رخصة سوق لقيادة مركبة أشغال.",
+    "explanationAR": "رخصة الفئة الثانية (1) هي رخصة لقيادة مركبات الأشغال (الإنشاءات) كاللودر والحفّار والبلدوزر.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 16,
+    "question": "The traffic officer's hand signal shown in the image means:",
+    "options": [
+      "Stopping vehicle traffic.",
+      "Slowing the vehicles down.",
+      "Letting vehicles approaching from the sides of the road pass and stopping vehicles approaching from the front and rear.",
+      "Letting traffic pass, with the arm signaling toward the vehicles required to move."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-016.jpg",
+    "video": null,
+    "correctAnswer": "Stopping vehicle traffic.",
+    "explanation": "When the officer raises his hand upward with the palm facing forward, the signal means that all vehicle traffic must come to a complete stop.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "تشير حركة يد الشرطي الموضحة في الصورة التي امامك الى :",
+    "optionsAR": [
+      "ايقاف حركة مرور المركبات .",
+      "تخفيف سرعة المركبات .",
+      "تمرير المركبات القادمة من جانب الطريق وايقاف المركبات القادمة من الامام و الخلف.",
+      "تمرير حركة المرور وتكون الاشارة بالذراع نحو المركبات المطلوب تحريكها."
+    ],
+    "correctAnswerAR": "ايقاف حركة مرور المركبات .",
+    "explanationAR": "إشارة الشرطي برفع اليد للأعلى مع توجيه الكف للأمام تعني إيقاف حركة مرور المركبات تماماً.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 17,
+    "question": "The driving license category that qualifies you to drive the shown vehicle is:",
+    "options": [
+      "Category One.",
+      "Category Two.",
+      "Category Three.",
+      "None of the above."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-017.jpg",
+    "video": null,
+    "correctAnswer": "Category Three.",
+    "explanation": "This vehicle (a small private passenger car) requires a Category Three driving license, which is the license for driving small private vehicles.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "فئة رخصة السوق التي تؤهلك لقيادة المركبة المبينة هي:",
+    "optionsAR": [
+      "الفئة الاولى .",
+      "الفئة الثانية.",
+      "الفئة الثالثة.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "الفئة الثالثة.",
+    "explanationAR": "هذه المركبة (سيارة ركوب صغيرة خاصة) تتطلب رخصة سوق من الفئة الثالثة، وهي رخصة قيادة المركبات الخصوصية الصغيرة.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 18,
+    "question": "The driving license category that qualifies you to drive the shown vehicle is:",
+    "options": [
+      "Category One (1)",
+      "Category Two.",
+      "Category Three.",
+      "Category Four."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-018.jpg",
+    "video": null,
+    "correctAnswer": "Category One (1)",
+    "explanation": "This vehicle (a large motorcycle) requires a Category One (1) driving license, which is designated for motorcycles.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "فئة رخصة السوق التي تؤهلك لقيادة المركبة المبينة هي::",
+    "optionsAR": [
+      "الفئة الأولى (1)",
+      "الفئة الثانية.",
+      "الفئة الثالثة.",
+      "الفئة الرابعة ."
+    ],
+    "correctAnswerAR": "الفئة الأولى (1)",
+    "explanationAR": "هذه المركبة (دراجة آلية كبيرة) تتطلب رخصة سوق من الفئة الأولى (1)، المخصصة لقيادة الدراجات النارية.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 19,
+    "question": "The international driving license issued by the Royal Automobile Club qualifies you to drive a vehicle:",
+    "options": [
+      "Inside Jordan",
+      "Outside Jordan",
+      "Inside and outside Jordan"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Outside Jordan",
+    "explanation": "The international driving license issued by the Royal Automobile Club of Jordan qualifies its holder to drive a vehicle outside Jordan only, in the countries that are signatories to the convention.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "الرخصة الدولية الصادرة من نادي السيارات الملكي تؤهلك قيادة مركبة :",
+    "optionsAR": [
+      "داخل الاردن",
+      "خارج الاردن",
+      "داخل وخارج الاردن"
+    ],
+    "correctAnswerAR": "خارج الاردن",
+    "explanationAR": "الرخصة الدولية الصادرة من نادي السيارات الملكي الأردني تؤهل صاحبها لقيادة المركبة خارج الأردن فقط في الدول الموقعة على الاتفاقية.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 20,
+    "question": "Among the main objectives of traffic officers is:",
+    "options": [
+      "Protecting the driver from harming himself or others",
+      "Ensuring the effectiveness of the traffic system and the proper interaction of its elements",
+      "Raising road users' awareness",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "The main objectives of traffic officers include protecting the driver from harming himself or others, ensuring the effectiveness of the traffic system, and raising road users' awareness — that is, all of the above.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "من الأهداف الرئيسية لرجال السير هو",
+    "optionsAR": [
+      "حماية السائق من ايذاء نفسه او ايذاء الاخرين",
+      "ضمان فعالية النظام المروري وضمان تفاعل عناصره بالطريقة الصحيحة",
+      "توعية مستخدمي الطريق",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "من الأهداف الرئيسية لرجال السير حماية السائق من إيذاء نفسه أو الآخرين، وضمان فعالية النظام المروري وتوعية مستخدمي الطريق، أي جميع ما ذكر.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 21,
+    "question": "When you see this signal you must:",
+    "options": [
+      "Move forward",
+      "Stop completely",
+      "Prepare to move",
+      "Prepare to stop"
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-021.jpg",
+    "video": null,
+    "correctAnswer": "Prepare to move",
+    "explanation": "Red and yellow lights illuminated together on a traffic signal mean prepare to move, because the signal is about to turn green.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "عند رؤية هذه الإشارة يجب عليك",
+    "optionsAR": [
+      "السير الى الامام",
+      "التوقف وقوفا تاما",
+      "الاستعداد للمسير",
+      "الاستعداد للتوقف"
+    ],
+    "correctAnswerAR": "الاستعداد للمسير",
+    "explanationAR": "إضاءة اللون الأحمر والأصفر معاً في الإشارة الضوئية تعني الاستعداد للمسير، حيث ستتحول الإشارة قريباً إلى اللون الأخضر.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 22,
+    "question": "The passenger sitting next to the driver must:",
+    "options": [
+      "Wear the seat belt if he wishes.",
+      "Not wear the seat belt if it restricts his freedom.",
+      "Wear the seat belt because it is legally required.",
+      "None of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Wear the seat belt because it is legally required.",
+    "explanation": "Wearing the seat belt is legally required for the front passenger sitting next to the driver and may not be neglected, in order to protect the passenger's safety in the event of an accident.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "على الراكب الجالس بجوار السائق:",
+    "optionsAR": [
+      "إستخدام حزام الأمان إذا اراد ذلك .",
+      "عدم استخدام حزام الامان اذا كان یقید حریته.",
+      "استخدام حزام الأمان لانه ملزم قانونیاً.",
+      "لاشئ مما ذكر."
+    ],
+    "correctAnswerAR": "استخدام حزام الأمان لانه ملزم قانونیاً.",
+    "explanationAR": "ربط حزام الأمان للراكب الجالس بجوار السائق إلزامي قانونياً ولا يجوز التهاون فيه، حفاظاً على سلامة الراكب عند الحوادث.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 23,
+    "question": "The driving license category that qualifies you to drive the shown vehicle is:",
+    "options": [
+      "Category Three",
+      "Category Five",
+      "Category Six (2)",
+      "Category Six (1)"
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-023.jpg",
+    "video": null,
+    "correctAnswer": "Category Six (2)",
+    "explanation": "This vehicle (a large bus) requires a Category Six (2) driving license, which is designated for driving large buses.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "فئة رخصة السوق التي تؤهلك لقيادة المركبة المبينة هي:",
+    "optionsAR": [
+      "الفئة الثالثة",
+      "الفئة الخامسة",
+      "الفئة السادسة (2)",
+      "الفئة السادسة(1)"
+    ],
+    "correctAnswerAR": "الفئة السادسة (2)",
+    "explanationAR": "هذه المركبة (حافلة كبيرة) تتطلب رخصة سوق من الفئة السادسة (2) المخصصة لقيادة الحافلات الكبيرة.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 24,
+    "question": "Road intersections are classified into:",
+    "options": [
+      "Single-level intersections",
+      "Multi-level intersections",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "Road intersections are classified into single-level intersections and multi-level intersections, so the correct answer is all of the above.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "تصنف تقاطعات الطرق إلى:",
+    "optionsAR": [
+      "تقاطعات على مستوى واحد",
+      "تقاطع متعدد المستويات",
+      "جميع ما ذكر."
+    ],
+    "correctAnswerAR": "جميع ما ذكر.",
+    "explanationAR": "تقاطعات الطرق تصنف إلى تقاطعات على مستوى واحد وتقاطعات متعددة المستويات، فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 25,
+    "question": "If a driver has taken the wrong lane inside a roundabout, he should complete a full loop around the roundabout and then change his lane gradually.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; if the driver has taken the wrong lane inside a roundabout, he should complete a full loop and then change lanes gradually, in order to avoid accidents and obstructing traffic.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "اذا كان سائق المركبة متخذ مسرب خاطئ داخل الدوار فعليه اكمال دورة كاملة حول الدوار ثم تغير مسربه بشكل تدريجي.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ إذا اتخذ السائق مسرباً خاطئاً داخل الدوار فعليه إكمال دورة كاملة ثم تغيير المسرب تدريجياً، لتجنب الحوادث وعرقلة حركة المرور.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 26,
+    "question": "An emergency vehicle driver may use the flashing lights (strobe) or sound the siren during normal (non-emergency) times.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; an emergency vehicle driver may not use the flashing lights (strobe) or sound the siren during normal times — these are used only in emergency situations.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "يجوز لسائق مركبة الطوارئ أن يبث نورا متقطعا (اللواح) أو أن يطلق صفارة الإنذار في الأوقات العادية",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ لا يجوز لسائق مركبة الطوارئ استخدام الأنوار المتقطعة (اللواح) أو إطلاق صفارة الإنذار في الأوقات العادية، فهي تستخدم فقط في حالات الطوارئ.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 27,
+    "question": "The maximum speed for cargo vehicles with a gross weight exceeding 2 tons inside cities and villages, on main roads with two or more lanes in each direction separated by a central median, is:",
+    "options": [
+      "60 km/h.",
+      "70 km/h.",
+      "80 km/h.",
+      "90 km/h."
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-027.png",
+    "video": null,
+    "correctAnswer": "80 km/h.",
+    "explanation": "The maximum speed for cargo vehicles weighing more than two tons inside cities, on main roads with two or more lanes in each direction separated by a central median, is 80 km/h.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "الحد الاقصى لسرعة سيارات الشحن ذات الوزن الاجمالي اكثر من (2) طن داخل المدن والقرى على الطرق الرئيسية ذات المسربين او اكثر في كل اتجاه والمفصولة بجزيرة وسيطة هو:",
+    "optionsAR": [
+      "60 كم/ساعة.",
+      "70كم/ساعة.",
+      "80كم/ساعة.",
+      "90كم/ساعة."
+    ],
+    "correctAnswerAR": "80كم/ساعة.",
+    "explanationAR": "الحد الأقصى لسرعة سيارات الشحن التي يزيد وزنها عن طنين داخل المدن على الطرق الرئيسية ذات المسربين أو أكثر في كل اتجاه والمفصولة بجزيرة وسطية هو 80 كم/ساعة.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 28,
+    "question": "The maximum speed for cargo vehicles with a gross weight exceeding 2 tons on secondary roads inside cities and villages is:",
+    "options": [
+      "40 km/h.",
+      "50 km/h.",
+      "60 km/h.",
+      "70 km/h."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "40 km/h.",
+    "explanation": "The maximum speed for cargo vehicles weighing more than two tons on secondary roads inside cities and villages is 40 km/h, for safety reasons.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "الحد الاقصى لسرعة سيارات الشحن ذات الوزن الاجمالي اكثر من (2) طن على الطرق الفرعية داخل المدن والقرى هو:",
+    "optionsAR": [
+      "40 كم/ساعة.",
+      "50كم/ساعة.",
+      "60كم/ساعة.",
+      "70كم/ساعة."
+    ],
+    "correctAnswerAR": "40 كم/ساعة.",
+    "explanationAR": "الحد الأقصى لسرعة سيارات الشحن التي يزيد وزنها عن طنين على الطرق الفرعية داخل المدن والقرى هو 40 كم/ساعة حفاظاً على السلامة.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 29,
+    "question": "The vehicles used for the practical driving test for Category Four are:",
+    "options": [
+      "A small four-door passenger car with a wheelbase of not less than 1.5 meters",
+      "A small four-door passenger car with a wheelbase of not less than 2.5 meters",
+      "A small four-door passenger car with a wheelbase of not less than 3.5 meters",
+      "A small four-door passenger car with a wheelbase of not less than 4.5 meters"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "A small four-door passenger car with a wheelbase of not less than 2.5 meters",
+    "explanation": "The vehicle used for the practical driving test for a Category Four license is a small four-door passenger car with a wheelbase of not less than 2.5 meters.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "ان المركبات التي يجري عليها الفحص العملي للفئه الرابعه",
+    "optionsAR": [
+      "سياره ركوب ضغيره اربه ابواب لا تقل مسافتها المحوريه عن ( 1.5 ) متر",
+      "سياره ركوب ضغيره اربه ابواب لا تقل مسافتها المحوريه عن ( 2.5 ) متر",
+      "سياره ركوب ضغيره اربه ابواب لا تقل مسافتها المحوريه عن (3.5 ) متر",
+      "سياره ركوب ضغيره اربه ابواب لا تقل مسافتها المحوريه عن ( 4.5 ) متر"
+    ],
+    "correctAnswerAR": "سياره ركوب ضغيره اربه ابواب لا تقل مسافتها المحوريه عن ( 2.5 ) متر",
+    "explanationAR": "المركبات التي يجري عليها الفحص العملي لرخصة الفئة الرابعة هي سيارة ركوب صغيرة بأربعة أبواب لا تقل مسافتها المحورية عن 2.5 متر.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 30,
+    "question": "The driving license category that qualifies you to drive the shown vehicle is:",
+    "options": [
+      "Category One",
+      "Category Two",
+      "Category Three",
+      "Category Seven"
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-030.png",
+    "video": null,
+    "correctAnswer": "Category Three",
+    "explanation": "This vehicle (a small van) has a gross weight not exceeding seven and a half tons, so driving it requires a Category Three driving license as a private vehicle.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "فئة رخصة السوق التي تؤهلك لقيادة المركبة المبينة هي",
+    "optionsAR": [
+      "الفئة الاولى",
+      "الفئة الثانية",
+      "الفئة الثالثة",
+      "الفئة السابعة"
+    ],
+    "correctAnswerAR": "الفئة الثالثة",
+    "explanationAR": "هذه المركبة (شاحنة صغيرة/فان) لا يزيد وزنها الإجمالي عن سبعة أطنان ونصف، ويلزم لقيادتها رخصة سوق من الفئة الثالثة كمركبة خاصة.",
+    "sourceCategory": "قانون السير الاردني"
+  },
+  {
+    "number": 31,
+    "question": "If the shown vehicle has a gross weight of 19 tons, the driving license category that qualifies you to drive it is:",
+    "options": [
+      "Category Three",
+      "Category Four",
+      "Category Five",
+      "Category Seven"
+    ],
+    "image": "assets/images/jordanian-traffic-law/jordanian-traffic-law-031.png",
+    "video": null,
+    "correctAnswer": "Category Five",
+    "explanation": "A vehicle weighing 19 tons falls within the Category Five license range, which covers vehicles whose gross weight exceeds seven and a half tons and is less than twenty tons.",
+    "chapterTitle": "Jordanian Traffic Law",
+    "chapterTitleAR": "قانون السير الاردني",
+    "questionAR": "إذا كانت المركبه المبينه يبلغ وزنها الإجمالي 19 طن فإن فئة رخصة السوق التي تؤهلك لقيادتها هي:",
+    "optionsAR": [
+      "الفئة الثالثة",
+      "الفئة الرابعة",
+      "الفئة الخامسة",
+      "الفئة السابعة"
+    ],
+    "correctAnswerAR": "الفئة الخامسة",
+    "explanationAR": "وزن المركبة 19 طناً يقع ضمن نطاق رخصة الفئة الخامسة، التي تشمل المركبات التي يزيد وزنها الإجمالي عن سبعة أطنان ونصف الطن وتقل عن عشرين طناً.",
+    "sourceCategory": "قانون السير الاردني"
+  }
+]

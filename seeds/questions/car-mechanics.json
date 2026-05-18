@@ -1,0 +1,868 @@
+[
+  {
+    "number": 1,
+    "question": "What is the function of the carburetor in the vehicle?",
+    "options": [
+      "It converts fuel from liquid to gas",
+      "It converts fuel from gas to liquid"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "It converts fuel from liquid to gas",
+    "explanation": "The carburetor mixes liquid fuel with air and converts it into a fine gaseous mist before it enters the engine cylinders, where it burns and generates motive power.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "ما هي وظيفة الكربريتر في المركبة؟",
+    "optionsAR": [
+      "يقوم بتحويل الوقود من سائل الى غاز",
+      "يقوم بتحويل الوقود من غاز الى سائل"
+    ],
+    "correctAnswerAR": "يقوم بتحويل الوقود من سائل الى غاز",
+    "explanationAR": "الكربريتر (المازج) هو الجهاز الذي يقوم بخلط الوقود السائل مع الهواء وتحويله إلى رذاذ غازي قبل دخوله إلى أسطوانات المحرك، حيث يحترق ويُولّد القوة المحركة.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 2,
+    "question": "A vehicle equipped with an automatic transmission may be started by pushing it and engaging gear.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; vehicles equipped with an automatic transmission cannot be push-started, because the automatic transmission relies on oil pressure produced by the running engine, and push-starting may damage the gearbox.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "يجوز تشغيل محرك السيارة المجهزة بناقل حركة تلقائي (اتوماتيك) من خالل دفعها وتعشيقه",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ المركبات المجهزة بناقل حركة تلقائي (أوتوماتيك) لا يمكن تشغيلها بالدفع، لأن نظام النقل التلقائي يعتمد على ضغط الزيت الناتج من دوران المحرك، وقد يؤدي الدفع إلى إتلاف صندوق التروس.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 3,
+    "question": "The rush of steam and hot water when opening the radiator cap, with steam flowing from the chamber, will cause you burns.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; when the radiator cap is opened while the engine is hot, steam and boiling water are forced out under high pressure and may cause severe burns; the engine must be allowed to cool completely before opening it.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "اندفاع البخار والماء الساخن عند فتح غطاء المشع )الرديتر( والبخار يتدفق من الحجيرة يؤدي الى اصابتك بحروق",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ عند فتح غطاء المشع (الرديتر) والمحرك ساخن يندفع البخار والماء المغلي بضغط عالٍ، مما قد يسبب حروقاً بليغة للسائق؛ لذا يجب الانتظار حتى يبرد المحرك تماماً قبل فتحه.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 4,
+    "question": "Any person may stay in the car while it is being raised by the jack.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; no one may stay inside the car while it is being raised by the jack, because the load on top of the jack can throw it off balance and the car may fall, causing serious injury to anyone inside.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "يجوز لأي فرد البقاء في السيارة أثناء رفعها بالرافعة (الجك).",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ لا يجوز لأي فرد البقاء داخل السيارة أثناء رفعها بالرافعة (الجك)، لأن الحمل أعلى الرافعة قد يُفقدها التوازن وتسقط السيارة، فيتعرض من بداخلها لإصابات خطيرة.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 5,
+    "question": "It is permissible to remove the radiator cap when the engine is hot.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; the radiator cap may not be removed while the engine is hot, because the pressure inside the system is very high and steam and hot water can rush out and cause serious burns.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "ممكن نزع سدادة الراديتر (المشع) عندما يكون المحرك ساخنا ً.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ لا يجوز نزع سدادة الرديتر والمحرك ساخن، لأن الضغط داخل النظام يكون مرتفعاً جداً، وقد يندفع البخار والماء الساخن إلى الخارج ويسبب حروقاً خطيرة.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 6,
+    "question": "You must make sure that the engine bonnet (hood) is securely closed before driving the car.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the engine bonnet (hood) must be securely closed before driving, because if it flies open while moving it blocks the driver's view and causes serious accidents.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "عليك التأكد من ان غطاء غرفة المحرك مؤمن بإحكام قبل قيادتك للسيارة .",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يجب التأكد من إغلاق غطاء غرفة المحرك (الكبوت) بإحكام قبل القيادة، لأن انفتاحه أثناء السير يحجب الرؤية عن السائق ويسبب حوادث خطيرة.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 7,
+    "question": "When the temperature gauge reaches the (H) area, you must:",
+    "options": [
+      "Stop your car in a safe place to take the necessary action.",
+      "Stop your car anywhere on the road immediately to take the necessary action.",
+      "Continue driving the car until you reach the nearest garage.",
+      "None of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Stop your car in a safe place to take the necessary action.",
+    "explanation": "When the temperature gauge reaches the (H) area, you must stop the car in a safe place and take the necessary action, because continuing to drive while the engine is overheating causes permanent damage to it.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "عند وصول ساعة الحرارة إلى المنطقة )H )فإنه يجب عليك:",
+    "optionsAR": [
+      "إيقاف سيارتك في مكان آمن التخاذ اإلجراء الضروري .",
+      "إيقاف سيارتك في أي مكان في الطريق فورا التخاذ اإلجراء الضروري .",
+      "متابعة المسير في السيارة حتى تصل اقرب كراج.",
+      "الشيء مما ذكر"
+    ],
+    "correctAnswerAR": "إيقاف سيارتك في مكان آمن التخاذ اإلجراء الضروري .",
+    "explanationAR": "عند وصول مؤشر ساعة الحرارة إلى منطقة (H) يجب إيقاف السيارة في مكان آمن واتخاذ الإجراء الضروري، لأن استمرار التشغيل مع ارتفاع الحرارة يؤدي إلى تلف دائم في المحرك.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 8,
+    "question": "The engine converts the thermal energy stored in the fuel within a closed space (the engine cylinder) into mechanical energy.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the engine converts the thermal energy stored in the fuel — inside a closed space, the engine cylinder, when the fuel burns — into mechanical energy that turns the crankshaft and moves the vehicle.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "يعمل المحرك على تحويل الطاقة الحرارية الكامنة في الوقود في حيز مغلق (إسطوانةالمحرك) الى طاقة ميكانيكية.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يعمل المحرك على تحويل الطاقة الحرارية الكامنة في الوقود — داخل حيز مغلق هو أسطوانة المحرك عند احتراق الوقود — إلى طاقة ميكانيكية تدير عمود المرفق وتحرك المركبة.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 9,
+    "question": "Among the most important parts of the engine's lubrication system are:",
+    "options": [
+      "The oil pump.",
+      "The oil sump (carter).",
+      "The oil filter.",
+      "The air filter."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "The oil filter.",
+    "explanation": "The oil filter is one of the most important parts of the engine's lubrication system; it cleans the oil of impurities and foreign particles before it reaches the moving parts. The air filter, on the other hand, belongs to the intake system, not the lubrication system.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "من اهم اجزاء نظام التزييت في المحرك",
+    "optionsAR": [
+      "مضخة الزيت.",
+      "وعاء حفظ الزيت (الكرتير).",
+      "فلتر الزيت.",
+      "فلتر الهواء."
+    ],
+    "correctAnswerAR": "فلتر الزيت.",
+    "explanationAR": "من أهم أجزاء نظام التزييت في المحرك فلتر الزيت، الذي يقوم بتنقية الزيت من الشوائب والذرات الغريبة قبل وصوله إلى الأجزاء المتحركة؛ أما فلتر الهواء فهو تابع لنظام السحب وليس لنظام التزييت.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 10,
+    "question": "Reducing the temperature between the friction surfaces is one of the functions of the engine's lubrication system.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; one of the most important functions of the engine's lubrication system is reducing the temperature between the friction surfaces, by reducing friction and carrying the resulting heat away from the moving parts.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "ان تخفيض الحرارة بين السطوح المحتكة هي جزء من وظائف نظام التزييت في المحرك",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ من أهم وظائف نظام التزييت في المحرك تخفيض درجة الحرارة بين السطوح المحتكة، وذلك بتقليل الاحتكاك ونقل الحرارة الناتجة عنه بعيداً عن الأجزاء المتحركة.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 11,
+    "question": "The benefits of the lubrication system are:",
+    "options": [
+      "Cleaning the surfaces of carbon and foreign particles.",
+      "Absorbing the shock generated by the piston.",
+      "Acting as a seal between the piston and the cylinder to prevent gases from leaking downward",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "The lubrication system cleans the surfaces of carbon and foreign particles, absorbs the shock generated by the motion of the piston, and acts as a seal between the piston and the cylinder to prevent gases from leaking downward; so the correct answer is all of the above.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "فوائد نظام التزييت",
+    "optionsAR": [
+      "تنظيف الأسطح من الكربون والذرات الغريبة.",
+      "إمتصاص الصدمة الناتجة عن المكبس.",
+      "يعمل كحافظة ما بين المكبس والاسطوانة لمنع تسرب الغازات لأسفل",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "من فوائد نظام التزييت تنظيف الأسطح من الكربون والذرات الغريبة، وامتصاص الصدمة الناتجة عن حركة المكبس، والعمل كمادة عازلة بين المكبس والأسطوانة لمنع تسرب الغازات إلى الأسفل؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 12,
+    "question": "Vehicle engines are cooled by air cooling and water cooling.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; vehicle engines are cooled by two main methods — air cooling and water cooling — depending on the type of engine and the vehicle's design.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "يتم تبريد محركات المركبات من خالل التبريد بالهواء والتبريد بالماء",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يتم تبريد محركات المركبات بطريقتين رئيسيتين هما التبريد بالهواء والتبريد بالماء، حسب نوع المحرك وتصميم المركبة.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 13,
+    "question": "In ordinary vehicles, cooling is carried out by means of an air fan (forced air):",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; in ordinary vehicles, the cooling process is performed by an air fan that pushes air through the radiator to remove heat from the water circulating in the engine.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "في المركبات العادية تتم عملية التبريد بواسطة مروحة هواء (بالدفع الهوائي):",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ في المركبات العادية تتم عملية التبريد بواسطة مروحة هواء (بالدفع الهوائي) تدفع الهواء عبر المشع (الرديتر) لإزالة الحرارة من الماء الدائر في المحرك.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 14,
+    "question": "Among the parts of the water cooling system are:",
+    "options": [
+      "The radiator",
+      "Water pump.",
+      "The thermostat",
+      "All of the above are correct"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above are correct",
+    "explanation": "The parts of the water cooling system are the radiator, the water pump, and the thermostat; they work together to keep the engine's temperature within the safe limit. So the correct answer is all of the above.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "من أجزاء نظام التبريد بالماء:",
+    "optionsAR": [
+      "المشع (الرديتر)",
+      "طلبمة ماء.",
+      "الثيرموس",
+      "جميع ماذكر صحيح"
+    ],
+    "correctAnswerAR": "جميع ماذكر صحيح",
+    "explanationAR": "من أجزاء نظام التبريد بالماء: المشع (الرديتر)، وطلمبة الماء، والترموستات (الثيرموس)، وهي تعمل معاً للحفاظ على درجة حرارة المحرك ضمن الحد الآمن؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 15,
+    "question": "Among the specifications of the cooling water used to cool the engine:",
+    "options": [
+      "The cooling water must be pure and contain an additive that helps prevent rust and deposits from forming.",
+      "The cooling water must be pure and contain a high percentage of limescale.",
+      "The cooling water must be turbid and contain a low percentage of limescale"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "The cooling water must be pure and contain an additive that helps prevent rust and deposits from forming.",
+    "explanation": "The cooling water must be pure and contain an additive (antifreeze / anti-rust) that helps prevent rust and deposits from forming inside the cooling system, in order to preserve the engine's lifespan and the cooling efficiency.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "من مواصفات ماء التبريد المستخدم لتبريد المحرك:",
+    "optionsAR": [
+      "يجب أن يكون ماء التبريد نقياً وأن يحتوي مادة تساعد على عدم تكون الصدأ والرواسب.",
+      "يجب أن يكون ماء التبريد نقياً وأن يحتوي على نسبة مرتفعة من الكلس.",
+      "يجب أن يكون ماء التبريد عكراً وأن يحتوي على نسبة مخفضة من الكلس"
+    ],
+    "correctAnswerAR": "يجب أن يكون ماء التبريد نقياً وأن يحتوي مادة تساعد على عدم تكون الصدأ والرواسب.",
+    "explanationAR": "من مواصفات ماء التبريد المستخدم أن يكون نقياً وأن يحتوي على مادة (مضاد للتجمد والصدأ) تساعد على عدم تكوّن الصدأ والرواسب داخل نظام التبريد، حفاظاً على عمر المحرك وكفاءة التبريد.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 16,
+    "question": "Among the causes of engine overheating:",
+    "options": [
+      "Lack of water in the radiator",
+      "A faulty radiator cap.",
+      "A broken or loose fan belt.",
+      "All of the above are correct."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above are correct.",
+    "explanation": "Engine overheating is caused by a lack of water in the radiator, a faulty radiator cap, or a broken or loose fan belt; so the correct answer is all of the above.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "من أسباب حميان المحرك:",
+    "optionsAR": [
+      "نقص الماء في الرديتر",
+      "عطل في غطاء الرديتر.",
+      "قطع أو أرتخاء قشاط المروحة.",
+      "جميع ماذكر صحيح."
+    ],
+    "correctAnswerAR": "جميع ماذكر صحيح.",
+    "explanationAR": "من أسباب حميان (سخونة) المحرك نقص الماء في الرديتر، أو عطل في غطاء الرديتر، أو قطع أو ارتخاء قشاط (سير) المروحة؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 17,
+    "question": "The function of the fuel system in the vehicle is to supply the carburetor with a sufficient amount of fuel:",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the function of the vehicle's fuel system is to supply the carburetor with a sufficient amount of fuel so that it can be mixed with air and burned inside the engine.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "وظيفة نظام الوقود في المركبة هي أمداد الكربورتير بكمية وقود كافية:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ وظيفة نظام الوقود في المركبة هي إمداد المازج (الكربوريتر) بكمية الوقود الكافية ليتم خلطه بالهواء واحتراقه داخل المحرك.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 18,
+    "question": "Among the parts of the fuel system are:",
+    "options": [
+      "The fuel tank.",
+      "The fuel pump.",
+      "The mixer (carburetor).",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "The fuel system consists of the fuel tank, the fuel pump, and the mixer (carburetor), in addition to the hoses and filters; so the correct answer is all of the above.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "من أجزاء نظام الوقود:",
+    "optionsAR": [
+      "خزان الوقود.",
+      "مضخة الوقود.",
+      "المازج (الكاربوريتر).",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "جميع ماذكر",
+    "explanationAR": "من أجزاء نظام الوقود: خزان الوقود، ومضخة الوقود، والمازج (الكربوريتر)، إضافةً إلى الخراطيم والفلاتر؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 19,
+    "question": "The function of the fuel pump:",
+    "options": [
+      "The fuel pump draws (sucks) fuel from the tank and delivers it to the mixer (carburetor).",
+      "The fuel pump pushes (sucks) fuel from the mixer (carburetor) back to the tank.",
+      "The fuel pump draws (sucks) fuel from the tank and delivers it to the air filter.",
+      "None of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "The fuel pump draws (sucks) fuel from the tank and delivers it to the mixer (carburetor).",
+    "explanation": "The fuel pump draws (sucks) fuel from the fuel tank and delivers it to the carburetor, so that it can be mixed with air before entering the engine cylinders.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "وظيفة مضخة الوقود:",
+    "optionsAR": [
+      "تقوم مضخة الوقود بسحب (امتصاص) الوقود من الخزان وتوصيله الى المازج .",
+      "- تقوم مضخة الوقود بدفع (امتصاص) الوقود الى الخزان من المازج .",
+      "تقوم مضخة الوقود بسحب (امتصاص) الوقود من الخزان وتوصيله الى فلتر الهواء .",
+      "لا شئ مماذكر."
+    ],
+    "correctAnswerAR": "تقوم مضخة الوقود بسحب (امتصاص) الوقود من الخزان وتوصيله الى المازج .",
+    "explanationAR": "وظيفة مضخة الوقود هي سحب (امتصاص) الوقود من الخزان وتوصيله إلى المازج (الكربوريتر)، ليتم خلطه بالهواء قبل دخوله إلى أسطوانات المحرك.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 20,
+    "question": "The function of the mixer (carburetor) is to convert the fuel from the liquid state to the gaseous state.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the function of the carburetor is to convert the fuel from the liquid state to the gaseous state by mixing it with air as a fine mist, so that it becomes combustible inside the engine cylinder.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "إن وظيفة المازج (الكاربوريتر) يعمل على تحويل الوقود من الحالة السائلة إلى الحالة الغازية",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ وظيفة المازج (الكربوريتر) هي تحويل الوقود من الحالة السائلة إلى الحالة الغازية بخلطه بالهواء على شكل رذاذ، ليصبح قابلاً للاحتراق داخل أسطوانة المحرك.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 21,
+    "question": "Among the parts that contribute to transmitting power from the engine to the wheels are:",
+    "options": [
+      "The mixer (carburetor).",
+      "The gearbox.",
+      "The pinion gears.",
+      "The chassis"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "The gearbox.",
+    "explanation": "The gearbox is one of the parts of the powertrain that transmits power from the engine to the wheels; it controls the ratios of power and speed delivered to the vehicle's wheels.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "من الاجزاء التي تشارك في نقل القوة من المحرك الى العجالت هي:",
+    "optionsAR": [
+      "المازج (الكربوريتر).",
+      "صندوق التروس.",
+      "الصنوبرصات.",
+      "الهيكل"
+    ],
+    "correctAnswerAR": "صندوق التروس.",
+    "explanationAR": "من أجزاء نظام نقل الحركة من المحرك إلى العجلات صندوق التروس، وهو الذي يتحكم بنسب نقل القوة والسرعة الواصلة إلى عجلات المركبة.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 22,
+    "question": "The function of the clutch is:",
+    "options": [
+      "Transmitting power from the engine to the gearbox or disengaging it when needed",
+      "Transmitting power from the gearbox to the engine or disengaging it when needed",
+      "Transmitting power from the engine to the gearbox without disengaging it even when needed"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Transmitting power from the engine to the gearbox or disengaging it when needed",
+    "explanation": "The function of the clutch is to transmit power from the engine to the gearbox, or to disengage it when needed, which allows the driver to change gears without stopping the engine.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "وظيفة القابض (الكلتش)",
+    "optionsAR": [
+      "نقل القوة من المحرك الى صندوق التروس أو فصلها عند الحاجة",
+      "نقل القوة من صندوق التروس الى المحرك أو فصلها عند الحاجة",
+      "نقل القوة من المحرك الى صندوق التروس دون فصلها حتى عند الحاجة"
+    ],
+    "correctAnswerAR": "نقل القوة من المحرك الى صندوق التروس أو فصلها عند الحاجة",
+    "explanationAR": "وظيفة القابض (الكلتش) هي نقل القوة من المحرك إلى صندوق التروس أو فصلها عند الحاجة، مما يسمح بتغيير التروس (السرعات) دون إيقاف المحرك.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 23,
+    "question": "The letter (P) on the automatic transmission means (PARK), i.e. stop.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the letter (P) on the automatic transmission stands for (PARK), the parking position, which locks the transmission when the vehicle is parked.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "حرف (P) في الجير األتوماتيك تعني (PARK) أي توقف.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ حرف (P) في الجير الأوتوماتيك يرمز إلى كلمة (PARK) أي وضع التوقف (الركن)، حيث يقوم بتثبيت ناقل الحركة عند إيقاف المركبة.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 24,
+    "question": "The electrical system in vehicles consists of:",
+    "options": [
+      "The battery",
+      "The generation and charging system",
+      "The starter motor system (the starter)",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "The electrical system in vehicles consists of the battery, the generation and charging system (the alternator/generator), and the starter motor system; so the correct answer is all of the above.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "يتكون نظام الكهرباء في المركبات من:",
+    "optionsAR": [
+      "البطارية",
+      "نظام التوليد والشحن",
+      "نظام محرك االبتداء (السلف)",
+      "جميع ماذكر"
+    ],
+    "correctAnswerAR": "جميع ماذكر",
+    "explanationAR": "يتكون نظام الكهرباء في المركبات من البطارية، ونظام التوليد والشحن (الدينمو / الألترنيتور)، ونظام محرك الابتداء (السلف)؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 25,
+    "question": "The function of the battery is:",
+    "options": [
+      "Supplying the starter motor with the required current at the start of operation.",
+      "Supplying the lights and other accessories while the engine is off.",
+      "Storing energy while the engine is running, by means of the generator.",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "The battery supplies the starter motor with the required current at startup, supplies the lights and other accessories while the engine is off, and stores energy while the engine is running by means of the generator; so the correct answer is all of the above.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "وظيفة البطارية هي:",
+    "optionsAR": [
+      "تزويد محرك البدء بالتيار الالزم عند بداية التشغيل.",
+      "تزويد األضوية واألجهزة اإلضافية األخرى أثناء وقوف المحرك.",
+      "تخزين الطاقة أثناء دوران المحرك بواسطة المولد.",
+      "جميع ماذكر."
+    ],
+    "correctAnswerAR": "جميع ماذكر.",
+    "explanationAR": "وظائف البطارية تشمل تزويد محرك البدء (السلف) بالتيار اللازم عند بداية التشغيل، وتزويد الأضوية والأجهزة الإضافية عند وقوف المحرك، وتخزين الطاقة أثناء دوران المحرك بواسطة المولد؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 26,
+    "question": "The starter motor system works to start the engine's motion, or to give the engine the energy needed to begin the four-stroke cycle.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the starter motor system starts the engine by providing it with the energy needed to begin the four-stroke cycle (intake, compression, combustion, and exhaust).",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "يعمل نظام محرك الابتداء على بدأ حركة المحرك أو إعطاء المحرك الطاقة للحركة الالزمة لبدء عملية الاشواط الأربعة",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يعمل نظام محرك الابتداء (السلف) على بدء حركة المحرك بإعطائه الطاقة اللازمة لبدء دورة الأشواط الأربعة (السحب والضغط والاحتراق والعادم).",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 27,
+    "question": "Among the purposes of having a suspension system:",
+    "options": [
+      "Mounting the engine to the vehicle body.",
+      "Absorbing shocks and maintaining the vehicle's balance",
+      "None of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Absorbing shocks and maintaining the vehicle's balance",
+    "explanation": "The purposes of the suspension system include absorbing shocks caused by road bumps and defects, and maintaining the vehicle's balance and stability while driving and through turns.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "من اهداف وجود نظام التعليق:",
+    "optionsAR": [
+      "تثبيت المحرك على جسم اآللية.",
+      "امتصاص الصدمات والمحافظة على توازن المركبة",
+      "لا شئ مما ذكر."
+    ],
+    "correctAnswerAR": "امتصاص الصدمات والمحافظة على توازن المركبة",
+    "explanationAR": "من أهداف نظام التعليق امتصاص الصدمات الناتجة عن مطبات وعيوب الطريق، والمحافظة على توازن المركبة وثباتها أثناء السير وعند الانعطافات.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 28,
+    "question": "The function of the steering system in the vehicle:",
+    "options": [
+      "Ensuring the vehicle moves in the correct direction.",
+      "Converting the circular motion of the steering wheel into the angular motion of the front wheels.",
+      "Absorbing road shocks and preventing them from reaching the driver.",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "The steering system ensures the vehicle moves in the correct direction, converts the circular motion of the steering wheel into the angular motion of the front wheels, and absorbs road shocks before they reach the driver; so the correct answer is all of the above.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "وظيفة نظام التوجيه في المركبة:",
+    "optionsAR": [
+      "تأمين حركة الآلية في الاتجاه الصحيح.",
+      "تحويل الحركة الدائرية لعجلة القيادة الى حركة زاوية العجلات الامامية.",
+      "إمتصاص صدمات الطريق ومنعها من الوصول إلى السائق.",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "جميع ما ذكر",
+    "explanationAR": "وظيفة نظام التوجيه في المركبة هي تأمين حركة المركبة في الاتجاه الصحيح، وتحويل الحركة الدائرية لعجلة القيادة إلى حركة زاوية للعجلات الأمامية، وامتصاص صدمات الطريق ومنعها من الوصول إلى السائق؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 29,
+    "question": "The parts of the steering system include:",
+    "options": [
+      "The steering wheel.",
+      "The main steering column.",
+      "The steering assembly.",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "The parts of the steering system include the steering wheel, the main steering column, and the steering assembly (the steering box and arms); so the correct answer is all of the above.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "تشمل اجزاء نظام التوجيه:",
+    "optionsAR": [
+      "عجلة القيادة.",
+      "عمود التوجيه الرئيسي.",
+      "مجموعة التوجيه.",
+      "جميع ماذكر."
+    ],
+    "correctAnswerAR": "جميع ماذكر.",
+    "explanationAR": "تشمل أجزاء نظام التوجيه عجلة القيادة (المقود)، وعمود التوجيه الرئيسي، ومجموعة التوجيه (صندوق التوجيه والذراع)؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 30,
+    "question": "The economical speed range is between:",
+    "options": [
+      "(45-65) km/h.",
+      "(65-85) km/h.",
+      "(95-105) km/h.",
+      "All of the above are correct"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "(65-85) km/h.",
+    "explanation": "The economical speed range is between (65-85) km/h; at this speed, fuel consumption is lower and the engine operates at higher efficiency.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "الحدود الاقتصادية للسرعة تتراوح ما بين",
+    "optionsAR": [
+      "(65-45)كم/الساعة.",
+      "(85-65 )كم/الساعة.",
+      "(105-95 )كم/الساعة.",
+      "جميع ماذكر صحيح"
+    ],
+    "correctAnswerAR": "(85-65 )كم/الساعة.",
+    "explanationAR": "تتراوح الحدود الاقتصادية للسرعة بين (65-85) كم/الساعة، فعند هذه السرعة يكون استهلاك الوقود أقل ويعمل المحرك بكفاءة أعلى.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 31,
+    "question": "Reaching maximum speed as soon as you start the vehicle reduces fuel consumption.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; reaching maximum speed as soon as the vehicle is started actually increases fuel consumption, not the other way around. The engine needs time to reach its optimal operating temperature, and driving moderately at first is more fuel-efficient.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "ان الوصول للسرعة القصوى فور تشغيلك للمركبة يقلل من استهالك الوقود.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ الوصول إلى السرعة القصوى فور تشغيل المركبة يزيد من استهلاك الوقود وليس العكس، لأن المحرك يحتاج وقتاً ليصل إلى درجة حرارة التشغيل المثلى، والقيادة باعتدال في البداية أكثر اقتصاداً للوقود.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 32,
+    "question": "Keeping the windows open while driving the vehicle increases air resistance and therefore increases fuel consumption.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; keeping the windows open while driving increases the air resistance acting on the vehicle, forcing the engine to use extra energy, which increases fuel consumption, especially at high speeds.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "ان إبقاء النوافذ مفتوحة في المركبة أثناء قيادتها يؤدي إلى زيادة مقاومة الهواء و بالتالي زيادة استهالك الوقود",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ إبقاء النوافذ مفتوحة أثناء القيادة يزيد من مقاومة الهواء على المركبة، مما يجعل المحرك يبذل طاقة إضافية، فيزيد استهلاك الوقود خاصة على السرعات العالية.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 33,
+    "question": "Among the things that must be checked continuously are:",
+    "options": [
+      "The oil level in the engine and the water level in the radiator.",
+      "The fan belt.",
+      "The temperature gauge indicator.",
+      "Checking the cleanliness of the air filter."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "The oil level in the engine and the water level in the radiator.",
+    "explanation": "The oil level in the engine and the water level in the radiator must be checked continuously (daily), to keep the engine running within safe limits and to avoid sudden breakdowns.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "من الامور الواجب تفقدها بصورة مستمرة:",
+    "optionsAR": [
+      "مستوى الزيت في المحرك والماء في المبرد.",
+      "قشاط المروحة.",
+      "مؤشر ساعة الحرارة.",
+      "تفقد نظافة فلتر الهواء."
+    ],
+    "correctAnswerAR": "مستوى الزيت في المحرك والماء في المبرد.",
+    "explanationAR": "من الأمور التي يجب تفقدها بصورة مستمرة (يومياً) مستوى الزيت في المحرك ومستوى الماء في المبرد (الرديتر)، للحفاظ على عمل المحرك ضمن الحدود الآمنة وتجنب الأعطال المفاجئة.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 34,
+    "question": "When starting the vehicle daily and before driving off, you must:",
+    "options": [
+      "Make sure the lights are working (headlights, brake light, reverse light, turn signals, taillights)",
+      "Check the tires' fitness and tighten the wheel nuts.",
+      "Check the gearbox oil and the rear axle.",
+      "Check the spark plug cables."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Make sure the lights are working (headlights, brake light, reverse light, turn signals, taillights)",
+    "explanation": "When starting the vehicle daily and before driving off, you must check that all the lights are working (headlights, brake light, reverse light, turn signals, taillights), because the failure of any of them endangers the driver and exposes him to legal liability.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "عند تشغيل المركبة يوميا وقبل الانطالق يجب :",
+    "optionsAR": [
+      "التأكد من صالحية الاضوية (ضوء أمامي، ضوء بريك، ضوء الرجوع الى الخلف (الريفرس)، الغمازات، الأضوية الخلفية)",
+      "تفقد صالحية الاطارات وشد الصواميل.",
+      "التأكد من زيت الجير والمحور الخلفي.",
+      "تفقد أسالك البواجي."
+    ],
+    "correctAnswerAR": "التأكد من صالحية الاضوية (ضوء أمامي، ضوء بريك، ضوء الرجوع الى الخلف (الريفرس)، الغمازات، الأضوية الخلفية)",
+    "explanationAR": "عند تشغيل المركبة يومياً وقبل الانطلاق يجب التأكد من صلاحية الأضوية (الأمامية، وضوء الفرامل، وضوء الرجوع، والغمازات، والخلفية)، لأن تعطل أي منها يشكل خطراً على السائق ويعرضه للمساءلة القانونية.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 35,
+    "question": "One of the things that helps increase gasoline consumption:",
+    "options": [
+      "Avoiding traffic congestion",
+      "Low tire air pressure",
+      "Changing gears at the appropriate time when shifting from one speed to another",
+      "None of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Low tire air pressure",
+    "explanation": "Low tire air pressure is one of the things that increases gasoline consumption, because it increases the tire's rolling resistance on the road, forcing the engine to exert extra effort.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "واحدة من الأمور التي تساعد على زيادة إستهالك البنزين:",
+    "optionsAR": [
+      "الأبتعاد عن الاختناقات المرورية",
+      "الضغط المنخفض للهواء باالطارات",
+      "تغير السرعات يتم بنقل الحركة من سرعة الى اخرى فى الوقت المناسب",
+      "لا شئ مماذكر"
+    ],
+    "correctAnswerAR": "الضغط المنخفض للهواء باالطارات",
+    "explanationAR": "من الأمور التي تزيد من استهلاك البنزين الضغط المنخفض للهواء في الإطارات، لأنه يزيد من مقاومة الإطار للحركة على الطريق، مما يجبر المحرك على بذل جهد إضافي.",
+    "sourceCategory": "ميكانيك السيارات"
+  },
+  {
+    "number": 36,
+    "question": "The function of the tire in the vehicle is:",
+    "options": [
+      "Carrying the weight.",
+      "Transmitting motion.",
+      "Stopping the vehicle.",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "The tire carries the vehicle's weight, transmits motion (drive force) from the engine to the road surface, and contributes to stopping the vehicle through its grip on the road during braking; so the correct answer is all of the above.",
+    "chapterTitle": "Car Mechanics",
+    "chapterTitleAR": "ميكانيك السيارات",
+    "questionAR": "ان وظيفة الاطار في المركبة:",
+    "optionsAR": [
+      "حمل الوزن.",
+      "نقل الحركة.",
+      "إيقاف الآلية.",
+      "جميع ماذكر."
+    ],
+    "correctAnswerAR": "جميع ماذكر.",
+    "explanationAR": "وظائف الإطار في المركبة هي حمل الوزن، ونقل الحركة (قوة الدفع) من المحرك إلى سطح الطريق، والمساهمة في إيقاف المركبة من خلال التماسك مع الطريق أثناء الكبح؛ فالإجابة الصحيحة جميع ما ذكر.",
+    "sourceCategory": "ميكانيك السيارات"
+  }
+]

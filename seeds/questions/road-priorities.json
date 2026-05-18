@@ -1,0 +1,1286 @@
+[
+  {
+    "number": 1,
+    "question": "Vehicles in official convoys have priority while performing their duty and using their signals or sirens.",
+    "options": [
+      "No",
+      "Yes"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Official convoy vehicles are given priority while performing their duty and using their special signals and sirens, and other drivers must make way for them.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "تكون الاولوية لمركبات المواكب الرسمية اثناء قيامها بالواجب واستخدامها الاشارات او المنبهات الدالة على ذلك.",
+    "optionsAR": [
+      "لا",
+      "نعم"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "تُعطى الأولوية لمركبات المواكب الرسمية عند أدائها واجبها واستخدامها الإشارات والمنبهات الخاصة، فيجب على باقي السائقين إفساح الطريق لها.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 2,
+    "question": "In the image, unfavorable weather conditions with fog and rain are shown. The driver must:",
+    "options": [
+      "Reduce speed.",
+      "Allow more time when approaching a pedestrian crossing.",
+      "Continue driving at the same speed.",
+      "A + B"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-002.jpg",
+    "video": null,
+    "correctAnswer": "A + B",
+    "explanation": "In bad weather like fog and rain, you must reduce speed to shorten the stopping distance and give pedestrians more time at crossings due to poor visibility, so the answer is A + B.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك تبين الظروف الجوية الغير ملائمة لوجود الضباب و الامطار فعلى السائق ان:",
+    "optionsAR": [
+      "يخفف السرعة .",
+      "اعطاء المزيد من الوقت عندما يقترب من ممر المشاة .",
+      "يتابع المسير في نفس السرعة .",
+      "أ + ب"
+    ],
+    "correctAnswerAR": "أ + ب",
+    "explanationAR": "في الظروف الجوية غير الملائمة كالضباب والأمطار يجب تخفيف السرعة لتقليل مسافة الوقوف، وإعطاء المشاة وقتاً كافياً عند الاقتراب من ممرات العبور لضعف الرؤية، لذلك الإجابة (أ + ب).",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 3,
+    "question": "In the image, a person with a disability is crossing the street, so you must:",
+    "options": [
+      "Ignore them.",
+      "Continue driving while alerting them with the horn.",
+      "Come to a complete stop until the blind person finishes crossing.",
+      "None of the above."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-003.jpg",
+    "video": null,
+    "correctAnswer": "Come to a complete stop until the blind person finishes crossing.",
+    "explanation": "You must make a complete stop to allow a blind person or a person with a disability to finish crossing safely, without using the horn to avoid startling them.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك تبين شخص من ذوي الإحتياجات الخاصة يقطع الشارع فان",
+    "optionsAR": [
+      "يتجاوز عنه.",
+      "الاستمرار في المرور مع تنبيه الشخص باستعمال الزامور.",
+      "الوقوف التام لحين مرور الشخص الكفيف.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "الوقوف التام لحين مرور الشخص الكفيف.",
+    "explanationAR": "يجب الوقوف التام للسماح للشخص الكفيف أو من ذوي الاحتياجات الخاصة بإكمال عبوره بأمان، مع عدم استعمال الزامور تجنباً لإرباكه.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 4,
+    "question": "In the image, who is acting incorrectly?",
+    "options": [
+      "The driver.",
+      "The pedestrians.",
+      "A + B",
+      "None of the above."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-004.jpg",
+    "video": null,
+    "correctAnswer": "A + B",
+    "explanation": "Both are wrong: the driver does not stop to let the pedestrians cross at the pedestrian crossing, and the pedestrians are attempting to cross outside the designated crossing.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك من يتصرف بشكل خاطئ:",
+    "optionsAR": [
+      "سائق المركبة.",
+      "المشاة.",
+      "أ+ب",
+      "لاشئ مما ذكر."
+    ],
+    "correctAnswerAR": "أ+ب",
+    "explanationAR": "كلاهما يخطئ؛ السائق لا يتوقف لإفساح الطريق للمشاة عند ممر العبور، والمشاة يهمّون بالعبور من خارج الممر المخصص.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 5,
+    "question": "In the image, priority is for:",
+    "options": [
+      "The train (1)",
+      "The vehicle (2)"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-005.jpg",
+    "video": null,
+    "correctAnswer": "The train (1)",
+    "explanation": "Priority is always given to the train at a railroad crossing because it cannot stop quickly and its path is fixed.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصور التي امامك تكون الاولوية :",
+    "optionsAR": [
+      "للقطار (1)",
+      "للمركبة (2)"
+    ],
+    "correctAnswerAR": "للقطار (1)",
+    "explanationAR": "الأولوية دائماً للقطار عند تقاطع السكة الحديدية مع الطريق، لأنه لا يستطيع التوقف بسرعة ومسار حركته ثابت.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 6,
+    "question": "In the image, the priority order is:",
+    "options": [
+      "1-2-3",
+      "2-3-1",
+      "3-1-2",
+      "None of the above."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-006.jpg",
+    "video": null,
+    "correctAnswer": "2-3-1",
+    "explanation": "The priority order is 2-3-1 based on the rules of an equal-priority intersection: priority for the vehicle coming from the right, and the vehicle going straight has priority over the one turning.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يكون ترتيب الاولوية :",
+    "optionsAR": [
+      "1-2-3",
+      "2-3-1",
+      "3-1-2",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "2-3-1",
+    "explanationAR": "ترتيب الأولوية هو 2-3-1 وفق قواعد التقاطع متكافئ الحقوق والأولوية للقادم من اليمين، ومراعاة من يسير مستقيماً قبل من ينعطف.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 7,
+    "question": "In the image, the priority order is:",
+    "options": [
+      "1-2-3",
+      "2-3-1",
+      "3-1-2",
+      "None of the above."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-007.jpg",
+    "video": null,
+    "correctAnswer": "1-2-3",
+    "explanation": "The priority order is 1-2-3: the vehicle going straight passes first, then the one turning right, and finally the one turning left.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يكون ترتيب الاولوية :",
+    "optionsAR": [
+      "1-2-3",
+      "2-3-1",
+      "3-1-2",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "1-2-3",
+    "explanationAR": "ترتيب الأولوية هو 1-2-3؛ تمر المركبة الأولى التي تسير مستقيماً، ثم التي تنعطف لليمين، وأخيراً التي تنعطف لليسار.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 8,
+    "question": "In the image, the priority order is:",
+    "options": [
+      "1-2-3",
+      "3-2-1",
+      "3-1-2",
+      "None of the above."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-008.jpg",
+    "video": null,
+    "correctAnswer": "3-1-2",
+    "explanation": "The priority order is 3-1-2 because vehicle (3) is coming from the right and has priority, followed by (1) and then (2) according to their direction of travel.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يكون ترتيب الاولوية :",
+    "optionsAR": [
+      "1-2-3",
+      "3-2-1",
+      "3-1-2",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "3-1-2",
+    "explanationAR": "ترتيب الأولوية هو 3-1-2 لأن المركبة (3) قادمة من جهة اليمين ولها الأولوية، ثم تليها (1) ثم (2) حسب اتجاهات حركتها.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 9,
+    "question": "In the image, the priority order is:",
+    "options": [
+      "Vehicle no. (1).",
+      "Vehicle no. (2)."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-009.jpg",
+    "video": null,
+    "correctAnswer": "Vehicle no. (1).",
+    "explanation": "Priority is for vehicle no. (1) because it is travelling straight on the main road, while vehicle (2) is coming from a secondary road and must yield.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يكون ترتيب الاولوية :",
+    "optionsAR": [
+      "للمركبة رقم (1).",
+      "للمركبة رقم (2)."
+    ],
+    "correctAnswerAR": "للمركبة رقم (1).",
+    "explanationAR": "الأولوية للمركبة رقم (1) لأنها تسير على الطريق الرئيسي مستقيماً، بينما المركبة (2) قادمة من طريق فرعي وعليها إعطاء الأولوية.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 10,
+    "question": "In the image, the priority order is:",
+    "options": [
+      "Vehicle no. (1).",
+      "Vehicle no. (2)."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-010.jpg",
+    "video": null,
+    "correctAnswer": "Vehicle no. (2).",
+    "explanation": "Priority is for vehicle no. (2) because vehicle (1) is facing a Stop sign and must come to a complete stop and give priority to the other vehicle.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يكون ترتيب الاولوية :",
+    "optionsAR": [
+      "للمركبة رقم (1).",
+      "للمركبة رقم (2)."
+    ],
+    "correctAnswerAR": "للمركبة رقم (2).",
+    "explanationAR": "الأولوية للمركبة رقم (2)، لأن المركبة (1) أمامها شاخصة (قف) فيجب عليها الوقوف التام وإعطاء الأولوية للمركبة الأخرى.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 11,
+    "question": "In the image, the priority order is:",
+    "options": [
+      "Vehicle no. (1).",
+      "Vehicle no. (2)."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-011.jpg",
+    "video": null,
+    "correctAnswer": "Vehicle no. (1).",
+    "explanation": "Priority is for vehicle no. (1) because it is on the priority road, while vehicle (2) must give priority before entering the intersection.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يكون ترتيب الاولوية :",
+    "optionsAR": [
+      "للمركبة رقم (1).",
+      "للمركبة رقم (2)."
+    ],
+    "correctAnswerAR": "للمركبة رقم (1).",
+    "explanationAR": "الأولوية للمركبة رقم (1) لأنها تسير على الطريق ذي الأولوية، أما المركبة (2) فعليها إعطاء الأولوية قبل الدخول إلى التقاطع.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 12,
+    "question": "In the image, the priority order is:",
+    "options": [
+      "Vehicle no. (1).",
+      "Vehicle no. (2)."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-012.jpg",
+    "video": null,
+    "correctAnswer": "Vehicle no. (2).",
+    "explanation": "Priority is for vehicle no. (2) because it is on the main road, while vehicle (1) is facing a Yield sign and must wait.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يكون ترتيب الاولوية :",
+    "optionsAR": [
+      "للمركبة رقم (1).",
+      "للمركبة رقم (2)."
+    ],
+    "correctAnswerAR": "للمركبة رقم (2).",
+    "explanationAR": "الأولوية للمركبة رقم (2) لأنها على الطريق الرئيسي، بينما المركبة (1) أمامها شاخصة (اعط الأولوية) فعليها الانتظار.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 13,
+    "question": "In the image, the priority order is:",
+    "options": [
+      "Vehicle no. (1).",
+      "Vehicle no. (2)."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-013.jpg",
+    "video": null,
+    "correctAnswer": "Vehicle no. (1).",
+    "explanation": "Priority is for vehicle no. (1) because it is travelling straight on the main road, while vehicle (2) is coming from a secondary road and must yield.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يكون ترتيب الاولوية :",
+    "optionsAR": [
+      "للمركبة رقم (1).",
+      "للمركبة رقم (2)."
+    ],
+    "correctAnswerAR": "للمركبة رقم (1).",
+    "explanationAR": "الأولوية للمركبة رقم (1) لأنها تسير على الطريق الرئيسي مستقيماً، أما المركبة (2) فقادمة من فرعي وعليها إعطاء الأولوية.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 14,
+    "question": "In the image, the priority order is:",
+    "options": [
+      "Vehicle no. (1).",
+      "Vehicle no. (2)."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-014.jpg",
+    "video": null,
+    "correctAnswer": "Vehicle no. (1).",
+    "explanation": "Priority is for vehicle no. (1) because it is already inside the roundabout, and the rule is that vehicles inside the roundabout have priority over those entering it.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يكون ترتيب الاولوية :",
+    "optionsAR": [
+      "للمركبة رقم (1).",
+      "للمركبة رقم (2)."
+    ],
+    "correctAnswerAR": "للمركبة رقم (1).",
+    "explanationAR": "الأولوية للمركبة رقم (1) لأنها داخل الدوار، والقاعدة أن من يكون داخل الدوار له الأولوية على الداخل إليه.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 15,
+    "question": "In the image, is the vehicle parked correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-015.jpg",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The parking is incorrect because the vehicle is at a distance less than the legally allowed minimum from the intersection corner, which obstructs visibility and traffic flow.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك وقوف المركبة صحيح :",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "وقوف المركبة خاطئ لأنها على مسافة أقل من الحد المسموح به من زاوية التقاطع، وهذا يعيق الرؤية وحركة المرور.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 16,
+    "question": "In the image, is the vehicle parked correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-016.jpg",
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "The parking is correct because the vehicle is at a sufficient distance (20 meters) from the intersection, which meets the legally required minimum.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك وقوف المركبة صحيح :",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "وقوف المركبة صحيح لأنها على مسافة كافية (20 متراً) من التقاطع، وهي مسافة مطابقة للحد المسموح به نظاماً.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 17,
+    "question": "In the image, is the vehicle parked correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-017.jpg",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The parking is incorrect because the vehicle is parked in a space reserved for persons with disabilities, which other vehicles are not allowed to use.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك وقوف المركبة صحيح:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "وقوف المركبة خاطئ لأنها متوقفة في موقف مخصص لذوي الاحتياجات الخاصة ولا يُسمح للمركبات الأخرى باستعماله.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 18,
+    "question": "In the image, priority is for:",
+    "options": [
+      "Vehicle no. (1).",
+      "Vehicle no. (2).",
+      "Pedestrians."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-018.webp",
+    "video": null,
+    "correctAnswer": "Pedestrians.",
+    "explanation": "Priority is for pedestrians at the crossing, so the vehicles must stop and allow them to cross safely.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصور التي امامك تكون الاولوية",
+    "optionsAR": [
+      "للمركبة رقم (1).",
+      "للمركبة رقم (2).",
+      "للمشاة."
+    ],
+    "correctAnswerAR": "للمشاة.",
+    "explanationAR": "الأولوية للمشاة عند ممر العبور، فيجب على المركبات التوقف للسماح لهم بالعبور بأمان.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 19,
+    "question": "As shown in the figure, priority is for:",
+    "options": [
+      "Vehicle no. (1).",
+      "Vehicle no. (2).",
+      "Pedestrians no. (3).",
+      "None of the above"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-019.jpg",
+    "video": null,
+    "correctAnswer": "Pedestrians no. (3).",
+    "explanation": "Priority is for pedestrians no. (3) at the crossing, so vehicles (1) and (2) must stop and make way for them.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "كما هو موضح بالرسم فإن الاولوية تكون:",
+    "optionsAR": [
+      "للمركبة رقم (1).",
+      "للمركبة رقم (2).",
+      "للمشاة رقم (3).",
+      "لاشئ مما ذكر"
+    ],
+    "correctAnswerAR": "للمشاة رقم (3).",
+    "explanationAR": "الأولوية للمشاة رقم (3) عند ممر العبور، فيجب على المركبتين (1) و(2) التوقف وإفساح الطريق لهم.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 20,
+    "question": "In the image, is the vehicle parked correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-020.jpg",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The parking is incorrect because the vehicle is travelling against the direction of traffic permitted on the road, posing a danger to other drivers.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك وقوف المركبة صحيح:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "وقوف المركبة خاطئ لأنها تسير عكس اتجاه السير المسموح به على الطريق، مما يشكل خطراً على السائقين الآخرين.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 21,
+    "question": "In the image, is the vehicle parked correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-021.jpg",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The parking is incorrect because the vehicle is stopped on the left side of the road against the direction of traffic; the correct way is to park on the right side facing the direction of traffic.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك وقوف المركبة صحيح:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "وقوف المركبة خاطئ لأنها متوقفة على الجانب الأيسر من الطريق بعكس اتجاه السير، والصحيح هو الوقوف على الجانب الأيمن باتجاه السير.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 22,
+    "question": "From the illustration, we find that:",
+    "options": [
+      "The yellow car is within the blue car's view.",
+      "The red car is within the blue car's view.",
+      "Both the yellow and red cars are outside the blue car's view, and this is known as the blind spot.",
+      "None of the above."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-022.jpg",
+    "video": null,
+    "correctAnswer": "Both the yellow and red cars are outside the blue car's view, and this is known as the blind spot.",
+    "explanation": "The yellow and red cars are outside the direct view of the blue car's driver through the mirrors. These areas are called blind spots and require a direct look to verify.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "من خلال الرسم الموضح نجد أن :",
+    "optionsAR": [
+      "السيارة الصفراء ضمن رؤية المركبة الزرقاء.",
+      "السيارة الحمراء ضمن رؤية المركبة الزرقاء.",
+      "السيارتين الصفراء او الحمراء خارج رؤية السيارة الزرقاء وتسمى هذه الحالة بالنقطة العمياء.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "السيارتين الصفراء او الحمراء خارج رؤية السيارة الزرقاء وتسمى هذه الحالة بالنقطة العمياء.",
+    "explanationAR": "السيارتان الصفراء والحمراء خارج مجال الرؤية المباشرة لسائق السيارة الزرقاء عن طريق المرايا، وتسمى هذه المناطق بالنقاط العمياء التي تتطلب التحقق منها بالنظر المباشر.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 23,
+    "question": "As shown in the figure, priority is for:",
+    "options": [
+      "Vehicle no. (1).",
+      "Vehicle no. (2)",
+      "Pedestrians"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-023.jpg",
+    "video": null,
+    "correctAnswer": "Pedestrians",
+    "explanation": "Priority is for pedestrians because they are near a school and at the pedestrian crossing, so drivers must stop and let them cross safely.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "كـما هو موضوح بالرسم فإن الأولوية تكون:",
+    "optionsAR": [
+      "للمركبة رقم (1).",
+      "للمركبة رقم (2)",
+      "للمشاة"
+    ],
+    "correctAnswerAR": "للمشاة",
+    "explanationAR": "الأولوية للمشاة لأنهم في منطقة قريبة من مدرسة وعند ممر العبور، فيجب على السائقين التوقف والسماح لهم بالعبور بأمان.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 24,
+    "question": "The maximum speed for medium passenger cars on secondary roads where schools are located is:",
+    "options": [
+      "30 km/h",
+      "40 km/h",
+      "50 km/h",
+      "60 km/h"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "30 km/h",
+    "explanation": "The maximum speed for medium passenger cars on secondary roads where schools are located is 30 km/h, to protect students' safety.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "الحد الاقصى لسرعة سيارات الركوب المتوسطة على الطرق الفرعية والتي يقع عليها مدارس هو",
+    "optionsAR": [
+      "30 كم/ساعة",
+      "40 كم/ساعة",
+      "50 كم/ساعة",
+      "60 كم/ساعة"
+    ],
+    "correctAnswerAR": "30 كم/ساعة",
+    "explanationAR": "الحد الأقصى لسرعة سيارات الركوب المتوسطة على الطرق الفرعية التي تقع عليها مدارس هو 30 كم/ساعة، حفاظاً على سلامة الطلاب.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 25,
+    "question": "Before entering a turn, the traffic light turned red. What should you do?",
+    "options": [
+      "Reduce speed and check vehicles on your left before crossing.",
+      "Increase speed to cross the intersection quickly.",
+      "Stop."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Stop.",
+    "explanation": "When the traffic light turns red before entering the turn, you must come to a complete stop before the stop line and not enter the intersection.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "قبل دخولك الى منعطف أصبحت إشارة المرور حمراء. ماذا يجب أن تفعل؟",
+    "optionsAR": [
+      "تخفض سرعتك وتتحقق من المركبات على يسارك قبل العبور.",
+      "تزيد سرعتك لكي تعبر التقاطع بسرعة.",
+      "تقف."
+    ],
+    "correctAnswerAR": "تقف.",
+    "explanationAR": "عند تحول الإشارة إلى اللون الأحمر قبل دخولك المنعطف يجب الوقوف التام قبل خط التوقف وعدم الدخول إلى التقاطع.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 26,
+    "question": "In the image, is the blue vehicle's action correct?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-026.jpg",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The blue vehicle's action is incorrect because it is turning improperly and cutting off the vehicle behind it, which may cause an accident.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك هل تصرف المركبة الزرقاء صحيح",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "تصرف المركبة الزرقاء خاطئ لأنها تنعطف بشكل غير صحيح وتقطع طريق المركبة التي خلفها، مما قد يسبب حادثاً.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 27,
+    "question": "In the image, is the vehicle parked correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-027.png",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The parking is incorrect because the vehicle is travelling against the direction of traffic indicated by the arrows on the road, which violates traffic rules.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك وقوف المركبة صحیح:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "وقوف المركبة خاطئ لأنها تسير عكس اتجاه السير المحدد بالأسهم على الطريق، وهذا مخالف لقواعد المرور.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 28,
+    "question": "In the image, is the parking correct?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-028.png",
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "The parking is correct because the vehicle is on the right side of the road at a suitable distance (3.5 m) from the dividing line and does not obstruct traffic.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك الوقوف صحیح:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "وقوف المركبة صحيح لأنها على الجانب الأيمن من الطريق وعلى مسافة مناسبة (3.5م) من الخط الفاصل، ولا تعيق حركة المرور.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 29,
+    "question": "Using the hazard lights (flashers) means:",
+    "options": [
+      "Turning right.",
+      "Turning left.",
+      "Slow down, there is danger ahead.",
+      "Come to a complete stop."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-029.png",
+    "video": null,
+    "correctAnswer": "Slow down, there is danger ahead.",
+    "explanation": "Using the hazard lights (flashers) means slow down because there is danger ahead, alerting other drivers to an emergency situation.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "استخدام الضوء الرباعي (الفلشر) یعني:",
+    "optionsAR": [
+      "التوجه الى الیمین.",
+      "التوجه الى الیسار.",
+      "تخفیف السرعة یوجد خطر أمامك.",
+      "الوقوف التام"
+    ],
+    "correctAnswerAR": "تخفیف السرعة یوجد خطر أمامك.",
+    "explanationAR": "استخدام الضوء الرباعي (الفلشر) يعني تخفيف السرعة لوجود خطر أمامك، وهو لتنبيه السائقين الآخرين إلى وضع طارئ.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 30,
+    "question": "In the image, priority is for:",
+    "options": [
+      "Vehicle no. (1)",
+      "Vehicle no. (2)"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-030.png",
+    "video": null,
+    "correctAnswer": "Vehicle no. (2)",
+    "explanation": "Priority is for vehicle no. (2) because it is inside the roundabout, while vehicle (1) is waiting to enter; the rule is that vehicles inside have priority.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك تكون الاولویة:",
+    "optionsAR": [
+      "للمركبة رقم ( 1 )",
+      "للمركبة رقم ( 2 )"
+    ],
+    "correctAnswerAR": "للمركبة رقم ( 2 )",
+    "explanationAR": "الأولوية للمركبة رقم (2) لأنها داخل الدوار، والمركبة (1) تنتظر الدخول، فالقاعدة أن من بالداخل له الأولوية.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 31,
+    "question": "In the image, is the parking of vehicle no. (1) correct?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-031.png",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The parking of vehicle no. (1) is incorrect because it does not follow the angled parking pattern adopted by the other vehicles, which obstructs traffic flow and the other parking spaces.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك وقوف المركبة رقم ( ١ ) صحیح:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "وقوف المركبة رقم (1) خاطئ لأنها لم تلتزم بنمط الوقوف المائل المعتمد لباقي المركبات، مما يعيق حركة المرور والمواقف الأخرى.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 32,
+    "question": "In the image, is the blue vehicle overtaking correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-032.png",
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "The blue vehicle is overtaking correctly because it is overtaking from the appropriate side while using turn signals and ensuring the lane is safe and clear of hazards.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك المركبة الزرقاء تتجاوز بشكل صحیح:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "تجاوز المركبة الزرقاء صحيح لأنها تجاوزت من الجهة المناسبة مع استعمال إشارات الانعطاف والتأكد من سلامة المسرب وعدم وجود خطر.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 33,
+    "question": "In the image, the yellow vehicle must:",
+    "options": [
+      "Stop to allow the truck to turn.",
+      "Turn to the right."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-033.png",
+    "video": null,
+    "correctAnswer": "Stop to allow the truck to turn.",
+    "explanation": "The yellow vehicle must stop to allow the truck to complete its turn, because large trucks need wider space to turn.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك یجب على المركبة الصفراء:",
+    "optionsAR": [
+      "التوقف للإفساح للشاحنة بالالتفاف.",
+      "الالتفاف إلى الیمین."
+    ],
+    "correctAnswerAR": "التوقف للإفساح للشاحنة بالالتفاف.",
+    "explanationAR": "يجب على المركبة الصفراء التوقف للإفساح للشاحنة بإكمال التفافها، لأن الشاحنات الكبيرة تحتاج مساحة أوسع للدوران.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 34,
+    "question": "Blind spots are areas that cannot be seen in the mirrors and are verified by a head check — looking over the shoulders to the right and left to make sure no other vehicles are in the blind area.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; blind spots are the areas that do not appear in the mirrors, and the driver verifies them by looking over the shoulders to the right and left before changing lanes.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "النقاط العمیاء ھي الاماكن التي لایمكن رؤیتھا بالمراّة ویتم التأكد منھا من خلال التحقق بالرأس وھو النظر فوق الكتفین نحو الیمین والیسار للتأكد من عدم وجود مركبات اخرى في المنطقه العمیاء.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ النقاط العمياء هي المناطق التي لا تظهر في المرايا، ويتأكد منها السائق بالنظر فوق الكتفين يميناً ويساراً قبل تغيير المسرب.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 35,
+    "question": "The driver is allowed to overtake on the right in all cases.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; overtaking on the right is prohibited as a general rule and is only allowed in specific cases defined by law. The standard practice is to overtake on the left.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "یسمح للسائق بالتجاوز عن الیمین في جمیع الحالات.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ التجاوز من اليمين ممنوع كقاعدة عامة ولا يُسمح به إلا في حالات محددة بالقانون، فالأصل هو التجاوز من اليسار.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 36,
+    "question": "Turn-signal lights mean:",
+    "options": [
+      "The right signal when the driver wishes to turn right or to stop on the right side of the road.",
+      "The left signal when the driver wishes to turn left.",
+      "Both right and left signals together, or the brake lights, when the driver wishes to slow down or when there is an obstacle ahead.",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "Turn signals are used in all the mentioned cases: right signal for turning right or stopping, left signal for turning left, and the brake lights and both signals together to warn of slowing down or an obstacle.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "اشارات التنبیه الضوئیة (الغماز) تعني",
+    "optionsAR": [
+      "الاشارة الیمنى عند رغبته في التحول الى الیمین او الوقوف على یمین الطریق",
+      "الاشارة الیسرى عند رغبته في التحول الى الیسار",
+      "الاشارة الیمنى والیسرى معا او اشارات المكابح عند رغبته في تخفیف سرعة مركبته او عند وجود عائق امامه",
+      "جمیع ما ذكر"
+    ],
+    "correctAnswerAR": "جمیع ما ذكر",
+    "explanationAR": "إشارات التنبيه الضوئية (الغماز) تستخدم في جميع الحالات المذكورة: الإشارة اليمنى للانعطاف يميناً أو الوقوف، واليسرى للانعطاف يساراً، وإشارة المكابح والإشارتين معاً للتنبيه عند تخفيف السرعة أو وجود عائق.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 37,
+    "question": "The left turn signal is used when the driver wishes to turn left.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the driver must use the left turn signal when wishing to turn left, to alert the drivers behind to the maneuver.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "تستخدم إشارة الغماز الیسرى عند رغبة السائق في التحول إلى الیسار",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ يجب على السائق استخدام إشارة الغماز اليسرى عند رغبته بالانعطاف إلى اليسار لتنبيه السائقين خلفه إلى تحركه.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 38,
+    "question": "Cases in which overtaking is prohibited include:",
+    "options": [
+      "When there is a vehicle moving at a speed that makes it difficult to complete the overtaking maneuver.",
+      "When surrounding traffic does not allow the overtaking maneuver to be completed safely.",
+      "When buses or medium passenger vehicles are stopped to drop off or pick up passengers, from the side where boarding or alighting takes place.",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "All of the above are cases where overtaking is prohibited: when the front vehicle is slow making overtaking difficult, when traffic is congested, or when buses are stopped loading/unloading passengers.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "من الحالات التي یمنع التجاوز فیھا:",
+    "optionsAR": [
+      "وجود مركبة تسیر بسرعة یتعذر معھا اتمام عملیة التجاوز",
+      "اذا كانت حركة السیر من حوله لا تسمح باتمام عملیة التجاوز بامان",
+      "عن الحافلات او سیارات الركوب المتوسطة اثناء وقوفھا لنزول او صعود الركاب من الجانب الذي یتم منه النزول او الصعود",
+      "جمیع ما ذكر"
+    ],
+    "correctAnswerAR": "جمیع ما ذكر",
+    "explanationAR": "جميع ما ذكر يمنع فيه التجاوز: عند بطء المركبة الأمامية مما يصعّب إتمام التجاوز، أو عند ازدحام الطريق، أو عند وقوف الحافلات لإنزال أو تحميل الركاب.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 39,
+    "question": "Cases in which overtaking is prohibited include:",
+    "options": [
+      "On curves, hilltops, slippery roads, roundabouts, and near pedestrian crossings.",
+      "Near road intersections or railroad crossings.",
+      "When visibility on the road is reduced due to natural or emergency conditions.",
+      "All of the above"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above",
+    "explanation": "All of the above are cases where overtaking is prohibited: on curves, hilltops, slippery roads, roundabouts, and pedestrian crossings, near intersections and railroad crossings, and when visibility is reduced due to natural or emergency causes.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "من الحالات التي یمنع التجاوز فیھا:",
+    "optionsAR": [
+      "عند المنعطفات ورؤوس التلال والطرق الزلقة والساحات الدائریة وبالقرب من ممرات عبور المشاة",
+      "بالقرب من تقاطع الطرق او تقاطع خطوط السكك الحدیدیة",
+      "عند تدني مدى الرؤیة في الطریق نتیجة لعوامل طبیعیة او طارئة",
+      "جمیع ما ذكر"
+    ],
+    "correctAnswerAR": "جمیع ما ذكر",
+    "explanationAR": "جميع ما ذكر يمنع فيه التجاوز: عند المنعطفات ورؤوس التلال والطرق الزلقة والساحات الدائرية وممرات المشاة، وقرب التقاطعات والسكك الحديدية، وعند تدني الرؤية لأسباب طبيعية أو طارئة.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 40,
+    "question": "When stopping on slopes or inclines without a curb, you must turn the steering wheel toward the road and apply the parking brake.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; the correct rule is to turn the steering wheel away from the road (toward the shoulder or ditch) and apply the parking brake, so the vehicle will not roll toward the road if the brakes fail.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "عند التوقف على المرتفعات او المنحدرات التي لایوجد لھا رصیف یجب إدارة المقود بإتجاه الطریق ورفع مكابح الوقوف.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ القاعدة الصحيحة هي إدارة المقود بعكس اتجاه الطريق (نحو الكتف أو الخندق) ورفع مكابح الوقوف، حتى لا تنحدر المركبة نحو الطريق إذا تعطلت المكابح.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 41,
+    "question": "The stopping distance is greater when the road is dry.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; the stopping distance is greater on wet or slippery roads due to reduced tire grip, while it is shorter on dry roads.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "تكون مسافة الوقوف اكبر في حالة كانت الطریق جافة.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ مسافة الوقوف تكون أكبر على الطرق المبتلة أو الزلقة بسبب ضعف التماسك مع الإطارات، أما الطريق الجاف فتقل فيه مسافة الوقوف.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 42,
+    "question": "The good thing about the \"two-second rule\" is that it helps maintain a sufficient safety distance:",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; the two-second rule helps the driver keep a sufficient safety distance from the vehicle in front, enough to stop safely in emergencies.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "الشيء الجید في \" قاعدة الثانیتین\" ھي انھا تساعد على الاحتفاظ بمسافة أمان كافیة :",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ قاعدة الثانيتين تساعد السائق على ترك مسافة أمان كافية بينه وبين المركبة التي أمامه، تكفي للتوقف بأمان عند الطوارئ.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 43,
+    "question": "The safety distance between vehicles can be increased to three seconds instead of two in unfavorable driving conditions:",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; in unfavorable driving conditions such as rain and fog, the safety distance should be increased to three seconds or more because of the longer stopping distance and reduced visibility.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "یمكن زیادة مسافة الأمان بین المركبات إلى ثلاث ثوان بدلاً من ثانیتین في ظروف القیادة غیر الملائمة:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ في ظروف القيادة غير الملائمة كالأمطار والضباب يجب زيادة مسافة الأمان إلى ثلاث ثوانٍ أو أكثر بسبب زيادة مسافة الوقوف وضعف الرؤية.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 44,
+    "question": "In the image, the driver wants to go:",
+    "options": [
+      "To the right",
+      "To the left",
+      "Slow down"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-044.jpg",
+    "video": null,
+    "correctAnswer": "To the left",
+    "explanation": "The driver is using a hand signal by extending the arm horizontally outside the vehicle, which is the approved hand signal indicating a left turn.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يريد السائق التوجه:",
+    "optionsAR": [
+      "الى اليمين",
+      "الى اليسار",
+      "تخفيف السرعة"
+    ],
+    "correctAnswerAR": "الى اليسار",
+    "explanationAR": "السائق يستخدم الإشارة اليدوية بمد ذراعه أفقياً خارج المركبة، وهي الإشارة المعتمدة للدلالة على الانعطاف إلى اليسار.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 45,
+    "question": "In the image, the driver wants to go:",
+    "options": [
+      "To the right",
+      "To the left",
+      "Slow down"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-045.jpg",
+    "video": null,
+    "correctAnswer": "To the right",
+    "explanation": "The driver is using a hand signal by raising the arm upward with the elbow bent, which is the approved hand signal indicating a right turn.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك يريد السائق التوجه الى :",
+    "optionsAR": [
+      "التوجه الى اليمين",
+      "التوجه الى اليسار",
+      "تخفيف السرعة"
+    ],
+    "correctAnswerAR": "التوجه الى اليمين",
+    "explanationAR": "السائق يستخدم الإشارة اليدوية برفع ذراعه إلى الأعلى مع ثني الكوع، وهي الإشارة المعتمدة للدلالة على الانعطاف إلى اليمين.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 46,
+    "question": "In the image, the driver wants you to:",
+    "options": [
+      "Increase your speed",
+      "Overtake him",
+      "Reduce your speed"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-046.jpg",
+    "video": null,
+    "correctAnswer": "Reduce your speed",
+    "explanation": "The driver is using a hand signal by moving the arm downward, which is the approved hand signal indicating to slow down or stop.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي أمامك يريد السائق :",
+    "optionsAR": [
+      "أن تزيد من سرعتك",
+      "أن تقوم بالتجاوز عنه",
+      "أن تخفف من سرعتك"
+    ],
+    "correctAnswerAR": "أن تخفف من سرعتك",
+    "explanationAR": "السائق يستخدم الإشارة اليدوية بتحريك ذراعه إلى الأسفل، وهي الإشارة المعتمدة للدلالة على تخفيف السرعة أو الوقوف.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 47,
+    "question": "When a vehicle is coming from a main road at an intersection and another from a secondary road, priority is for:",
+    "options": [
+      "The vehicle from the secondary road.",
+      "The vehicle from the main road",
+      "None of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "The vehicle from the main road",
+    "explanation": "Priority is for the vehicle coming from the main road, while the one coming from the secondary road must give priority and wait before entering the intersection.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "عند وجود مركبة قادمة من طريق رئيسي على تقاطع واخرى قادمة من طريق فرعي تكون الاولوية :",
+    "optionsAR": [
+      "للقادم من الطريق الفرعي.",
+      "للقادم من الطريق الرئيسي",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "للقادم من الطريق الرئيسي",
+    "explanationAR": "الأولوية للقادم من الطريق الرئيسي، أما القادم من الطريق الفرعي فعليه إعطاء الأولوية والانتظار قبل الدخول إلى التقاطع.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 48,
+    "question": "The driver must insist on taking the right of way if it is theirs, even when other vehicles are blocking them inside the intersection.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; the driver must wait until the intersection is clear and not insist on going through even if they have the right of way, to avoid accidents and ease traffic flow.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "على السائق الإصرار على اخذ اولوية الطريق إذا كانت أولوية المرور له ويوجد مركبات اخرى تعيقه داخل التقاطع.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ يجب على السائق التريث حتى يخلو التقاطع وعدم الإصرار على المرور حتى لو كانت له الأولوية، تجنباً للحوادث وتسهيلاً لحركة المرور.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 49,
+    "question": "Intersections include the crossings of roads with railroad tracks:",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; a road's crossing with a railroad track is considered an intersection, and it must be approached carefully while giving priority to the train.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "التقاطعات تشمل تقاطع الطرق مع خطوط السكك الحديدية:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ تقاطع الطرق مع خطوط السكك الحديدية يُعتبر من التقاطعات، ويجب التعامل معه بحذر وإعطاء الأولوية للقطار.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 50,
+    "question": "An intersection is a place where more than one road meets, faces, or branches off at the same level.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Yes",
+    "explanation": "Yes; an intersection is the place where more than one road meets, faces, or branches off at the same level, and drivers must pay attention and yield priority within it.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "التقاطع هومكان تلاقي اكثر من طريق او تقابلها او تفرعها على مستوى واحد.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "نعم",
+    "explanationAR": "نعم؛ التقاطع هو المكان الذي تلتقي أو تتقابل أو تتفرع فيه أكثر من طريق على مستوى واحد، ويجب الانتباه وإعطاء الأولوية فيه.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 51,
+    "question": "Pedestrians must not cross except from the designated crossing if it is at a distance of less than 100 meters from where they stand.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; the legally specified distance differs from the one mentioned in the statement. Pedestrians are required to use the designated crossing if it is within the distance set by law, not necessarily 100 meters.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "يجب على المشاة عدم العبور الا من المكان المخصص لعبورهم اذا كان على مسافة تقل عن مائة متر من مكان وقوفهم.",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ الحد المنصوص عليه نظاماً يختلف عن المسافة المذكورة، فالمشاة ملزمون بالعبور من المكان المخصص ضمن المسافة التي يحددها القانون.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 52,
+    "question": "In the image, is vehicle no. (2) overtaking correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-052.jpg",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The overtaking by vehicle no. (2) is incorrect because it is being done under unsafe conditions (presence of an oncoming vehicle or a vehicle in front), which may cause an accident.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك المركبة رقم (2) تتجاوز بشكل صحيح:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "تجاوز المركبة رقم (2) خاطئ لأنه يتم في ظروف غير آمنة (وجود مركبة قادمة من الجهة المقابلة أو مركبة أمامها)، مما قد يسبب حادثاً.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 53,
+    "question": "When you see this traffic signal you must:",
+    "options": [
+      "Proceed forward.",
+      "Come to a complete stop.",
+      "Get ready to move.",
+      "Get ready to stop."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-053.png",
+    "video": null,
+    "correctAnswer": "Proceed forward.",
+    "explanation": "When you see the green traffic light, you must proceed forward while watching out for pedestrians and other vehicles in the intersection.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "عند رؤية هذه الإشارة يجب عليك:",
+    "optionsAR": [
+      "السير الى الامام.",
+      "التوقف وقوفا تاما.",
+      "الاستعداد للمسير.",
+      "الاستعداد للتوقف."
+    ],
+    "correctAnswerAR": "السير الى الامام.",
+    "explanationAR": "عند رؤية الإشارة الضوئية الخضراء يجب السير إلى الأمام مع الانتباه للمشاة والمركبات الأخرى داخل التقاطع.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 54,
+    "question": "What the driver of vehicle no. 1 is doing is:",
+    "options": [
+      "Correct because there are no vehicles on this side of the road.",
+      "Correct because there is no sign prohibiting it.",
+      "Prohibited because it is approaching the median.",
+      "Prohibited because it is driving against the direction of traffic."
+    ],
+    "image": "assets/images/road-priorities/road-priorities-054.png",
+    "video": null,
+    "correctAnswer": "Prohibited because it is driving against the direction of traffic.",
+    "explanation": "What the driver of vehicle no. (1) is doing is prohibited because they are travelling against the allowed direction of traffic, which poses a serious danger to themselves and other vehicles.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "ما يقوم به سائق المركبة رقم 1:",
+    "optionsAR": [
+      "صحيح لعدم وجود مركبات من هذا الجانب من الطريق.",
+      "صحيح لعدم وجود وجود شاخصة تمنع ذلك.",
+      "ممنوع لإقترابها من الجزيرة الوسطية.",
+      "ممنوع لسيره بعكس إتجاه السير."
+    ],
+    "correctAnswerAR": "ممنوع لسيره بعكس إتجاه السير.",
+    "explanationAR": "ما يقوم به سائق المركبة رقم (1) ممنوع لأنه يسير عكس اتجاه السير المسموح به، مما يشكل خطراً كبيراً عليه وعلى المركبات الأخرى.",
+    "sourceCategory": "قواعد واولويات المرور"
+  },
+  {
+    "number": 55,
+    "question": "In the image, is the yellow vehicle overtaking correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-priorities/road-priorities-055.png",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The overtaking by the yellow vehicle is incorrect because it is being done at an intersection, and overtaking at intersections is prohibited because it puts drivers and pedestrians at serious risk.",
+    "chapterTitle": "Traffic Rules and Priorities",
+    "chapterTitleAR": "قواعد واولويات المرور",
+    "questionAR": "في الصورة التي امامك المركبة الصفراء تتجاوز بشكل صحيح",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "تجاوز المركبة الصفراء خاطئ لأنه يتم عند التقاطع، والتجاوز عند التقاطعات ممنوع لأنه يُعرّض السائقين والمشاة لخطر شديد.",
+    "sourceCategory": "قواعد واولويات المرور"
+  }
+]

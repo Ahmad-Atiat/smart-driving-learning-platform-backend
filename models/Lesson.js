@@ -21,6 +21,10 @@ const subLessonSchema = new mongoose.Schema(
         image: {
             type: String,
             default: ""
+        },
+        video: {
+            type: String,
+            default: null
         }
     },
     { _id: false }

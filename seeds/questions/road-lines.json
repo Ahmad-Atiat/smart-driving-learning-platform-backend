@@ -1,0 +1,618 @@
+[
+  {
+    "number": 1,
+    "question": "The curb marking means:",
+    "options": [
+      "No parking for all vehicles.",
+      "For visibility confirmation only.",
+      "Parking only for public-transport and transport vehicles.",
+      "None of the above."
+    ],
+    "image": "assets/images/road-lines/road-lines-001.jpg",
+    "video": null,
+    "correctAnswer": "Parking only for public-transport and transport vehicles.",
+    "explanation": "A curb painted in alternating yellow and white indicates that parking is allowed only for public-transport and transport vehicles (buses and taxis).",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "علامة الرصيف تعني:",
+    "optionsAR": [
+      "ممنوع الوقوف لجميع المركبات.",
+      "لتأكيد الرؤية فقط .",
+      "الوقوف فقط لمركبات العمومية والنقل .",
+      "لا شيء مما ذكر ."
+    ],
+    "correctAnswerAR": "الوقوف فقط لمركبات العمومية والنقل .",
+    "explanationAR": "علامة الرصيف المدهونة باللونين الأصفر والأبيض المتعاقبين تدل على أن الوقوف مسموح فقط لمركبات النقل العام والعمومي (الباصات وسيارات الأجرة).",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 2,
+    "question": "This road marking means:",
+    "options": [
+      "Overtaking is allowed.",
+      "Overtaking is allowed from the right.",
+      "Overtaking is allowed from the left.",
+      "Overtaking is prohibited from both sides."
+    ],
+    "image": "assets/images/road-lines/road-lines-002.jpg",
+    "video": null,
+    "correctAnswer": "Overtaking is prohibited from both sides.",
+    "explanation": "Two parallel solid (double) lines in the middle of the road mean overtaking is prohibited from both sides; drivers may not cross these lines.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "هذه العلامة الارضيه تعني:",
+    "optionsAR": [
+      "السماح بالتجاوز.",
+      "السماح بالتجاوز من اليمين .",
+      "السماح بالتجاوز من اليسار.",
+      "يمنع التجاوز من الجهتين ."
+    ],
+    "correctAnswerAR": "يمنع التجاوز من الجهتين .",
+    "explanationAR": "الخطان الطوليان المتصلان (المزدوجان) في منتصف الطريق يعنيان منع التجاوز من الجهتين، فلا يجوز لأي من السائقين تجاوز هذه الخطوط.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 3,
+    "question": "This road marking means:",
+    "options": [
+      "Overtaking is allowed from both sides.",
+      "Overtaking is allowed from the side of the broken line.",
+      "Overtaking is allowed from the side of the solid line.",
+      "None of the above."
+    ],
+    "image": "assets/images/road-lines/road-lines-003.jpg",
+    "video": null,
+    "correctAnswer": "Overtaking is allowed from the side of the broken line.",
+    "explanation": "When there is a solid line alongside a broken line, overtaking is allowed only for the driver whose side has the broken line, and prohibited for the driver whose side has the solid line.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "هذه العلامة الارضيه تعني:",
+    "optionsAR": [
+      "السماح بالتجاوز من الجهتين.",
+      "السماح بالتجاوز من جهة الخط المتقطع.",
+      "السماح بالتجاوز من جهة الخط المتصل.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "السماح بالتجاوز من جهة الخط المتقطع.",
+    "explanationAR": "عند وجود خط متصل وآخر متقطع بجانبه، يُسمح بالتجاوز فقط للسائق الذي يكون الخط المتقطع في جهته، ويُمنع على من يكون الخط المتصل في جهته.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 4,
+    "question": "This road marking means:",
+    "options": [
+      "Overtaking is allowed.",
+      "Overtaking is prohibited.",
+      "Stop line.",
+      "None of the above."
+    ],
+    "image": "assets/images/road-lines/road-lines-004.jpg",
+    "video": null,
+    "correctAnswer": "Overtaking is allowed.",
+    "explanation": "A broken longitudinal line in the middle of the road indicates that overtaking is allowed when safe conditions are met.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "هذه العلامة الارضيه تعني:",
+    "optionsAR": [
+      "السماح بالتجاوز.",
+      "ممنوع التجاوز.",
+      "خط الوقوف.",
+      "لا شئ مما ذكر."
+    ],
+    "correctAnswerAR": "السماح بالتجاوز.",
+    "explanationAR": "الخط الطولي المتقطع في منتصف الطريق يدل على السماح بالتجاوز عند توفر الشروط الآمنة لذلك.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 5,
+    "question": "This road marking means:",
+    "options": [
+      "Road edge line.",
+      "Lane-divider line.",
+      "Road directions.",
+      "None of the above."
+    ],
+    "image": "assets/images/road-lines/road-lines-005.jpg",
+    "video": null,
+    "correctAnswer": "Road edge line.",
+    "explanation": "A continuous yellow line along the side of the road indicates the road edge line, which marks the boundary between the road and its shoulder.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "هذه العلامة الارضيه تعني:",
+    "optionsAR": [
+      "خط حافة الطريق.",
+      "خط مسارب الطريق.",
+      "اتجاهات الطريق.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "خط حافة الطريق.",
+    "explanationAR": "الخط الأصفر الجانبي المتصل عند طرف الطريق يدل على خط حافة الطريق، ويحدد الحد الفاصل بين الطريق وكتفه.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 6,
+    "question": "This road marking means:",
+    "options": [
+      "Stop line.",
+      "End of the road.",
+      "Yield line.",
+      "Pedestrian crossing."
+    ],
+    "image": "assets/images/road-lines/road-lines-006.jpg",
+    "video": null,
+    "correctAnswer": "Stop line.",
+    "explanation": "A continuous white transverse line before an intersection indicates the stop line, where the driver must come to a complete stop.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "هذه العلامة الارضيه تعني:",
+    "optionsAR": [
+      "خط قف.",
+      "نهاية الطريق.",
+      "خط الأولوية.",
+      "ممر مشاة."
+    ],
+    "correctAnswerAR": "خط قف.",
+    "explanationAR": "الخط الأبيض العرضي المتصل قبل التقاطع يدل على خط الوقوف، الذي يجب على السائق الوقوف عنده تماماً.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 7,
+    "question": "This road marking means:",
+    "options": [
+      "Stop line.",
+      "End of the road.",
+      "Yield line.",
+      "Pedestrians"
+    ],
+    "image": "assets/images/road-lines/road-lines-007.jpg",
+    "video": null,
+    "correctAnswer": "Yield line.",
+    "explanation": "White transverse triangles painted on the road indicate the yield line (Give Way); slow down and give priority to other vehicles.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "هذه العلامة الارضيه تعني:",
+    "optionsAR": [
+      "خط قف.",
+      "نهاية الطريق.",
+      "خط الأولوية.",
+      "مشاة"
+    ],
+    "correctAnswerAR": "خط الأولوية.",
+    "explanationAR": "المثلثات البيضاء العرضية المرسومة على الطريق تدل على خط الأولوية (اعط الأولوية)، فيجب التمهل وإعطاء الأولوية للمركبات الأخرى.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 8,
+    "question": "This road marking means:",
+    "options": [
+      "Stop line.",
+      "End of the road.",
+      "Yield line.",
+      "Pedestrian crossing."
+    ],
+    "image": "assets/images/road-lines/road-lines-008.jpg",
+    "video": null,
+    "correctAnswer": "Pedestrian crossing.",
+    "explanation": "The parallel white transverse lines (zebra pattern) indicate a pedestrian crossing; you must stop at it to allow pedestrians to cross.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "هذه العلامة الارضيه تعني:",
+    "optionsAR": [
+      "خط قف.",
+      "نهاية الطريق.",
+      "خط الأولوية.",
+      "ممر مشاة."
+    ],
+    "correctAnswerAR": "ممر مشاة.",
+    "explanationAR": "الخطوط البيضاء العرضية المتوازية على شكل (زيبرا) تدل على ممر المشاة، ويجب التوقف عندها للسماح للمشاة بالعبور.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 9,
+    "question": "This road marking means:",
+    "options": [
+      "Before pedestrian crossings, and stopping on it is prohibited.",
+      "Before pedestrian crossings, and stopping on it is allowed.",
+      "At parking areas.",
+      "None of the above."
+    ],
+    "image": "assets/images/road-lines/road-lines-009.jpg",
+    "video": null,
+    "correctAnswer": "Before pedestrian crossings, and stopping on it is prohibited.",
+    "explanation": "The diagonal lines drawn before pedestrian crossings indicate a buffer area before the crossing; stopping on it is prohibited to keep visibility clear for pedestrians and vehicles.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "هذه العلامة الارضيه تعني:",
+    "optionsAR": [
+      "قبل ممرات المشاة ويمنع الوقوف عليه.",
+      "قبل ممرات المشاة ويسمح الوقوف عليه.",
+      "عند مواقف السيارات.",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "قبل ممرات المشاة ويمنع الوقوف عليه.",
+    "explanationAR": "الخطوط المائلة المرسومة قبل ممرات المشاة تشير إلى منطقة عازلة قبل الممر، يُمنع الوقوف عليها للحفاظ على وضوح الرؤية للمشاة والمركبات.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 10,
+    "question": "This road marking means:",
+    "options": [
+      "No parking.",
+      "Parking spaces parallel to the road.",
+      "Angled parking spaces on the road.",
+      "None of the above."
+    ],
+    "image": "assets/images/road-lines/road-lines-010.jpg",
+    "video": null,
+    "correctAnswer": "Parking spaces parallel to the road.",
+    "explanation": "The short perpendicular lines along the road edge mark parking spaces arranged parallel to the road (parallel parking).",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "هذه العلامة الارضيه تعني:",
+    "optionsAR": [
+      "ممنوع الوقوف.",
+      "مواقف مركبات موازية للطريق.",
+      "مواقف مركبات بشكل زاوية على الطريق.",
+      "لا شئ مما ذكر."
+    ],
+    "correctAnswerAR": "مواقف مركبات موازية للطريق.",
+    "explanationAR": "الخطوط القصيرة العمودية على حافة الطريق تحدد مواقف المركبات بشكل موازٍ للطريق (مواقف طولية).",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 11,
+    "question": "This road marking means:",
+    "options": [
+      "Angled parking spaces on the road.",
+      "Parking spaces parallel to the road.",
+      "No parking"
+    ],
+    "image": "assets/images/road-lines/road-lines-011.jpg",
+    "video": null,
+    "correctAnswer": "Angled parking spaces on the road.",
+    "explanation": "The diagonal lines along the road edge mark parking spaces arranged at an angle (angled parking) on the road.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "هذه العلامة الارضيه تعني:",
+    "optionsAR": [
+      "مواقف للمركبات بشكل زاوية على الطريق.",
+      "مواقف للمركبات موازية للطريق.",
+      "ممنوع الوقوف"
+    ],
+    "correctAnswerAR": "مواقف للمركبات بشكل زاوية على الطريق.",
+    "explanationAR": "الخطوط المائلة على حافة الطريق تحدد مواقف المركبات بشكل زاوية (مائلة) على الطريق.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 12,
+    "question": "The curb marking means:",
+    "options": [
+      "No parking for all vehicles.",
+      "Parking only for public-transport and transport vehicles.",
+      "For visibility confirmation only.",
+      "All of the above"
+    ],
+    "image": "assets/images/road-lines/road-lines-012.jpg",
+    "video": null,
+    "correctAnswer": "No parking for all vehicles.",
+    "explanation": "A curb painted in alternating red and white indicates that parking is prohibited for all vehicles in that area.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "علامة الرصيف تعني:",
+    "optionsAR": [
+      "ممنوع الوقوف لجميع المركبات.",
+      "الوقوف فقط للمركبات العمومية و النقل",
+      "لتأكيد الرؤيا فقط",
+      "جميع ما ذكر"
+    ],
+    "correctAnswerAR": "ممنوع الوقوف لجميع المركبات.",
+    "explanationAR": "علامة الرصيف المدهونة باللونين الأحمر والأبيض المتعاقبين تدل على منع الوقوف لجميع المركبات في هذا المكان.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 13,
+    "question": "The curb marking means:",
+    "options": [
+      "No parking for all vehicles.",
+      "Parking only for public-transport and transport vehicles.",
+      "For visibility confirmation only.",
+      "None of the above."
+    ],
+    "image": "assets/images/road-lines/road-lines-013.jpg",
+    "video": null,
+    "correctAnswer": "For visibility confirmation only.",
+    "explanation": "A curb painted in alternating black and white is used only for visibility confirmation and does not impose any parking restriction or permission.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "علامة الرصيف تعني:",
+    "optionsAR": [
+      "ممنوع الوقوف لجميع المركبات .",
+      "الوقوف فقط للمركبات العمومية و النقل .",
+      "لتأكيد الرؤيا فقط .",
+      "لا شيء مما ذكر."
+    ],
+    "correctAnswerAR": "لتأكيد الرؤيا فقط .",
+    "explanationAR": "علامة الرصيف المدهونة باللونين الأسود والأبيض المتعاقبين تستخدم لتأكيد الرؤية فقط، ولا تتضمن أي منع أو سماح للوقوف.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 14,
+    "question": "The functions of road markings are limited to regulatory functions only.",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "No; road markings are not limited to regulatory functions; they also include informational and warning functions to guide drivers on the road.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "تقتصر وظائف العلامات الأرضية على الوظائف التنظيمية فقط",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "لا؛ وظائف العلامات الأرضية ليست تنظيمية فقط، بل تشمل أيضاً وظائف إرشادية وتحذيرية لتوجيه السائقين على الطريق.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 15,
+    "question": "Functions of road markings include:",
+    "options": [
+      "Informational functions.",
+      "Warning functions.",
+      "Regulatory functions.",
+      "All of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "All of the above.",
+    "explanation": "Road markings serve all the above functions: informational, warning, and regulatory; they are an essential part of the traffic-safety system.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "من وظائف العلامات الارضية",
+    "optionsAR": [
+      "وظائف إرشادية.",
+      "وظائف تحذيرية.",
+      "وظائف تنظيمية.",
+      "جميع ما ذكر."
+    ],
+    "correctAnswerAR": "جميع ما ذكر.",
+    "explanationAR": "العلامات الأرضية تؤدي جميع الوظائف المذكورة: إرشادية وتحذيرية وتنظيمية، فهي جزء أساسي من نظام السلامة المروري.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 16,
+    "question": "Yellow reflective studs are used to indicate:",
+    "options": [
+      "Road edges.",
+      "Lanes.",
+      "Giving priority.",
+      "None of the above."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Road edges.",
+    "explanation": "Yellow reflective studs are used to mark and define the road edges, especially in low-visibility conditions or at night.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "تستخدم الأزرار الصفراء للدلالة على",
+    "optionsAR": [
+      "حواف الطريق .",
+      "المسارب.",
+      "إعطاء الأولويه .",
+      "لاشيء مما ذكر ."
+    ],
+    "correctAnswerAR": "حواف الطريق .",
+    "explanationAR": "الأزرار العاكسة الصفراء تستخدم للدلالة على حواف الطريق وتحديدها، خاصة في حالات تدني الرؤية أو الليل.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 17,
+    "question": "White reflective studs are used to indicate:",
+    "options": [
+      "Road edges.",
+      "Lanes.",
+      "Giving priority.",
+      "A + B."
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "Lanes.",
+    "explanation": "White reflective studs are used to mark lane dividers and to organize traffic between lanes.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "تستخدم الأزرار البيضاء للدلالة على",
+    "optionsAR": [
+      "حواف الطريق .",
+      "المسارب.",
+      "إعطاء الأولويه .",
+      "أ+ب ."
+    ],
+    "correctAnswerAR": "المسارب.",
+    "explanationAR": "الأزرار العاكسة البيضاء تستخدم للدلالة على فواصل المسارب وتنظيم حركة السير بينها.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 18,
+    "question": "In the image, is the action taken by the vehicle correct?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-lines/road-lines-018.jpg",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The vehicle's action is incorrect because it is making a U-turn over a continuous white line; a solid line cannot be crossed or used for a U-turn.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "في الصورة التي امامك التصرف الذي تقوم به المركبة صحيح:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "تصرف المركبة خاطئ لأنها قامت بالدوران (الالتفاف) فوق الخط الأبيض المتصل، والخط المتصل يمنع تجاوزه أو الدوران فوقه.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 19,
+    "question": "In the image, is vehicle no. (2) overtaking correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-lines/road-lines-019.jpg",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The overtaking by vehicle no. (2) is incorrect because it is being done on a curve, and overtaking on curves is prohibited due to poor visibility and the risk of collision with oncoming vehicles.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "في الصورة التي امامك المركبة رقم ( 2 ) يعتبر تجاوزها صحيحا:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "تجاوز المركبة رقم (2) خاطئ لأنه يتم عند منعطف، والتجاوز عند المنعطفات ممنوع بسبب ضعف الرؤية ومخاطر الاصطدام بالمركبات القادمة.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 20,
+    "question": "In the image, is the vehicle parked correctly?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-lines/road-lines-020.jpg",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The parking is incorrect because the vehicle is stopped on the continuous yellow edge line, which indicates an area where parking is prohibited.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "في الصورة التي امامك وقوف المركبة صحيح",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "وقوف المركبة خاطئ لأنها متوقفة على خط حافة الطريق الأصفر المتصل، والذي يدل على منطقة يُمنع الوقوف عليها.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 21,
+    "question": "In the image, is the action taken by the vehicle correct?",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "image": "assets/images/road-lines/road-lines-021.jpg",
+    "video": null,
+    "correctAnswer": "No",
+    "explanation": "The parking is incorrect because it is done on a double continuous line and on a hill, both of which prohibit parking due to the risk of poor visibility for oncoming vehicles.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "في الصورة التي امامك التصرف الذي تقوم به المركبة صحيح:",
+    "optionsAR": [
+      "نعم",
+      "لا"
+    ],
+    "correctAnswerAR": "لا",
+    "explanationAR": "وقوف المركبة خاطئ لأنه تم على خط مزدوج متصل وعلى مرتفع (تلة)، وكلا الحالتين يمنع الوقوف فيهما لخطورة ضعف الرؤية على المركبات القادمة.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 22,
+    "question": "The lines on the road are:",
+    "options": [
+      "Ground obstacle lines that vehicles are allowed to drive over.",
+      "Ground obstacle lines that prohibit vehicles from driving over them.",
+      "None of the above."
+    ],
+    "image": "assets/images/road-lines/road-lines-022.jpg",
+    "video": null,
+    "correctAnswer": "Ground obstacle lines that prohibit vehicles from driving over them.",
+    "explanation": "The diagonal hatched lines on the road are ground obstacle markings indicating a restricted area; vehicles are not allowed to drive over or stop on them.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "الخطوط الموجودة على الطريق هي:",
+    "optionsAR": [
+      "خطوط عوائق أرضية يسمح للمركبات بالمرور فوقها.",
+      "خطوط عوائق أرضية تمنع المركبات من المرور فوقها.",
+      "لاشئ مما ذكر."
+    ],
+    "correctAnswerAR": "خطوط عوائق أرضية تمنع المركبات من المرور فوقها.",
+    "explanationAR": "الخطوط المائلة المتعرجة المرسومة على الطريق هي خطوط عوائق أرضية تدل على وجود منطقة محظورة، ويُمنع على المركبات المرور أو الوقوف فوقها.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 23,
+    "question": "When you see these reflective studs:",
+    "options": [
+      "You are allowed to drive over them.",
+      "You are allowed to drive over them but with conditions.",
+      "You are not allowed to drive over them."
+    ],
+    "image": "assets/images/road-lines/road-lines-023.png",
+    "video": null,
+    "correctAnswer": "You are not allowed to drive over them.",
+    "explanation": "The closely-spaced yellow reflective studs in the middle of the road form a barrier indicating you are not allowed to drive over or cross them, as they separate opposing directions of traffic.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "عند رؤیتك لھذه الأزرار فإنه:",
+    "optionsAR": [
+      "یسمح لك بالمرور علیھا.",
+      "یسمح لك بالمرور علیھا لكن بشروط.",
+      "لا یسمح لك بالمرور علیھا."
+    ],
+    "correctAnswerAR": "لا یسمح لك بالمرور علیھا.",
+    "explanationAR": "الأزرار العاكسة الصفراء المتراصة في منتصف الطريق تشكل حاجزاً يدل على عدم السماح بالمرور أو التجاوز فوقها، فهي تفصل بين اتجاهين متعاكسين.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 24,
+    "question": "What the pedestrian is doing is:",
+    "options": [
+      "Correct because there is a pedestrian crossing.",
+      "Incorrect because there is no sign permitting it."
+    ],
+    "image": "assets/images/road-lines/road-lines-024.png",
+    "video": null,
+    "correctAnswer": "Correct because there is a pedestrian crossing.",
+    "explanation": "What the pedestrian is doing is correct because they are crossing the road at the designated location (pedestrian crossing), which is the proper behavior.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "مایقوم به المشاة:",
+    "optionsAR": [
+      "صحیح لوجود معبر المشاة.",
+      "خاطيء لعدم وجود شاخصة تسمح بذلك."
+    ],
+    "correctAnswerAR": "صحیح لوجود معبر المشاة.",
+    "explanationAR": "ما يقوم به المشاة صحيح لأنه يعبر الطريق من المكان المخصص له (ممر المشاة)، وهذا هو السلوك السليم.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  },
+  {
+    "number": 25,
+    "question": "The lane being taken by the driver is:",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "image": "assets/images/road-lines/road-lines-025.png",
+    "video": null,
+    "correctAnswer": "Incorrect",
+    "explanation": "The lane being taken by the driver is incorrect because they are driving in the lane designated for the opposite direction, which poses a danger to oncoming vehicles and traffic safety.",
+    "chapterTitle": "Road Lines and Ground Markings",
+    "chapterTitleAR": "الخطوط والعلامات الأرضية",
+    "questionAR": "المسرب الذي یتخذه سائق المركبة:",
+    "optionsAR": [
+      "صحيح",
+      "خاطئ"
+    ],
+    "correctAnswerAR": "خاطئ",
+    "explanationAR": "المسرب الذي يتخذه السائق خاطئ لأنه يسير في المسرب المخصص للاتجاه المعاكس، مما يشكل خطراً على المركبات القادمة وسلامة المرور.",
+    "sourceCategory": "الخطوط والعلامات الأرضية"
+  }
+]

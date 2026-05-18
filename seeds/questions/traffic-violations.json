@@ -1,0 +1,780 @@
+[
+  {
+    "number": 1,
+    "question": "What is the fine for exceeding the speed limit by 10 to 30 km/h?",
+    "options": [
+      "10 dinars",
+      "20 dinars",
+      "30 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "20 dinars",
+    "explanation": "The fine for exceeding the speed limit by 10 to 30 km/h is 20 dinars under Jordanian traffic law, in order to reduce accidents caused by excessive speed.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "كم قيمة مخالفة زيادة السرعة من 10 الى 30 كم/س",
+    "optionsAR": [
+      "10 دنانير",
+      "20 دينار",
+      "30 دينار"
+    ],
+    "correctAnswerAR": "20 دينار",
+    "explanationAR": "قيمة مخالفة زيادة السرعة من 10 إلى 30 كم/س هي 20 ديناراً وفق قانون السير الأردني، وذلك للحد من حوادث السير الناتجة عن السرعة الزائدة.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 2,
+    "question": "What is the fine for changing lanes suddenly?",
+    "options": [
+      "From 50 to 100 dinars",
+      "From 100 to 200 dinars",
+      "From 200 to 300 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 50 to 100 dinars",
+    "explanation": "The fine for changing lanes suddenly ranges from 50 to 100 dinars, because this maneuver surprises other drivers and does not give them enough time to react, which causes traffic accidents.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة تغيير المسرب بشكل مفاجئ؟",
+    "optionsAR": [
+      "من 50 الى 100 دينار",
+      "من 100 الى 200 دينار",
+      "من 200 الى 300 دينار"
+    ],
+    "correctAnswerAR": "من 50 الى 100 دينار",
+    "explanationAR": "قيمة مخالفة تغيير المسرب بشكل مفاجئ تتراوح من 50 إلى 100 دينار، لأن هذا التصرف يُربك السائقين الآخرين ولا يمنحهم وقتاً كافياً لردة الفعل، مما يُسبب الحوادث المرورية.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 3,
+    "question": "What is the fine for smoking in vehicles designated for transporting students and kindergarten children?",
+    "options": [
+      "10 dinars",
+      "30 dinars",
+      "50 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "30 dinars",
+    "explanation": "The fine for smoking in vehicles designated for transporting students and kindergarten children is 30 dinars, in order to protect children's health from secondhand smoke and its harmful effects.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة التدخين في المركبات المخصصة لنقل الطلاب و رياض الاطفال؟",
+    "optionsAR": [
+      "10 دنانير",
+      "30 دنانير",
+      "50 دنانير"
+    ],
+    "correctAnswerAR": "30 دنانير",
+    "explanationAR": "قيمة مخالفة التدخين في المركبات المخصصة لنقل الطلاب ورياض الأطفال 30 ديناراً، حمايةً لصحة الأطفال من التدخين السلبي وأضراره.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 4,
+    "question": "What is the fine for holding a race on the roads without prior authorization from the competent authorities?",
+    "options": [
+      "From 50 to 100 dinars",
+      "From 100 to 250 dinars",
+      "From 250 to 500 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 250 to 500 dinars",
+    "explanation": "The fine for racing on the roads without prior authorization from the competent authorities ranges from 250 to 500 dinars, due to its great danger to the driver and to all road users.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة اجراء سباق على الطرق دون ترخيص مسبق من الجهات المختصة",
+    "optionsAR": [
+      "من 50 الى 100 دينار",
+      "من 100 الى 250 دينار",
+      "من 250 الى 500 دينار"
+    ],
+    "correctAnswerAR": "من 250 الى 500 دينار",
+    "explanationAR": "قيمة مخالفة إجراء سباق على الطرق دون ترخيص مسبق من الجهات المختصة من 250 إلى 500 دينار، لخطورتها الكبيرة على السائق وعلى جميع مستخدمي الطريق.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 5,
+    "question": "What is the fine for adding any modifications to the vehicle contrary to the regulations?",
+    "options": [
+      "5 dinars",
+      "10 dinars",
+      "15 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "15 dinars",
+    "explanation": "The fine for adding any modifications to the vehicle contrary to the regulations is 15 dinars, because unapproved modifications may affect the vehicle's safety and its compliance with technical specifications.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة ادخال اي اضافات على المركبة خلافا للتعليمات",
+    "optionsAR": [
+      "5 دنانير",
+      "10 دنانير",
+      "15 دنانير"
+    ],
+    "correctAnswerAR": "15 دنانير",
+    "explanationAR": "قيمة مخالفة إدخال أي إضافات على المركبة خلافاً للتعليمات 15 ديناراً، لأن التعديلات غير المعتمدة قد تؤثر على سلامة المركبة ومطابقتها للمواصفات الفنية.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 6,
+    "question": "What is the fine for using emergency-vehicle lights (the flashers) on an unauthorized vehicle?",
+    "options": [
+      "From 50 to 100 dinars",
+      "From 100 to 150 dinars",
+      "From 500 to 1000 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 50 to 100 dinars",
+    "explanation": "The fine for using emergency-vehicle lights (flashers) on an unauthorized vehicle ranges from 50 to 100 dinars, because doing so confuses other road users and amounts to impersonating an emergency vehicle.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة استخدام انوار مركبات الطوارئ (اللواح) على مركبة غير مصرح لها",
+    "optionsAR": [
+      "من 50 الى 100 دينار",
+      "من 100 الى 150 دينار",
+      "من 500 الى 1000 دينار"
+    ],
+    "correctAnswerAR": "من 50 الى 100 دينار",
+    "explanationAR": "قيمة مخالفة استخدام أنوار مركبات الطوارئ (اللوّاحات) على مركبة غير مصرّح لها من 50 إلى 100 دينار، لأن ذلك يُربك مستخدمي الطريق ويُعدّ انتحالاً لصفة مركبات الطوارئ.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 7,
+    "question": "What is the fine for using private vehicles for hire (in return for payment)?",
+    "options": [
+      "From 50 to 100 dinars",
+      "From 100 to 200 dinars",
+      "From 200 to 300 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 100 to 200 dinars",
+    "explanation": "The fine for using private vehicles for hire ranges from 100 to 200 dinars, because transporting passengers for a fare requires a special license, and using private vehicles for this purpose violates public-transport regulations.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة استعمال المركبات الخصوصية مقابل الاجر",
+    "optionsAR": [
+      "من 50 الى 100 دينار",
+      "من 100 الى 200 دينار",
+      "من 200 الى 300 دينار"
+    ],
+    "correctAnswerAR": "من 100 الى 200 دينار",
+    "explanationAR": "قيمة مخالفة استعمال المركبات الخصوصية مقابل الأجر من 100 إلى 200 دينار، لأن نقل الركاب بأجر يتطلب ترخيصاً خاصاً، واستخدام المركبات الخصوصية لهذا الغرض يُخلّ بقواعد النقل العام.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 8,
+    "question": "What is the fine for using audio recording devices inside the vehicle in a disturbing or indecent manner?",
+    "options": [
+      "15 dinars",
+      "20 dinars",
+      "50 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "20 dinars",
+    "explanation": "The fine for using audio devices inside the vehicle in a disturbing or indecent manner is 20 dinars, in order to preserve others' comfort and public decency.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة استعمال اجهزة تسجيلات صوتية داخل المركبة بشكل مزعج او منافي للاخلاق",
+    "optionsAR": [
+      "15 دينار",
+      "20 دينار",
+      "50 دينار"
+    ],
+    "correctAnswerAR": "20 دينار",
+    "explanationAR": "قيمة مخالفة استعمال أجهزة التسجيلات الصوتية داخل المركبة بشكل مزعج أو منافٍ للأخلاق 20 ديناراً، حفاظاً على راحة الآخرين والذوق العام.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 9,
+    "question": "What is the fine for making a U-turn in places where it is prohibited by a sign?",
+    "options": [
+      "10 dinars",
+      "20 dinars",
+      "40 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "40 dinars",
+    "explanation": "The fine for making a U-turn in places prohibited by a sign is 40 dinars, in compliance with traffic signs and to regulate traffic flow.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة الدوران في المركبة في الاماكن الممنوع الدوران فيها بموجب شاخصة",
+    "optionsAR": [
+      "10 دنانير",
+      "20 دينار",
+      "40 دينار"
+    ],
+    "correctAnswerAR": "40 دينار",
+    "explanationAR": "قيمة مخالفة الدوران بالمركبة في الأماكن الممنوع الدوران فيها بموجب شاخصة 40 ديناراً، التزاماً بشواخص المرور وتنظيماً لحركة السير.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 10,
+    "question": "What is the fine for a driver refusing to present his driving license?",
+    "options": [
+      "15 dinars",
+      "20 dinars",
+      "40 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "15 dinars",
+    "explanation": "The fine for a driver refusing to present his driving license is 15 dinars, because presenting the license when requested by security officers is a legal duty in order to verify the driver's eligibility.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة امتناع السائق عن ابراز رخصة القيادة (السوق)",
+    "optionsAR": [
+      "15 دينار",
+      "20 دينار",
+      "40 دينار"
+    ],
+    "correctAnswerAR": "15 دينار",
+    "explanationAR": "قيمة مخالفة امتناع السائق عن إبراز رخصة القيادة (السوق) 15 ديناراً، لأن إبراز الرخصة عند طلبها من رجال الأمن واجب قانوني للتحقق من أهلية السائق.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 11,
+    "question": "What is the fine for an expired vehicle license?",
+    "options": [
+      "15 dinars",
+      "25 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "15 dinars",
+    "explanation": "The fine for an expired vehicle license is 15 dinars, because annual license renewal is a legal duty to ensure the vehicle's validity and technical safety.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة انتهاء رخصة المركبة",
+    "optionsAR": [
+      "15 دينار",
+      "25 دينار"
+    ],
+    "correctAnswerAR": "15 دينار",
+    "explanationAR": "قيمة مخالفة انتهاء رخصة المركبة 15 ديناراً، لأن تجديد الرخصة سنوياً واجب قانوني للتأكد من صلاحية المركبة وسلامتها الفنية.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 12,
+    "question": "What is the fine for a driver smoking in public passenger transport vehicles?",
+    "options": [
+      "10 dinars",
+      "15 dinars",
+      "20 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "10 dinars",
+    "explanation": "The fine for a driver smoking in public passenger transport vehicles is 10 dinars, in order to protect passengers' health and avoid exposing them to secondhand smoke.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة تدخين السائق في مركبات نقل الركاب العمومية",
+    "optionsAR": [
+      "10 دنانير",
+      "15 دينار",
+      "20 دينار"
+    ],
+    "correctAnswerAR": "10 دنانير",
+    "explanationAR": "قيمة مخالفة تدخين السائق في مركبات نقل الركاب العمومية 10 دنانير، حفاظاً على صحة الركاب وعدم تعريضهم للتدخين السلبي.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 13,
+    "question": "What is the fine for leaving children under 10 years old inside a running vehicle without an accompanying adult?",
+    "options": [
+      "10 dinars",
+      "15 dinars",
+      "20 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "15 dinars",
+    "explanation": "The fine for leaving children under 10 years old inside a running vehicle without an accompanying adult is 15 dinars, because doing so exposes the children to danger from possibly moving the vehicle or from exhaust fumes.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة ترك الاطفال دون سن 10 داخل المركبة و هي تعمل دون مرافق",
+    "optionsAR": [
+      "10 دنانير",
+      "15 دينار",
+      "20 دينار"
+    ],
+    "correctAnswerAR": "15 دينار",
+    "explanationAR": "قيمة مخالفة ترك الأطفال دون سن العاشرة داخل المركبة وهي تعمل دون مرافق 15 ديناراً، لأن ذلك يُعرّض الأطفال للخطر بسبب احتمالية تحريك المركبة أو الاختناق بعوادم العادم.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 14,
+    "question": "What is the fine when a driver causes the death of a person?",
+    "options": [
+      "From 500 to 1000 dinars",
+      "From 1000 to 2000 dinars",
+      "From 25,000 to 50,000 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 1000 to 2000 dinars",
+    "explanation": "The fine when a driver causes the death of a person ranges from 1000 to 2000 dinars, in addition to criminal liability, given the gravity of the harm to the victim and the victim's family.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما قيمة مخالفة تسبب السائق بوفاة انسان",
+    "optionsAR": [
+      "من 500 الى 1000 دينار",
+      "من 1000 الى 2000 دينار",
+      "من 25,000 الى 50,000 دينار"
+    ],
+    "correctAnswerAR": "من 1000 الى 2000 دينار",
+    "explanationAR": "قيمة مخالفة تسبب السائق بوفاة إنسان من 1000 إلى 2000 دينار، إضافة إلى المسؤولية الجنائية، نظراً لجسامة الضرر الذي يلحق بالضحية وذويها.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 15,
+    "question": "What is the fine for a driver consuming alcoholic beverages while driving?",
+    "options": [
+      "From 100 to 200 dinars",
+      "From 250 to 500 dinars",
+      "From 500 to 1000 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 250 to 500 dinars",
+    "explanation": "The fine for a driver consuming alcoholic beverages while driving ranges from 250 to 500 dinars, because alcohol weakens attention and reaction time and is one of the leading causes of fatal accidents.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة تناول السائق المشروبات الكحولية اثناء القيادة",
+    "optionsAR": [
+      "من 100 الى 200 دينار",
+      "من 250 الى 500 دينار",
+      "من 500 الى 1000 دينار"
+    ],
+    "correctAnswerAR": "من 250 الى 500 دينار",
+    "explanationAR": "قيمة مخالفة تناول السائق المشروبات الكحولية أثناء القيادة من 250 إلى 500 دينار، لأن الكحول يُضعف الانتباه وردة الفعل ويُعدّ من أخطر أسباب الحوادث المميتة.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 16,
+    "question": "What is the fine for a driver's failure to comply with the signals of public security officers while they are performing their duty?",
+    "options": [
+      "10 dinars",
+      "20 dinars",
+      "30 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "30 dinars",
+    "explanation": "The fine for a driver's failure to comply with the signals of public security officers while they are performing their duty is 30 dinars, because the officers' signals take precedence over all other traffic-control devices and must be obeyed.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة عدم امتثال السائق لإشارات أفراد الأمن العام أثناء قيامهم بواجبهم",
+    "optionsAR": [
+      "10 دنانير",
+      "20 دينار",
+      "30 دينار"
+    ],
+    "correctAnswerAR": "30 دينار",
+    "explanationAR": "قيمة مخالفة عدم امتثال السائق لإشارات أفراد الأمن العام أثناء قيامهم بواجبهم 30 ديناراً، لأن إشارات رجال الأمن تعلو على باقي وسائل تنظيم المرور وتجب طاعتها.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 17,
+    "question": "What is the fine for not complying with no-parking signs?",
+    "options": [
+      "10 dinars",
+      "20 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "10 dinars",
+    "explanation": "The fine for not complying with no-parking signs is 10 dinars, because parking in prohibited places obstructs traffic flow and causes congestion and accidents.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة عدم التقيد بشواخص ممنوع الوقوف",
+    "optionsAR": [
+      "10 دنانير",
+      "20 دينار"
+    ],
+    "correctAnswerAR": "10 دنانير",
+    "explanationAR": "قيمة مخالفة عدم التقيد بشواخص ممنوع الوقوف 10 دنانير، لأن الوقوف في الأماكن الممنوعة يُعيق حركة المرور ويُسبب الازدحام والحوادث.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 18,
+    "question": "What is the fine for a driver not complying with a STOP sign?",
+    "options": [
+      "From 10 to 50 dinars",
+      "From 50 to 100 dinars",
+      "From 150 to 200 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 50 to 100 dinars",
+    "explanation": "The fine for a driver not complying with a STOP sign ranges from 50 to 100 dinars, because failing to stop exposes the driver and other road users to the risk of collisions at intersections.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة عدم تقيد السائق بشاخصة قف",
+    "optionsAR": [
+      "من 10 الى 50 دينار",
+      "من 50 الى 100 دينار",
+      "من 150 الى 200 دينار"
+    ],
+    "correctAnswerAR": "من 50 الى 100 دينار",
+    "explanationAR": "قيمة مخالفة عدم تقيد السائق بشاخصة (قف) من 50 إلى 100 دينار، لأن تجاوز شاخصة قف يُعرّض السائق ومستخدمي الطريق لخطر التصادم في التقاطعات.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 19,
+    "question": "What is the fine for a driver not complying with mandatory signs?",
+    "options": [
+      "5 dinars",
+      "10 dinars",
+      "15 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "15 dinars",
+    "explanation": "The fine for a driver not complying with mandatory signs is 15 dinars, because mandatory signs regulate traffic flow, and violating them endangers public safety.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة عدم تقيد السائق بالشواخص الالزامية",
+    "optionsAR": [
+      "5 دنانير",
+      "10 دنانير",
+      "15 دينار"
+    ],
+    "correctAnswerAR": "15 دينار",
+    "explanationAR": "قيمة مخالفة عدم تقيد السائق بالشواخص الإلزامية 15 ديناراً، لأن الشواخص الإلزامية تُنظم حركة المرور، ومخالفتها تُعرّض السلامة العامة للخطر.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 20,
+    "question": "What is the fine for one of the vehicle's lights being non-functional?",
+    "options": [
+      "5 dinars",
+      "10 dinars",
+      "15 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "15 dinars",
+    "explanation": "The fine for one of the vehicle's lights being non-functional is 15 dinars, because the lights are essential for the driver's visibility and for communicating his intentions to other road users, especially at night and in bad weather.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي مخالفة عدم صلاحية احد انوار المركبة",
+    "optionsAR": [
+      "5 دنانير",
+      "10 دنانير",
+      "15 دينار"
+    ],
+    "correctAnswerAR": "15 دينار",
+    "explanationAR": "قيمة مخالفة عدم صلاحية أحد أنوار المركبة 15 ديناراً، لأن الأنوار ضرورية لرؤية السائق وإعلام مستخدمي الطريق بنواياه، خاصة في الليل وفي الظروف الجوية السيئة.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 21,
+    "question": "What is the fine for non-functional windshield wipers in the vehicle?",
+    "options": [
+      "5 dinars",
+      "10 dinars",
+      "15 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "10 dinars",
+    "explanation": "The fine for non-functional windshield wipers in the vehicle is 10 dinars, because the wipers are essential for clear visibility when it rains or when there is dust.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة عدم صلاحية ماسحات الزجاج في المركبه",
+    "optionsAR": [
+      "5 دنانير",
+      "10 دنانير",
+      "15 دينار"
+    ],
+    "correctAnswerAR": "10 دنانير",
+    "explanationAR": "قيمة مخالفة عدم صلاحية ماسحات الزجاج (المساحات) في المركبة 10 دنانير، لأن المساحات ضرورية للرؤية الواضحة عند هطول الأمطار أو وجود غبار.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 22,
+    "question": "What is the fine for not having a front or rear number plate in the designated place?",
+    "options": [
+      "20 dinars",
+      "40 dinars",
+      "50 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "20 dinars",
+    "explanation": "The fine for not having a front or rear number plate in the designated place is 20 dinars, because the number plate is necessary for identifying the vehicle and its owner.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة عدم وجود لوحة ارقام امامية او خلفية في المكان المخصص",
+    "optionsAR": [
+      "20 دينار",
+      "40 دينار",
+      "50 دينار"
+    ],
+    "correctAnswerAR": "20 دينار",
+    "explanationAR": "قيمة مخالفة عدم وجود لوحة الأرقام الأمامية أو الخلفية في المكان المخصص 20 ديناراً، لأن لوحة الأرقام ضرورية لتعريف المركبة والتعرف على مالكها.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 23,
+    "question": "What is the fine for not having a fire extinguisher in the vehicle?",
+    "options": [
+      "10 dinars",
+      "15 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "10 dinars",
+    "explanation": "The fine for not having a fire extinguisher in the vehicle is 10 dinars, because a fire extinguisher is an essential safety tool for putting out small fires before they grow worse.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي مخالفة عدم وجود طفاية حريق في المركبه",
+    "optionsAR": [
+      "10 دنانير",
+      "15 دينار"
+    ],
+    "correctAnswerAR": "10 دنانير",
+    "explanationAR": "قيمة مخالفة عدم وجود طفاية حريق في المركبة 10 دنانير، لأن طفاية الحريق وسيلة سلامة ضرورية لإخماد الحرائق الصغيرة عند حدوثها قبل أن تتفاقم.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 24,
+    "question": "What is the fine for driving the vehicle at a speed exceeding the limit by more than 50 km/h?",
+    "options": [
+      "50 dinars",
+      "100 dinars",
+      "200 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "100 dinars",
+    "explanation": "The fine for driving at a speed exceeding the posted limit by more than 50 km/h is 100 dinars, given the danger of excessive speed in increasing both the likelihood and the severity of accidents.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة قيادة المركبة بسرعة تزيد عن 50 كم / س",
+    "optionsAR": [
+      "50 دينار",
+      "100 دينار",
+      "200 دينار"
+    ],
+    "correctAnswerAR": "100 دينار",
+    "explanationAR": "قيمة مخالفة قيادة المركبة بسرعة تزيد عن الحد المسموح به بأكثر من 50 كم/س هي 100 دينار، نظراً لخطورة السرعة الزائدة في زيادة احتمال وقوع الحوادث وحدّتها.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 25,
+    "question": "What is the fine for driving the vehicle recklessly or in a show-off manner on the roads?",
+    "options": [
+      "From 100 to 200 dinars",
+      "From 200 to 500 dinars",
+      "From 500 to 1000 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 100 to 200 dinars",
+    "explanation": "The fine for driving the vehicle recklessly or in a show-off manner on the roads ranges from 100 to 200 dinars, because such driving exposes the driver and other road users to needless danger.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "ما هي قيمة مخالفة قيادة المركبة بصورة متهورة او استعراضية على الطرق",
+    "optionsAR": [
+      "من 100 الى 200 دينار",
+      "من 200 الى 500 دينار",
+      "من 500 الى 1000 دينار"
+    ],
+    "correctAnswerAR": "من 100 الى 200 دينار",
+    "explanationAR": "قيمة مخالفة قيادة المركبة بصورة متهورة أو استعراضية على الطرق من 100 إلى 200 دينار، لأنها تُعرّض السائق ومستخدمي الطريق للخطر دون مبرر.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 26,
+    "question": "The fine for leaving a vehicle on the sides of the road without placing reflectors or warning lights.",
+    "options": [
+      "20 dinars",
+      "30 dinars",
+      "40 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "30 dinars",
+    "explanation": "The fine for leaving a vehicle on the sides of the road without placing reflectors or warning lights is 30 dinars, because a stationary vehicle may not be seen by approaching drivers, especially at night, and may cause accidents.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "مخالفة ترك مركبه على جوانب الطريق دون ترك عواكس او انوار تحذيريه",
+    "optionsAR": [
+      "20 دينار",
+      "30 دينار",
+      "40 دينار"
+    ],
+    "correctAnswerAR": "30 دينار",
+    "explanationAR": "قيمة مخالفة ترك المركبة على جوانب الطريق دون وضع عواكس أو أنوار تحذيرية 30 ديناراً، لأن المركبة الساكنة قد لا تُرى من السائقين القادمين، خاصة في الليل، فتسبب حوادث.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 27,
+    "question": "The fine for parking the vehicle on the sidewalks.",
+    "options": [
+      "10 dinars",
+      "20 dinars",
+      "30 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "20 dinars",
+    "explanation": "The fine for parking the vehicle on the sidewalks is 20 dinars, because sidewalks are reserved for pedestrians; parking on them forces pedestrians to step onto the road and exposes them to danger.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "مخالفة وقوف المركبة على الارصفه",
+    "optionsAR": [
+      "10 دنانير",
+      "20 دينار",
+      "30 دينار"
+    ],
+    "correctAnswerAR": "20 دينار",
+    "explanationAR": "قيمة مخالفة وقوف المركبة على الأرصفة 20 ديناراً، لأن الأرصفة مخصصة للمشاة، والوقوف عليها يُجبر المشاة على النزول إلى الشارع ويُعرّضهم للخطر.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 28,
+    "question": "The fine for the driver taking the wrong lane.",
+    "options": [
+      "From 40 to 80 dinars",
+      "From 50 to 100 dinars",
+      "From 100 to 200 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 50 to 100 dinars",
+    "explanation": "The fine for taking the wrong lane ranges from 50 to 100 dinars, because driving in the wrong lane disrupts traffic flow and causes accidents, especially at intersections and turns.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "مخالفة اتخاذ السائق مسرب خاطىْ",
+    "optionsAR": [
+      "من 40 الى 80 دينار",
+      "من 50 الى 100 دينار",
+      "من 100 الى 200 دينار"
+    ],
+    "correctAnswerAR": "من 50 الى 100 دينار",
+    "explanationAR": "قيمة مخالفة اتخاذ السائق مسرباً خاطئاً من 50 إلى 100 دينار، لأن السير في المسرب الخاطئ يُربك حركة المرور ويُسبب الحوادث، خاصةً عند التقاطعات والمنعطفات.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 29,
+    "question": "The fine for driving the vehicle without obtaining a driving license.",
+    "options": [
+      "From 150 to 300 dinars",
+      "From 250 to 500 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 250 to 500 dinars",
+    "explanation": "The fine for driving a vehicle without obtaining a driving license ranges from 250 to 500 dinars, given the danger of driving without the training and testing required to obtain the license.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "مخالفة قيادة المركبة دون الحصول على رخصة قيادة (سوق)",
+    "optionsAR": [
+      "من 150 الى 300 دينار",
+      "من 250 الى 500 دينار"
+    ],
+    "correctAnswerAR": "من 250 الى 500 دينار",
+    "explanationAR": "قيمة مخالفة قيادة المركبة دون الحصول على رخصة قيادة من 250 إلى 500 دينار، نظراً لخطورة القيادة دون التدريب والاختبار اللازمين للحصول على الرخصة.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 30,
+    "question": "The fine for substituting another person for himself as the driver after committing a traffic accident that caused material damage.",
+    "options": [
+      "From 150 to 300 dinars",
+      "From 200 to 400 dinars",
+      "From 300 to 500 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 150 to 300 dinars",
+    "explanation": "The fine for the driver substituting another person for himself after committing a traffic accident that caused material damage ranges from 150 to 300 dinars, because doing so misleads justice and is an evasion of legal responsibility.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "مخالفة ا ستبدال نفسه بالسائق عند ارتكاب حادث مروري نتج عنه اضرار مادية",
+    "optionsAR": [
+      "من 150 الى 300 دينار",
+      "من 200 الى 400 دينار",
+      "من 300 الى 500 دينار"
+    ],
+    "correctAnswerAR": "من 150 الى 300 دينار",
+    "explanationAR": "قيمة مخالفة استبدال السائق نفسه عند ارتكاب حادث مروري نتج عنه أضرار مادية من 150 إلى 300 دينار، لأن ذلك تضليل للعدالة وتهرّب من المسؤولية القانونية.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 31,
+    "question": "The fine for leaving the vehicle on a lane of the road without placing a reflector or warning lights.",
+    "options": [
+      "From 50 to 100 dinars",
+      "From 100 to 200 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 100 to 200 dinars",
+    "explanation": "The fine for leaving the vehicle on a lane of the road without placing a reflector or warning lights ranges from 100 to 200 dinars, given the danger that a stopped vehicle in a traffic lane poses to traffic flow, especially at night.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "مخالفة ترك المركبة على مسرب من الطريق دون وضع عاكسة او انوار تحذيرية",
+    "optionsAR": [
+      "من 50 الى 100 دينار",
+      "من 100 الى 200 دينار"
+    ],
+    "correctAnswerAR": "من 100 الى 200 دينار",
+    "explanationAR": "قيمة مخالفة ترك المركبة على مسرب من الطريق دون وضع عاكسة أو أنوار تحذيرية من 100 إلى 200 دينار، نظراً لخطورة وجود مركبة متوقفة في مسرب الطريق على حركة المرور خصوصاً في الليل.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 32,
+    "question": "The fine for driving the vehicle against the direction of traffic on a road divided by a median.",
+    "options": [
+      "From 100 to 200 dinars",
+      "From 200 to 300 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 100 to 200 dinars",
+    "explanation": "The fine for driving the vehicle against the direction of traffic on a road divided by a median ranges from 100 to 200 dinars, because driving the wrong way on divided roads is one of the most dangerous violations and may cause fatal head-on collisions.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "مخالفة قيادة المركبة عكس اتجاه السير بشارع مفصول بجزيرة",
+    "optionsAR": [
+      "من 100 الى 200 دينار",
+      "من 200 الى 300 دينار"
+    ],
+    "correctAnswerAR": "من 100 الى 200 دينار",
+    "explanationAR": "قيمة مخالفة قيادة المركبة عكس اتجاه السير في شارع مفصول بجزيرة من 100 إلى 200 دينار، لأن السير عكس الاتجاه على الطرق المزدوجة من أخطر المخالفات وقد يؤدي إلى حوادث تصادم مباشر مميتة.",
+    "sourceCategory": "مخالفات السير"
+  },
+  {
+    "number": 33,
+    "question": "The fine for driving the vehicle at night without using its front or rear lights.",
+    "options": [
+      "From 50 to 100 dinars",
+      "From 100 to 200 dinars"
+    ],
+    "image": null,
+    "video": null,
+    "correctAnswer": "From 100 to 200 dinars",
+    "explanation": "The fine for driving the vehicle at night without using its front or rear lights ranges from 100 to 200 dinars, because the absence of lighting endangers the driver and other road users due to poor visibility.",
+    "chapterTitle": "Traffic Violations",
+    "chapterTitleAR": "مخالفات السير",
+    "questionAR": "مخالفة قيادة مركبة ليلا دون استخدام انوارها الامامية اوالخلفية",
+    "optionsAR": [
+      "من 50 الى 100 دينار",
+      "من 100 الى 200 دينار"
+    ],
+    "correctAnswerAR": "من 100 الى 200 دينار",
+    "explanationAR": "قيمة مخالفة قيادة المركبة ليلاً دون استخدام أنوارها الأمامية أو الخلفية من 100 إلى 200 دينار، لأن انعدام الإنارة يُعرّض السائق ومستخدمي الطريق للخطر بسبب ضعف الرؤية والملاحظة.",
+    "sourceCategory": "مخالفات السير"
+  }
+]
