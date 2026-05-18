@@ -15,6 +15,14 @@ const conversationMessageSchema = new mongoose.Schema(
             type: String,
             default: null
         },
+        videoUrl: {
+            type: String,
+            default: null
+        },
+        videoMimeType: {
+            type: String,
+            default: null
+        },
         fileUrl: {
             type: String,
             default: null

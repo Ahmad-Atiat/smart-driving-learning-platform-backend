@@ -11,14 +11,34 @@ const {
     deleteConversation
 } = require('../controllers/conversationController');
 
+const ALLOWED_VIDEO_MIME_TYPES = new Set([
+    'video/mp4',
+    'video/webm',
+    'video/quicktime',
+    'video/x-quicktime',
+    'video/ogg'
+]);
+
+const isAllowedVideo = (file) => {
+    if (ALLOWED_VIDEO_MIME_TYPES.has(file.mimetype)) {
+        return true;
+    }
+    const lowerName = (file.originalname || '').toLowerCase();
+    return /\.(mp4|webm|mov|ogg|ogv)$/.test(lowerName);
+};
+
 const conversationUpload = multer({
     storage: multer.memoryStorage(),
     limits: {
-        fileSize: 10 * 1024 * 1024,
-        files: 2
+        fileSize: 50 * 1024 * 1024,
+        files: 3
     },
     fileFilter: (req, file, cb) => {
         if (file.fieldname === 'image' && file.mimetype.startsWith('image/')) {
+            return cb(null, true);
+        }
+
+        if (file.fieldname === 'video' && isAllowedVideo(file)) {
             return cb(null, true);
         }
 
@@ -28,6 +48,10 @@ const conversationUpload = multer({
 
         if (file.fieldname === 'image') {
             return cb(new ApiError(415, 'Unsupported image type. Please upload a valid image file.'));
+        }
+
+        if (file.fieldname === 'video') {
+            return cb(new ApiError(415, 'Unsupported video type. Please upload an MP4, WEBM, or MOV file.'));
         }
 
         if (file.fieldname === 'file') {
@@ -41,6 +65,7 @@ const conversationUpload = multer({
 const handleConversationUpload = (req, res, next) => {
     const uploadFields = conversationUpload.fields([
         { name: 'image', maxCount: 1 },
+        { name: 'video', maxCount: 1 },
         { name: 'file', maxCount: 1 }
     ]);
 
@@ -51,7 +76,7 @@ const handleConversationUpload = (req, res, next) => {
 
         if (error instanceof multer.MulterError) {
             if (error.code === 'LIMIT_FILE_SIZE') {
-                return next(new ApiError(400, 'Uploaded file is too large. Maximum size is 10 MB.'));
+                return next(new ApiError(400, 'Uploaded file is too large. Maximum size is 50 MB.'));
             }
 
             if (error.code === 'LIMIT_UNEXPECTED_FILE') {
@@ -154,6 +179,9 @@ router.get('/:id', protect, getConversationById);
  *               message:
  *                 type: string
  *               image:
+ *                 type: string
+ *                 format: binary
+ *               video:
  *                 type: string
  *                 format: binary
  *               file:

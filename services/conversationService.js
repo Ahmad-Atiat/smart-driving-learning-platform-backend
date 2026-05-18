@@ -21,6 +21,17 @@ const IMAGE_EXTENSION_BY_MIME = {
     'image/tiff': '.tiff'
 };
 
+const VIDEO_EXTENSION_BY_MIME = {
+    'video/mp4': '.mp4',
+    'video/webm': '.webm',
+    'video/quicktime': '.mov',
+    'video/x-quicktime': '.mov',
+    'video/ogg': '.ogv'
+};
+
+const ALLOWED_VIDEO_MIME_PREFIX = 'video/';
+const ALLOWED_VIDEO_EXTENSIONS = /\.(mp4|webm|mov|ogg|ogv)$/i;
+
 const ensureValidConversationId = (conversationId) => {
     if (!mongoose.Types.ObjectId.isValid(conversationId)) {
         throw new ApiError(400, 'Invalid conversation id');
@@ -84,6 +95,48 @@ const persistImageUpload = async (imageFile) => {
     };
 };
 
+const getVideoExtension = (file) => {
+    if (VIDEO_EXTENSION_BY_MIME[file.mimetype]) {
+        return VIDEO_EXTENSION_BY_MIME[file.mimetype];
+    }
+
+    const extension = path.extname(file.originalname || '').toLowerCase();
+    return extension || '.mp4';
+};
+
+const persistVideoUpload = async (videoFile) => {
+    if (!videoFile) {
+        return null;
+    }
+
+    const mimetype = videoFile.mimetype || '';
+    const originalName = videoFile.originalname || '';
+    const looksLikeVideo =
+        mimetype.startsWith(ALLOWED_VIDEO_MIME_PREFIX) ||
+        ALLOWED_VIDEO_EXTENSIONS.test(originalName);
+
+    if (!looksLikeVideo) {
+        throw new ApiError(415, 'Unsupported video type. Please upload an MP4, WEBM, or MOV file.');
+    }
+
+    if (!videoFile.buffer || !videoFile.buffer.length) {
+        throw new ApiError(400, 'Uploaded video is empty.');
+    }
+
+    const baseName = sanitizeBaseFileName(path.parse(originalName || 'video').name);
+    const extension = getVideoExtension(videoFile);
+    const fileName = `${Date.now()}-${crypto.randomBytes(6).toString('hex')}-${baseName}${extension}`;
+    const filePath = path.join(UPLOADS_DIR, fileName);
+
+    await fs.promises.writeFile(filePath, videoFile.buffer);
+
+    return {
+        videoUrl: `/uploads/${fileName}`,
+        videoMimeType: mimetype || null,
+        videoFileName: originalName || fileName
+    };
+};
+
 const persistPdfUpload = async (pdfFile) => {
     if (!pdfFile) {
         return null;
@@ -116,16 +169,13 @@ const buildHistoryContent = (message) => {
     }
 
     if (message.role === 'user') {
-        if (message.imageUrl && message.fileUrl) {
-            return 'User shared a driving-related image and a PDF document.';
-        }
+        const parts = [];
+        if (message.imageUrl) parts.push('an image');
+        if (message.videoUrl) parts.push('a video');
+        if (message.fileUrl) parts.push('a PDF document');
 
-        if (message.imageUrl) {
-            return 'User shared a driving-related image.';
-        }
-
-        if (message.fileUrl) {
-            return 'User shared a driving-related PDF document.';
+        if (parts.length) {
+            return `User shared ${parts.join(' and ')} related to driving.`;
         }
     }
 
@@ -148,7 +198,7 @@ const buildConversationHistory = (messages = []) => {
         .filter(Boolean);
 };
 
-const deriveConversationTitle = ({ currentTitle, message, hasImage, hasPdf }) => {
+const deriveConversationTitle = ({ currentTitle, message, hasImage, hasVideo, hasPdf }) => {
     const normalizedTitle = typeof currentTitle === 'string' ? currentTitle.trim() : '';
 
     if (normalizedTitle && normalizedTitle !== DEFAULT_TITLE) {
@@ -159,16 +209,13 @@ const deriveConversationTitle = ({ currentTitle, message, hasImage, hasPdf }) =>
         return message.length > MAX_TITLE_LENGTH ? `${message.slice(0, MAX_TITLE_LENGTH)}...` : message;
     }
 
-    if (hasImage && hasPdf) {
-        return 'Driving Image and PDF Discussion';
-    }
+    const mediaParts = [];
+    if (hasImage) mediaParts.push('Image');
+    if (hasVideo) mediaParts.push('Video');
+    if (hasPdf) mediaParts.push('PDF');
 
-    if (hasImage) {
-        return 'Driving Image Discussion';
-    }
-
-    if (hasPdf) {
-        return 'Driving PDF Discussion';
+    if (mediaParts.length) {
+        return `Driving ${mediaParts.join(' & ')} Discussion`;
     }
 
     return DEFAULT_TITLE;
@@ -203,6 +250,8 @@ const getUserConversations = async (userId) => {
                     role: lastMessage.role,
                     content: lastMessage.content,
                     imageUrl: lastMessage.imageUrl,
+                    videoUrl: lastMessage.videoUrl,
+                    videoMimeType: lastMessage.videoMimeType,
                     fileUrl: lastMessage.fileUrl,
                     fileName: lastMessage.fileName,
                     createdAt: lastMessage.createdAt
@@ -224,18 +273,38 @@ const sanitizeExternalImageUrl = (rawUrl) => {
     return trimmed;
 };
 
-const sendMessage = async ({ conversationId, userId, message, imageFile = null, pdfFile = null, externalImageUrl = '' }) => {
+const buildAssistantMessageForVideo = ({ normalizedMessage, videoFileName }) => {
+    const note = videoFileName
+        ? `[A video file was attached: ${videoFileName}. Direct video analysis is not available — please respond based on the text and any other context. If the student needs visual feedback, ask them to describe what happens in the video or share a still image.]`
+        : '[A video file was attached. Direct video analysis is not available — please respond based on the text and any other context.]';
+
+    if (normalizedMessage) {
+        return `${normalizedMessage}\n\n${note}`;
+    }
+    return note;
+};
+
+const sendMessage = async ({
+    conversationId,
+    userId,
+    message,
+    imageFile = null,
+    videoFile = null,
+    pdfFile = null,
+    externalImageUrl = ''
+}) => {
     const conversation = await getOwnedConversation(conversationId, userId);
 
     const normalizedMessage = typeof message === 'string' ? message.trim() : '';
     const remoteImageUrl = sanitizeExternalImageUrl(externalImageUrl);
 
-    if (!normalizedMessage && !imageFile && !pdfFile && !remoteImageUrl) {
-        throw new ApiError(400, 'Provide a message, image, or PDF file.');
+    if (!normalizedMessage && !imageFile && !videoFile && !pdfFile && !remoteImageUrl) {
+        throw new ApiError(400, 'Provide a message, image, video, or PDF file.');
     }
 
-    const [savedImage, savedPdf] = await Promise.all([
+    const [savedImage, savedVideo, savedPdf] = await Promise.all([
         persistImageUpload(imageFile),
+        persistVideoUpload(videoFile),
         persistPdfUpload(pdfFile)
     ]);
 
@@ -245,8 +314,10 @@ const sendMessage = async ({ conversationId, userId, message, imageFile = null, 
         role: 'user',
         content: normalizedMessage,
         imageUrl: messageImageUrl,
+        videoUrl: savedVideo?.videoUrl || null,
+        videoMimeType: savedVideo?.videoMimeType || null,
         fileUrl: savedPdf?.fileUrl || null,
-        fileName: savedPdf?.fileName || null,
+        fileName: savedPdf?.fileName || savedVideo?.videoFileName || null,
         createdAt: new Date()
     };
 
@@ -258,6 +329,7 @@ const sendMessage = async ({ conversationId, userId, message, imageFile = null, 
         currentTitle: conversation.title,
         message: normalizedMessage,
         hasImage: Boolean(messageImageUrl),
+        hasVideo: Boolean(savedVideo),
         hasPdf: Boolean(savedPdf)
     });
 
@@ -265,8 +337,15 @@ const sendMessage = async ({ conversationId, userId, message, imageFile = null, 
         await conversationRepository.updateById(conversationId, { title: nextTitle });
     }
 
+    const assistantMessage = savedVideo
+        ? buildAssistantMessageForVideo({
+            normalizedMessage,
+            videoFileName: savedVideo.videoFileName
+        })
+        : normalizedMessage;
+
     const assistantResult = await assistantService.chat({
-        message: normalizedMessage,
+        message: assistantMessage,
         conversationHistory,
         userId,
         imageFile,
